@@ -1,5 +1,7 @@
 <?php
 
+use App\Mail\SendingMail;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -47,4 +49,18 @@ Route::get('/servicesAR', function () {
 });
 Route::get('/shopAR', function () {
     return view('ar/shopAR');
+});
+
+Route::post('mail/', function (Illuminate\Http\Request $request) {
+    request()->validate([
+        'name' => 'required|string|max:255',
+        'email' => 'required|email|max:255', // Changed 'mail' to 'email'
+        'phone' => 'required|string|max:255', // Changed 'number' to 'string'
+        'subject' => 'required|string|max:255',
+        'message' => 'required|string',
+    ]);
+    $formData = $request->all();
+    $mail = new SendingMail($formData);
+    Mail::to('name@example.com')->send($mail);
+    return back()->with('success', 'Form submitted successfully!');
 });
