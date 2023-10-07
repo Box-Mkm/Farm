@@ -31,18 +31,18 @@
                             <div class="main-slider-inner">
                                 <div class="main-slider__content">
                                     <span class="main-slider-tagline">We’re producing natural goods</span>
-                                    <h2 class="main-slider__title">Welcome to <br> Agriculture <span><span
-                                                class="leaf"><img src="{{ asset('images/resources/leaf.png') }}"
-                                                    alt="" /></span>Farm</span></h2>
-                                    <p class="main-slider__text">There are many of passages of lorem Ipsum, but
-                                        the majori have<br> suffered alteration in some form.</p>
+                                    <h2 class="main-slider__title">Abd El-Dayem <br>Where Quality Meets Flavor!
+                                        <span><span>
+                                    </h2>
+                                    <p class="main-slider__text">From Farm to Global Markets<br>Abd El-Dayem, Your
+                                        Trusted Export Partner.</p>
                                 </div>
                                 <div class="main-slider__button-box">
                                     <div class="arrow-icon"><img
                                             src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
                                             alt="" />
                                     </div>
-                                    <a href="#" class="thm-btn">Discover more</a>
+                                    <a href="./about" class="thm-btn">Discover more</a>
                                 </div>
                             </div>
                         </div>
@@ -173,20 +173,27 @@
                     </div>
 
                     <h2 class="about-one__content-title">We are Leader in Agriculture Market</h2>
-                    <p class="about-one__content-text">There are many variations of passages of available but
-                        the majority have suffered alteration in some form, by injected humou or randomised
-                        words even slightly believable.</p>
+                    <p class="about-one__content-text" style="color: white">Welcome to Abdel Dayem Agricultural Crops
+                        Company, a trusted
+                        name in the export and import of fresh fruits and vegetables since 1995. With our commitment to
+                        providing high-quality fruits and vegetables to customers worldwide, we have established
+                        ourselves as one of the largest companies in the industry.</p>
                     <ul class="about-one__content-list">
                         <li>
-                            <div class="icon">
+                            {{-- <div class="icon">
                                 <i class="fa fa-check-circle" aria-hidden="true"></i>
-                            </div>
+                            </div> --}}
                             <div class="text">
-                                <p>Lorem Ipsum is not simply random text</p>
+                                <p style="color: rgb(177, 166, 166)">At Abdel Dayem Agricultural Crops Company, we
+                                    understand the importance of providing
+                                    our customers with products that meet their specific preferences and the required
+                                    standards. With a deep understanding of market dynamics and adherence to government
+                                    legislation and protocols, we continuously adapt to meet the evolving needs of our
+                                    customers.</p>
                             </div>
                         </li>
 
-                        <li>
+                        {{-- <li>
                             <div class="icon">
                                 <i class="fa fa-check-circle" aria-hidden="true"></i>
                             </div>
@@ -211,10 +218,10 @@
                             <div class="text">
                                 <p>Various versions have evolved over the years</p>
                             </div>
-                        </li>
+                        </li> --}}
                     </ul>
 
-                    <div class="about-one__content-video-box">
+                    {{-- <div class="about-one__content-video-box">
                         <div class="about-one__content-video-box-img-wrapper">
                             <div class="about-one__content-video-box-img">
                                 <img src="{{ asset('images/resources/about-v1-video-img.jpg') }}" alt="" />
@@ -231,7 +238,7 @@
                             <p>Watch our video</p>
                             <h3>Tips for Ripening your Fruits</h3>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <!--End About One Content-->
@@ -241,8 +248,300 @@
 <!--About One End-->
 
 
+
+<section class="contact-one">
+    <div class="container">
+        <div class="sec-title text-center">
+            <div class="icon">
+                <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
+            </div>
+            <span class="sec-title__tagline">What we offer</span>
+            <h2 class="sec-title__title">Our products</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="contact-one__content" style="font-size: larger">
+                    <p class="contact-one__text">Explore our wide range of fruits and vegetables, carefully selected to
+                        meet the highest standards of quality and freshness. From all types of citrus crops like Lemon
+                        orange, grape, pomegranate, peach, plum, mango, we offer a diverse selection that caters to
+                        every palate. Our produce is sourced directly from farms and orchards, guaranteeing that you
+                        receive the best nature has to offer.
+                        We export to Saudi Arabia, Dubai, Muscat, Kuwait, Russia, Europe, India, Ukraine, Jordan, Iraq,
+                        Bangladesh, Malaysia, China, and in the near future, our products will be available all over the
+                        world.
+                    </p>
+                </div><!-- /.contact-one__content -->
+            </div><!-- /.col-lg-6 -->
+    
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section><!-- /.contact-one -->
+
+<div class="col-lg-12">
+
+    <div class="row">
+        <div class="col-md-6 col-lg-3">
+            <div class="shop-one__item">
+                <div class="shop-one__image">
+                    <span class="shop-one__sale">sale</span><!-- /.shop-one__sale -->
+                    <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-1.png" alt="">
+                    <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
+                </div><!-- /.shop-one__image -->
+                <div class="shop-one__content text-center">
+                    <h3 class="shop-one__title"><a href="product-details.html">Brown
+                            Bread</a>
+                    </h3>
+                    <p class="shop-one__price">$23.00</p><!-- /.shop-one__price -->
+                    <div class="shop-one__rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div><!-- /.shop-one__rating -->
+                </div><!-- /.shop-one__content -->
+            </div><!-- /.shop-one__item -->
+        </div><!-- /.col-md-6 col-lg-3 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="shop-one__item">
+                <div class="shop-one__image">
+
+                    <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-2.png" alt="">
+                    <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
+                </div><!-- /.shop-one__image -->
+                <div class="shop-one__content text-center">
+                    <h3 class="shop-one__title"><a href="product-details.html">Red Onion</a>
+                    </h3>
+                    <p class="shop-one__price">$33.00</p><!-- /.shop-one__price -->
+                    <div class="shop-one__rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div><!-- /.shop-one__rating -->
+                </div><!-- /.shop-one__content -->
+            </div><!-- /.shop-one__item -->
+        </div><!-- /.col-md-6 col-lg-3 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="shop-one__item">
+                <div class="shop-one__image">
+
+                    <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-3.png" alt="">
+                    <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
+                </div><!-- /.shop-one__image -->
+                <div class="shop-one__content text-center">
+                    <h3 class="shop-one__title"><a href="product-details.html">Broccoli</a>
+                    </h3>
+                    <p class="shop-one__price">$18.00</p><!-- /.shop-one__price -->
+                    <div class="shop-one__rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div><!-- /.shop-one__rating -->
+                </div><!-- /.shop-one__content -->
+            </div><!-- /.shop-one__item -->
+        </div><!-- /.col-md-6 col-lg-3 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="shop-one__item">
+                <div class="shop-one__image">
+
+                    <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-4.png" alt="">
+                    <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
+                </div><!-- /.shop-one__image -->
+                <div class="shop-one__content text-center">
+                    <h3 class="shop-one__title"><a href="product-details.html">Fresh
+                            Potato</a>
+                    </h3>
+                    <p class="shop-one__price">$16.00</p><!-- /.shop-one__price -->
+                    <div class="shop-one__rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div><!-- /.shop-one__rating -->
+                </div><!-- /.shop-one__content -->
+            </div><!-- /.shop-one__item -->
+        </div><!-- /.col-md-6 col-lg-3 -->
+
+
+
+    </div><!-- /.row -->
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xl-12">
+            <div class="video-one__wrpper" style="justify-content: center">
+                <div class="video-one__left">
+
+                    <div class="video-one__btn">
+                        <a href="#" class="thm-btn">Discover more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{-- <div class="row">
+    <div class="col-xl-12">
+        <div class="projects-one__carousel owl-carousel owl-theme owl-dot-type1">
+            <!--Start Single Projects One-->
+            <div class="projects-one__single wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                <div class="projects-one__single-img">
+                    <img src="{{ asset('images/project/projects-v1-img1.jpg') }}" alt="" />
+                    <div class="overlay-content">
+                        <p>Agriculture</p>
+                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Projects One-->
+
+            <!--Start Single Projects One-->
+            <div class="projects-one__single wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <div class="projects-one__single-img">
+                    <img src="{{ asset('images/project/projects-v1-img2.jpg') }}" alt="" />
+                    <div class="overlay-content">
+                        <p>Agriculture</p>
+                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Projects One-->
+
+            <!--Start Single Projects One-->
+            <div class="projects-one__single wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                <div class="projects-one__single-img">
+                    <img src="{{ asset('images/project/projects-v1-img3.jpg') }}" alt="" />
+                    <div class="overlay-content">
+                        <p>Agriculture</p>
+                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Projects One-->
+
+            <!--Start Single Projects One-->
+            <div class="projects-one__single wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div class="projects-one__single-img">
+                    <img src="{{ asset('images/project/projects-v1-img4.jpg') }}" alt="" />
+                    <div class="overlay-content">
+                        <p>Agriculture</p>
+                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Projects One-->
+
+            <!--Start Single Projects One-->
+            <div class="projects-one__single wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                <div class="projects-one__single-img">
+                    <img src="{{ asset('images/project/projects-v1-img1.jpg') }}" alt="" />
+                    <div class="overlay-content">
+                        <p>Agriculture</p>
+                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Projects One-->
+
+            <!--Start Single Projects One-->
+            <div class="projects-one__single wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <div class="projects-one__single-img">
+                    <img src="{{ asset('images/project/projects-v1-img2.jpg') }}" alt="" />
+                    <div class="overlay-content">
+                        <p>Agriculture</p>
+                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Projects One-->
+
+            <!--Start Single Projects One-->
+            <div class="projects-one__single wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                <div class="projects-one__single-img">
+                    <img src="{{ asset('images/project/projects-v1-img3.jpg') }}" alt="" />
+                    <div class="overlay-content">
+                        <p>Agriculture</p>
+                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Projects One-->
+
+            <!--Start Single Projects One-->
+            <div class="projects-one__single wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div class="projects-one__single-img">
+                    <img src="{{ asset('images/project/projects-v1-img4.jpg') }}" alt="" />
+                    <div class="overlay-content">
+                        <p>Agriculture</p>
+                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Projects One-->
+
+            <!--Start Single Projects One-->
+            <div class="projects-one__single wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                <div class="projects-one__single-img">
+                    <img src="{{ asset('images/project/projects-v1-img1.jpg') }}" alt="" />
+                    <div class="overlay-content">
+                        <p>Agriculture</p>
+                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Projects One-->
+
+            <!--Start Single Projects One-->
+            <div class="projects-one__single wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <div class="projects-one__single-img">
+                    <img src="{{ asset('images/project/projects-v1-img2.jpg') }}" alt="" />
+                    <div class="overlay-content">
+                        <p>Agriculture</p>
+                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Projects One-->
+
+            <!--Start Single Projects One-->
+            <div class="projects-one__single wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                <div class="projects-one__single-img">
+                    <img src="{{ asset('images/project/projects-v1-img3.jpg') }}" alt="" />
+                    <div class="overlay-content">
+                        <p>Agriculture</p>
+                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Projects One-->
+
+            <!--Start Single Projects One-->
+            <div class="projects-one__single wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div class="projects-one__single-img">
+                    <img src="{{ asset('images/project/projects-v1-img4.jpg') }}" alt="" />
+                    <div class="overlay-content">
+                        <p>Agriculture</p>
+                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Projects One-->
+        </div>
+    </div>
+</div> --}}
+<br>
+
+
 <!--Features One Start-->
-<section class="features-one clearfix">
+{{-- <section class="features-one clearfix">
     <div class="container">
         <div class="row">
             <!--Start Single Features One-->
@@ -298,41 +597,50 @@
             <!--End Single Features One-->
         </div>
     </div>
-</section>
+</section> --}}
 <!--Features One End-->
 
 <!--Video One Start-->
 <section class="video-one jarallax clearfix" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
     style="background-image: url({{ asset('images/backgrounds/video-one-bg.jpg') }});">
-    <div class="video-one-border"></div>
-    <div class="video-one-border video-one-border-two"></div>
+    {{-- <div class="video-one-border"></div> --}}
+    {{-- <div class="video-one-border video-one-border-two"></div>
     <div class="video-one-border video-one-border-three"></div>
     <div class="video-one-border video-one-border-four"></div>
     <div class="video-one-border video-one-border-five"></div>
-    <div class="video-one-border video-one-border-six"></div>
+    <div class="video-one-border video-one-border-six"></div> --}}
+    <div class="container">
+        <div class="sec-title text-center">
+            {{-- <div class="icon">
+                <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
+            </div> --}}
+            <div class="video-one__leaf"></div><!-- /.video-one__leaf -->
+            {{-- <span class="sec-title__tagline">What we offer</span> --}}
+            <h2 class="sec-title__title">Quality Assurance</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="contact-one__content" style="font-size: larger">
+                    <p class="contact-one__text" style="color: white">We understand the importance of delivering
+                        products that meet international standards. That's why we have a rigorous quality assurance
+                        process in place.
+                        Our team of experts meticulously inspects every shipment to ensure that it meets our stringent
+                        criteria for freshness, taste, and appearance.
+                    </p>
 
+                </div><!-- /.contact-one__content -->
+            </div><!-- /.col-lg-6 -->
+
+        </div><!-- /.row -->
+    </div><!-- /.container -->
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
-                <div class="video-one__wrpper">
+                <div class="video-one__wrpper" style="justify-content: center">
                     <div class="video-one__left">
-                        <div class="video-one__leaf"></div><!-- /.video-one__leaf -->
-                        <h2 class="video-one__title">Agriculture Matters to <br>the Future of Development</h2>
+
                         <div class="video-one__btn">
                             <a href="#" class="thm-btn">Discover more</a>
-                        </div>
-                    </div>
-                    <div class="video-one__right">
-                        <div class="icon wow zoomIn" data-wow-delay="300ms" data-wow-duration="1500ms">
-                            <a class="video-popup" title=" Video" href="https://www.youtube.com/watch?v=8DP4NgupAhI">
-                                <span class="icon-play-button-1"></span>
-                            </a>
-                            <span class="border-animation border-1"></span>
-                            <span class="border-animation border-2"></span>
-                            <span class="border-animation border-3"></span>
-                        </div>
-                        <div class="title">
-                            <h2>Watch the video</h2>
                         </div>
                     </div>
                 </div>
@@ -342,6 +650,117 @@
 </section>
 <!--Video One End-->
 
+
+
+
+<section class="meet-farmers-one meet-farmers-one--about">
+    <div class="container">
+        <div class="sec-title text-center">
+            <div class="icon">
+                <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
+            </div>
+            <span class="sec-title__tagline">professional people</span>
+            <h2 class="sec-title__title">Meet our Executive Board</h2>
+        </div>
+        <div class="row">
+            <!--Start Single Meet Farmers One-->
+            <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
+                <div class="meet-farmers-one__single">
+                    <div class="meet-farmers-one__single-img">
+                        <img src="{{ asset('images/resources/meet-farmers-v1-img1.jpg') }}" alt="" />
+
+                    </div>
+                    <div class="meet-farmers-one__single-title text-center">
+                        <p>CEO</p>
+                        <h2><a href="farmers.html">Ahmed Salim Abdel Dayem</a></h2>
+                        <div class="social-link">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Meet Farmers One-->
+
+            <!--Start Single Meet Farmers One-->
+            <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
+                <div class="meet-farmers-one__single">
+                    <div class="meet-farmers-one__single-img">
+                        <img src="{{ asset('images/resources/meet-farmers-v1-img2.jpg') }}" alt="" />
+                    </div>
+                    <div class="meet-farmers-one__single-title text-center">
+                        <p>CEO</p>
+                        <h2><a href="farmers.html">Salim Salim Abdel Dayem</a></h2>
+                        <div class="social-link">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Meet Farmers One-->
+
+            <!--Start Single Meet Farmers One-->
+            <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
+                <div class="meet-farmers-one__single">
+                    <div class="meet-farmers-one__single-img">
+                        <img src="{{ asset('images/resources/meet-farmers-v1-img3.jpg') }}" alt="" />
+                    </div>
+                    <div class="meet-farmers-one__single-title text-center">
+                        <p>CEO</p>
+                        <h2><a href="farmers.html">Mahmoud Hassan Abdel Dayem</a></h2>
+                        <div class="social-link">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Meet Farmers One-->
+
+            <!--Start Single Meet Farmers One-->
+            <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
+                <div class="meet-farmers-one__single">
+                    <div class="meet-farmers-one__single-img">
+                        <img src="{{ asset('images/resources/meet-farmers-v1-img4.jpg') }}" alt="" />
+                    </div>
+                    <div class="meet-farmers-one__single-title text-center">
+                        <p>CEO</p>
+                        <h2><a href="farmers.html">Mahjoub Hassan Abdel Dayem</a></h2>
+                        <div class="social-link">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Meet Farmers One-->
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
 <!--Services One Start-->
 <section class="services-one">
     <div class="services-one__bg wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms"></div>
@@ -350,12 +769,12 @@
             <div class="icon">
                 <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
             </div>
-            <span class="sec-title__tagline">What we’re doing</span>
-            <h2 class="sec-title__title">Services We Offer</h2>
+            <span class="sec-title__tagline">Our Customers</span>
+            <h2 class="sec-title__title">Customer’s Opinions</h2>
         </div>
         <div class="row">
             <!--Start Single Services One-->
-            <div class="col-xl-3 col-lg-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
+            {{-- <div class="col-xl-3 col-lg-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
                 <div class="services-one__single">
                     <div class="services-one__single-img">
                         <div class="services-one__single-img-inner">
@@ -372,11 +791,11 @@
                                 class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <!--End Single Services One-->
 
             <!--Start Single Services One-->
-            <div class="col-xl-3 col-lg-6 wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
+            {{-- <div class="col-xl-3 col-lg-6 wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
                 <div class="services-one__single">
                     <div class="services-one__single-img">
                         <div class="services-one__single-img-inner">
@@ -393,11 +812,11 @@
                                 class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <!--End Single Services One-->
 
             <!--Start Single Services One-->
-            <div class="col-xl-3 col-lg-6 wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
+            {{-- <div class="col-xl-3 col-lg-6 wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
                 <div class="services-one__single">
                     <div class="services-one__single-img">
                         <div class="services-one__single-img-inner">
@@ -415,12 +834,12 @@
                                 class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <!--End Single Services One-->
 
             <!--Start Single Services One-->
-            <div class="col-xl-3 col-lg-6 wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
-                <div class="services-one__single">
+            <div class="col-xl-12 col-lg-12 wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
+                {{-- <div class="services-one__single">
                     <div class="services-one__single-img">
                         <div class="services-one__single-img-inner">
                             <img src="{{ asset('images/services/services-v1-img4.jpg') }}" alt="" />
@@ -435,7 +854,24 @@
                         <a href="services-details.html" class="read-more-btn"><span
                                 class="icon-right-arrow-2"></span></a>
                     </div>
-                </div>
+                </div> --}}
+                <div class="container" style="height: 150px">
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="contact-one__content" style="font-size: larger">
+                                <p class="contact-one__text" style="color: white">We understand the importance of
+                                    delivering products that meet international standards. That's why we have a rigorous
+                                    quality assurance process in place.
+                                    Our team of experts meticulously inspects every shipment to ensure that it meets our
+                                    stringent criteria for freshness, taste, and appearance.
+                                </p>
+
+                            </div><!-- /.contact-one__content -->
+                        </div><!-- /.col-lg-6 -->
+
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
             </div>
             <!--End Single Services One-->
         </div>
@@ -445,168 +881,7 @@
 
 
 
-<!--Projects One Start-->
-<section class="projects-one">
-    <div class="auto-container">
-        <div class="sec-title text-center">
-            <div class="icon">
-                <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
-            </div>
-            <span class="sec-title__tagline">Recently completed work</span>
-            <h2 class="sec-title__title">Explore Our Projects</h2>
-        </div>
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="projects-one__carousel owl-carousel owl-theme owl-dot-type1">
-                    <!--Start Single Projects One-->
-                    <div class="projects-one__single wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div class="projects-one__single-img">
-                            <img src="{{ asset('images/project/projects-v1-img1.jpg') }}" alt="" />
-                            <div class="overlay-content">
-                                <p>Agriculture</p>
-                                <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Projects One-->
 
-                    <!--Start Single Projects One-->
-                    <div class="projects-one__single wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <div class="projects-one__single-img">
-                            <img src="{{ asset('images/project/projects-v1-img2.jpg') }}" alt="" />
-                            <div class="overlay-content">
-                                <p>Agriculture</p>
-                                <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Projects One-->
-
-                    <!--Start Single Projects One-->
-                    <div class="projects-one__single wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        <div class="projects-one__single-img">
-                            <img src="{{ asset('images/project/projects-v1-img3.jpg') }}" alt="" />
-                            <div class="overlay-content">
-                                <p>Agriculture</p>
-                                <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Projects One-->
-
-                    <!--Start Single Projects One-->
-                    <div class="projects-one__single wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <div class="projects-one__single-img">
-                            <img src="{{ asset('images/project/projects-v1-img4.jpg') }}" alt="" />
-                            <div class="overlay-content">
-                                <p>Agriculture</p>
-                                <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Projects One-->
-
-                    <!--Start Single Projects One-->
-                    <div class="projects-one__single wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div class="projects-one__single-img">
-                            <img src="{{ asset('images/project/projects-v1-img1.jpg') }}" alt="" />
-                            <div class="overlay-content">
-                                <p>Agriculture</p>
-                                <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Projects One-->
-
-                    <!--Start Single Projects One-->
-                    <div class="projects-one__single wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <div class="projects-one__single-img">
-                            <img src="{{ asset('images/project/projects-v1-img2.jpg') }}" alt="" />
-                            <div class="overlay-content">
-                                <p>Agriculture</p>
-                                <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Projects One-->
-
-                    <!--Start Single Projects One-->
-                    <div class="projects-one__single wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        <div class="projects-one__single-img">
-                            <img src="{{ asset('images/project/projects-v1-img3.jpg') }}" alt="" />
-                            <div class="overlay-content">
-                                <p>Agriculture</p>
-                                <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Projects One-->
-
-                    <!--Start Single Projects One-->
-                    <div class="projects-one__single wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <div class="projects-one__single-img">
-                            <img src="{{ asset('images/project/projects-v1-img4.jpg') }}" alt="" />
-                            <div class="overlay-content">
-                                <p>Agriculture</p>
-                                <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Projects One-->
-
-                    <!--Start Single Projects One-->
-                    <div class="projects-one__single wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div class="projects-one__single-img">
-                            <img src="{{ asset('images/project/projects-v1-img1.jpg') }}" alt="" />
-                            <div class="overlay-content">
-                                <p>Agriculture</p>
-                                <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Projects One-->
-
-                    <!--Start Single Projects One-->
-                    <div class="projects-one__single wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <div class="projects-one__single-img">
-                            <img src="{{ asset('images/project/projects-v1-img2.jpg') }}" alt="" />
-                            <div class="overlay-content">
-                                <p>Agriculture</p>
-                                <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Projects One-->
-
-                    <!--Start Single Projects One-->
-                    <div class="projects-one__single wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        <div class="projects-one__single-img">
-                            <img src="{{ asset('images/project/projects-v1-img3.jpg') }}" alt="" />
-                            <div class="overlay-content">
-                                <p>Agriculture</p>
-                                <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Projects One-->
-
-                    <!--Start Single Projects One-->
-                    <div class="projects-one__single wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <div class="projects-one__single-img">
-                            <img src="{{ asset('images/project/projects-v1-img4.jpg') }}" alt="" />
-                            <div class="overlay-content">
-                                <p>Agriculture</p>
-                                <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Projects One-->
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--Projects One End-->
 
 <!--Testimonials One Start-->
 <section class="testimonials-one jarallax clearfix" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
@@ -621,8 +896,8 @@
                         <div class="icon">
                             <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
                         </div>
-                        <span class="sec-title__tagline">Our testimonials</span>
-                        <h2 class="sec-title__title">What They’re <br>Talking About <br> Agriox</h2>
+                        <span class="sec-title__tagline">Customer reviews</span>
+                        <h2 class="sec-title__title">What They’re <br>Talking About <br> Us</h2>
                     </div>
                 </div>
             </div>
@@ -636,9 +911,10 @@
                             <div class="testimonials-one__carousel owl-carousel owl-theme">
                                 <!--Start Single Testimonials One-->
                                 <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">Lorem ipsum is simply free text
-                                        dolor not sit amet, consectetur notted adipisicing elit sed do eiusmod
-                                        tempor incididunt ut labore et dolore text.</p>
+                                    <p class="testimonials-one__single-text">"Abdel Dayem Agricultural Crops Company
+                                        has been our trusted partner for years. Their commitment to delivering
+                                        high-quality produce is unmatched. We are always impressed with the freshness
+                                        and taste of their fruits and vegetables." </p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
                                             <div class="testimonials-one__single-client-info-img-inner">
@@ -650,7 +926,7 @@
                                             </div>
                                         </div>
                                         <div class="testimonials-one__single-client-info-title">
-                                            <h4>Kevin Martin</h4>
+                                            <h4>Sarah M.</h4>
                                             <p>Customer</p>
                                         </div>
                                     </div>
@@ -659,9 +935,7 @@
 
                                 <!--Start Single Testimonials One-->
                                 <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">Lorem ipsum is simply free text
-                                        dolor not sit amet, consectetur notted adipisicing elit sed do eiusmod
-                                        tempor incididunt ut labore et dolore text.</p>
+                                    <p class="testimonials-one__single-text">I have been importing fruits and vegetables from Abdel Dayem Agricultural Crops Company for quite some time now. Their understanding of market dynamics and adherence to government regulations is commendable. They always go the extra mile to meet our specific preferences and requirements." </p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
                                             <div class="testimonials-one__single-client-info-img-inner">
@@ -673,7 +947,7 @@
                                             </div>
                                         </div>
                                         <div class="testimonials-one__single-client-info-title">
-                                            <h4>Christine Eve</h4>
+                                            <h4>John D</h4>
                                             <p>Customer</p>
                                         </div>
                                     </div>
@@ -682,9 +956,7 @@
 
                                 <!--Start Single Testimonials One-->
                                 <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">Lorem ipsum is simply free text
-                                        dolor not sit amet, consectetur notted adipisicing elit sed do eiusmod
-                                        tempor incididunt ut labore et dolore text.</p>
+                                    <p class="testimonials-one__single-text">"The attention to detail and care that Abdel Dayem Agricultural Crops Company puts into handling their produce is remarkable. Every time I receive their fruits and vegetables, they are in perfect condition, as if they were just picked. Their commitment to quality is truly impressive."</p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
                                             <div class="testimonials-one__single-client-info-img-inner">
@@ -696,7 +968,7 @@
                                             </div>
                                         </div>
                                         <div class="testimonials-one__single-client-info-title">
-                                            <h4>Kevin Martin</h4>
+                                            <h4>Lisa R.</h4>
                                             <p>Customer</p>
                                         </div>
                                     </div>
@@ -705,9 +977,7 @@
 
                                 <!--Start Single Testimonials One-->
                                 <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">Lorem ipsum is simply free text
-                                        dolor not sit amet, consectetur notted adipisicing elit sed do eiusmod
-                                        tempor incididunt ut labore et dolore text.</p>
+                                    <p class="testimonials-one__single-text">"Not only does Abdel Dayem Agricultural Crops Company provide top-notch products, but their professionalism in handling all necessary documentation is outstanding. They make international trade a breeze, ensuring smooth transactions and on-time deliveries." </p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
                                             <div class="testimonials-one__single-client-info-img-inner">
@@ -719,7 +989,7 @@
                                             </div>
                                         </div>
                                         <div class="testimonials-one__single-client-info-title">
-                                            <h4>Christine Eve</h4>
+                                            <h4>David S.</h4>
                                             <p>Customer</p>
                                         </div>
                                     </div>
@@ -727,49 +997,7 @@
                                 <!--Start Single Testimonials One-->
 
                                 <!--Start Single Testimonials One-->
-                                <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">Lorem ipsum is simply free text
-                                        dolor not sit amet, consectetur notted adipisicing elit sed do eiusmod
-                                        tempor incididunt ut labore et dolore text.</p>
-                                    <div class="testimonials-one__single-client-info">
-                                        <div class="testimonials-one__single-client-info-img">
-                                            <div class="testimonials-one__single-client-info-img-inner">
-                                                <img src="{{ asset('images/testimonial/testimonials-v1-img1.jpg') }}"
-                                                    alt="" />
-                                            </div>
-                                            <div class="icon">
-                                                <span class="icon-right-quotation-mark"></span>
-                                            </div>
-                                        </div>
-                                        <div class="testimonials-one__single-client-info-title">
-                                            <h4>Kevin Martin</h4>
-                                            <p>Customer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Start Single Testimonials One-->
-
-                                <!--Start Single Testimonials One-->
-                                <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">Lorem ipsum is simply free text
-                                        dolor not sit amet, consectetur notted adipisicing elit sed do eiusmod
-                                        tempor incididunt ut labore et dolore text.</p>
-                                    <div class="testimonials-one__single-client-info">
-                                        <div class="testimonials-one__single-client-info-img">
-                                            <div class="testimonials-one__single-client-info-img-inner">
-                                                <img src="{{ asset('images/testimonial/testimonials-v1-img2.jpg') }}"
-                                                    alt="" />
-                                            </div>
-                                            <div class="icon">
-                                                <span class="icon-right-quotation-mark"></span>
-                                            </div>
-                                        </div>
-                                        <div class="testimonials-one__single-client-info-title">
-                                            <h4>Christine Eve</h4>
-                                            <p>Customer</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                                 <!--Start Single Testimonials One-->
                             </div>
                         </div>
@@ -849,7 +1077,7 @@
 <!--Blog One Start-->
 <section class="blog-one">
     <div class="blog-one__bg wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms"></div>
-    <div class="blog-one__shape"></div><!-- /.blog-one__shape -->
+    {{-- <div class="blog-one__shape"></div><!-- /.blog-one__shape --> --}}
     <div class="container">
         <div class="sec-title text-center">
             <div class="icon">
@@ -877,8 +1105,7 @@
                             <li><a href="#"><i class="far fa-user-circle"></i>Jessica</a></li>
                             <li><a href="#"><i class="far fa-comments"></i>2 Comments</a></li>
                         </ul>
-                        <h2><a href="news-details.html">Why Eco and Walking or Agriculture for the
-                                Environment?</a></h2>
+                        <h2><a href="news-details.html">A.	Farm-to-Table: Exploring the Journey of Fresh Produce</a></h2>
                     </div>
                 </div>
             </div>
@@ -902,8 +1129,7 @@
                             <li><a href="#"><i class="far fa-user-circle"></i>Jessica</a></li>
                             <li><a href="#"><i class="far fa-comments"></i>2 Comments</a></li>
                         </ul>
-                        <h2><a href="news-details.html">Bring to the table win-win survival strategies to
-                                ensure</a></h2>
+                        <h2><a href="news-details.html">B.	Sustainable Farming Practices: Preserving the Environment for Future Generations</a></h2>
                     </div>
                 </div>
             </div>
@@ -927,8 +1153,7 @@
                             <li><a href="#"><i class="far fa-user-circle"></i>Jessica</a></li>
                             <li><a href="#"><i class="far fa-comments"></i>2 Comments</a></li>
                         </ul>
-                        <h2><a href="news-details.html">Leverage agile frameworks to provide a robust
-                                synopsis</a></h2>
+                        <h2><a href="news-details.html">C. Seasonal Delights: Exploring the Best Fruits and Vegetables Each Season</a></h2>
                     </div>
                 </div>
             </div>
@@ -1006,71 +1231,7 @@
     </div><!-- /.container -->
 </section><!-- /.contact-one -->
 
-<!--Company Logos One Start-->
-<section class="company-logos-one">
-    <div class="container">
-        <div class="thm-swiper__slider swiper-container"
-            data-swiper-options='{"spaceBetween": 100, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
-                "0": {
-                    "spaceBetween": 20,
-                    "slidesPerView": 2
-                },
-                "375": {
-                    "spaceBetween": 20,
-                    "slidesPerView": 2
-                },
-                "575": {
-                    "spaceBetween": 20,
-                    "slidesPerView": 3
-                },
-                "767": {
-                    "spaceBetween": 30,
-                    "slidesPerView": 4
-                },
-                "991": {
-                    "spaceBetween": 40,
-                    "slidesPerView": 5
-                },
-                "1199": {
-                    "spaceBetween": 40,
-                    "slidesPerView": 5
-                }
-            }}'>
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="{{ asset('images/resources/Company-Logos-v1-logo1.png') }}" alt="">
-                </div><!-- /.swiper-slide -->
-                <div class="swiper-slide">
-                    <img src="{{ asset('images/resources/Company-Logos-v1-logo1.png') }}" alt="">
-                </div><!-- /.swiper-slide -->
-                <div class="swiper-slide">
-                    <img src="{{ asset('images/resources/Company-Logos-v1-logo1.png') }}" alt="">
-                </div><!-- /.swiper-slide -->
-                <div class="swiper-slide">
-                    <img src="{{ asset('images/resources/Company-Logos-v1-logo1.png') }}" alt="">
-                </div><!-- /.swiper-slide -->
-                <div class="swiper-slide">
-                    <img src="{{ asset('images/resources/Company-Logos-v1-logo1.png') }}" alt="">
-                </div><!-- /.swiper-slide -->
-                <div class="swiper-slide">
-                    <img src="{{ asset('images/resources/Company-Logos-v1-logo1.png') }}" alt="">
-                </div><!-- /.swiper-slide -->
-                <div class="swiper-slide">
-                    <img src="{{ asset('images/resources/Company-Logos-v1-logo1.png') }}" alt="">
-                </div><!-- /.swiper-slide -->
-                <div class="swiper-slide">
-                    <img src="{{ asset('images/resources/Company-Logos-v1-logo1.png') }}" alt="">
-                </div><!-- /.swiper-slide -->
-                <div class="swiper-slide">
-                    <img src="{{ asset('images/resources/Company-Logos-v1-logo1.png') }}" alt="">
-                </div><!-- /.swiper-slide -->
-                <div class="swiper-slide">
-                    <img src="{{ asset('images/resources/Company-Logos-v1-logo1.png') }}" alt="">
-                </div><!-- /.swiper-slide -->
-            </div>
-        </div>
-    </div>
-</section>
+
 <!--Company Logos One End-->
 
 
