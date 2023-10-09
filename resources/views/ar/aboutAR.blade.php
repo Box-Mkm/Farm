@@ -7,17 +7,77 @@
     <div class="container">
         <div class="page-header__inner text-center clearfix">
             <ul class="thm-breadcrumb">
-                <li><a href="index-main.html">Home</a></li>
-                <li>About</li>
+                <li><a href="index-main.html">الرئيسية</a></li>
+                <li>عننا</li>
             </ul>
-            <h2>About Us</h2>
+            <h2>عن الشركة</h2>
         </div>
     </div>
 </section>
 <!--Page Header End-->
 
+
+
+
+
+
+
+<section>
+    <section class="contact-one">
+        <div class="container">
+            <div class="sec-title text-center">
+                <div class="icon">
+                    <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
+                </div>
+                <span class="sec-title__tagline">تعرف علينا أكثر</span>
+                <h2 class="sec-title__title">نحن نبيع أعلي جودة <br>للمنتجات العضوية</h2>
+    
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="contact-one__content" style="font-size: larger">
+                        <p class="contact-one__text" style="color: white">مرحبًا بكم في شركة عبد الدايم للمحاصيل الزراعية، اسم موثوق به في مجال تصدير واستيراد الفواكه والخضروات الطازجة منذ عام 1995. من خلال التزامنا بتوفير حاصلات زراعية عالية الجودة للعملاء في جميع أنحاء العالم، أثبتنا أنفسنا كواحدة من أكبر الشركات في هذا المجال
+                        </p>
+                        <p>في شركة عبد الدايم، ندرك أهمية توفير منتجات تلبي المعايير المطلوبة. من خلال فهمنا الجيد لديناميات السوق والالتزام بالتشريعات والبروتوكولات الحكومية، نعرف كيفية تلبية متطلبات عملائنا المتغيرة</p>
+                        <p class="about-one__content-text" style="color: white">يضمن فريقنا المتخصص التعامل مع الحاصلات الزراعية بأكبر درجات العناية، محافظين على حالتها حتى تصل إلى عملائنا بأعلى جودة.
+                            شركتنا تلتزم بالمعايير الدولية، فمنتجاتنا ذات جودة عالية كأن تم جنيها للتو
+                            </p>
+    
+    
+                    </div><!-- /.contact-one__content -->
+                    
+                </div><!-- /.col-lg-6 -->
+        
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+            <div class="row" style="padding-top: 30px">
+                <!--Start About Three Img Box-->
+                <div class="col-xl-6 col-lg-5 m-auto">
+                    <div class="about-three__img-box">
+                        {{-- <img src="{{ asset('images/resources/about-3-icon-1-1.png') }}" class="about-three__img-icon"
+                            alt=""> --}}
+                        <div class="">
+                            <div class="about-three__img-box-img-inner">
+                                <img src="{{ asset('images/about/about-v3-img1.jpg') }}" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End About Three Img Box-->
+            </div>
+    </section><!-- /.contact-one -->
+
+
+
+</section>
+
+
+
+
+
+
 <!--About Three Start-->
-<section class="about-three">
+{{-- <section class="about-three">
     <div class="about-three__shape"></div><!-- /.about-three__shape -->
     <div class="container">
         <div class="row">
@@ -79,111 +139,27 @@
             <!--End About Three Img Box-->
         </div>
     </div>
-</section>
+</section> --}}
 <!--About Three End-->
 
 
-<!--Company Logos One Start-->
-<section class="company-logos-one">
-    <div class="container">
-        <div class="thm-swiper__slider swiper-container"
-            data-swiper-options='{"spaceBetween": 100, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
-                "0": {
-                    "spaceBetween": 20,
-                    "slidesPerView": 2
-                },
-                "375": {
-                    "spaceBetween": 20,
-                    "slidesPerView": 2
-                },
-                "575": {
-                    "spaceBetween": 20,
-                    "slidesPerView": 3
-                },
-                "767": {
-                    "spaceBetween": 30,
-                    "slidesPerView": 4
-                },
-                "991": {
-                    "spaceBetween": 40,
-                    "slidesPerView": 5
-                },
-                "1199": {
-                    "spaceBetween": 40,
-                    "slidesPerView": 5
-                }
-            }}'>
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="{{ asset('images/resources/Company-Logos-v1-logo1.png') }}" alt="">
-                </div><!-- /.swiper-slide -->
-                <div class="swiper-slide">
-                    <img src="{{ asset('images/resources/Company-Logos-v1-logo1.png') }}" alt="">
-                </div><!-- /.swiper-slide -->
-                <div class="swiper-slide">
-                    <img src="{{ asset('images/resources/Company-Logos-v1-logo1.png') }}" alt="">
-                </div><!-- /.swiper-slide -->
-                <div class="swiper-slide">
-                    <img src="{{ asset('images/resources/Company-Logos-v1-logo1.png') }}" alt="">
-                </div><!-- /.swiper-slide -->
-                <div class="swiper-slide">
-                    <img src="{{ asset('images/resources/Company-Logos-v1-logo1.png') }}" alt="">
-                </div><!-- /.swiper-slide -->
-                <div class="swiper-slide">
-                    <img src="{{ asset('images/resources/Company-Logos-v1-logo1.png') }}" alt="">
-                </div><!-- /.swiper-slide -->
-                <div class="swiper-slide">
-                    <img src="{{ asset('images/resources/Company-Logos-v1-logo1.png') }}" alt="">
-                </div><!-- /.swiper-slide -->
-                <div class="swiper-slide">
-                    <img src="{{ asset('images/resources/Company-Logos-v1-logo1.png') }}" alt="">
-                </div><!-- /.swiper-slide -->
-                <div class="swiper-slide">
-                    <img src="{{ asset('images/resources/Company-Logos-v1-logo1.png') }}" alt="">
-                </div><!-- /.swiper-slide -->
-                <div class="swiper-slide">
-                    <img src="{{ asset('images/resources/Company-Logos-v1-logo1.png') }}" alt="">
-                </div><!-- /.swiper-slide -->
-            </div>
-        </div>
-    </div>
-</section>
-<!--Company Logos One End-->
+
 
 <!--Video One Start-->
 <section class="video-one jarallax clearfix" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
     style="background-image: url({{ asset('images/backgrounds/video-one-bg.jpg') }});">
-    <div class="video-one-border"></div>
-    <div class="video-one-border video-one-border-two"></div>
-    <div class="video-one-border video-one-border-three"></div>
-    <div class="video-one-border video-one-border-four"></div>
-    <div class="video-one-border video-one-border-five"></div>
-    <div class="video-one-border video-one-border-six"></div>
-
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
                 <div class="video-one__wrpper">
                     <div class="video-one__left">
                         <div class="video-one__leaf"></div><!-- /.video-one__leaf -->
-                        <h2 class="video-one__title">Agriculture Matters to <br>the Future of Development</h2>
-                        <div class="video-one__btn">
-                            <a href="#" class="thm-btn">Discover more</a>
-                        </div>
+                        <h2 class="video-one__title">مهمتنا </h2>
+                        <p>مهمتنا هي أن نوفر بشكل دائم فواكه وخضروات عالية الجودة للأسواق العالمية، مع ضمان رضا العملاء وبناء علاقات طويلة الأمد. نحن ملتزمون بتوفير منتجاتنا والمحافظة عليها بأقصى درجات العناية، وأعلى معايير الجودة</p>
+                        <h2 class="video-one__title" style="padding-top: 50px">رؤيتنا </h2>
+<p>رؤيتنا هي أن نكون من أكبر وأكثر الشركات الموثوقة في تصدير الفواكه والخضروات، وتقديم منتجات استثنائية ذات المذاق والمظهر والجودة للعملاء في جميع أنحاء العالم</p>                    
                     </div>
-                    <div class="video-one__right">
-                        <div class="icon wow zoomIn" data-wow-delay="300ms" data-wow-duration="1500ms">
-                            <a class="video-popup" title=" Video" href="https://www.youtube.com/watch?v=8DP4NgupAhI">
-                                <span class="icon-play-button-1"></span>
-                            </a>
-                            <span class="border-animation border-1"></span>
-                            <span class="border-animation border-2"></span>
-                            <span class="border-animation border-3"></span>
-                        </div>
-                        <div class="title">
-                            <h2>Watch the video</h2>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </div>
@@ -193,183 +169,9 @@
 
 
 
-<!--Testimonials One Start-->
-<section class="testimonials-one jarallax clearfix" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
-    style="background-image: url({{ asset('images/backgrounds/Testimonials-v1-bg.jpg') }});">
-    <div class="container">
-        <div class="row">
-            <!--Start Testimonials One Left-->
-            <div class="col-xl-4">
-                <div class="testimonials-one__left">
-                    <div class="testimonials-one__left-bg"></div>
-                    <div class="sec-title">
-                        <div class="icon">
-                            <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
-                        </div>
-                        <span class="sec-title__tagline">Our testimonials</span>
-                        <h2 class="sec-title__title">What They’re <br>Talking About <br> Agriox</h2>
-                    </div>
-                </div>
-            </div>
-            <!--End Testimonials One Left-->
-
-            <!--Start Testimonials One Right-->
-            <div class="col-xl-8">
-                <div class="testimonials-one__right">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="testimonials-one__carousel owl-carousel owl-theme">
-                                <!--Start Single Testimonials One-->
-                                <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">Lorem ipsum is simply free text
-                                        dolor not sit amet, consectetur notted adipisicing elit sed do eiusmod
-                                        tempor incididunt ut labore et dolore text.</p>
-                                    <div class="testimonials-one__single-client-info">
-                                        <div class="testimonials-one__single-client-info-img">
-                                            <div class="testimonials-one__single-client-info-img-inner">
-                                                <img src="{{ asset('images/testimonial/testimonials-v1-img1.jpg') }}"
-                                                    alt="" />
-                                            </div>
-                                            <div class="icon">
-                                                <span class="icon-right-quotation-mark"></span>
-                                            </div>
-                                        </div>
-                                        <div class="testimonials-one__single-client-info-title">
-                                            <h4>Kevin Martin</h4>
-                                            <p>Customer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Start Single Testimonials One-->
-
-                                <!--Start Single Testimonials One-->
-                                <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">Lorem ipsum is simply free text
-                                        dolor not sit amet, consectetur notted adipisicing elit sed do eiusmod
-                                        tempor incididunt ut labore et dolore text.</p>
-                                    <div class="testimonials-one__single-client-info">
-                                        <div class="testimonials-one__single-client-info-img">
-                                            <div class="testimonials-one__single-client-info-img-inner">
-                                                <img src="{{ asset('images/testimonial/testimonials-v1-img2.jpg') }}"
-                                                    alt="" />
-                                            </div>
-                                            <div class="icon">
-                                                <span class="icon-right-quotation-mark"></span>
-                                            </div>
-                                        </div>
-                                        <div class="testimonials-one__single-client-info-title">
-                                            <h4>Christine Eve</h4>
-                                            <p>Customer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Start Single Testimonials One-->
-
-                                <!--Start Single Testimonials One-->
-                                <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">Lorem ipsum is simply free text
-                                        dolor not sit amet, consectetur notted adipisicing elit sed do eiusmod
-                                        tempor incididunt ut labore et dolore text.</p>
-                                    <div class="testimonials-one__single-client-info">
-                                        <div class="testimonials-one__single-client-info-img">
-                                            <div class="testimonials-one__single-client-info-img-inner">
-                                                <img src="{{ asset('images/testimonial/testimonials-v1-img1.jpg') }}"
-                                                    alt="" />
-                                            </div>
-                                            <div class="icon">
-                                                <span class="icon-right-quotation-mark"></span>
-                                            </div>
-                                        </div>
-                                        <div class="testimonials-one__single-client-info-title">
-                                            <h4>Kevin Martin</h4>
-                                            <p>Customer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Start Single Testimonials One-->
-
-                                <!--Start Single Testimonials One-->
-                                <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">Lorem ipsum is simply free text
-                                        dolor not sit amet, consectetur notted adipisicing elit sed do eiusmod
-                                        tempor incididunt ut labore et dolore text.</p>
-                                    <div class="testimonials-one__single-client-info">
-                                        <div class="testimonials-one__single-client-info-img">
-                                            <div class="testimonials-one__single-client-info-img-inner">
-                                                <img src="{{ asset('images/testimonial/testimonials-v1-img2.jpg') }}"
-                                                    alt="" />
-                                            </div>
-                                            <div class="icon">
-                                                <span class="icon-right-quotation-mark"></span>
-                                            </div>
-                                        </div>
-                                        <div class="testimonials-one__single-client-info-title">
-                                            <h4>Christine Eve</h4>
-                                            <p>Customer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Start Single Testimonials One-->
-
-                                <!--Start Single Testimonials One-->
-                                <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">Lorem ipsum is simply free text
-                                        dolor not sit amet, consectetur notted adipisicing elit sed do eiusmod
-                                        tempor incididunt ut labore et dolore text.</p>
-                                    <div class="testimonials-one__single-client-info">
-                                        <div class="testimonials-one__single-client-info-img">
-                                            <div class="testimonials-one__single-client-info-img-inner">
-                                                <img src="{{ asset('images/testimonial/testimonials-v1-img1.jpg') }}"
-                                                    alt="" />
-                                            </div>
-                                            <div class="icon">
-                                                <span class="icon-right-quotation-mark"></span>
-                                            </div>
-                                        </div>
-                                        <div class="testimonials-one__single-client-info-title">
-                                            <h4>Kevin Martin</h4>
-                                            <p>Customer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Start Single Testimonials One-->
-
-                                <!--Start Single Testimonials One-->
-                                <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">Lorem ipsum is simply free text
-                                        dolor not sit amet, consectetur notted adipisicing elit sed do eiusmod
-                                        tempor incididunt ut labore et dolore text.</p>
-                                    <div class="testimonials-one__single-client-info">
-                                        <div class="testimonials-one__single-client-info-img">
-                                            <div class="testimonials-one__single-client-info-img-inner">
-                                                <img src="{{ asset('images/testimonial/testimonials-v1-img2.jpg') }}"
-                                                    alt="" />
-                                            </div>
-                                            <div class="icon">
-                                                <span class="icon-right-quotation-mark"></span>
-                                            </div>
-                                        </div>
-                                        <div class="testimonials-one__single-client-info-title">
-                                            <h4>Christine Eve</h4>
-                                            <p>Customer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Start Single Testimonials One-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Testimonials One Right-->
-        </div>
-    </div>
-</section>
-<!--Testimonials One End-->
-
 
 <!--Meet Farmers One Start-->
-<section class="meet-farmers-one meet-farmers-one--about">
+{{-- <section class="meet-farmers-one meet-farmers-one--about">
     <div class="container">
         <div class="sec-title text-center">
             <div class="icon">
@@ -469,8 +271,113 @@
             <!--End Single Meet Farmers One-->
         </div>
     </div>
-</section>
+</section> --}}
 <!--Meet Farmers One End-->
+
+
+
+
+<section class="meet-farmers-one meet-farmers-one--about">
+    <div class="container">
+        <div class="sec-title text-center">
+            <div class="icon">
+                <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
+            </div>
+            <span class="sec-title__tagline">professional people</span>
+            <h2 class="sec-title__title">تعرف على مجلس الإدارة التنفيذي</h2>
+        </div>
+        <div class="row">
+            <!--Start Single Meet Farmers One-->
+            <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
+                <div class="meet-farmers-one__single">
+                    <div class="meet-farmers-one__single-img">
+                        <img src="{{ asset('images/resources/meet-farmers-v1-img1.jpg') }}" alt="" />
+
+                    </div>
+                    <div class="meet-farmers-one__single-title text-center">
+                        <p>CEO</p>
+                        <h2><a href="farmers.html">أحمد سليم عبد الدايم</a></h2>
+                        <div class="social-link">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Meet Farmers One-->
+
+            <!--Start Single Meet Farmers One-->
+            <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
+                <div class="meet-farmers-one__single">
+                    <div class="meet-farmers-one__single-img">
+                        <img src="{{ asset('images/resources/meet-farmers-v1-img2.jpg') }}" alt="" />
+                    </div>
+                    <div class="meet-farmers-one__single-title text-center">
+                        <p>CEO</p>
+                        <h2><a href="farmers.html">سالم سليم عبد الدايم</a></h2>
+                        <div class="social-link">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Meet Farmers One-->
+
+            <!--Start Single Meet Farmers One-->
+            <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
+                <div class="meet-farmers-one__single">
+                    <div class="meet-farmers-one__single-img">
+                        <img src="{{ asset('images/resources/meet-farmers-v1-img3.jpg') }}" alt="" />
+                    </div>
+                    <div class="meet-farmers-one__single-title text-center">
+                        <p>CEO</p>
+                        <h2><a href="farmers.html">محمود حسن عبد الدايم</a></h2>
+                        <div class="social-link">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Meet Farmers One-->
+
+            <!--Start Single Meet Farmers One-->
+            <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
+                <div class="meet-farmers-one__single">
+                    <div class="meet-farmers-one__single-img">
+                        <img src="{{ asset('images/resources/meet-farmers-v1-img4.jpg') }}" alt="" />
+                    </div>
+                    <div class="meet-farmers-one__single-title text-center">
+                        <p>CEO</p>
+                        <h2><a href="farmers.html">محجوب حسن عبد الدايم</a></h2>
+                        <div class="social-link">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Meet Farmers One-->
+        </div>
+    </div>
+</section>
 
 
 <!--Cta One Start-->
@@ -484,12 +391,14 @@
                             <span class="icon-farm"></span>
                         </div>
                         <div class="cta-one__left-title">
-                            <h2>We’re Leader in Agriculture Market</h2>
+                            <h2>
+                                نحن شركة رائدة في سوق الزراعة
+                            </h2>
                         </div>
                     </div>
                     <div class="cta-one__right">
                         <div class="cta-one__right-btn">
-                            <a href="#" class="thm-btn">Discover More</a>
+                            <a href="#" class="thm-btn">إكتشف أكثر</a>
                         </div>
                     </div>
                 </div>

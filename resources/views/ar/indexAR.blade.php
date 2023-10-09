@@ -162,7 +162,7 @@
 
             <!--Start About One Content-->
             <div class="col-xl-6">
-                <div class="about-one__content">
+                <div class="about-one__content" style="margin-right: 0px !important">
                     <div class="sec-title">
                         <div class="icon">
                             <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="" />
