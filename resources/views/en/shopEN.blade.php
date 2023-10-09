@@ -9,18 +9,49 @@
         <div class="page-header__inner text-center clearfix">
             <ul class="thm-breadcrumb">
                 <li><a href="index-main.html">Home</a></li>
-                <li>Shop</li>
+                <li>Products</li>
             </ul>
-            <h2>Shop</h2>
+            <h2>Products</h2>
         </div>
     </div>
 </section>
 <!--Page Header End-->
 
+
+
+<section class="contact-one" style="padding-bottom: 0px !important">
+    <div class="container">
+        <div class="sec-title text-center">
+            <div class="icon">
+                {{-- <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt=""> --}}
+            </div>
+            {{-- <span class="sec-title__tagline">What we offer</span> --}}
+            {{-- <h2 class="sec-title__title">Our products</h2> --}}
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="contact-one__content" style="font-size: larger">
+                    <p class="contact-one__text">Explore our wide range of fruits and vegetables, carefully selected to
+                        meet the highest standards of quality and freshness. From all types of citrus crops like Lemon
+                        orange, grape, pomegranate, peach, plum, mango, we offer a diverse selection that caters to
+                        every palate. Our produce is sourced directly from farms and orchards, guaranteeing that you
+                        receive the best nature has to offer.
+                        We export to Saudi Arabia, Dubai, Muscat, Kuwait, Russia, Europe, India, Ukraine, Jordan, Iraq,
+                        Bangladesh, Malaysia, China, and in the near future, our products will be available all over the
+                        world.
+                    </p>
+                </div><!-- /.contact-one__content -->
+            </div><!-- /.col-lg-6 -->
+
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section><!-- /.contact-one -->
+
+
 <section class="shop-one">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3">
+            {{-- <div class="col-lg-3">
                 <div class="shop-one__sidebar">
                     <div class="shop-one__sidebar__item shop-one__sidebar__search">
                         <form action="#">
@@ -62,23 +93,23 @@
                         </ul>
                     </div><!-- /.shop-one__sidebar__item -->
                 </div><!-- /.shop-one__sidebar -->
-            </div><!-- /.col-lg-3 -->
-            <div class="col-lg-9">
+            </div><!-- /.col-lg-3 --> --}}
+            <div class="col-lg-12">
                 <div class="row">
-                    <div class="col-lg-12 shop-one__sorter">
+                    {{-- <div class="col-lg-12 shop-one__sorter">
                         <p class="shop-one__product-count">Showing 1–9 of 12 results</p>
                         <select class="shop-one__product-sorter" name="" id="">
                             <option value="">Sort by Popular</option>
                             <option value="">Sort by Popular</option>
                             <option value="">Sort by Popular</option>
                         </select>
-                    </div><!-- /.col-lg-12 -->
+                    </div><!-- /.col-lg-12 --> --}}
                 </div><!-- /.row -->
                 <div class="row">
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-3">
                         <div class="shop-one__item">
                             <div class="shop-one__image">
-                                <span class="shop-one__sale">sale</span><!-- /.shop-one__sale -->
+                                {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
                                 <img src="{{ asset('images/update-14-09-2021/shop/shop-1-1.png') }}" alt="">
                                 <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
                             </div><!-- /.shop-one__image -->
@@ -97,7 +128,7 @@
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-3">
                         <div class="shop-one__item">
                             <div class="shop-one__image">
 
@@ -118,7 +149,7 @@
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-3">
                         <div class="shop-one__item">
                             <div class="shop-one__image">
 
@@ -139,7 +170,7 @@
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-3">
                         <div class="shop-one__item">
                             <div class="shop-one__image">
 
@@ -161,7 +192,7 @@
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-3">
                         <div class="shop-one__item">
                             <div class="shop-one__image">
 
@@ -182,7 +213,7 @@
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-3">
                         <div class="shop-one__item">
                             <div class="shop-one__image">
 
@@ -203,10 +234,10 @@
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-3">
                         <div class="shop-one__item">
                             <div class="shop-one__image">
-                                <span class="shop-one__sale">sale</span><!-- /.shop-one__sale -->
+                                {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
                                 <img src="{{ asset('images/update-14-09-2021/shop/shop-1-7.png') }}" alt="">
                                 <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
                             </div><!-- /.shop-one__image -->
@@ -225,7 +256,7 @@
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-3">
                         <div class="shop-one__item">
                             <div class="shop-one__image">
                                 <img src="{{ asset('images/update-14-09-2021/shop/shop-1-8.png') }}" alt="">
@@ -245,10 +276,10 @@
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-3">
                         <div class="shop-one__item">
                             <div class="shop-one__image">
-                                <span class="shop-one__sale">sale</span><!-- /.shop-one__sale -->
+                                {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
                                 <img src="{{ asset('images/update-14-09-2021/shop/shop-1-1.png') }}" alt="">
                                 <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
                             </div><!-- /.shop-one__image -->

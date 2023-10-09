@@ -272,7 +272,7 @@
                     </p>
                 </div><!-- /.contact-one__content -->
             </div><!-- /.col-lg-6 -->
-    
+
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section><!-- /.contact-one -->
@@ -653,6 +653,45 @@
 
 
 
+
+
+
+
+<section class="contact-one">
+    <div class="container" style="padding-top: 45px">
+        <div class="sec-title text-center">
+            <div class="icon">
+                <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
+            </div>
+            <span class="sec-title__tagline">Facilities</span>
+            <h2 class="sec-title__title">Our Packing House</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="contact-one__content" style="font-size: larger">
+                    <p class="contact-one__text">we utilize state-of-the-art filling and packaging machines (Caesar) to
+                        ensure high-quality products' efficient and precise packaging. These advanced machines are
+                        specifically designed to handle our diverse range of fruits and vegetables, providing optimal
+                        packaging solutions that preserve freshness and extend shelf life. So, we can confidently
+                        deliver our produce to customers worldwide, ensuring every product reaches its destination in
+                        perfect condition.
+                    </p>
+                </div><!-- /.contact-one__content -->
+            </div><!-- /.col-lg-6 -->
+
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section><!-- /.contact-one -->
+
+
+
+
+
+
+
+
+
+
 <section class="meet-farmers-one meet-farmers-one--about">
     <div class="container">
         <div class="sec-title text-center">
@@ -860,11 +899,11 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="contact-one__content" style="font-size: larger">
-                                <p class="contact-one__text" style="color: white">We understand the importance of
-                                    delivering products that meet international standards. That's why we have a rigorous
-                                    quality assurance process in place.
-                                    Our team of experts meticulously inspects every shipment to ensure that it meets our
-                                    stringent criteria for freshness, taste, and appearance.
+                                <p class="contact-one__text" style="color: white">Our customers are at the heart of
+                                    everything we do. We strive to exceed your expectations by providing exceptional
+                                    service, prompt communication, and competitive pricing. Whether you have specific
+                                    requirements or need assistance with custom orders, our dedicated team is here to
+                                    assist you every step of the way.
                                 </p>
 
                             </div><!-- /.contact-one__content -->
@@ -935,7 +974,11 @@
 
                                 <!--Start Single Testimonials One-->
                                 <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">I have been importing fruits and vegetables from Abdel Dayem Agricultural Crops Company for quite some time now. Their understanding of market dynamics and adherence to government regulations is commendable. They always go the extra mile to meet our specific preferences and requirements." </p>
+                                    <p class="testimonials-one__single-text">I have been importing fruits and
+                                        vegetables from Abdel Dayem Agricultural Crops Company for quite some time now.
+                                        Their understanding of market dynamics and adherence to government regulations
+                                        is commendable. They always go the extra mile to meet our specific preferences
+                                        and requirements." </p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
                                             <div class="testimonials-one__single-client-info-img-inner">
@@ -956,7 +999,11 @@
 
                                 <!--Start Single Testimonials One-->
                                 <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">"The attention to detail and care that Abdel Dayem Agricultural Crops Company puts into handling their produce is remarkable. Every time I receive their fruits and vegetables, they are in perfect condition, as if they were just picked. Their commitment to quality is truly impressive."</p>
+                                    <p class="testimonials-one__single-text">"The attention to detail and care that
+                                        Abdel Dayem Agricultural Crops Company puts into handling their produce is
+                                        remarkable. Every time I receive their fruits and vegetables, they are in
+                                        perfect condition, as if they were just picked. Their commitment to quality is
+                                        truly impressive."</p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
                                             <div class="testimonials-one__single-client-info-img-inner">
@@ -977,7 +1024,10 @@
 
                                 <!--Start Single Testimonials One-->
                                 <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">"Not only does Abdel Dayem Agricultural Crops Company provide top-notch products, but their professionalism in handling all necessary documentation is outstanding. They make international trade a breeze, ensuring smooth transactions and on-time deliveries." </p>
+                                    <p class="testimonials-one__single-text">"Not only does Abdel Dayem Agricultural
+                                        Crops Company provide top-notch products, but their professionalism in handling
+                                        all necessary documentation is outstanding. They make international trade a
+                                        breeze, ensuring smooth transactions and on-time deliveries." </p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
                                             <div class="testimonials-one__single-client-info-img-inner">
@@ -997,7 +1047,7 @@
                                 <!--Start Single Testimonials One-->
 
                                 <!--Start Single Testimonials One-->
-                                
+
                                 <!--Start Single Testimonials One-->
                             </div>
                         </div>
@@ -1105,7 +1155,8 @@
                             <li><a href="#"><i class="far fa-user-circle"></i>Jessica</a></li>
                             <li><a href="#"><i class="far fa-comments"></i>2 Comments</a></li>
                         </ul>
-                        <h2><a href="news-details.html">A.	Farm-to-Table: Exploring the Journey of Fresh Produce</a></h2>
+                        <h2><a href="news-details.html">A. Farm-to-Table: Exploring the Journey of Fresh Produce</a>
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -1129,7 +1180,8 @@
                             <li><a href="#"><i class="far fa-user-circle"></i>Jessica</a></li>
                             <li><a href="#"><i class="far fa-comments"></i>2 Comments</a></li>
                         </ul>
-                        <h2><a href="news-details.html">B.	Sustainable Farming Practices: Preserving the Environment for Future Generations</a></h2>
+                        <h2><a href="news-details.html">B. Sustainable Farming Practices: Preserving the Environment
+                                for Future Generations</a></h2>
                     </div>
                 </div>
             </div>
@@ -1153,7 +1205,8 @@
                             <li><a href="#"><i class="far fa-user-circle"></i>Jessica</a></li>
                             <li><a href="#"><i class="far fa-comments"></i>2 Comments</a></li>
                         </ul>
-                        <h2><a href="news-details.html">C. Seasonal Delights: Exploring the Best Fruits and Vegetables Each Season</a></h2>
+                        <h2><a href="news-details.html">C. Seasonal Delights: Exploring the Best Fruits and Vegetables
+                                Each Season</a></h2>
                     </div>
                 </div>
             </div>

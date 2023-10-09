@@ -141,6 +141,45 @@
 
 
 
+
+
+
+
+
+<section class="contact-one">
+    <div class="container" style="padding-top: 45px">
+        <div class="sec-title text-center">
+            <div class="icon">
+                <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
+            </div>
+            <span class="sec-title__tagline">Facilities</span>
+            <h2 class="sec-title__title">Our Packing House</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="contact-one__content" style="font-size: larger">
+                    <p class="contact-one__text">we utilize state-of-the-art filling and packaging machines (Caesar) to
+                        ensure high-quality products' efficient and precise packaging. These advanced machines are
+                        specifically designed to handle our diverse range of fruits and vegetables, providing optimal
+                        packaging solutions that preserve freshness and extend shelf life. So, we can confidently
+                        deliver our produce to customers worldwide, ensuring every product reaches its destination in
+                        perfect condition.
+                    </p>
+                </div><!-- /.contact-one__content -->
+            </div><!-- /.col-lg-6 -->
+
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section><!-- /.contact-one -->
+
+
+
+
+
+
+
+
+
 <section class="meet-farmers-one meet-farmers-one--about">
     <div class="container">
         <div class="sec-title text-center">
