@@ -1,5 +1,20 @@
-<p> <a href="blog" class="text-danger">English</a>
-</p>
+<div class="dropdown main-header--one__top d-flex flex-row">
+    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        اللغه| language
+    </button>
+    <ul class="dropdown-menu">
+        <li>
+            <p> <a href="/blog">English <img src="{{ asset('images/backgrounds/united-kingdom.png') }}" alt="" />
+            </p>
+        </li>
+        <li>
+            <p><a href="#">العربيه <img src="{{ asset('images/backgrounds/egypt.png') }}" alt="" />
+            </p>
+        </li>
+
+    </ul>
+</div>
+
 @include('layouts.appAR')
 <!--Page Header Start-->
 <section class="page-header clearfix"

@@ -1,6 +1,20 @@
-<p>
-    <a href="aboutAR" class="text-danger">العربيه</a>
-</p>
+<div class="dropdown main-header--one__top d-flex flex-row">
+    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        اللغه| language
+    </button>
+    <ul class="dropdown-menu">
+        <li>
+            <p> <a href="#">English <img src="{{ asset('images/backgrounds/united-kingdom.png') }}" alt="" />
+            </p>
+        </li>
+        <li>
+            <p><a href="/aboutAR">العربيه <img src="{{ asset('images/backgrounds/egypt.png') }}" alt="" />
+            </p>
+        </li>
+
+    </ul>
+</div>
+
 @include('layouts.appEN')
 <!--Page Header Start-->
 <section class="page-header clearfix"
@@ -27,23 +41,31 @@
                 </div>
                 <span class="sec-title__tagline">get to know about us</span>
                 <h2 class="sec-title__title">We Sell High-Quality <br>Organic Products</h2>
-    
+
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="contact-one__content" style="font-size: larger">
                         <p class="contact-one__text" style="color: white">Welcome to Abdel Dayem Agricultural Crops
                             Company, a trusted
-                            name in the export and import of fresh fruits and vegetables since 1995. With our commitment to
+                            name in the export and import of fresh fruits and vegetables since 1995. With our commitment
+                            to
                             providing high-quality fruits and vegetables to customers worldwide, we have established
                             ourselves as one of the largest companies in the industry.
                         </p>
-                        <p>At Abdel Dayem Agricultural Crops Company, we understand the importance of providing our customers with products that meet their specific preferences and the required standards. With a deep understanding of market dynamics and adherence to government legislation and protocols, we continuously adapt to meet the evolving needs of our customers.</p>
-                        <p class="about-one__content-text" style="color: white">Our dedicated team ensures that our fruits and vegetables are handled with utmost care, maintaining their peak condition until they reach our customers. We adhere to international standards, ensuring that our products are of the highest quality, just as if they were freshly picked.</p>
-    
-    
+                        <p>At Abdel Dayem Agricultural Crops Company, we understand the importance of providing our
+                            customers with products that meet their specific preferences and the required standards.
+                            With a deep understanding of market dynamics and adherence to government legislation and
+                            protocols, we continuously adapt to meet the evolving needs of our customers.</p>
+                        <p class="about-one__content-text" style="color: white">Our dedicated team ensures that our
+                            fruits and vegetables are handled with utmost care, maintaining their peak condition until
+                            they reach our customers. We adhere to international standards, ensuring that our products
+                            are of the highest quality, just as if they were freshly picked.</p>
+
+
                     </div><!-- /.contact-one__content -->
-                    <div class="about-three__products-list" style="justify-content: center;
+                    <div class="about-three__products-list"
+                        style="justify-content: center;
                     display: flex;
                     margin-bottom: 20px;
                 }">
@@ -55,7 +77,7 @@
                                 <h3><a href="#">Natural Products</a></h3>
                                 {{-- <p>Duis aute irure dolor simply free in voluptate velit.</p> --}}
                             </li>
-    
+
                             <li style="margin-left: 30px">
                                 <div class="icon">
                                     <span class="icon-harvest"></span>
@@ -66,24 +88,24 @@
                         </ul>
                     </div>
                 </div><!-- /.col-lg-6 -->
-        
+
             </div><!-- /.row -->
         </div><!-- /.container -->
-            <div class="row">
-                <!--Start About Three Img Box-->
-                <div class="col-xl-6 col-lg-5 m-auto">
-                    <div class="about-three__img-box">
-                        {{-- <img src="{{ asset('images/resources/about-3-icon-1-1.png') }}" class="about-three__img-icon"
+        <div class="row">
+            <!--Start About Three Img Box-->
+            <div class="col-xl-6 col-lg-5 m-auto">
+                <div class="about-three__img-box">
+                    {{-- <img src="{{ asset('images/resources/about-3-icon-1-1.png') }}" class="about-three__img-icon"
                             alt=""> --}}
-                        <div class="">
-                            <div class="about-three__img-box-img-inner">
-                                <img src="{{ asset('images/about/about-v3-img1.jpg') }}" alt="" />
-                            </div>
+                    <div class="">
+                        <div class="about-three__img-box-img-inner">
+                            <img src="{{ asset('images/about/about-v3-img1.jpg') }}" alt="" />
                         </div>
                     </div>
                 </div>
-                <!--End About Three Img Box-->
             </div>
+            <!--End About Three Img Box-->
+        </div>
     </section><!-- /.contact-one -->
 
 
@@ -99,7 +121,7 @@
 <!--Video One Start-->
 <section class="video-one jarallax clearfix" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
     style="background-image: url({{ asset('images/backgrounds/video-one-bg.jpg') }});">
-    
+
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
@@ -107,13 +129,19 @@
                     <div class="video-one__left">
                         <div class="video-one__leaf"></div><!-- /.video-one__leaf -->
                         <h2 class="video-one__title">Our Mission</h2>
-                        <p>Our mission is to consistently provide top-notch fruits and vegetables to global markets, ensuring customer satisfaction and building long-lasting relationships. We are committed to sourcing and handling our produce with utmost care, maintaining the highest standards of quality.</p>
+                        <p>Our mission is to consistently provide top-notch fruits and vegetables to global markets,
+                            ensuring customer satisfaction and building long-lasting relationships. We are committed to
+                            sourcing and handling our produce with utmost care, maintaining the highest standards of
+                            quality.</p>
                         {{-- <div class="video-one__btn">
                             <a href="#" class="thm-btn">Discover more</a>
                         </div> --}}
                         <h2 class="video-one__title" style="padding-top: 50px">Our Vision</h2>
-                        <p>Our mission is to consistently provide top-notch fruits and vegetables to global markets, ensuring customer satisfaction and building long-lasting relationships. We are committed to sourcing and handling our produce with utmost care, maintaining the highest standards of quality.</p>
-                        
+                        <p>Our mission is to consistently provide top-notch fruits and vegetables to global markets,
+                            ensuring customer satisfaction and building long-lasting relationships. We are committed to
+                            sourcing and handling our produce with utmost care, maintaining the highest standards of
+                            quality.</p>
+
                     </div>
                     {{-- <div class="video-one__right">
                         <div class="icon wow zoomIn" data-wow-delay="300ms" data-wow-duration="1500ms">

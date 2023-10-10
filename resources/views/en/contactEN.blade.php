@@ -1,6 +1,20 @@
-<p>
-    <a href="contactAR" class="text-danger">العربيه</a>
-</p>
+<div class="dropdown main-header--one__top d-flex flex-row">
+    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        اللغه| language
+    </button>
+    <ul class="dropdown-menu">
+        <li>
+            <p> <a href="#">English <img src="{{ asset('images/backgrounds/united-kingdom.png') }}" alt="" />
+            </p>
+        </li>
+        <li>
+            <p><a href="/contactAR">العربيه <img src="{{ asset('images/backgrounds/egypt.png') }}" alt="" />
+            </p>
+        </li>
+
+    </ul>
+</div>
+
 @include('layouts.appEN')
 <section class="page-header clearfix"
     style="background-image: url({{ asset('images/backgrounds/page-header-bg.jpg') }});">
@@ -60,16 +74,14 @@
                             </div>
                             <div class="col-xl-6 col-lg-6">
                                 <div class="comment-form__input-box">
-                                    <input type="email" placeholder="Email address" name="email"id="email"
-                                        required>
+                                    <input type="email" placeholder="Email address" name="email"id="email" required>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xl-6 col-lg-6">
                                 <div class="comment-form__input-box">
-                                    <input type="text" placeholder="Phone number" name="phone"id="phone"
-                                        required>
+                                    <input type="text" placeholder="Phone number" name="phone"id="phone" required>
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6">

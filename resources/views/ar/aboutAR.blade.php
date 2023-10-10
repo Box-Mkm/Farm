@@ -1,5 +1,20 @@
-<p> <a href="about" class="text-danger">English</a>
-</p>
+<div class="dropdown main-header--one__top d-flex flex-row">
+    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        اللغه| language
+    </button>
+    <ul class="dropdown-menu">
+        <li>
+            <p> <a href="/about">English <img src="{{ asset('images/backgrounds/united-kingdom.png') }}" alt="" />
+            </p>
+        </li>
+        <li>
+            <p><a href="#">العربيه <img src="{{ asset('images/backgrounds/egypt.png') }}" alt="" />
+            </p>
+        </li>
+
+    </ul>
+</div>
+
 @include('layouts.appAR')
 <!--Page Header Start-->
 <section class="page-header clearfix"
@@ -31,40 +46,46 @@
                 </div>
                 <span class="sec-title__tagline">تعرف علينا أكثر</span>
                 <h2 class="sec-title__title">نحن نبيع أعلي جودة <br>للمنتجات العضوية</h2>
-    
+
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="contact-one__content" style="font-size: larger">
-                        <p class="contact-one__text" style="color: white">مرحبًا بكم في شركة عبد الدايم للمحاصيل الزراعية، اسم موثوق به في مجال تصدير واستيراد الفواكه والخضروات الطازجة منذ عام 1995. من خلال التزامنا بتوفير حاصلات زراعية عالية الجودة للعملاء في جميع أنحاء العالم، أثبتنا أنفسنا كواحدة من أكبر الشركات في هذا المجال
+                        <p class="contact-one__text" style="color: white">مرحبًا بكم في شركة عبد الدايم للمحاصيل
+                            الزراعية، اسم موثوق به في مجال تصدير واستيراد الفواكه والخضروات الطازجة منذ عام 1995. من
+                            خلال التزامنا بتوفير حاصلات زراعية عالية الجودة للعملاء في جميع أنحاء العالم، أثبتنا أنفسنا
+                            كواحدة من أكبر الشركات في هذا المجال
                         </p>
-                        <p>في شركة عبد الدايم، ندرك أهمية توفير منتجات تلبي المعايير المطلوبة. من خلال فهمنا الجيد لديناميات السوق والالتزام بالتشريعات والبروتوكولات الحكومية، نعرف كيفية تلبية متطلبات عملائنا المتغيرة</p>
-                        <p class="about-one__content-text" style="color: white">يضمن فريقنا المتخصص التعامل مع الحاصلات الزراعية بأكبر درجات العناية، محافظين على حالتها حتى تصل إلى عملائنا بأعلى جودة.
+                        <p>في شركة عبد الدايم، ندرك أهمية توفير منتجات تلبي المعايير المطلوبة. من خلال فهمنا الجيد
+                            لديناميات السوق والالتزام بالتشريعات والبروتوكولات الحكومية، نعرف كيفية تلبية متطلبات
+                            عملائنا المتغيرة</p>
+                        <p class="about-one__content-text" style="color: white">يضمن فريقنا المتخصص التعامل مع الحاصلات
+                            الزراعية بأكبر درجات العناية، محافظين على حالتها حتى تصل إلى عملائنا بأعلى جودة.
                             شركتنا تلتزم بالمعايير الدولية، فمنتجاتنا ذات جودة عالية كأن تم جنيها للتو
-                            </p>
-    
-    
+                        </p>
+
+
                     </div><!-- /.contact-one__content -->
-                    
+
                 </div><!-- /.col-lg-6 -->
-        
+
             </div><!-- /.row -->
         </div><!-- /.container -->
-            <div class="row" style="padding-top: 30px">
-                <!--Start About Three Img Box-->
-                <div class="col-xl-6 col-lg-5 m-auto">
-                    <div class="about-three__img-box">
-                        {{-- <img src="{{ asset('images/resources/about-3-icon-1-1.png') }}" class="about-three__img-icon"
+        <div class="row" style="padding-top: 30px">
+            <!--Start About Three Img Box-->
+            <div class="col-xl-6 col-lg-5 m-auto">
+                <div class="about-three__img-box">
+                    {{-- <img src="{{ asset('images/resources/about-3-icon-1-1.png') }}" class="about-three__img-icon"
                             alt=""> --}}
-                        <div class="">
-                            <div class="about-three__img-box-img-inner">
-                                <img src="{{ asset('images/about/about-v3-img1.jpg') }}" alt="" />
-                            </div>
+                    <div class="">
+                        <div class="about-three__img-box-img-inner">
+                            <img src="{{ asset('images/about/about-v3-img1.jpg') }}" alt="" />
                         </div>
                     </div>
                 </div>
-                <!--End About Three Img Box-->
             </div>
+            <!--End About Three Img Box-->
+        </div>
     </section><!-- /.contact-one -->
 
 
@@ -155,11 +176,14 @@
                     <div class="video-one__left">
                         <div class="video-one__leaf"></div><!-- /.video-one__leaf -->
                         <h2 class="video-one__title">مهمتنا </h2>
-                        <p>مهمتنا هي أن نوفر بشكل دائم فواكه وخضروات عالية الجودة للأسواق العالمية، مع ضمان رضا العملاء وبناء علاقات طويلة الأمد. نحن ملتزمون بتوفير منتجاتنا والمحافظة عليها بأقصى درجات العناية، وأعلى معايير الجودة</p>
+                        <p>مهمتنا هي أن نوفر بشكل دائم فواكه وخضروات عالية الجودة للأسواق العالمية، مع ضمان رضا العملاء
+                            وبناء علاقات طويلة الأمد. نحن ملتزمون بتوفير منتجاتنا والمحافظة عليها بأقصى درجات العناية،
+                            وأعلى معايير الجودة</p>
                         <h2 class="video-one__title" style="padding-top: 50px">رؤيتنا </h2>
-<p>رؤيتنا هي أن نكون من أكبر وأكثر الشركات الموثوقة في تصدير الفواكه والخضروات، وتقديم منتجات استثنائية ذات المذاق والمظهر والجودة للعملاء في جميع أنحاء العالم</p>                    
+                        <p>رؤيتنا هي أن نكون من أكبر وأكثر الشركات الموثوقة في تصدير الفواكه والخضروات، وتقديم منتجات
+                            استثنائية ذات المذاق والمظهر والجودة للعملاء في جميع أنحاء العالم</p>
                     </div>
-                   
+
                 </div>
             </div>
         </div>
