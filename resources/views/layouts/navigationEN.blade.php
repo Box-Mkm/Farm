@@ -158,7 +158,7 @@
                                             </ul>
                                         </li>
                                         <li class="dropdown">
-                                            <a href="#">Blog</a>
+                                            <a href="blog">Blog</a>
                                             <ul>
                                                 <li class="dropdown">
                                                     <a href="news.html">News Grid</a>

@@ -16,12 +16,14 @@
     <meta name="description" content="Agriox HTML Template For الزراعة Farming Services" />
 
     <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    {{-- <link rel="preconnect" href="https://fonts.gstatic.com/">
     <link
         href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;family=Shadows+Into+Light&amp;display=swap"
-        rel="stylesheet">
+        rel="stylesheet"> --}}
 
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="{{ asset('vendors/bootstrap/css/bootstrap.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('vendors/animate/animate.min.css') }}" />

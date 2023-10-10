@@ -34,6 +34,9 @@ Route::get('/services', function () {
 Route::get('/shop', function () {
     return view('en/shopEN');
 });
+Route::get('/blog', function () {
+    return view('en/blogEN');
+});
 //arabic site
 Route::get('/ar', function () {
     return view('ar/indexAR');
@@ -49,6 +52,9 @@ Route::get('/servicesAR', function () {
 });
 Route::get('/shopAR', function () {
     return view('ar/shopAR');
+});
+Route::get('/blogAR', function () {
+    return view('ar/blogAR');
 });
 
 Route::post('mail/', function (Illuminate\Http\Request $request) {
