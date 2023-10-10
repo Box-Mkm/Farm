@@ -15,11 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 // english site
-Route::get('/en', function () {
+Route::get('/', function () {
     return view('en/index');
 });
 Route::get('/about', function () {
