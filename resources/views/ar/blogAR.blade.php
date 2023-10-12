@@ -183,8 +183,8 @@
 
 
     {{-- testtest --}}
-    <section class="video-one jarallax clearfix" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
-        style="background-image: url({{ asset('images/backgrounds/tezt.jpg') }}) ; height: 50% ; ">
+    <section class="video-one jarallax clearfix h-auto" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
+        style="background-image: url({{ asset('images/backgrounds/tezt.jpg') }}) ;  ">
 
         <div class="container">
             <div class="row">
@@ -277,8 +277,8 @@
 
 
     {{-- testtest --}}
-    <section class="video-one jarallax clearfix" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
-        style="background-image: url({{ asset('images/backgrounds/Autumn.jpg') }});height: 50%;padding: 65px 0px 150px;">
+    <section class="video-one jarallax clearfix h-auto" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
+        style="background-image: url({{ asset('images/backgrounds/Autumn.jpg') }});">
 
         <div class="container">
             <div class="row">
