@@ -132,7 +132,8 @@
                                 </div>
                                 <div class="title">
                                     <span>Visit Our Store</span>
-                                    <p>88 broklyn street, New York</p>
+                                    <p>City of Sadat - Block 7187 - <br>Seventh Industrial Zone <br> - Behind Toyota
+                                        Factory</p>
                                 </div>
                             </li>
 
@@ -152,7 +153,7 @@
                                 </div>
                                 <div class="title">
                                     <span>Call Anytime</span>
-                                    <p><a href="tel:123456789">666 888 0000</a></p>
+                                    <p><a href="tel:123456789">048 2630215</a></p>
                                 </div>
                             </li>
                         </ul>
@@ -168,7 +169,7 @@
 <!--Contact Page Google Map Start-->
 <section class="contact-page-google-map">
     <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
+        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3439.593809835973!2d30.629013075569254!3d30.447614674723038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDI2JzUxLjQiTiAzMMKwMzcnNTMuNyJF!5e0!3m2!1sen!2seg!4v1697072242018!5m2!1sen!2seg"
         class="contact-page-google-map__one" allowfullscreen></iframe>
 </section>
 <!--Contact Page Google Map End-->

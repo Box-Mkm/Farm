@@ -22,10 +22,10 @@
     <div class="container">
         <div class="page-header__inner text-center clearfix">
             <ul class="thm-breadcrumb">
-                <li><a href="index-main.html">Home</a></li>
-                <li>Contact</li>
+                <li><a href="index-main.html">الرئيسية</a></li>
+                <li>اتصل</li>
             </ul>
-            <h2>Contact Us</h2>
+            <h2>أتصل بنا</h2>
         </div>
     </div>
 </section>
@@ -43,11 +43,11 @@
                         <div class="icon">
                             <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
                         </div>
-                        <span class="sec-title__tagline">Contact now</span>
-                        <h2 class="sec-title__title">Get in Touch <br>with Us</h2>
+                        <span class="sec-title__tagline">أتصل بنا</span>
+                        <h2 class="sec-title__title">تواصل معنا</h2>
                     </div>
-                    <p class="contact-page__left-text">We are committed to providing our customers with
-                        exceptional service while offering our employees the best training.</p>
+                    <p class="contact-page__left-text">نحن ملتزمون بتقديم خدمة استثنائية لعملائنا مع توفير أفضل
+                        التدريبات لموظفينا.</p>
                     <div class="contact-page__social-link">
                         <ul>
                             <li><a href="#"><i class="fab fa-facebook"></i></a></li>
@@ -68,33 +68,33 @@
                         <div class="row">
                             <div class="col-xl-6 col-lg-6">
                                 <div class="comment-form__input-box">
-                                    <input type="text" placeholder="Your name" name="name">
+                                    <input type="text" placeholder="الأسم" name="name">
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6">
                                 <div class="comment-form__input-box">
-                                    <input type="email" placeholder="Email address" name="email">
+                                    <input type="email" placeholder="الايميل" name="email">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xl-6 col-lg-6">
                                 <div class="comment-form__input-box">
-                                    <input type="text" placeholder="Phone number" name="phone">
+                                    <input type="text" placeholder="رقم الهاتف" name="phone">
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6">
                                 <div class="comment-form__input-box">
-                                    <input type="email" placeholder="Subject" name="Subject">
+                                    <input type="email" placeholder="الموضوع" name="Subject">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xl-12 col-lg-12">
                                 <div class="comment-form__input-box">
-                                    <textarea name="message" placeholder="Write message"></textarea>
+                                    <textarea name="message" placeholder="محتوي الرساله"></textarea>
                                 </div>
-                                <button type="submit" class="thm-btn comment-form__btn">Send a message</button>
+                                <button type="submit" class="thm-btn comment-form__btn">ارسل رسالتك</button>
                             </div>
                         </div>
                     </form>
@@ -114,7 +114,7 @@
             <div class="col-xl-12">
                 <div class="contact-page__contact-info-wrapper">
                     <div class="contact-page__contact-info-title">
-                        <h2>Get in Touch</h2>
+                        <h2>تواصل معانا</h2>
                     </div>
 
                     <div class="contact-page__contact-info-list">
@@ -124,8 +124,8 @@
                                     <span class="icon-map"></span>
                                 </div>
                                 <div class="title">
-                                    <span>Visit Our Store</span>
-                                    <p>88 broklyn street, New York</p>
+                                    <span>عنواننا</span>
+                                    <p>مدينة السادات - المنطقه الصناعية السابعة -<br> قطعة ٧١٨٧ - خلف مصنع تويوتا</p>
                                 </div>
                             </li>
 
@@ -134,7 +134,7 @@
                                     <span class="icon-email-1"></span>
                                 </div>
                                 <div class="title">
-                                    <span>Send Email</span>
+                                    <span>البريد الالكتروني</span>
                                     <p><a href="mailto:needhelp@company.com">needhelp@company.com</a></p>
                                 </div>
                             </li>
@@ -144,8 +144,8 @@
                                     <span class="icon-phone-call-2"></span>
                                 </div>
                                 <div class="title">
-                                    <span>Call Anytime</span>
-                                    <p><a href="tel:123456789">666 888 0000</a></p>
+                                    <span>اتصل بنا</span>
+                                    <p><a href="tel:123456789">048 2630215</a></p>
                                 </div>
                             </li>
                         </ul>
@@ -161,7 +161,7 @@
 <!--Contact Page Google Map Start-->
 <section class="contact-page-google-map">
     <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
+        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3439.593809835973!2d30.629013075569254!3d30.447614674723038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDI2JzUxLjQiTiAzMMKwMzcnNTMuNyJF!5e0!3m2!1sen!2seg!4v1697072242018!5m2!1sen!2seg"
         class="contact-page-google-map__one" allowfullscreen></iframe>
 </section>
 <!--Contact Page Google Map End-->
