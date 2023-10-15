@@ -8,7 +8,7 @@
             </p>
         </li>
         <li>
-            <p><a href="/aboutAR">العربيه <img src="{{ asset('images/backgrounds/egypt.png') }}" alt="" />
+            <p><a href="/عن">العربيه <img src="{{ asset('images/backgrounds/egypt.png') }}" alt="" />
             </p>
         </li>
 
@@ -205,9 +205,11 @@
 
 
 
-<section class="meet-farmers-one meet-farmers-one--about" style="padding: 0">
-    <div class="container" style="border-top: 1px solid;
-    padding-top: 40px; padding-bottom: 40px">
+
+
+
+<section class="meet-farmers-one meet-farmers-one--about">
+    <div class="container">
         <div class="sec-title text-center">
             <div class="icon">
                 <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
@@ -218,12 +220,11 @@
         <div class="row">
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single" style="    background-color: seagreen;
-                border-radius: 36px; margin-top:40px">
-                    {{-- <div class="meet-farmers-one__single-img">
+                <div class="meet-farmers-one__single">
+                    <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img1.jpg') }}" alt="" />
 
-                    </div> --}}
+                    </div>
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">Ahmed Salim Abdel Dayem</a></h2>
@@ -242,11 +243,10 @@
 
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single" style="    background-color: seagreen;
-                border-radius: 36px;margin-top:40px">
-                    {{-- <div class="meet-farmers-one__single-img">
+                <div class="meet-farmers-one__single">
+                    <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img2.jpg') }}" alt="" />
-                    </div> --}}
+                    </div>
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">Salim Salim Abdel Dayem</a></h2>
@@ -265,11 +265,10 @@
 
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single" style="    background-color: seagreen;
-                border-radius: 36px;margin-top:40px">
-                    {{-- <div class="meet-farmers-one__single-img">
+                <div class="meet-farmers-one__single">
+                    <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img3.jpg') }}" alt="" />
-                    </div> --}}
+                    </div>
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">Mahmoud Hassan Abdel Dayem</a></h2>
@@ -288,11 +287,10 @@
 
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single" style="    background-color: seagreen;
-                border-radius: 36px;margin-top:40px">
-                    {{-- <div class="meet-farmers-one__single-img">
+                <div class="meet-farmers-one__single">
+                    <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img4.jpg') }}" alt="" />
-                    </div> --}}
+                    </div>
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">Mahjoub Hassan Abdel Dayem</a></h2>
@@ -311,6 +309,11 @@
         </div>
     </div>
 </section>
+
+
+
+
+
 
 
 

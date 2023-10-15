@@ -94,6 +94,78 @@
 
 
 
+
+
+
+<!--About Three Start-->
+{{-- <section class="about-three">
+    <div class="about-three__shape"></div><!-- /.about-three__shape -->
+    <div class="container">
+        <div class="row">
+            <!--Start About Three Content Box-->
+            <div class="col-xl-6 col-lg-7">
+                <div class="about-three__content-box">
+                    <div class="sec-title">
+                        <div class="icon">
+                            <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
+                        </div>
+                        <span class="sec-title__tagline">get to know about us</span>
+                        <h2 class="sec-title__title">We Sell High-Quality <br>Organic Products</h2>
+                    </div>
+                    <div class="about-three__content-box-inner">
+                        <h2>We’re Leader in Agriculture Market</h2>
+                        <p>There are many variations of passages of available but the majority have suffered
+                            alteration in some form.</p>
+
+                        <div class="about-three__products-list">
+                            <ul>
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-investment"></span>
+                                    </div>
+                                    <h3><a href="#">Natural Products</a></h3>
+                                    <p>Duis aute irure dolor simply free in voluptate velit.</p>
+                                </li>
+
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-harvest"></span>
+                                    </div>
+                                    <h3><a href="#">Healthy Food</a></h3>
+                                    <p>Duis aute irure dolor simply free in voluptate velit.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="about-three__content-box-btn">
+                        <a href="#" class="thm-btn">Discover more</a>
+                    </div>
+                    <div class="about-three__arrow float-bob-y"></div><!-- /.about-three__arrow -->
+                </div>
+            </div>
+            <!--End About Three Content Box-->
+
+            <!--Start About Three Img Box-->
+            <div class="col-xl-6 col-lg-5">
+                <div class="about-three__img-box">
+                    <img src="{{ asset('images/resources/about-3-icon-1-1.png') }}" class="about-three__img-icon"
+                        alt="">
+                    <div class="about-three__img-box-img">
+                        <div class="about-three__img-box-img-inner">
+                            <img src="{{ asset('images/about/about-v3-img1.jpg') }}" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End About Three Img Box-->
+        </div>
+    </div>
+</section> --}}
+<!--About Three End-->
+
+
+
+
 <!--Video One Start-->
 <section class="video-one jarallax clearfix" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
     style="background-image: url({{ asset('images/backgrounds/video-one-bg.jpg') }});">
@@ -122,36 +194,115 @@
 
 
 
-<section class="contact-one">
-    <div class="container" style="padding-top: 45px">
+<!--Meet Farmers One Start-->
+{{-- <section class="meet-farmers-one meet-farmers-one--about">
+    <div class="container">
         <div class="sec-title text-center">
             <div class="icon">
                 <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
             </div>
-            <span class="sec-title__tagline">المرافق</span>
-            <h2 class="sec-title__title">التعبئة والتغليف</h2>
+            <span class="sec-title__tagline">professional people</span>
+            <h2 class="sec-title__title">Meet the Farmers</h2>
         </div>
         <div class="row">
-            <div class="col-lg-12">
-                <div class="contact-one__content" style="font-size: larger">
-                    <p class="contact-one__text">نحن نستخدم أحدث آلات التعبئة والتغليف    (sizer)  لضمان تعبئة منتجات عالية الجودة بكفاءة ودقة. تم تصميم هذه الآلات المتطورة خصيصًا للتعامل مع مجموعتنا المتنوعة من الفواكه والخضروات، وتوفير حلول تعبئة مثلى تحافظ على المنتجات وتطيل فترة الصلاحية. بالتالي، يمكننا توصيل منتجاتنا بثقة للعملاء في جميع أنحاء العالم، ضامنين أن كل منتج سيصل إلى وجهته في حالة مثالية
-                        الحاصلات الزراعية تمر عبر خط غسيل حيث يتم تنظيفها وتعقيمها. ثم يتم تصويرها لضمان الجودة والتأكد من عدم وجود أي عيوب في الفواكه. يتم فرز الفواكه لضمان جودتها النهائية، ونستخدم أجهزة فحص الحجم لتحديد حجم الإنتاج. في النهاية، نصدر منتجات عالية الجودة للعالم بأسره.
-                        توفر عبد الدايم للحاصلات الزراعية أيضًا خيارًا للشركات الأخرى للاستفادة من آلة سيزر لغسل وفرز محاصيلها الزراعية الخاصة. وهذا يتيح لهذه الشركات التحقق وضمان جودة منتجاتها الزراعية.
-                        
-                    </p>
-                </div><!-- /.contact-one__content -->
-            </div><!-- /.col-lg-6 -->
+            <!--Start Single Meet Farmers One-->
+            <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
+                <div class="meet-farmers-one__single">
+                    <div class="meet-farmers-one__single-img">
+                        <img src="{{ asset('images/resources/meet-farmers-v1-img1.jpg') }}" alt="" />
 
-        </div><!-- /.row -->
-    </div><!-- /.container -->
-</section><!-- /.contact-one -->
+                    </div>
+                    <div class="meet-farmers-one__single-title text-center">
+                        <p>Farmer</p>
+                        <h2><a href="farmers.html">Kevin Martin</a></h2>
+                        <div class="social-link">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Meet Farmers One-->
+
+            <!--Start Single Meet Farmers One-->
+            <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
+                <div class="meet-farmers-one__single">
+                    <div class="meet-farmers-one__single-img">
+                        <img src="{{ asset('images/resources/meet-farmers-v1-img2.jpg') }}" alt="" />
+                    </div>
+                    <div class="meet-farmers-one__single-title text-center">
+                        <p>Farmer</p>
+                        <h2><a href="farmers.html">Christine Eve</a></h2>
+                        <div class="social-link">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Meet Farmers One-->
+
+            <!--Start Single Meet Farmers One-->
+            <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
+                <div class="meet-farmers-one__single">
+                    <div class="meet-farmers-one__single-img">
+                        <img src="{{ asset('images/resources/meet-farmers-v1-img3.jpg') }}" alt="" />
+                    </div>
+                    <div class="meet-farmers-one__single-title text-center">
+                        <p>Farmer</p>
+                        <h2><a href="farmers.html">Mike Hardson</a></h2>
+                        <div class="social-link">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Meet Farmers One-->
+
+            <!--Start Single Meet Farmers One-->
+            <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
+                <div class="meet-farmers-one__single">
+                    <div class="meet-farmers-one__single-img">
+                        <img src="{{ asset('images/resources/meet-farmers-v1-img4.jpg') }}" alt="" />
+                    </div>
+                    <div class="meet-farmers-one__single-title text-center">
+                        <p>Farmer</p>
+                        <h2><a href="farmers.html">Jessica Brown</a></h2>
+                        <div class="social-link">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Meet Farmers One-->
+        </div>
+    </div>
+</section> --}}
+<!--Meet Farmers One End-->
 
 
 
 
-<section class="meet-farmers-one meet-farmers-one--about" style="padding: 0">
-    <div class="container" style="border-top: 1px solid;
-    padding-top: 40px; padding-bottom: 40px">
+<section class="meet-farmers-one meet-farmers-one--about">
+    <div class="container">
         <div class="sec-title text-center">
             <div class="icon">
                 <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
@@ -162,12 +313,11 @@
         <div class="row">
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single" style="    background-color: seagreen;
-                border-radius: 36px; margin-top:40px">
-                    {{-- <div class="meet-farmers-one__single-img">
+                <div class="meet-farmers-one__single">
+                    <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img1.jpg') }}" alt="" />
 
-                    </div> --}}
+                    </div>
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">أحمد سليم عبد الدايم</a></h2>
@@ -186,12 +336,11 @@
 
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single" style="    background-color: seagreen;
-                border-radius: 36px; margin-top:40px">
-                    {{-- <div class="meet-farmers-one__single-img">
+                <div class="meet-farmers-one__single">
+                    <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img2.jpg') }}" alt="" />
-                    </div> --}}
-                    <div class="meet-farmers-one__single-title text-center" >
+                    </div>
+                    <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">سالم سليم عبد الدايم</a></h2>
                         <div class="social-link">
@@ -209,12 +358,11 @@
 
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single" style="    background-color: seagreen;
-                border-radius: 36px; margin-top:40px">
-                    {{-- <div class="meet-farmers-one__single-img">
+                <div class="meet-farmers-one__single">
+                    <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img3.jpg') }}" alt="" />
-                    </div> --}}
-                    <div class="meet-farmers-one__single-title text-center" >
+                    </div>
+                    <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">محمود حسن عبد الدايم</a></h2>
                         <div class="social-link">
@@ -232,12 +380,11 @@
 
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single" style="    background-color: seagreen;
-                border-radius: 36px; margin-top:40px">
-                    {{-- <div class="meet-farmers-one__single-img">
+                <div class="meet-farmers-one__single">
+                    <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img4.jpg') }}" alt="" />
-                    </div> --}}
-                    <div class="meet-farmers-one__single-title text-center" >
+                    </div>
+                    <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">محجوب حسن عبد الدايم</a></h2>
                         <div class="social-link">
@@ -255,11 +402,6 @@
         </div>
     </div>
 </section>
-
-
-
-
-
 
 
 <!--Cta One Start-->

@@ -26,7 +26,7 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('en/contactEN');
 });
-Route::get('/services', function () {
+Route::get('/facilities', function () {
     return view('en/servicesEN');
 });
 Route::get('/shop', function () {
@@ -36,22 +36,22 @@ Route::get('/blog', function () {
     return view('en/blogEN');
 });
 //arabic site
-Route::get('/ar', function () {
+Route::get('/عربي', function () {
     return view('ar/indexAR');
 });
-Route::get('/aboutAR', function () {
+Route::get('/عن', function () {
     return view('ar/aboutAR');
 });
-Route::get('/contactAR', function () {
+Route::get('/اتصل', function () {
     return view('ar/contactAR');
 });
-Route::get('/servicesAR', function () {
+Route::get('/مرافق', function () {
     return view('ar/servicesAR');
 });
-Route::get('/shopAR', function () {
+Route::get('/اشتري', function () {
     return view('ar/shopAR');
 });
-Route::get('/blogAR', function () {
+Route::get('/مدونه', function () {
     return view('ar/blogAR');
 });
 

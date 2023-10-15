@@ -78,10 +78,11 @@
                             <div class="main-slider-inner">
                                 <div class="main-slider__content">
                                     <span class="main-slider-tagline">نحن ننتج سلعًا طبيعية</span>
-                                    <h2 class="main-slider__title">عبد الدايم للحاصلات الزراعية<br> حيث تلتقي الجودة
-                                        بالنكهة <span><span class="leaf"></h2>
-                                    <p class="main-slider__text"> من المزرعة إلى الأسواق العالمية <br> عبد الدايم، شريكك
-                                        الموثوق في التصدير</p>
+                                    <h2 class="main-slider__title">مرحبا بكم في <br> الزراعة <span><span
+                                                class="leaf"><img src="{{ asset('images/resources/leaf.png') }}"
+                                                    alt="" /></span>مزرعة</span></h2>
+                                    <p class="main-slider__text">هناك العديد من مقاطع لوريم إيبسوم ، لكن
+                                        الميجوري قد <br> تعرضت للتغيير بشكل ما.</p>
                                 </div>
                                 <div class="main-slider__button-box">
                                     <div class="arrow-icon"><img
@@ -109,10 +110,11 @@
                             <div class="main-slider-inner">
                                 <div class="main-slider__content">
                                     <span class="main-slider-tagline">نحن ننتج سلعًا طبيعية</span>
-                                    <h2 class="main-slider__title">عبد الدايم للحاصلات الزراعية<br> حيث تلتقي الجودة
-                                        بالنكهة <span><span class="leaf"></h2>
-                                    <p class="main-slider__text"> من المزرعة إلى الأسواق العالمية <br> عبد الدايم، شريكك
-                                        الموثوق في التصدير</p>
+                                    <h2 class="main-slider__title">مرحبا بكم في <br> الزراعة <span><span
+                                                class="leaf"><img src="{{ asset('images/resources/leaf.png') }}"
+                                                    alt="" /></span>مزرعة</span></h2>
+                                    <p class="main-slider__text">هناك العديد من مقاطع لوريم إيبسوم ، لكن
+                                        الميجوري قد <br> تعرضت للتغيير بشكل ما.</p>
                                 </div>
                                 <div class="main-slider__button-box">
                                     <div class="arrow-icon"><img
@@ -465,9 +467,8 @@
 
 
 
-<section class="meet-farmers-one meet-farmers-one--about" style="padding: 0">
-    <div class="container" style="border-top: 1px solid;
-    padding-top: 40px; padding-bottom: 40px">
+<section class="meet-farmers-one meet-farmers-one--about">
+    <div class="container">
         <div class="sec-title text-center">
             <div class="icon">
                 <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
@@ -478,12 +479,11 @@
         <div class="row">
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single" style="    background-color: seagreen;
-                border-radius: 36px; margin-top:40px">
-                    {{-- <div class="meet-farmers-one__single-img">
+                <div class="meet-farmers-one__single">
+                    <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img1.jpg') }}" alt="" />
 
-                    </div> --}}
+                    </div>
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">أحمد سليم عبد الدايم</a></h2>
@@ -503,11 +503,10 @@
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
                 <div class="meet-farmers-one__single">
-                    {{-- <div class="meet-farmers-one__single-img">
+                    <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img2.jpg') }}" alt="" />
-                    </div> --}}
-                    <div class="meet-farmers-one__single-title text-center" style="    background-color: seagreen;
-                    border-radius: 36px; margin-top:40px">
+                    </div>
+                    <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">سالم سليم عبد الدايم</a></h2>
                         <div class="social-link">
@@ -526,11 +525,10 @@
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
                 <div class="meet-farmers-one__single">
-                    {{-- <div class="meet-farmers-one__single-img">
+                    <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img3.jpg') }}" alt="" />
-                    </div> --}}
-                    <div class="meet-farmers-one__single-title text-center" style="    background-color: seagreen;
-                    border-radius: 36px; margin-top:40px">
+                    </div>
+                    <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">محمود حسن عبد الدايم</a></h2>
                         <div class="social-link">
@@ -549,11 +547,10 @@
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
                 <div class="meet-farmers-one__single">
-                    {{-- <div class="meet-farmers-one__single-img">
+                    <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img4.jpg') }}" alt="" />
-                    </div> --}}
-                    <div class="meet-farmers-one__single-title text-center" style="    background-color: seagreen;
-                    border-radius: 36px; margin-top:40px">
+                    </div>
+                    <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">محجوب حسن عبد الدايم</a></h2>
                         <div class="social-link">
@@ -590,11 +587,88 @@
             <h2 class="sec-title__title">رضا العملاء</h2>
         </div>
         <div class="row">
- 
+            <!--Start Single Services One-->
+            {{-- <div class="col-xl-3 col-lg-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
+                <div class="services-one__single">
+                    <div class="services-one__single-img">
+                        <div class="services-one__single-img-inner">
+                            <img src="{{ asset('images/services/services-v1-img1.jpg') }}" alt="" />
+                        </div>
+                    </div>
+                    <div class="services-one__single-content text-center">
+                        <div class="services-one__single-img-icon">
+                            <span class="icon-agriculture"></span>
+                        </div>
+                        <h3><a href="services-details.html">Agriculture<br> Products</a></h3>
+                        <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
+                        <a href="services-details.html" class="read-more-btn"><span
+                                class="icon-right-arrow-2"></span></a>
+                    </div>
+                </div>
+            </div> --}}
+            <!--End Single Services One-->
+
+            <!--Start Single Services One-->
+            {{-- <div class="col-xl-3 col-lg-6 wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
+                <div class="services-one__single">
+                    <div class="services-one__single-img">
+                        <div class="services-one__single-img-inner">
+                            <img src="{{ asset('images/services/services-v1-img2.jpg') }}" alt="" />
+                        </div>
+                    </div>
+                    <div class="services-one__single-content text-center">
+                        <div class="services-one__single-img-icon">
+                            <span class="icon-harvest"></span>
+                        </div>
+                        <h3><a href="services-details.html">Fresh <br>Vegetables</a></h3>
+                        <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
+                        <a href="services-details.html" class="read-more-btn"><span
+                                class="icon-right-arrow-2"></span></a>
+                    </div>
+                </div>
+            </div> --}}
+            <!--End Single Services One-->
+
+            <!--Start Single Services One-->
+            {{-- <div class="col-xl-3 col-lg-6 wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
+                <div class="services-one__single">
+                    <div class="services-one__single-img">
+                        <div class="services-one__single-img-inner">
+                            <img src="{{ asset('images/services/services-v1-img3.jpg') }}" alt="" />
+                        </div>
+
+                    </div>
+                    <div class="services-one__single-content text-center">
+                        <div class="services-one__single-img-icon">
+                            <span class="icon-growth"></span>
+                        </div>
+                        <h3><a href="services-details.html">Oragnic <br>Products</a></h3>
+                        <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
+                        <a href="services-details.html" class="read-more-btn"><span
+                                class="icon-right-arrow-2"></span></a>
+                    </div>
+                </div>
+            </div> --}}
+            <!--End Single Services One-->
 
             <!--Start Single Services One-->
             <div class="col-xl-12 col-lg-12 wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
-
+                {{-- <div class="services-one__single">
+                    <div class="services-one__single-img">
+                        <div class="services-one__single-img-inner">
+                            <img src="{{ asset('images/services/services-v1-img4.jpg') }}" alt="" />
+                        </div>
+                    </div>
+                    <div class="services-one__single-content text-center">
+                        <div class="services-one__single-img-icon">
+                            <span class="icon-dairy-products"></span>
+                        </div>
+                        <h3><a href="services-details.html">Dairy<br> Products</a></h3>
+                        <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
+                        <a href="services-details.html" class="read-more-btn"><span
+                                class="icon-right-arrow-2"></span></a>
+                    </div>
+                </div> --}}
                 <div class="container" style="height: 150px">
 
                     <div class="row">
@@ -650,10 +724,10 @@
                                         دائما معجبون بجودة ومذاق فواكههم وخضرواتهم." </p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
-                                            {{-- <div class="testimonials-one__single-client-info-img-inner">
+                                            <div class="testimonials-one__single-client-info-img-inner">
                                                 <img src="{{ asset('images/testimonial/testimonials-v1-img1.jpg') }}"
                                                     alt="" />
-                                            </div> --}}
+                                            </div>
                                             <div class="icon">
                                                 <span class="icon-right-quotation-mark"></span>
                                             </div>
@@ -674,10 +748,10 @@
                                         تفضيلاتنا ومتطلباتنا الخاصة</p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
-                                            {{-- <div class="testimonials-one__single-client-info-img-inner">
+                                            <div class="testimonials-one__single-client-info-img-inner">
                                                 <img src="{{ asset('images/testimonial/testimonials-v1-img2.jpg') }}"
                                                     alt="" />
-                                            </div> --}}
+                                            </div>
                                             <div class="icon">
                                                 <span class="icon-right-quotation-mark"></span>
                                             </div>
@@ -696,10 +770,10 @@
                                         في حالة مثالية، كما لو أنها تم حصادها الان</p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
-                                            {{-- <div class="testimonials-one__single-client-info-img-inner">
+                                            <div class="testimonials-one__single-client-info-img-inner">
                                                 <img src="{{ asset('images/testimonial/testimonials-v1-img1.jpg') }}"
                                                     alt="" />
-                                            </div> --}}
+                                            </div>
                                             <div class="icon">
                                                 <span class="icon-right-quotation-mark"></span>
                                             </div>
@@ -719,10 +793,10 @@
                                         يجعلون التجارة الدولية سهلة، والتسليم في الوقت المحدد</p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
-                                            {{-- <div class="testimonials-one__single-client-info-img-inner">
+                                            <div class="testimonials-one__single-client-info-img-inner">
                                                 <img src="{{ asset('images/testimonial/testimonials-v1-img2.jpg') }}"
                                                     alt="" />
-                                            </div> --}}
+                                            </div>
                                             <div class="icon">
                                                 <span class="icon-right-quotation-mark"></span>
                                             </div>
@@ -785,7 +859,7 @@
                             </div>
                             <div class="text">
                                 <h3>صنع أغذية صحية</h3>
-                                <p>نحن نقوم بتقديم العديد من المنتجات الصحية المتنوعة </p>
+                                <p>هناك العديد من أنواع التصاريح المتاحة ولكن الغالبية لديها نص مجاني.</p>
                             </div>
                         </li>
 
@@ -795,7 +869,7 @@
                             </div>
                             <div class="text">
                                 <h3>نمو زراعتنا</h3>
-                                <p>يوجد لدينا العديد من المنتجات التي تساعدنا في النمو و التقدم</p>
+                                <p>هناك العديد من أنواع التصاريح المتاحة ولكن الغالبية لديها نص مجاني.</p>
                             </div>
                         </li>
                     </ul>
@@ -811,6 +885,7 @@
 <!--Blog One Start-->
 <section class="blog-one">
     <div class="blog-one__bg wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms"></div>
+    <div class="blog-one__shape"></div><!-- /.blog-one__shape -->
     <div class="container">
         <div class="sec-title text-center">
             <div class="icon">
@@ -838,7 +913,7 @@
                             <li><a href="#"><i class="far fa-user-circle"></i>جيسيكا</a></li>
                             <li><a href="#"><i class="far fa-comments"></i>2 تعليقات</a></li>
                         </ul>
-                        <h2><a href="news-details.html">أ. من المزرعة إلى المائدة: استكشاف رحلة المنتجات الطازجة</a></h2>
+                        <h2><a href="news-details.html">الاستفادة من الأطر الرشيقة لتوفير ملخص قوي</a></h2>
                     </div>
                 </div>
             </div>
@@ -862,7 +937,8 @@
                             <li><a href="#"><i class="far fa-user-circle"></i>جيسيكا</a></li>
                             <li><a href="#"><i class="far fa-comments"></i>2 تعليقات</a></li>
                         </ul>
-                        <h2><a href="news-details.html">سلوكيات الزراعة المستدامة: الحفاظ على البيئة للأجيال القادمة </a></h2>
+                        <h2><a href="news-details.html">جلب إلى الطاولة استراتيجيات البقاء على قيد الحياة لكسب
+                                الجميع </a></h2>
                     </div>
                 </div>
             </div>
@@ -886,7 +962,7 @@
                             <li><a href="#"><i class="far fa-user-circle"></i>جيسيكا</a></li>
                             <li><a href="#"><i class="far fa-comments"></i>2 تعليقات</a></li>
                         </ul>
-                        <h2 style="color: white"><a href="news-details.html"></a>استكشاف أفضل الفواكه والخضروات في كل فصل</h2>
+                        <h2><a href="news-details.html">لماذا البيئة والمشي أو الزراعة من أجل البيئة؟</a></h2>
                     </div>
                 </div>
             </div>
@@ -908,25 +984,23 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="contact-one__content">
-                    <p class="contact-one__text">نحن ملتزمون بتقديم خدمة استثنائية لعملائنا مع توفير أفضل
-                        التدريبات لموظفينا.</p>
+                    <p class="contact-one__text">هناك العديد من الاختلافات في المقاطع المتاحة ولكن الغالبية
+                        عانت
+                        من تغيير في شكل ما ، عن طريق حقن الدخان أو الكلمات العشوائية التي يمكن تصديقها.</p>
                     <ul class="list-unstyled ml-0 contact-one__lists">
                         <li>
                             <i class="fa fa-check-circle"></i>
-                            <span class="icon-phone-call-2"></span>
-                    
-                            <span><a href="tel:123456789">&nbsp; 048 2630215</a></span>                
-                                </li>
-                        <li>
-                            <i class="fa fa-check-circle"></i>
-                            <span class="icon-email-1"></span>
-                            <span><a href="mailto:needhelp@company.com">&nbsp; needhelp@company.com</a></span>
-
+                            جعل هذا أول مولد حقيقي على الإنترنت
                         </li>
                         <li>
                             <i class="fa fa-check-circle"></i>
-                            <span class="icon-map"></span>
-                            <span>مدينة السادات - المنطقه الصناعية السابعة -<br> قطعة ٧١٨٧ - خلف مصنع تويوتا</span>
+
+                            لوريم إيبسوم ليس مجرد نص عشوائي
+                        </li>
+                        <li>
+                            <i class="fa fa-check-circle"></i>
+
+                            إذا كنت ستستخدم ممرًا
                         </li>
                     </ul><!-- /.list-unstyled ml-0 -->
                     <div class="contact-one__images">
