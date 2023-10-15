@@ -27,7 +27,7 @@
                                             <a href="facilities">Facilities</a>
                                         </li>
                                         <li>
-                                            <a href="shop">Shop</a>
+                                            <a href="shop">Products</a>
                                         </li>
                                         <li>
                                             <a href="blog">Blog</a>

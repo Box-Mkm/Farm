@@ -119,195 +119,173 @@
                         </select>
                     </div><!-- /.col-lg-12 --> --}}
                 </div><!-- /.row -->
-                <div class="row">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item">
+                <div class="row ">
+                    <div class="col-md-6 col-lg-3" >
+                        <div class="shop-one__item" style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
                                 {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
-                                <img style="height: 316px" src="{{ asset('images/freshorange.avif') }}" alt="">
+                                <img  src="{{ asset('images/neworange.png') }}" alt="">
                                 {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center">
+                            <div class="shop-one__content text-center card" style="background-color: seagreen; border-radius:30px">
                                 <h3 class="shop-one__title"><a href="product-details.html">Orange</a>
                                 </h3>
-                                <p class="shop-one__price">$23.00</p><!-- /.shop-one__price -->
-                                <div class="shop-one__rating">
+                                {{-- <p class="shop-one__price">$23.00</p><!-- /.shop-one__price --> --}}
+                                {{-- <div class="shop-one__rating">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
-                                </div><!-- /.shop-one__rating -->
+                                </div><!-- /.shop-one__rating --> --}}
+                                <p>Packing: Boxes - Cartoon</p>
+                                <p>Season: March - April</p>
+                                <p>Weight: 8kg - 15kg</p>
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
-                    <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item">
+                    <div class="col-md-6 col-lg-3" >
+                        <div class="shop-one__item" style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
 
-                                <img src="{{ asset('images/update-14-09-2021/shop/shop-1-2.png') }}" alt="">
+                                <img src="{{ asset('images/mandarin.png') }}" alt="">
                                 {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center">
-                                <h3 class="shop-one__title"><a href="product-details.html">Red Onion</a>
+                            <div class="shop-one__content text-center card" style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="product-details.html">Mandarin</a>
                                 </h3>
-                                <p class="shop-one__price">$33.00</p><!-- /.shop-one__price -->
-                                <div class="shop-one__rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div><!-- /.shop-one__rating -->
+                                {{-- <p class="shop-one__price">$33.00</p><!-- /.shop-one__price --> --}}
+                                <p>Packing: Boxes - Cartoon</p>
+                                <p>Season: February - March</p>
+                                <p>Weight: 10KG - 5KG - 8KG - 3KG</p>
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
-                    <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item">
+                    <div class="col-md-6 col-lg-3" >
+                        <div class="shop-one__item" style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
 
-                                <img src="{{ asset('images/update-14-09-2021/shop/shop-1-3.png') }}" alt="">
+                                <img src="{{ asset('images/grape.png') }}" alt="">
                                 {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center">
-                                <h3 class="shop-one__title"><a href="product-details.html">Broccoli</a>
+                            <div class="shop-one__content text-center card"  style="background-color: seagreen; border-radius:30px;">
+                                <h3 class="shop-one__title"><a href="product-details.html">Grape</a>
                                 </h3>
-                                <p class="shop-one__price">$18.00</p><!-- /.shop-one__price -->
-                                <div class="shop-one__rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div><!-- /.shop-one__rating -->
+
+                                <p>Packing: Boxes - Cartoon - Bag</p>
+                                <p>Season: June - August</p>
+                                <p>Weight: 5KG - 9KG - 3KG</p>
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item">
+                        <div class="shop-one__item" style="background-color: seagreen; border-radius:30px; padding-bottom:20px" >
                             <div class="shop-one__image">
 
-                                <img src="{{ asset('images/update-14-09-2021/shop/shop-1-4.png') }}" alt="">
+                                <img src="{{ asset('images/pomegranate.png') }}" alt="">
                                 {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center">
-                                <h3 class="shop-one__title"><a href="product-details.html">Fresh
-                                        Potato</a>
+                            <div class="shop-one__content text-center card" style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="product-details.html">pomegranate</a>
                                 </h3>
-                                <p class="shop-one__price">$16.00</p><!-- /.shop-one__price -->
-                                <div class="shop-one__rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div><!-- /.shop-one__rating -->
+                                <p>Packing: Boxes - Cartoon</p>
+                                <p>Season: July - August</p>
+                                <p>Weight: 5KG - 10KG - 15KG</p>
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item">
+                        <div class="shop-one__item" style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
 
-                                <img src="{{ asset('images/update-14-09-2021/shop/shop-1-5.png') }}" alt="">
+                                <img src="{{ asset('images/mango.png') }}" alt="">
                                 {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center">
-                                <h3 class="shop-one__title"><a href="product-details.html">Tomatos</a>
+                            <div class="shop-one__content text-center card" style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="product-details.html">Mango</a>
                                 </h3>
-                                <p class="shop-one__price">$26.00</p><!-- /.shop-one__price -->
-                                <div class="shop-one__rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div><!-- /.shop-one__rating -->
+                                <p>Packing: Boxes - Cartoon</p>
+                                <p>Season: June - September</p>
+                                <p>Weight: 4KG - 8KG</p>
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item">
+                        <div class="shop-one__item" style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
 
-                                <img src="{{ asset('images/update-14-09-2021/shop/shop-1-6.png') }}" alt="">
+                                <img src="{{ asset('images/garlic.png') }}" alt="">
                                 {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center">
-                                <h3 class="shop-one__title"><a href="product-details.html">Lemons</a>
+                            <div class="shop-one__content text-center card" style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="product-details.html">Garlic</a>
                                 </h3>
-                                <p class="shop-one__price">$19.00</p><!-- /.shop-one__price -->
-                                <div class="shop-one__rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div><!-- /.shop-one__rating -->
+                                <p>Packing: Boxes - Baskets</p>
+                                <p>Season: February - April</p>
+                                <p>Weight: 10KG - 15KG</p>                                
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item">
+                        <div class="shop-one__item" style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
                                 {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
-                                <img src="{{ asset('images/update-14-09-2021/shop/shop-1-7.png') }}" alt="">
+                                <img src="{{ asset('images/onion.png') }}" alt="">
                                 {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center">
-                                <h3 class="shop-one__title"><a href="product-details.html">Red
-                                        Chillis</a>
+                            <div class="shop-one__content text-center card" style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="product-details.html">Onion</a>
                                 </h3>
-                                <p class="shop-one__price">$9.00</p><!-- /.shop-one__price -->
-                                <div class="shop-one__rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div><!-- /.shop-one__rating -->
+                                <p>Packing: Bag</p>
+                                <p>Season: January - June</p>
+                                <p>Weight: 5KG - 25KG</p>  
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item">
+                        <div class="shop-one__item" style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
-                                <img src="{{ asset('images/update-14-09-2021/shop/shop-1-8.png') }}" alt="">
+                                <img src="{{ asset('images/potato.png') }}" alt="">
                                 {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center">
-                                <h3 class="shop-one__title"><a href="product-details.html">Carrots</a>
+                            <div class="shop-one__content text-center card" style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="product-details.html">Potato</a>
                                 </h3>
-                                <p class="shop-one__price">$8.00</p><!-- /.shop-one__price -->
-                                <div class="shop-one__rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div><!-- /.shop-one__rating -->
+                                <p>Packing: Shawwal</p>
+                                <p>Season: January - June</p>
+                                <p>Weight: 5KG - 25KG</p> 
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item">
+                        <div class="shop-one__item" style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
                                 {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
-                                <img src="{{ asset('images/update-14-09-2021/shop/shop-1-1.png') }}" alt="">
+                                <img src="{{ asset('images/tomato.png') }}" alt="">
                                 {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center">
-                                <h3 class="shop-one__title"><a href="product-details.html">Brown
-                                        Bread</a>
+                            <div class="shop-one__content text-center card" style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="product-details.html">Tomato</a>
                                 </h3>
-                                <p class="shop-one__price">$23.00</p><!-- /.shop-one__price -->
-                                <div class="shop-one__rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div><!-- /.shop-one__rating -->
+                                <p>Packing: Boxes - Baskets</p>
+                                <p>Season: January - December</p>
+                                <p>Weight: 5KG - 10KG - 15KG</p>
+                            </div><!-- /.shop-one__content -->
+                        </div><!-- /.shop-one__item -->
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="shop-one__item" style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
+                            <div class="shop-one__image">
+                                {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
+                                <img src="{{ asset('images/Lettuce.png') }}" alt="">
+                                {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
+                            </div><!-- /.shop-one__image -->
+                            <div class="shop-one__content text-center card" style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="product-details.html">Lettuce</a>
+                                </h3>
+                                <p>Packing: Boxes - Baskets</p>
+                                <p>Season: January - December</p>
+                                <p>Weight: 5KG - 10KG - 15KG</p>
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div>
