@@ -52,7 +52,7 @@
 
                         <div class="main-header--one__bottom-middel">
                             <div class="logo">
-                                <a href="/ar'">
+                                <a href="/عربي">
                                     <img class="dark-logo" src="{{ asset('images/resources/logo-1.png') }}"
                                         alt="">
                                     <img class="light-logo" src="{{ asset('images/resources/logo-2.png') }}"

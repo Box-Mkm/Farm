@@ -8,7 +8,7 @@
             </p>
         </li>
         <li>
-            <p><a href="/ar">العربيه <img src="{{ asset('images/backgrounds/egypt.png') }}" alt="" />
+            <p><a href="/عربي">العربيه <img src="{{ asset('images/backgrounds/egypt.png') }}" alt="" />
             </p>
         </li>
 
