@@ -57,7 +57,7 @@
                                             src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
                                             alt="" />
                                     </div>
-                                    <a href="#" class="thm-btn">إكتشف أكثر</a>
+                                    <a href="عن" class="thm-btn">إكتشف أكثر</a>
                                 </div>
                             </div>
                         </div>
@@ -88,7 +88,7 @@
                                             src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
                                             alt="" />
                                     </div>
-                                    <a href="#" class="thm-btn">إكتشف أكثر</a>
+                                    <a href="عن" class="thm-btn">إكتشف أكثر</a>
                                 </div>
                             </div>
                         </div>
@@ -119,7 +119,7 @@
                                             src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
                                             alt="" />
                                     </div>
-                                    <a href="#" class="thm-btn">إكتشف أكثر</a>
+                                    <a href="عن" class="thm-btn">إكتشف أكثر</a>
                                 </div>
                             </div>
                         </div>
@@ -261,7 +261,6 @@
                 <div class="shop-one__image">
                     <span class="shop-one__sale">sale</span><!-- /.shop-one__sale -->
                     <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-1.png" alt="">
-                    <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
                     <h3 class="shop-one__title"><a href="product-details.html">Brown
@@ -283,7 +282,6 @@
                 <div class="shop-one__image">
 
                     <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-2.png" alt="">
-                    <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
                     <h3 class="shop-one__title"><a href="product-details.html">Red Onion</a>
@@ -304,7 +302,6 @@
                 <div class="shop-one__image">
 
                     <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-3.png" alt="">
-                    <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
                     <h3 class="shop-one__title"><a href="product-details.html">Broccoli</a>
@@ -325,7 +322,6 @@
                 <div class="shop-one__image">
 
                     <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-4.png" alt="">
-                    <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
                     <h3 class="shop-one__title"><a href="product-details.html">Fresh
@@ -358,7 +354,7 @@
                 <div class="video-one__left">
 
                     <div class="video-one__btn">
-                        <a href="#" class="thm-btn">Discover more</a>
+                        <a href="اشتري" class="thm-btn">اكتشف اكثر</a>
                     </div>
                 </div>
             </div>
@@ -407,7 +403,7 @@
                     <div class="video-one__left">
 
                         <div class="video-one__btn">
-                            <a href="#" class="thm-btn">إكتشف المزيد</a>
+                            <a href="مرافق" class="thm-btn">إكتشف المزيد</a>
                         </div>
                     </div>
                 </div>
@@ -989,7 +985,7 @@
                     </div>
                     <div class="cta-one__right">
                         <div class="cta-one__right-btn">
-                            <a href="#" class="thm-btn">إكتشف أكثر</a>
+                            <a href="اشتري" class="thm-btn">إكتشف أكثر</a>
                         </div>
                     </div>
                 </div>

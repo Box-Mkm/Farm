@@ -59,9 +59,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="services-details.html">Agriculture<br> Products</a></h3>
-                        <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
-                        <a href="services-details.html" class="read-more-btn"><span
+                        <h3><a href="about">Agriculture<br> Products</a></h3>
+                        <p>Agricultural products meet our nutritional needs and contribute to food security.</p>
+                        <a href="about" class="read-more-btn"><span
                                 class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
@@ -80,9 +80,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="services-details.html">Fresh <br>Vegetables</a></h3>
-                        <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
-                        <a href="services-details.html" class="read-more-btn"><span
+                        <h3><a href="about">Fresh <br>Vegetables</a></h3>
+                        <p>It promotes our health and provide us with nutrition rich in essential nutrients.</p>
+                        <a href="about" class="read-more-btn"><span
                                 class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
@@ -101,9 +101,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="services-details.html">Oragnic <br>Products</a></h3>
-                        <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
-                        <a href="services-details.html" class="read-more-btn"><span
+                        <h3><a href="about">Oragnic <br>Products</a></h3>
+                        <p>Organic products provide us with a healthy and sustainable choice, as they are grown </p>
+                        <a href="about" class="read-more-btn"><span
                                 class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
@@ -122,9 +122,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="services-details.html">Dairy<br> Products</a></h3>
-                        <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
-                        <a href="services-details.html" class="read-more-btn"><span
+                        <h3><a href="about">Dairy<br> Products</a></h3>
+                        <p>It provides us with a rich source of calcium and essential proteins for healthy bones </p>
+                        <a href="about" class="read-more-btn"><span
                                 class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
@@ -137,82 +137,13 @@
 
 
 
-<!--Features One Start-->
-{{-- <section class="features-one features-one--services clearfix">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-4 col-lg-4 wow fadeInUp animated animated">
-                <div class="features-one__single">
-                    <div class="features-one__single-img">
-                        <img src="{{ asset('images/feauters/features-v1-img1.jpg') }}" alt="" />
-                        <div class="features-one__single-title text-center">
-                            <h3><a href="#">Best Quality <br> Standards</a></h3>
-                        </div>
-                    </div>
-                    <a href="services-details.html" class="features-one__single__more">
-                        <span class="icon-right-arrow-2"></span>
-                    </a><!-- /.feature-one__single__more -->
-                </div>
-            </div>
-            <!--End Single Features One-->
-            <div class="col-xl-4 col-lg-4 wow fadeInUp animated animated">
-                <div class="features-one__single">
-                    <div class="features-one__single-img">
-                        <img src="{{ asset('images/feauters/features-v1-img2.jpg') }}" alt="" />
-                        <div class="features-one__single-title text-center">
-                            <h3><a href="#">Smart Organic <br>Services</a></h3>
-                        </div>
-                    </div>
-                    <a href="services-details.html" class="features-one__single__more">
-                        <span class="icon-right-arrow-2"></span>
-                    </a><!-- /.feature-one__single__more -->
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-lg-4 wow fadeInUp animated animated">
-                <div class="features-one__single style2 text-center">
-                    <div class="features-one__single-bg"
-                        style="background-image: url({{ asset('images/backgrounds/features-one-single-bg.png') }});">
-                    </div>
-                    <div class="features-one__single-img">
-                        <img src="{{ asset('images/feauters/features-v1-img3.jpg') }}" alt="" />
-                    </div>
-                    <div class="features-one__single-title text-center">
-                        <h3><a href="#">Agriculture <br>products</a></h3>
-                    </div>
-                    <div class="button">
-                        <a href="#" class="thm-btn">Discover More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> --}}
-<!--Features One End-->
-
-
-
-
-
-
-
-
-
 <section class="video-one jarallax clearfix" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
     style="background-image: url({{ asset('images/backgrounds/video-one-bg.jpg') }});">
-    {{-- <div class="video-one-border"></div> --}}
-    {{-- <div class="video-one-border video-one-border-two"></div>
-    <div class="video-one-border video-one-border-three"></div>
-    <div class="video-one-border video-one-border-four"></div>
-    <div class="video-one-border video-one-border-five"></div>
-    <div class="video-one-border video-one-border-six"></div> --}}
+
     <div class="container">
         <div class="sec-title text-center">
-            {{-- <div class="icon">
-                <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
-            </div> --}}
+
             <div class="video-one__leaf"></div><!-- /.video-one__leaf -->
-            {{-- <span class="sec-title__tagline">What we offer</span> --}}
             <h2 class="sec-title__title">Quality Assurance</h2>
         </div>
         <div class="row">
@@ -230,20 +161,7 @@
 
         </div><!-- /.row -->
     </div><!-- /.container -->
-    {{-- <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="video-one__wrpper" style="justify-content: center">
-                    <div class="video-one__left">
 
-                        <div class="video-one__btn">
-                            <a href="#" class="thm-btn">Discover more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> --}}
 </section>
 
 
@@ -393,7 +311,7 @@
                     </div>
                     <div class="cta-one__right">
                         <div class="cta-one__right-btn">
-                            <a href="#" class="thm-btn">Discover More</a>
+                            <a href="shop" class="thm-btn">Discover More</a>
                         </div>
                     </div>
                 </div>

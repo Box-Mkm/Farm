@@ -393,7 +393,7 @@
                         </div>
                         <div class="cta-one__right">
                             <div class="cta-one__right-btn">
-                                <a href="#" class="thm-btn">Discover More</a>
+                                <a href="shop" class="thm-btn">Discover More</a>
                             </div>
                         </div>
                     </div>

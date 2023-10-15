@@ -88,7 +88,7 @@
                                             src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
                                             alt="" />
                                     </div>
-                                    <a href="#" class="thm-btn">Discover more</a>
+                                    <a href="./about" class="thm-btn">Discover more</a>
                                 </div>
                             </div>
                         </div>
@@ -119,7 +119,7 @@
                                                 src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
                                                 alt="" />
                                         </div>
-                                        <a href="#" class="thm-btn">Discover more</a>
+                                        <a href="./about" class="thm-btn">Discover more</a>
                                     </div>
                                 </div>
                             </div>
@@ -392,7 +392,7 @@
                 <div class="video-one__left">
 
                     <div class="video-one__btn">
-                        <a href="#" class="thm-btn">Discover more</a>
+                        <a href="shop" class="thm-btn">Discover more</a>
                     </div>
                 </div>
             </div>
@@ -440,7 +440,7 @@
                     <div class="video-one__left">
 
                         <div class="video-one__btn">
-                            <a href="#" class="thm-btn">Discover more</a>
+                            <a href="facilities" class="thm-btn">Discover more</a>
                         </div>
                     </div>
                 </div>
@@ -1037,7 +1037,7 @@
                     </div>
                     <div class="cta-one__right">
                         <div class="cta-one__right-btn">
-                            <a href="#" class="thm-btn">Discover More</a>
+                            <a href="shop" class="thm-btn">Discover More</a>
                         </div>
                     </div>
                 </div>

@@ -62,9 +62,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="services-details.html">المنتجات<br> الزراعية</a></h3>
-                        <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
-                        <a href="services-details.html" class="read-more-btn"><span
+                        <h3><a href="عن">المنتجات<br> الزراعية</a></h3>
+                        <p>منتجاتنا الزراعية تلبي احتياجاتنا الغذائية وتسهم في توفير الأمن الغذائي</p>
+                        <a href="عن" class="read-more-btn"><span
                                 class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
@@ -83,9 +83,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="services-details.html">الخضروات <br>الطازجة</a></h3>
-                        <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
-                        <a href="services-details.html" class="read-more-btn"><span
+                        <h3><a href="عن">الخضروات <br>الطازجة</a></h3>
+                        <p>الخضروات الطازجة تعزز صحتنا وتوفر لنا تغذية غنية بالعناصر الغذائية</p>
+                        <a href="عن" class="read-more-btn"><span
                                 class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
@@ -104,9 +104,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="services-details.html">منتجات <br>عضوية</a></h3>
-                        <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
-                        <a href="services-details.html" class="read-more-btn"><span
+                        <h3><a href="عن">منتجات <br>عضوية</a></h3>
+                        <p>توفر لنا خيارًا صحيًا ومستدامًا حيث تزرع وتنتج بدون استخدام المبيدات  والأسمدة </p>
+                        <a href="عن" class="read-more-btn"><span
                                 class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
@@ -125,9 +125,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="services-details.html">Dairy<br> Products</a></h3>
-                        <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
-                        <a href="services-details.html" class="read-more-btn"><span
+                        <h3><a href="عن">منتجات<br> الألبان</a></h3>
+                        <p>توفر لنا مصدرًا غنيًا بالكالسيوم والبروتين الضروريين لصحة العظام </p>
+                        <a href="عن" class="read-more-btn"><span
                                 class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
@@ -269,9 +269,8 @@
                                 <span class="icon-agriculture"></span>
                             </div>
                             <div class="text">
-                                <h3>نقوم بعمل المنتجات الصحية</h3>
-                                <p>There are many variations of pass available but the majority have simply free
-                                    text.</p>
+                                <h3>صنع أغذية صحية</h3>
+                                <p>نحن نقوم بتقديم العديد من المنتجات الصحية المتنوعة </p>
                             </div>
                         </li>
 
@@ -280,9 +279,8 @@
                                 <span class="icon-farm"></span>
                             </div>
                             <div class="text">
-                                <h3>النمو الزراعي عندنا</h3>
-                                <p>There are many variations of pass available but the majority have simply free
-                                    text.</p>
+                                <h3>نمو زراعتنا</h3>
+                                <p>يوجد لدينا العديد من المنتجات التي تساعدنا في النمو و التقدم</p>
                             </div>
                         </li>
                     </ul>
@@ -313,7 +311,7 @@
                     </div>
                     <div class="cta-one__right">
                         <div class="cta-one__right-btn">
-                            <a href="#" class="thm-btn">إكتشف أكثر</a>
+                            <a href="اشتري" class="thm-btn">إكتشف أكثر</a>
                         </div>
                     </div>
                 </div>

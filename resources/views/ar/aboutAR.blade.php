@@ -280,7 +280,7 @@
                     </div>
                     <div class="cta-one__right">
                         <div class="cta-one__right-btn">
-                            <a href="#" class="thm-btn">إكتشف أكثر</a>
+                            <a href="اشتري" class="thm-btn">إكتشف أكثر</a>
                         </div>
                     </div>
                 </div>
