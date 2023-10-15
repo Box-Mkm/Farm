@@ -77,11 +77,11 @@
                             <div class="main-slider-inner">
                                 <div class="main-slider__content">
                                     <span class="main-slider-tagline">We’re producing natural goods</span>
-                                    <h2 class="main-slider__title">Welcome to <br> Agriculture <span><span
-                                                class="leaf"><img src="{{ asset('images/resources/leaf.png') }}"
-                                                    alt="" /></span>Farm</span></h2>
-                                    <p class="main-slider__text">There are many of passages of lorem Ipsum, but
-                                        the majori have<br> suffered alteration in some form.</p>
+                                    <h2 class="main-slider__title">Abd El-Dayem <br>Where Quality Meets Flavor!
+                                        <span><span>
+                                    </h2>
+                                    <p class="main-slider__text">From Farm to Global Markets<br>Abd El-Dayem, Your
+                                        Trusted Export Partner.</p>
                                 </div>
                                 <div class="main-slider__button-box">
                                     <div class="arrow-icon"><img
@@ -108,12 +108,11 @@
                                 <div class="main-slider-inner">
                                     <div class="main-slider__content">
                                         <span class="main-slider-tagline">We’re producing natural goods</span>
-                                        <h2 class="main-slider__title">Welcome to <br> Agriculture <span><span
-                                                    class="leaf"><img src="{{ asset('images/resources/leaf.png') }}"
-                                                        alt="" /></span>Farm</span></h2>
-                                        <p class="main-slider__text">There are many of passages of lorem Ipsum,
-                                            but
-                                            the majori have<br> suffered alteration in some form.</p>
+                                        <h2 class="main-slider__title">Abd El-Dayem <br>Where Quality Meets Flavor!
+                                            <span><span>
+                                        </h2>
+                                        <p class="main-slider__text">From Farm to Global Markets<br>Abd El-Dayem, Your
+                                            Trusted Export Partner.</p>
                                     </div>
                                     <div class="main-slider__button-box">
                                         <div class="arrow-icon"><img
@@ -297,9 +296,8 @@
         <div class="col-md-6 col-lg-3">
             <div class="shop-one__item">
                 <div class="shop-one__image">
-                    <span class="shop-one__sale">sale</span><!-- /.shop-one__sale -->
                     <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-1.png" alt="">
-                    <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
+                    {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
                     <h3 class="shop-one__title"><a href="product-details.html">Brown
@@ -321,7 +319,7 @@
                 <div class="shop-one__image">
 
                     <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-2.png" alt="">
-                    <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
+                    {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
                     <h3 class="shop-one__title"><a href="product-details.html">Red Onion</a>
@@ -342,7 +340,7 @@
                 <div class="shop-one__image">
 
                     <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-3.png" alt="">
-                    <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
+                    {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
                     <h3 class="shop-one__title"><a href="product-details.html">Broccoli</a>
@@ -363,7 +361,7 @@
                 <div class="shop-one__image">
 
                     <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-4.png" alt="">
-                    <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
+                    {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
                     <h3 class="shop-one__title"><a href="product-details.html">Fresh
@@ -402,227 +400,15 @@
     </div>
 </div>
 
-{{-- <div class="row">
-    <div class="col-xl-12">
-        <div class="projects-one__carousel owl-carousel owl-theme owl-dot-type1">
-            <!--Start Single Projects One-->
-            <div class="projects-one__single wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                <div class="projects-one__single-img">
-                    <img src="{{ asset('images/project/projects-v1-img1.jpg') }}" alt="" />
-                    <div class="overlay-content">
-                        <p>Agriculture</p>
-                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Projects One-->
 
-            <!--Start Single Projects One-->
-            <div class="projects-one__single wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <div class="projects-one__single-img">
-                    <img src="{{ asset('images/project/projects-v1-img2.jpg') }}" alt="" />
-                    <div class="overlay-content">
-                        <p>Agriculture</p>
-                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Projects One-->
-
-            <!--Start Single Projects One-->
-            <div class="projects-one__single wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                <div class="projects-one__single-img">
-                    <img src="{{ asset('images/project/projects-v1-img3.jpg') }}" alt="" />
-                    <div class="overlay-content">
-                        <p>Agriculture</p>
-                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Projects One-->
-
-            <!--Start Single Projects One-->
-            <div class="projects-one__single wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                <div class="projects-one__single-img">
-                    <img src="{{ asset('images/project/projects-v1-img4.jpg') }}" alt="" />
-                    <div class="overlay-content">
-                        <p>Agriculture</p>
-                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Projects One-->
-
-            <!--Start Single Projects One-->
-            <div class="projects-one__single wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                <div class="projects-one__single-img">
-                    <img src="{{ asset('images/project/projects-v1-img1.jpg') }}" alt="" />
-                    <div class="overlay-content">
-                        <p>Agriculture</p>
-                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Projects One-->
-
-            <!--Start Single Projects One-->
-            <div class="projects-one__single wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <div class="projects-one__single-img">
-                    <img src="{{ asset('images/project/projects-v1-img2.jpg') }}" alt="" />
-                    <div class="overlay-content">
-                        <p>Agriculture</p>
-                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Projects One-->
-
-            <!--Start Single Projects One-->
-            <div class="projects-one__single wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                <div class="projects-one__single-img">
-                    <img src="{{ asset('images/project/projects-v1-img3.jpg') }}" alt="" />
-                    <div class="overlay-content">
-                        <p>Agriculture</p>
-                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Projects One-->
-
-            <!--Start Single Projects One-->
-            <div class="projects-one__single wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                <div class="projects-one__single-img">
-                    <img src="{{ asset('images/project/projects-v1-img4.jpg') }}" alt="" />
-                    <div class="overlay-content">
-                        <p>Agriculture</p>
-                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Projects One-->
-
-            <!--Start Single Projects One-->
-            <div class="projects-one__single wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                <div class="projects-one__single-img">
-                    <img src="{{ asset('images/project/projects-v1-img1.jpg') }}" alt="" />
-                    <div class="overlay-content">
-                        <p>Agriculture</p>
-                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Projects One-->
-
-            <!--Start Single Projects One-->
-            <div class="projects-one__single wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <div class="projects-one__single-img">
-                    <img src="{{ asset('images/project/projects-v1-img2.jpg') }}" alt="" />
-                    <div class="overlay-content">
-                        <p>Agriculture</p>
-                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Projects One-->
-
-            <!--Start Single Projects One-->
-            <div class="projects-one__single wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                <div class="projects-one__single-img">
-                    <img src="{{ asset('images/project/projects-v1-img3.jpg') }}" alt="" />
-                    <div class="overlay-content">
-                        <p>Agriculture</p>
-                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Projects One-->
-
-            <!--Start Single Projects One-->
-            <div class="projects-one__single wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                <div class="projects-one__single-img">
-                    <img src="{{ asset('images/project/projects-v1-img4.jpg') }}" alt="" />
-                    <div class="overlay-content">
-                        <p>Agriculture</p>
-                        <h3><a href="projects-details.html">Harvest Innovations</a></h3>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Projects One-->
-        </div>
-    </div>
-</div> --}}
 <br>
 
 
-<!--Features One Start-->
-{{-- <section class="features-one clearfix">
-    <div class="container">
-        <div class="row">
-            <!--Start Single Features One-->
-            <div class="col-xl-4 col-lg-4 wow fadeInUp animated animated">
-                <div class="features-one__single">
-                    <div class="features-one__single-img">
-                        <img src="{{ asset('images/feauters/features-v1-img1.jpg') }}" alt="" />
-                        <div class="features-one__single-title text-center">
-                            <h3><a href="#">Best Quality <br> Standards</a></h3>
-                        </div>
-                    </div>
-                    <a href="services-details.html" class="features-one__single__more">
-                        <span class="icon-right-arrow-2"></span>
-                    </a><!-- /.feature-one__single__more -->
-                </div>
-            </div>
-            <!--End Single Features One-->
 
-            <!--Start Single Features One-->
-            <div class="col-xl-4 col-lg-4 wow fadeInUp animated animated">
-                <div class="features-one__single">
-                    <div class="features-one__single-img">
-                        <img src="{{ asset('images/feauters/features-v1-img2.jpg') }}" alt="" />
-                        <div class="features-one__single-title text-center">
-                            <h3><a href="#">Smart Organic <br>Services</a></h3>
-                        </div>
-                    </div>
-                    <a href="services-details.html" class="features-one__single__more">
-                        <span class="icon-right-arrow-2"></span>
-                    </a><!-- /.feature-one__single__more -->
-
-                </div>
-            </div>
-            <!--End Single Features One-->
-
-            <!--Start Single Features One-->
-            <div class="col-xl-4 col-lg-4 wow fadeInUp animated animated">
-                <div class="features-one__single style2 text-center">
-                    <div class="features-one__single-bg"
-                        style="background-image: url({{ asset('images/backgrounds/features-one-single-bg.png') }});">
-                    </div>
-                    <div class="features-one__single-img">
-                        <img src="{{ asset('images/feauters/features-v1-img3.jpg') }}" alt="" />
-                    </div>
-                    <div class="features-one__single-title text-center">
-                        <h3><a href="#">Agriculture <br>products</a></h3>
-                    </div>
-                    <div class="button">
-                        <a href="#" class="thm-btn">Discover More</a>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Features One-->
-        </div>
-    </div>
-</section> --}}
-<!--Features One End-->
 
 <!--Video One Start-->
 <section class="video-one jarallax clearfix" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
     style="background-image: url({{ asset('images/backgrounds/video-one-bg.jpg') }});">
-    {{-- <div class="video-one-border"></div> --}}
-    {{-- <div class="video-one-border video-one-border-two"></div>
-    <div class="video-one-border video-one-border-three"></div>
-    <div class="video-one-border video-one-border-four"></div>
-    <div class="video-one-border video-one-border-five"></div>
-    <div class="video-one-border video-one-border-six"></div> --}}
     <div class="container">
         <div class="sec-title text-center">
             {{-- <div class="icon">
@@ -706,8 +492,9 @@
 
 
 
-<section class="meet-farmers-one meet-farmers-one--about">
-    <div class="container">
+<section class="meet-farmers-one meet-farmers-one--about" style="padding: 0">
+    <div class="container" style="border-top: 1px solid;
+    padding-top: 40px; padding-bottom: 40px">
         <div class="sec-title text-center">
             <div class="icon">
                 <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
@@ -718,11 +505,12 @@
         <div class="row">
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single">
-                    <div class="meet-farmers-one__single-img">
+                <div class="meet-farmers-one__single" style="    background-color: seagreen;
+                border-radius: 36px; margin-top:40px">
+                    {{-- <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img1.jpg') }}" alt="" />
 
-                    </div>
+                    </div> --}}
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">Ahmed Salim Abdel Dayem</a></h2>
@@ -741,10 +529,11 @@
 
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single">
-                    <div class="meet-farmers-one__single-img">
+                <div class="meet-farmers-one__single" style="    background-color: seagreen;
+                border-radius: 36px;margin-top:40px">
+                    {{-- <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img2.jpg') }}" alt="" />
-                    </div>
+                    </div> --}}
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">Salim Salim Abdel Dayem</a></h2>
@@ -763,10 +552,11 @@
 
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single">
-                    <div class="meet-farmers-one__single-img">
+                <div class="meet-farmers-one__single" style="    background-color: seagreen;
+                border-radius: 36px;margin-top:40px">
+                    {{-- <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img3.jpg') }}" alt="" />
-                    </div>
+                    </div> --}}
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">Mahmoud Hassan Abdel Dayem</a></h2>
@@ -785,10 +575,11 @@
 
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single">
-                    <div class="meet-farmers-one__single-img">
+                <div class="meet-farmers-one__single" style="    background-color: seagreen;
+                border-radius: 36px;margin-top:40px">
+                    {{-- <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img4.jpg') }}" alt="" />
-                    </div>
+                    </div> --}}
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">Mahjoub Hassan Abdel Dayem</a></h2>
@@ -815,9 +606,9 @@
 
 
 <!--Services One Start-->
-<section class="services-one">
+<section class="services-one mh-75">
     <div class="services-one__bg wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms"></div>
-    <div class="container">
+    <div class="container ">
         <div class="sec-title text-center">
             <div class="icon">
                 <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
@@ -827,89 +618,12 @@
         </div>
         <div class="row">
             <!--Start Single Services One-->
-            {{-- <div class="col-xl-3 col-lg-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
-                <div class="services-one__single">
-                    <div class="services-one__single-img">
-                        <div class="services-one__single-img-inner">
-                            <img src="{{ asset('images/services/services-v1-img1.jpg') }}" alt="" />
-                        </div>
-                    </div>
-                    <div class="services-one__single-content text-center">
-                        <div class="services-one__single-img-icon">
-                            <span class="icon-agriculture"></span>
-                        </div>
-                        <h3><a href="services-details.html">Agriculture<br> Products</a></h3>
-                        <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
-                        <a href="services-details.html" class="read-more-btn"><span
-                                class="icon-right-arrow-2"></span></a>
-                    </div>
-                </div>
-            </div> --}}
-            <!--End Single Services One-->
-
-            <!--Start Single Services One-->
-            {{-- <div class="col-xl-3 col-lg-6 wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
-                <div class="services-one__single">
-                    <div class="services-one__single-img">
-                        <div class="services-one__single-img-inner">
-                            <img src="{{ asset('images/services/services-v1-img2.jpg') }}" alt="" />
-                        </div>
-                    </div>
-                    <div class="services-one__single-content text-center">
-                        <div class="services-one__single-img-icon">
-                            <span class="icon-harvest"></span>
-                        </div>
-                        <h3><a href="services-details.html">Fresh <br>Vegetables</a></h3>
-                        <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
-                        <a href="services-details.html" class="read-more-btn"><span
-                                class="icon-right-arrow-2"></span></a>
-                    </div>
-                </div>
-            </div> --}}
-            <!--End Single Services One-->
-
-            <!--Start Single Services One-->
-            {{-- <div class="col-xl-3 col-lg-6 wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
-                <div class="services-one__single">
-                    <div class="services-one__single-img">
-                        <div class="services-one__single-img-inner">
-                            <img src="{{ asset('images/services/services-v1-img3.jpg') }}" alt="" />
-                        </div>
-
-                    </div>
-                    <div class="services-one__single-content text-center">
-                        <div class="services-one__single-img-icon">
-                            <span class="icon-growth"></span>
-                        </div>
-                        <h3><a href="services-details.html">Oragnic <br>Products</a></h3>
-                        <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
-                        <a href="services-details.html" class="read-more-btn"><span
-                                class="icon-right-arrow-2"></span></a>
-                    </div>
-                </div>
-            </div> --}}
-            <!--End Single Services One-->
+ 
 
             <!--Start Single Services One-->
             <div class="col-xl-12 col-lg-12 wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
-                {{-- <div class="services-one__single">
-                    <div class="services-one__single-img">
-                        <div class="services-one__single-img-inner">
-                            <img src="{{ asset('images/services/services-v1-img4.jpg') }}" alt="" />
-                        </div>
-                    </div>
-                    <div class="services-one__single-content text-center">
-                        <div class="services-one__single-img-icon">
-                            <span class="icon-dairy-products"></span>
-                        </div>
-                        <h3><a href="services-details.html">Dairy<br> Products</a></h3>
-                        <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
-                        <a href="services-details.html" class="read-more-btn"><span
-                                class="icon-right-arrow-2"></span></a>
-                    </div>
-                </div> --}}
-                <div class="container" style="height: 150px">
 
+                <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="contact-one__content" style="font-size: larger">
@@ -970,10 +684,10 @@
                                         and taste of their fruits and vegetables." </p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
-                                            <div class="testimonials-one__single-client-info-img-inner">
+                                            {{-- <div class="testimonials-one__single-client-info-img-inner">
                                                 <img src="{{ asset('images/testimonial/testimonials-v1-img1.jpg') }}"
                                                     alt="" />
-                                            </div>
+                                            </div> --}}
                                             <div class="icon">
                                                 <span class="icon-right-quotation-mark"></span>
                                             </div>
@@ -995,10 +709,10 @@
                                         and requirements." </p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
-                                            <div class="testimonials-one__single-client-info-img-inner">
+                                            {{-- <div class="testimonials-one__single-client-info-img-inner">
                                                 <img src="{{ asset('images/testimonial/testimonials-v1-img2.jpg') }}"
                                                     alt="" />
-                                            </div>
+                                            </div> --}}
                                             <div class="icon">
                                                 <span class="icon-right-quotation-mark"></span>
                                             </div>
@@ -1020,10 +734,10 @@
                                         truly impressive."</p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
-                                            <div class="testimonials-one__single-client-info-img-inner">
+                                            {{-- <div class="testimonials-one__single-client-info-img-inner">
                                                 <img src="{{ asset('images/testimonial/testimonials-v1-img1.jpg') }}"
                                                     alt="" />
-                                            </div>
+                                            </div> --}}
                                             <div class="icon">
                                                 <span class="icon-right-quotation-mark"></span>
                                             </div>
@@ -1044,10 +758,10 @@
                                         breeze, ensuring smooth transactions and on-time deliveries." </p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
-                                            <div class="testimonials-one__single-client-info-img-inner">
+                                            {{-- <div class="testimonials-one__single-client-info-img-inner">
                                                 <img src="{{ asset('images/testimonial/testimonials-v1-img2.jpg') }}"
                                                     alt="" />
-                                            </div>
+                                            </div> --}}
                                             <div class="icon">
                                                 <span class="icon-right-quotation-mark"></span>
                                             </div>
@@ -1113,8 +827,7 @@
                             </div>
                             <div class="text">
                                 <h3>Making Healthy Foods</h3>
-                                <p>There are many variations of pass available but the majority have simply free
-                                    text.</p>
+                                <p>We are making and providing variations of healthy products</p>
                             </div>
                         </li>
 
@@ -1124,8 +837,7 @@
                             </div>
                             <div class="text">
                                 <h3>Our Agriculture Growth</h3>
-                                <p>There are many variations of pass available but the majority have simply free
-                                    text.</p>
+                                <p>There are many variations of our products that make our growth better</p>
                             </div>
                         </li>
                     </ul>
@@ -1242,21 +954,28 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="contact-one__content">
-                    <p class="contact-one__text">There are many variations of passages of available but the
-                        majority have suffered alteration in some form, by injected humou or randomised words
-                        even believable.</p>
+                    <p class="contact-one__text">We are committed to providing our customers with
+                        exceptional service while offering our employees the best training.</p>
                     <ul class="list-unstyled ml-0 contact-one__lists">
                         <li>
                             <i class="fa fa-check-circle"></i>
-                            Making this the first true generator on the Internet
+                            
+                                    <span class="icon-phone-call-2"></span>
+                                
+                                    
+                                    <span><a href="tel:123456789">&nbsp; 048 2630215</a></span>
+                            
                         </li>
                         <li>
                             <i class="fa fa-check-circle"></i>
-                            Lorem Ipsum is not simply random text
+                            <span class="icon-email-1"></span>
+                            <span><a href="mailto:needhelp@company.com">&nbsp; needhelp@company.com</a></span>
                         </li>
                         <li>
                             <i class="fa fa-check-circle"></i>
-                            If you are going to use a passage
+                            <span class="icon-map"></span>
+                            <span>&nbsp; City of Sadat - Block 7187 - <br>Seventh Industrial Zone <br> - Behind Toyota
+                                Factory</span>
                         </li>
                     </ul><!-- /.list-unstyled ml-0 -->
                     <div class="contact-one__images">

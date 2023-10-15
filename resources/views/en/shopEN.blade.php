@@ -8,7 +8,7 @@
             </p>
         </li>
         <li>
-            <p><a href="/اشتري">العربيه <img src="{{ asset('images/backgrounds/egypt.png') }}" alt="" />
+            <p><a href="/shopAR">العربيه <img src="{{ asset('images/backgrounds/egypt.png') }}" alt="" />
             </p>
         </li>
 
@@ -124,12 +124,11 @@
                         <div class="shop-one__item">
                             <div class="shop-one__image">
                                 {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
-                                <img src="{{ asset('images/update-14-09-2021/shop/shop-1-1.png') }}" alt="">
-                                <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
+                                <img style="height: 316px" src="{{ asset('images/freshorange.avif') }}" alt="">
+                                {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></> --}}
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center">
-                                <h3 class="shop-one__title"><a href="product-details.html">Brown
-                                        Bread</a>
+                                <h3 class="shop-one__title"><a href="product-details.html">Orange</a>
                                 </h3>
                                 <p class="shop-one__price">$23.00</p><!-- /.shop-one__price -->
                                 <div class="shop-one__rating">
@@ -147,7 +146,7 @@
                             <div class="shop-one__image">
 
                                 <img src="{{ asset('images/update-14-09-2021/shop/shop-1-2.png') }}" alt="">
-                                <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
+                                {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center">
                                 <h3 class="shop-one__title"><a href="product-details.html">Red Onion</a>
@@ -168,7 +167,7 @@
                             <div class="shop-one__image">
 
                                 <img src="{{ asset('images/update-14-09-2021/shop/shop-1-3.png') }}" alt="">
-                                <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
+                                {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center">
                                 <h3 class="shop-one__title"><a href="product-details.html">Broccoli</a>
@@ -189,7 +188,7 @@
                             <div class="shop-one__image">
 
                                 <img src="{{ asset('images/update-14-09-2021/shop/shop-1-4.png') }}" alt="">
-                                <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
+                                {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center">
                                 <h3 class="shop-one__title"><a href="product-details.html">Fresh
@@ -211,7 +210,7 @@
                             <div class="shop-one__image">
 
                                 <img src="{{ asset('images/update-14-09-2021/shop/shop-1-5.png') }}" alt="">
-                                <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
+                                {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center">
                                 <h3 class="shop-one__title"><a href="product-details.html">Tomatos</a>
@@ -232,7 +231,7 @@
                             <div class="shop-one__image">
 
                                 <img src="{{ asset('images/update-14-09-2021/shop/shop-1-6.png') }}" alt="">
-                                <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
+                                {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center">
                                 <h3 class="shop-one__title"><a href="product-details.html">Lemons</a>
@@ -253,7 +252,7 @@
                             <div class="shop-one__image">
                                 {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
                                 <img src="{{ asset('images/update-14-09-2021/shop/shop-1-7.png') }}" alt="">
-                                <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
+                                {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center">
                                 <h3 class="shop-one__title"><a href="product-details.html">Red
@@ -274,7 +273,7 @@
                         <div class="shop-one__item">
                             <div class="shop-one__image">
                                 <img src="{{ asset('images/update-14-09-2021/shop/shop-1-8.png') }}" alt="">
-                                <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
+                                {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center">
                                 <h3 class="shop-one__title"><a href="product-details.html">Carrots</a>
@@ -295,7 +294,7 @@
                             <div class="shop-one__image">
                                 {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
                                 <img src="{{ asset('images/update-14-09-2021/shop/shop-1-1.png') }}" alt="">
-                                <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a>
+                                {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center">
                                 <h3 class="shop-one__title"><a href="product-details.html">Brown
