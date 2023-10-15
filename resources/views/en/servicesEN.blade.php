@@ -8,7 +8,7 @@
             </p>
         </li>
         <li>
-            <p><a href="/servicesAR">العربيه <img src="{{ asset('images/backgrounds/egypt.png') }}" alt="" />
+            <p><a href="/مرافق">العربيه <img src="{{ asset('images/backgrounds/egypt.png') }}" alt="" />
             </p>
         </li>
 
@@ -59,10 +59,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="services-details.html">Agriculture<br> Products</a></h3>
+                        <h3><a href="/shop">Agriculture<br> Products</a></h3>
                         <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
-                        <a href="services-details.html" class="read-more-btn"><span
-                                class="icon-right-arrow-2"></span></a>
+                        <a href="/shop" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
             </div>
@@ -80,10 +79,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="services-details.html">Fresh <br>Vegetables</a></h3>
+                        <h3><a href="/shop">Fresh <br>Vegetables</a></h3>
                         <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
-                        <a href="services-details.html" class="read-more-btn"><span
-                                class="icon-right-arrow-2"></span></a>
+                        <a href="/shop" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
             </div>
@@ -101,10 +99,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="services-details.html">Oragnic <br>Products</a></h3>
+                        <h3><a href="/shop">Oragnic <br>Products</a></h3>
                         <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
-                        <a href="services-details.html" class="read-more-btn"><span
-                                class="icon-right-arrow-2"></span></a>
+                        <a href="/shop" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
             </div>
@@ -122,10 +119,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="services-details.html">Dairy<br> Products</a></h3>
+                        <h3><a href="/shop">Dairy<br> Products</a></h3>
                         <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
-                        <a href="services-details.html" class="read-more-btn"><span
-                                class="icon-right-arrow-2"></span></a>
+                        <a href="/shop" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
             </div>

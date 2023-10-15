@@ -4,7 +4,7 @@
     </button>
     <ul class="dropdown-menu">
         <li>
-            <p> <a href="/services">English <img src="{{ asset('images/backgrounds/united-kingdom.png') }}"
+            <p> <a href="/facilities">English <img src="{{ asset('images/backgrounds/united-kingdom.png') }}"
                         alt="" />
             </p>
         </li>

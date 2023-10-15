@@ -20,29 +20,29 @@
                                 <div class="main-header--one__bottom-right">
                                     <ul class="main-menu__list">
                                         <li>
-                                            <a href="/ar">
+                                            <a href="/عربي">
                                                 الصفحة الرئيسية
                                             </a>
                                         </li>
-                                        <li><a href="aboutAR">
+                                        <li><a href="عن">
                                                 عن
                                             </a></li>
                                         <li>
-                                            <a href="servicesAR">
-                                                خدمات
+                                            <a href="مرافق">
+                                                مرافق
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="shopAR">
+                                            <a href="اشتري">
                                                 محل
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="blogAR">
+                                            <a href="مدونه">
                                                 مدونة
                                             </a>
                                         </li>
-                                        <li><a href="contactAR">
+                                        <li><a href="اتصل">
                                                 اتصل
                                             </a></li>
                                     </ul>

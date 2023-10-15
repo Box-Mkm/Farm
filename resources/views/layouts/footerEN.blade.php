@@ -74,13 +74,13 @@
                                     <ul class="footer-widget__explore-list">
                                         <li class="footer-widget__explore-list-item"><a href="projects.html">New
                                                 Projects</a></li>
-                                        <li class="footer-widget__explore-list-item"><a href="services.html">Our
-                                                Services</a></li>
+                                        <li class="footer-widget__explore-list-item"><a href="/facilities">Our
+                                                Facilities</a></li>
                                         <li class="footer-widget__explore-list-item"><a href="about.html">About
                                                 Us</a></li>
-                                        <li class="footer-widget__explore-list-item"><a href="#">Get in
+                                        <li class="footer-widget__explore-list-item"><a href="/contact">Get in
                                                 Touch</a></li>
-                                        <li class="footer-widget__explore-list-item"><a href="#">Volunteers</a>
+                                        <li class="footer-widget__explore-list-item"><a href="/contact">Volunteers</a>
                                         </li>
                                     </ul>
                                 </div>

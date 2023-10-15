@@ -24,7 +24,7 @@
                                         </li>
                                         <li><a href="about">About</a></li>
                                         <li>
-                                            <a href="services">Services</a>
+                                            <a href="facilities">Facilities</a>
                                         </li>
                                         <li>
                                             <a href="shop">Shop</a>
