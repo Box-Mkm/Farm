@@ -19,84 +19,44 @@
                                     </div>
                                     <p class="footer-widget__about-text">هناك العديد من الاختلافات في المقاطع
                                         المتاحة ولكن الغالبية عانت </p>
+
+                                </div>
+                            </div>
+                            <!--End Footer Widget Column-->
+
+                            <!--Start Footer Widget Column-->
+                            <div class="col-xl-6 col-lg-6 col-md-6 wow animated fadeInUp d-flex justify-content-around"
+                                data-wow-delay="0.5s">
+                                <div class="footer-widget__column footer-widget__explore ">
+                                    <h2 class="footer-widget__title">أستكشف</h2>
+                                    <ul class="footer-widget__explore-list">
+                                        <li class="footer-widget__explore-list-item"><a href="مرافق">خدماتنا</a>
+                                        </li>
+                                        <li class="footer-widget__explore-list-item"><a href="عن">معلومات
+                                                عنا</a></li>
+                                        <li class="footer-widget__explore-list-item"><a href="اتصل">ابقى
+                                                على
+                                                تواصل</a></li>
+                                        <li class="footer-widget__explore-list-item"><a href="اتصل">تطوع</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--End Footer Widget Column-->
+
+                            <!--Start Footer Widget Column-->
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.7s">
+                                <div class="footer-widget__column footer-widget__newletter">
+                                    <h2 class="footer-widget__title">تواصل معنا</h2>
                                     <div class="footer-widget__about-contact-box">
                                         <p class="phone"><a href="tel:123456789"><i
-                                                    class="fas fa-phone-square-alt"></i>+92 666 888 0000</a>
+                                                    class="fas fa-phone-square-alt"></i>048-2630215</a>
                                         </p>
                                         <p><a href="mailto:needhelp@company.com"><i
                                                     class="fa fa-envelope"></i>needhelp@company.com</a></p>
-                                        <p class="text"><i class="fas fa-map-marker-alt"></i>666 road,
-                                            broklyn
-                                            street new york</p>
+                                        <p class="text"><i class="fas fa-map-marker-alt"></i>مدينة السادات - المنطقه
+                                            الصناعية السابعة - قطعة ٧١٨٧ - خلف مصنع تويوتا</p>
                                     </div>
-                                </div>
-                            </div>
-                            <!--End Footer Widget Column-->
-
-                            <!--Start Footer Widget Column-->
-                            <div class="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.3s">
-                                <div class="footer-widget__column footer-widget__news">
-                                    <h2 class="footer-widget__title">أخبار</h2>
-                                    <ul class="footer-widget__news-list">
-                                        <li class="footer-widget__news-list-item">
-                                            <div class="footer-widget__news-list-item-img">
-                                                <img src="{{ asset('images/resources/footer-widget-news-img1.png') }}"
-                                                    alt="" />
-                                            </div>
-                                            <div class="footer-widget__news-list-item-title">
-                                                <p>20 يوليو 2021</p>
-                                                <h5><a href="#">يعطي الماء النظيف طعمًا أكثر <br>
-                                                        روعة</a></h5>
-                                            </div>
-                                        </li>
-
-                                        <li class="footer-widget__news-list-item">
-                                            <div class="footer-widget__news-list-item-img">
-                                                <img src="{{ asset('images/resources/footer-widget-news-img2.png') }}"
-                                                    alt="" />
-                                            </div>
-                                            <div class="footer-widget__news-list-item-title">
-                                                <p>20 يوليو 2021</p>
-                                                <h5><a href="#">يعطي الماء النظيف طعمًا أكثر <br>
-                                                        روعة</a></h5>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!--End Footer Widget Column-->
-
-                            <!--Start Footer Widget Column-->
-                            <div class="col-xl-2 col-lg-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.5s">
-                                <div class="footer-widget__column footer-widget__explore">
-                                    <h2 class="footer-widget__title">يستكشف</h2>
-                                    <ul class="footer-widget__explore-list">
-                                        <li class="footer-widget__explore-list-item"><a href="projects.html">مشاريع
-                                                جديدة</a></li>
-                                        <li class="footer-widget__explore-list-item"><a href="services.html">خدماتنا</a>
-                                        </li>
-                                        <li class="footer-widget__explore-list-item"><a href="about.html">معلومات
-                                                عنا</a></li>
-                                        <li class="footer-widget__explore-list-item"><a href="#">ابقى
-                                                على
-                                                تواصل</a></li>
-                                        <li class="footer-widget__explore-list-item"><a href="#">تطوع</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!--End Footer Widget Column-->
-
-                            <!--Start Footer Widget Column-->
-                            <div class="col-xl-4 col-lg-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.7s">
-                                <div class="footer-widget__column footer-widget__newletter">
-                                    <h2 class="footer-widget__title">النشرة الإخبارية</h2>
-                                    <p class="footer-widget__newletter-text">اشترك الآن للحصول على آخر الأخبار
-                                        والتحديثات اليومية منا</p>
-                                    <form class="subscribe-form" action="#">
-                                        <input type="email" name="email" placeholder="عنوان البريد الالكترونى">
-                                        <button type="submit">يذهب</button>
-                                    </form>
                                 </div>
                             </div>
                             <!--End Footer Widget Column-->
@@ -160,7 +120,7 @@
             </li>
             <li>
                 <i class="icon-letter"></i>
-                <a href="tel:666-888-0000">666 888 0000</a>
+                <a href="tel:666-888-0000">048 2630215</a>
             </li>
         </ul><!-- /.mobile-nav__contact -->
         <div class="mobile-nav__top">

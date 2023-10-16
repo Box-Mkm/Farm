@@ -3,7 +3,7 @@
         <div class="main-header--one__wrapper">
             <div class="main-header--one__bottom clearfix">
                 <div class="auto-container">
-                    <div class="main-header--one__bottom-right">
+                    <div class="main-header--one__bottom-inner flex-row-reverse">
                         <nav class="main-menu main-menu--1">
                             <div class="main-menu__inner">
                                 <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
