@@ -263,7 +263,7 @@
                     <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-1.png" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="product-details.html">Brown
+                    <h3 class="shop-one__title"><a href="اشتري">Brown
                             Bread</a>
                     </h3>
                     <p class="shop-one__price">$23.00</p><!-- /.shop-one__price -->
@@ -284,7 +284,7 @@
                     <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-2.png" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="product-details.html">Red Onion</a>
+                    <h3 class="shop-one__title"><a href="اشتري">Red Onion</a>
                     </h3>
                     <p class="shop-one__price">$33.00</p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
@@ -304,7 +304,7 @@
                     <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-3.png" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="product-details.html">Broccoli</a>
+                    <h3 class="shop-one__title"><a href="اشتري">Broccoli</a>
                     </h3>
                     <p class="shop-one__price">$18.00</p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
@@ -324,7 +324,7 @@
                     <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-4.png" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="product-details.html">Fresh
+                    <h3 class="shop-one__title"><a href="اشتري">Fresh
                             Potato</a>
                     </h3>
                     <p class="shop-one__price">$16.00</p><!-- /.shop-one__price -->
@@ -474,7 +474,8 @@
         <div class="row">
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single" style="    background-color: seagreen;
+                <div class="meet-farmers-one__single"
+                    style="    background-color: seagreen;
                 border-radius: 36px; margin-top:40px">
                     {{-- <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img1.jpg') }}" alt="" />
@@ -482,7 +483,7 @@
                     </div> --}}
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">أحمد سليم عبد الدايم</a></h2>
+                        <h2><a href="اشتري">أحمد سليم عبد الدايم</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -502,10 +503,11 @@
                     {{-- <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img2.jpg') }}" alt="" />
                     </div> --}}
-                    <div class="meet-farmers-one__single-title text-center" style="    background-color: seagreen;
+                    <div class="meet-farmers-one__single-title text-center"
+                        style="    background-color: seagreen;
                     border-radius: 36px; margin-top:40px">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">سالم سليم عبد الدايم</a></h2>
+                        <h2><a href="اشتري">سالم سليم عبد الدايم</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -525,10 +527,11 @@
                     {{-- <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img3.jpg') }}" alt="" />
                     </div> --}}
-                    <div class="meet-farmers-one__single-title text-center" style="    background-color: seagreen;
+                    <div class="meet-farmers-one__single-title text-center"
+                        style="    background-color: seagreen;
                     border-radius: 36px; margin-top:40px">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">محمود حسن عبد الدايم</a></h2>
+                        <h2><a href="اشتري">محمود حسن عبد الدايم</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -548,10 +551,11 @@
                     {{-- <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img4.jpg') }}" alt="" />
                     </div> --}}
-                    <div class="meet-farmers-one__single-title text-center" style="    background-color: seagreen;
+                    <div class="meet-farmers-one__single-title text-center"
+                        style="    background-color: seagreen;
                     border-radius: 36px; margin-top:40px">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">محجوب حسن عبد الدايم</a></h2>
+                        <h2><a href="اشتري">محجوب حسن عبد الدايم</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -586,7 +590,7 @@
             <h2 class="sec-title__title">رضا العملاء</h2>
         </div>
         <div class="row">
- 
+
 
             <!--Start Single Services One-->
             <div class="col-xl-12 col-lg-12 wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
@@ -825,7 +829,7 @@
                             <span> 30 يوليو 2021 </span>
                         </div>
                         <div class="overlay-icon">
-                            <a href="news-details.html"><span class="icon-plus"></span></a>
+                            <a href="مدونه"><span class="icon-plus"></span></a>
                         </div>
                     </div>
 
@@ -834,7 +838,8 @@
                             <li><a href="#"><i class="far fa-user-circle"></i>جيسيكا</a></li>
                             <li><a href="#"><i class="far fa-comments"></i>2 تعليقات</a></li>
                         </ul>
-                        <h2><a href="news-details.html">أ. من المزرعة إلى المائدة: استكشاف رحلة المنتجات الطازجة</a></h2>
+                        <h2><a href="مدونه">أ. من المزرعة إلى المائدة: استكشاف رحلة المنتجات الطازجة</a>
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -849,7 +854,7 @@
                             <span> 30 يوليو 2021 </span>
                         </div>
                         <div class="overlay-icon">
-                            <a href="news-details.html"><span class="icon-plus"></span></a>
+                            <a href="مدونه"><span class="icon-plus"></span></a>
                         </div>
                     </div>
 
@@ -858,7 +863,8 @@
                             <li><a href="#"><i class="far fa-user-circle"></i>جيسيكا</a></li>
                             <li><a href="#"><i class="far fa-comments"></i>2 تعليقات</a></li>
                         </ul>
-                        <h2><a href="news-details.html">سلوكيات الزراعة المستدامة: الحفاظ على البيئة للأجيال القادمة </a></h2>
+                        <h2><a href="مدونه">سلوكيات الزراعة المستدامة: الحفاظ على البيئة للأجيال القادمة
+                            </a></h2>
                     </div>
                 </div>
             </div>
@@ -873,7 +879,7 @@
                             <span> 30 يوليو 2021 </span>
                         </div>
                         <div class="overlay-icon">
-                            <a href="news-details.html"><span class="icon-plus"></span></a>
+                            <a href="مدونه"><span class="icon-plus"></span></a>
                         </div>
                     </div>
 
@@ -882,7 +888,8 @@
                             <li><a href="#"><i class="far fa-user-circle"></i>جيسيكا</a></li>
                             <li><a href="#"><i class="far fa-comments"></i>2 تعليقات</a></li>
                         </ul>
-                        <h2 style="color: white"><a href="news-details.html"></a>استكشاف أفضل الفواكه والخضروات في كل فصل</h2>
+                        <h2 style="color: white"><a href="مدونه"></a>استكشاف أفضل الفواكه والخضروات في كل
+                            فصل</h2>
                     </div>
                 </div>
             </div>
@@ -910,9 +917,9 @@
                         <li>
                             <i class="fa fa-check-circle"></i>
                             <span class="icon-phone-call-2"></span>
-                    
-                            <span><a href="tel:123456789">&nbsp; 048 2630215</a></span>                
-                                </li>
+
+                            <span><a href="tel:123456789">&nbsp; 048 2630215</a></span>
+                        </li>
                         <li>
                             <i class="fa fa-check-circle"></i>
                             <span class="icon-email-1"></span>

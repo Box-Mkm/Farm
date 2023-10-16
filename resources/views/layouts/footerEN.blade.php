@@ -13,8 +13,7 @@
                             <div class="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp order 1" data-wow-delay="0.1s">
                                 <div class="footer-widget__column footer-widget__about">
                                     <div class="footer-widget__about-logo">
-                                        <a href="index-main.html"><img
-                                                src="{{ asset('images/resources/footer-logo.png') }}"
+                                        <a href="عربي"><img src="{{ asset('images/resources/footer-logo.png') }}"
                                                 alt=""></a>
                                     </div>
                                     <p class="footer-widget__about-text">Lorem ipsum dolor sit amet consect
@@ -176,6 +175,6 @@
 
 </body>
 
-<!-- Mirrored from layerdrops.com/agriox/index-main.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Sep 2023 12:19:26 GMT -->
+<!-- Mirrored from layerdrops.com/agriox/عربي by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Sep 2023 12:19:26 GMT -->
 
 </html>

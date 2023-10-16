@@ -22,7 +22,7 @@
     <div class="container">
         <div class="page-header__inner text-center clearfix">
             <ul class="thm-breadcrumb">
-                <li><a href="index-main.html">Home</a></li>
+                <li><a href="عربي">Home</a></li>
                 <li>About</li>
             </ul>
             <h2>About Us</h2>
@@ -218,7 +218,8 @@
         <div class="row">
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single" style="    background-color: seagreen;
+                <div class="meet-farmers-one__single"
+                    style="    background-color: seagreen;
                 border-radius: 36px; margin-top:40px">
                     {{-- <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img1.jpg') }}" alt="" />
@@ -242,7 +243,8 @@
 
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single" style="    background-color: seagreen;
+                <div class="meet-farmers-one__single"
+                    style="    background-color: seagreen;
                 border-radius: 36px;margin-top:40px">
                     {{-- <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img2.jpg') }}" alt="" />
@@ -265,7 +267,8 @@
 
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single" style="    background-color: seagreen;
+                <div class="meet-farmers-one__single"
+                    style="    background-color: seagreen;
                 border-radius: 36px;margin-top:40px">
                     {{-- <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img3.jpg') }}" alt="" />
@@ -288,7 +291,8 @@
 
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single" style="    background-color: seagreen;
+                <div class="meet-farmers-one__single"
+                    style="    background-color: seagreen;
                 border-radius: 36px;margin-top:40px">
                     {{-- <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img4.jpg') }}" alt="" />

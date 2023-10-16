@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 
-<!-- Mirrored from layerdrops.com/agriox/index-main.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Sep 2023 12:19:10 GMT -->
+<!-- Mirrored from layerdrops.com/agriox/عربي by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Sep 2023 12:19:10 GMT -->
 
 <head>
     <meta charset="UTF-8" />

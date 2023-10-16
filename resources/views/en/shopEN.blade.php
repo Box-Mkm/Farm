@@ -8,7 +8,7 @@
             </p>
         </li>
         <li>
-            <p><a href="/shopAR">العربيه <img src="{{ asset('images/backgrounds/egypt.png') }}" alt="" />
+            <p><a href="/اشتري">العربيه <img src="{{ asset('images/backgrounds/egypt.png') }}" alt="" />
             </p>
         </li>
 
@@ -22,7 +22,7 @@
     <div class="container">
         <div class="page-header__inner text-center clearfix">
             <ul class="thm-breadcrumb">
-                <li><a href="index-main.html">Home</a></li>
+                <li><a href="عربي">Home</a></li>
                 <li>Products</li>
             </ul>
             <h2>Products</h2>
@@ -120,15 +120,17 @@
                     </div><!-- /.col-lg-12 --> --}}
                 </div><!-- /.row -->
                 <div class="row ">
-                    <div class="col-md-6 col-lg-3" >
-                        <div class="shop-one__item" style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="shop-one__item"
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
                                 {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
-                                <img  src="{{ asset('images/neworange.png') }}" alt="">
+                                <img src="{{ asset('images/neworange.png') }}" alt="">
                                 {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center card" style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="product-details.html">Orange</a>
+                            <div class="shop-one__content text-center card"
+                                style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="shop">Orange</a>
                                 </h3>
                                 {{-- <p class="shop-one__price">$23.00</p><!-- /.shop-one__price --> --}}
                                 {{-- <div class="shop-one__rating">
@@ -144,15 +146,17 @@
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
-                    <div class="col-md-6 col-lg-3" >
-                        <div class="shop-one__item" style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="shop-one__item"
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
 
                                 <img src="{{ asset('images/mandarin.png') }}" alt="">
                                 {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center card" style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="product-details.html">Mandarin</a>
+                            <div class="shop-one__content text-center card"
+                                style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="shop">Mandarin</a>
                                 </h3>
                                 {{-- <p class="shop-one__price">$33.00</p><!-- /.shop-one__price --> --}}
                                 <p>Packing: Boxes - Cartoon</p>
@@ -161,15 +165,17 @@
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
-                    <div class="col-md-6 col-lg-3" >
-                        <div class="shop-one__item" style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="shop-one__item"
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
 
                                 <img src="{{ asset('images/grape.png') }}" alt="">
                                 {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center card"  style="background-color: seagreen; border-radius:30px;">
-                                <h3 class="shop-one__title"><a href="product-details.html">Grape</a>
+                            <div class="shop-one__content text-center card"
+                                style="background-color: seagreen; border-radius:30px;">
+                                <h3 class="shop-one__title"><a href="shop">Grape</a>
                                 </h3>
 
                                 <p>Packing: Boxes - Cartoon - Bag</p>
@@ -179,14 +185,16 @@
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item" style="background-color: seagreen; border-radius:30px; padding-bottom:20px" >
+                        <div class="shop-one__item"
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
 
                                 <img src="{{ asset('images/pomegranate.png') }}" alt="">
                                 {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center card" style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="product-details.html">pomegranate</a>
+                            <div class="shop-one__content text-center card"
+                                style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="shop">pomegranate</a>
                                 </h3>
                                 <p>Packing: Boxes - Cartoon</p>
                                 <p>Season: July - August</p>
@@ -195,14 +203,16 @@
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item" style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
+                        <div class="shop-one__item"
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
 
                                 <img src="{{ asset('images/mango.png') }}" alt="">
                                 {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center card" style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="product-details.html">Mango</a>
+                            <div class="shop-one__content text-center card"
+                                style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="shop">Mango</a>
                                 </h3>
                                 <p>Packing: Boxes - Cartoon</p>
                                 <p>Season: June - September</p>
@@ -211,61 +221,69 @@
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item" style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
+                        <div class="shop-one__item"
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
 
                                 <img src="{{ asset('images/garlic.png') }}" alt="">
                                 {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center card" style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="product-details.html">Garlic</a>
+                            <div class="shop-one__content text-center card"
+                                style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="shop">Garlic</a>
                                 </h3>
                                 <p>Packing: Boxes - Baskets</p>
                                 <p>Season: February - April</p>
-                                <p>Weight: 10KG - 15KG</p>                                
+                                <p>Weight: 10KG - 15KG</p>
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item" style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
+                        <div class="shop-one__item"
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
                                 {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
                                 <img src="{{ asset('images/onion.png') }}" alt="">
                                 {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center card" style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="product-details.html">Onion</a>
+                            <div class="shop-one__content text-center card"
+                                style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="shop">Onion</a>
                                 </h3>
                                 <p>Packing: Bag</p>
                                 <p>Season: January - June</p>
-                                <p>Weight: 5KG - 25KG</p>  
+                                <p>Weight: 5KG - 25KG</p>
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item" style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
+                        <div class="shop-one__item"
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
                                 <img src="{{ asset('images/potato.png') }}" alt="">
                                 {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center card" style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="product-details.html">Potato</a>
+                            <div class="shop-one__content text-center card"
+                                style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="shop">Potato</a>
                                 </h3>
                                 <p>Packing: Shawwal</p>
                                 <p>Season: January - June</p>
-                                <p>Weight: 5KG - 25KG</p> 
+                                <p>Weight: 5KG - 25KG</p>
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item" style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
+                        <div class="shop-one__item"
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
                                 {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
                                 <img src="{{ asset('images/tomato.png') }}" alt="">
                                 {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center card" style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="product-details.html">Tomato</a>
+                            <div class="shop-one__content text-center card"
+                                style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="shop">Tomato</a>
                                 </h3>
                                 <p>Packing: Boxes - Baskets</p>
                                 <p>Season: January - December</p>
@@ -274,14 +292,16 @@
                         </div><!-- /.shop-one__item -->
                     </div>
                     <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item" style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
+                        <div class="shop-one__item"
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
                                 {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
                                 <img src="{{ asset('images/Lettuce.png') }}" alt="">
                                 {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center card" style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="product-details.html">Lettuce</a>
+                            <div class="shop-one__content text-center card"
+                                style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="shop">Lettuce</a>
                                 </h3>
                                 <p>Packing: Boxes - Baskets</p>
                                 <p>Season: January - December</p>

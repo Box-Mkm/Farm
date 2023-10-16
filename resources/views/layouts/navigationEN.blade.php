@@ -9,7 +9,7 @@
                                 <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                 <div class="stricky-one-logo">
                                     <div class="logo">
-                                        <a href="index-main.html">
+                                        <a href="عربي">
                                             <img class="dark-logo" src="{{ asset('images/resources/logo-1.png') }}"
                                                 alt="">
                                             <img class="light-logo" src="{{ asset('images/resources/logo-2.png') }}"

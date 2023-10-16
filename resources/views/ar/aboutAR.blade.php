@@ -22,7 +22,7 @@
     <div class="container">
         <div class="page-header__inner text-center clearfix">
             <ul class="thm-breadcrumb">
-                <li><a href="index-main.html">الرئيسية</a></li>
+                <li><a href="عربي">الرئيسية</a></li>
                 <li>عننا</li>
             </ul>
             <h2>عن الشركة</h2>
@@ -134,10 +134,16 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="contact-one__content" style="font-size: larger">
-                    <p class="contact-one__text">نحن نستخدم أحدث آلات التعبئة والتغليف    (sizer)  لضمان تعبئة منتجات عالية الجودة بكفاءة ودقة. تم تصميم هذه الآلات المتطورة خصيصًا للتعامل مع مجموعتنا المتنوعة من الفواكه والخضروات، وتوفير حلول تعبئة مثلى تحافظ على المنتجات وتطيل فترة الصلاحية. بالتالي، يمكننا توصيل منتجاتنا بثقة للعملاء في جميع أنحاء العالم، ضامنين أن كل منتج سيصل إلى وجهته في حالة مثالية
-                        الحاصلات الزراعية تمر عبر خط غسيل حيث يتم تنظيفها وتعقيمها. ثم يتم تصويرها لضمان الجودة والتأكد من عدم وجود أي عيوب في الفواكه. يتم فرز الفواكه لضمان جودتها النهائية، ونستخدم أجهزة فحص الحجم لتحديد حجم الإنتاج. في النهاية، نصدر منتجات عالية الجودة للعالم بأسره.
-                        توفر عبد الدايم للحاصلات الزراعية أيضًا خيارًا للشركات الأخرى للاستفادة من آلة سيزر لغسل وفرز محاصيلها الزراعية الخاصة. وهذا يتيح لهذه الشركات التحقق وضمان جودة منتجاتها الزراعية.
-                        
+                    <p class="contact-one__text">نحن نستخدم أحدث آلات التعبئة والتغليف (sizer) لضمان تعبئة منتجات عالية
+                        الجودة بكفاءة ودقة. تم تصميم هذه الآلات المتطورة خصيصًا للتعامل مع مجموعتنا المتنوعة من الفواكه
+                        والخضروات، وتوفير حلول تعبئة مثلى تحافظ على المنتجات وتطيل فترة الصلاحية. بالتالي، يمكننا توصيل
+                        منتجاتنا بثقة للعملاء في جميع أنحاء العالم، ضامنين أن كل منتج سيصل إلى وجهته في حالة مثالية
+                        الحاصلات الزراعية تمر عبر خط غسيل حيث يتم تنظيفها وتعقيمها. ثم يتم تصويرها لضمان الجودة والتأكد
+                        من عدم وجود أي عيوب في الفواكه. يتم فرز الفواكه لضمان جودتها النهائية، ونستخدم أجهزة فحص الحجم
+                        لتحديد حجم الإنتاج. في النهاية، نصدر منتجات عالية الجودة للعالم بأسره.
+                        توفر عبد الدايم للحاصلات الزراعية أيضًا خيارًا للشركات الأخرى للاستفادة من آلة سيزر لغسل وفرز
+                        محاصيلها الزراعية الخاصة. وهذا يتيح لهذه الشركات التحقق وضمان جودة منتجاتها الزراعية.
+
                     </p>
                 </div><!-- /.contact-one__content -->
             </div><!-- /.col-lg-6 -->
@@ -162,7 +168,8 @@
         <div class="row">
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single" style="    background-color: seagreen;
+                <div class="meet-farmers-one__single"
+                    style="    background-color: seagreen;
                 border-radius: 36px; margin-top:40px">
                     {{-- <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img1.jpg') }}" alt="" />
@@ -186,12 +193,13 @@
 
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single" style="    background-color: seagreen;
+                <div class="meet-farmers-one__single"
+                    style="    background-color: seagreen;
                 border-radius: 36px; margin-top:40px">
                     {{-- <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img2.jpg') }}" alt="" />
                     </div> --}}
-                    <div class="meet-farmers-one__single-title text-center" >
+                    <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">سالم سليم عبد الدايم</a></h2>
                         <div class="social-link">
@@ -209,12 +217,13 @@
 
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single" style="    background-color: seagreen;
+                <div class="meet-farmers-one__single"
+                    style="    background-color: seagreen;
                 border-radius: 36px; margin-top:40px">
                     {{-- <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img3.jpg') }}" alt="" />
                     </div> --}}
-                    <div class="meet-farmers-one__single-title text-center" >
+                    <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">محمود حسن عبد الدايم</a></h2>
                         <div class="social-link">
@@ -232,12 +241,13 @@
 
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single" style="    background-color: seagreen;
+                <div class="meet-farmers-one__single"
+                    style="    background-color: seagreen;
                 border-radius: 36px; margin-top:40px">
                     {{-- <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img4.jpg') }}" alt="" />
                     </div> --}}
-                    <div class="meet-farmers-one__single-title text-center" >
+                    <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">محجوب حسن عبد الدايم</a></h2>
                         <div class="social-link">

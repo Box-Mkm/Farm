@@ -300,7 +300,7 @@
                     {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="product-details.html">Brown
+                    <h3 class="shop-one__title"><a href="shop">Brown
                             Bread</a>
                     </h3>
                     <p class="shop-one__price">$23.00</p><!-- /.shop-one__price -->
@@ -322,7 +322,7 @@
                     {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="product-details.html">Red Onion</a>
+                    <h3 class="shop-one__title"><a href="shop">Red Onion</a>
                     </h3>
                     <p class="shop-one__price">$33.00</p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
@@ -343,7 +343,7 @@
                     {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="product-details.html">Broccoli</a>
+                    <h3 class="shop-one__title"><a href="shop">Broccoli</a>
                     </h3>
                     <p class="shop-one__price">$18.00</p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
@@ -364,7 +364,7 @@
                     {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="product-details.html">Fresh
+                    <h3 class="shop-one__title"><a href="shop">Fresh
                             Potato</a>
                     </h3>
                     <p class="shop-one__price">$16.00</p><!-- /.shop-one__price -->
@@ -505,7 +505,8 @@
         <div class="row">
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single" style="    background-color: seagreen;
+                <div class="meet-farmers-one__single"
+                    style="    background-color: seagreen;
                 border-radius: 36px; margin-top:40px">
                     {{-- <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img1.jpg') }}" alt="" />
@@ -529,7 +530,8 @@
 
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single" style="    background-color: seagreen;
+                <div class="meet-farmers-one__single"
+                    style="    background-color: seagreen;
                 border-radius: 36px;margin-top:40px">
                     {{-- <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img2.jpg') }}" alt="" />
@@ -552,7 +554,8 @@
 
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single" style="    background-color: seagreen;
+                <div class="meet-farmers-one__single"
+                    style="    background-color: seagreen;
                 border-radius: 36px;margin-top:40px">
                     {{-- <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img3.jpg') }}" alt="" />
@@ -575,7 +578,8 @@
 
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single" style="    background-color: seagreen;
+                <div class="meet-farmers-one__single"
+                    style="    background-color: seagreen;
                 border-radius: 36px;margin-top:40px">
                     {{-- <div class="meet-farmers-one__single-img">
                         <img src="{{ asset('images/resources/meet-farmers-v1-img4.jpg') }}" alt="" />
@@ -618,7 +622,7 @@
         </div>
         <div class="row">
             <!--Start Single Services One-->
- 
+
 
             <!--Start Single Services One-->
             <div class="col-xl-12 col-lg-12 wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
@@ -872,7 +876,7 @@
                             <span>30 July, 2021</span>
                         </div>
                         <div class="overlay-icon">
-                            <a href="news-details.html"><span class="icon-plus"></span></a>
+                            <a href="blog"><span class="icon-plus"></span></a>
                         </div>
                     </div>
 
@@ -881,7 +885,7 @@
                             <li><a href="#"><i class="far fa-user-circle"></i>Jessica</a></li>
                             <li><a href="#"><i class="far fa-comments"></i>2 Comments</a></li>
                         </ul>
-                        <h2><a href="news-details.html">A. Farm-to-Table: Exploring the Journey of Fresh Produce</a>
+                        <h2><a href="blog">A. Farm-to-Table: Exploring the Journey of Fresh Produce</a>
                         </h2>
                     </div>
                 </div>
@@ -897,7 +901,7 @@
                             <span>30 July, 2021</span>
                         </div>
                         <div class="overlay-icon">
-                            <a href="news-details.html"><span class="icon-plus"></span></a>
+                            <a href="b;pg"><span class="icon-plus"></span></a>
                         </div>
                     </div>
 
@@ -906,7 +910,7 @@
                             <li><a href="#"><i class="far fa-user-circle"></i>Jessica</a></li>
                             <li><a href="#"><i class="far fa-comments"></i>2 Comments</a></li>
                         </ul>
-                        <h2><a href="news-details.html">B. Sustainable Farming Practices: Preserving the Environment
+                        <h2><a href="blog">B. Sustainable Farming Practices: Preserving the Environment
                                 for Future Generations</a></h2>
                     </div>
                 </div>
@@ -922,7 +926,7 @@
                             <span>30 July, 2021</span>
                         </div>
                         <div class="overlay-icon">
-                            <a href="news-details.html"><span class="icon-plus"></span></a>
+                            <a href="blog"><span class="icon-plus"></span></a>
                         </div>
                     </div>
 
@@ -931,7 +935,7 @@
                             <li><a href="#"><i class="far fa-user-circle"></i>Jessica</a></li>
                             <li><a href="#"><i class="far fa-comments"></i>2 Comments</a></li>
                         </ul>
-                        <h2><a href="news-details.html">C. Seasonal Delights: Exploring the Best Fruits and Vegetables
+                        <h2><a href="blog">C. Seasonal Delights: Exploring the Best Fruits and Vegetables
                                 Each Season</a></h2>
                     </div>
                 </div>
@@ -959,12 +963,12 @@
                     <ul class="list-unstyled ml-0 contact-one__lists">
                         <li>
                             <i class="fa fa-check-circle"></i>
-                            
-                                    <span class="icon-phone-call-2"></span>
-                                
-                                    
-                                    <span><a href="tel:123456789">&nbsp; 048 2630215</a></span>
-                            
+
+                            <span class="icon-phone-call-2"></span>
+
+
+                            <span><a href="tel:123456789">&nbsp; 048 2630215</a></span>
+
                         </li>
                         <li>
                             <i class="fa fa-check-circle"></i>

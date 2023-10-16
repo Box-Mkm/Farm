@@ -13,8 +13,7 @@
                             <div class="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.1s">
                                 <div class="footer-widget__column footer-widget__about">
                                     <div class="footer-widget__about-logo">
-                                        <a href="index-main.html"><img
-                                                src="{{ asset('images/resources/footer-logo.png') }}"
+                                        <a href="عربي"><img src="{{ asset('images/resources/footer-logo.png') }}"
                                                 alt=""></a>
                                     </div>
                                     <p class="footer-widget__about-text">هناك العديد من الاختلافات في المقاطع
@@ -106,8 +105,8 @@
         <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
         <div class="logo-box">
-            <a href="index-main.html" aria-label="logo image"><img
-                    src="{{ asset('images/resources/mobilemenu_logo.png') }}" width="155" alt="" /></a>
+            <a href="عربي" aria-label="logo image"><img src="{{ asset('images/resources/mobilemenu_logo.png') }}"
+                    width="155" alt="" /></a>
         </div>
         <!-- /.logo-box -->
         <div class="mobile-nav__container"></div>
