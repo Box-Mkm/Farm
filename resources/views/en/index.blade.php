@@ -802,7 +802,6 @@
                 <div class="providing-quality-one__content-box">
                     <div class="sec-title">
                         <div class="icon">
-                            <img src="{{ asset('images/resources/sec-title-icon2.png') }}" alt="">
                         </div>
                         <span class="sec-title__tagline">Modern Agriculture</span>
                         <h2 class="sec-title__title">Providing High Quality <br>Products</h2>
@@ -988,7 +987,7 @@
 
 
 <!--Cta One Start-->
-<section class="cta-one" style="background-image: url({{ asset('images/backgrounds/cta-v1-bg.jpg') }});">
+<section class="cta-one">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">

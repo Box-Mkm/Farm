@@ -191,8 +191,6 @@
 <!-- toolbar js -->
 <script src="{{ asset('vendors/toolbar/js/js.cookie.min.js') }}"></script>
 <script src="{{ asset('vendors/toolbar/js/jQuery.style.switcher.min.js') }}"></script>
-<script src="{{ asset('vendors/toolbar/js/toolbar.lang.js') }}"></script>
-<script src="../../translate.google.com/translate_a/elementa0d8.js?cb=googleTranslateElementInit')}}"></script>
 <script src="{{ asset('vendors/toolbar/js/toolbar.js') }}"></script>
 
 
