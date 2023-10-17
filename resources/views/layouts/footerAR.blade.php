@@ -37,7 +37,7 @@
                                         <li class="footer-widget__explore-list-item"><a href="اتصل">ابقى
                                                 على
                                                 تواصل</a></li>
-                                        <li class="footer-widget__explore-list-item"><a href="اتصل">تطوع</a>
+                                        <li class="footer-widget__explore-list-item"><a href="اشتري">منتجاتنا</a>
                                         </li>
                                     </ul>
                                 </div>

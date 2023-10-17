@@ -31,13 +31,12 @@
                                     <h2 class="footer-widget__title">Explore</h2>
                                     <ul class="footer-widget__explore-list">
                                         <li class="footer-widget__explore-list-item"><a href="/facilities">Our
-                                                Facilities</a> <a href="/about">About
-                                                Us</a>
+                                                Facilities</a>
                                         <li class="footer-widget__explore-list-item"><a href="/about">About
                                                 Us</a></li>
                                         <li class="footer-widget__explore-list-item"><a href="/contact">Get in
                                                 Touch</a></li>
-                                        <li class="footer-widget__explore-list-item"><a href="/contact">Volunteers</a>
+                                        <li class="footer-widget__explore-list-item"><a href="/shop">Our Products</a>
                                         </li>
                                     </ul>
                                 </div>
