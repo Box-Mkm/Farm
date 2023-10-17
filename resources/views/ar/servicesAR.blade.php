@@ -140,12 +140,7 @@
 
 <section class="video-one jarallax clearfix" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
     style="background-image: url({{ asset('images/backgrounds/video-one-bg.jpg') }});">
-    {{-- <div class="video-one-border"></div> --}}
-    {{-- <div class="video-one-border video-one-border-two"></div>
-    <div class="video-one-border video-one-border-three"></div>
-    <div class="video-one-border video-one-border-four"></div>
-    <div class="video-one-border video-one-border-five"></div>
-    <div class="video-one-border video-one-border-six"></div> --}}
+ 
     <div class="container">
         <div class="sec-title text-center">
             {{-- <div class="icon">
@@ -170,20 +165,7 @@
 
         </div><!-- /.row -->
     </div><!-- /.container -->
-    {{-- <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="video-one__wrpper" style="justify-content: center">
-                    <div class="video-one__left">
-
-                        <div class="video-one__btn">
-                            <a href="#" class="thm-btn">Discover more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> --}}
+   
 </section>
 
 

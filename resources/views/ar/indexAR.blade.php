@@ -334,18 +334,11 @@
 <section class="video-one jarallax clearfix" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
     style="background-image: url({{ asset('images/backgrounds/video-one-bg.jpg') }});">
     {{-- <div class="video-one-border"></div> --}}
-    {{-- <div class="video-one-border video-one-border-two"></div>
-    <div class="video-one-border video-one-border-three"></div>
-    <div class="video-one-border video-one-border-four"></div>
-    <div class="video-one-border video-one-border-five"></div>
-    <div class="video-one-border video-one-border-six"></div> --}}
+    
     <div class="container">
         <div class="sec-title text-center">
-            {{-- <div class="icon">
-                <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
-            </div> --}}
+            
             <div class="video-one__leaf"></div><!-- /.video-one__leaf -->
-            {{-- <span class="sec-title__tagline">What we offer</span> --}}
             <h2 class="sec-title__title">ضمان الجودة</h2>
         </div>
         <div class="row">

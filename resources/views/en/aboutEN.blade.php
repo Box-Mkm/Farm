@@ -95,8 +95,7 @@
             <!--Start About Three Img Box-->
             <div class="col-xl-6 col-lg-5 m-auto">
                 <div class="about-three__img-box">
-                    {{-- <img src="{{ asset('images/resources/about-3-icon-1-1.png') }}" class="about-three__img-icon"
-                            alt=""> --}}
+   
                     <div class="">
                         <div class="about-three__img-box-img-inner">
                             <img src="{{ asset('images/about/about-v3-img1.jpg') }}" alt="" />
@@ -133,9 +132,7 @@
                             ensuring customer satisfaction and building long-lasting relationships. We are committed to
                             sourcing and handling our produce with utmost care, maintaining the highest standards of
                             quality.</p>
-                        {{-- <div class="video-one__btn">
-                            <a href="#" class="thm-btn">Discover more</a>
-                        </div> --}}
+
                         <h2 class="video-one__title" style="padding-top: 50px">Our Vision</h2>
                         <p>Our mission is to consistently provide top-notch fruits and vegetables to global markets,
                             ensuring customer satisfaction and building long-lasting relationships. We are committed to
@@ -143,19 +140,7 @@
                             quality.</p>
 
                     </div>
-                    {{-- <div class="video-one__right">
-                        <div class="icon wow zoomIn" data-wow-delay="300ms" data-wow-duration="1500ms">
-                            <a class="video-popup" title=" Video" href="https://www.youtube.com/watch?v=8DP4NgupAhI">
-                                <span class="icon-play-button-1"></span>
-                            </a>
-                            <span class="border-animation border-1"></span>
-                            <span class="border-animation border-2"></span>
-                            <span class="border-animation border-3"></span>
-                        </div>
-                        <div class="title">
-                            <h2>Watch the video</h2>
-                        </div>
-                    </div> --}}
+
                 </div>
             </div>
         </div>
@@ -221,10 +206,7 @@
                 <div class="meet-farmers-one__single"
                     style="    background-color: seagreen;
                 border-radius: 36px; margin-top:40px">
-                    {{-- <div class="meet-farmers-one__single-img">
-                        <img src="{{ asset('images/resources/meet-farmers-v1-img1.jpg') }}" alt="" />
 
-                    </div> --}}
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">Ahmed Salim Abdel Dayem</a></h2>
@@ -246,9 +228,7 @@
                 <div class="meet-farmers-one__single"
                     style="    background-color: seagreen;
                 border-radius: 36px;margin-top:40px">
-                    {{-- <div class="meet-farmers-one__single-img">
-                        <img src="{{ asset('images/resources/meet-farmers-v1-img2.jpg') }}" alt="" />
-                    </div> --}}
+
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">Salim Salim Abdel Dayem</a></h2>
@@ -270,9 +250,7 @@
                 <div class="meet-farmers-one__single"
                     style="    background-color: seagreen;
                 border-radius: 36px;margin-top:40px">
-                    {{-- <div class="meet-farmers-one__single-img">
-                        <img src="{{ asset('images/resources/meet-farmers-v1-img3.jpg') }}" alt="" />
-                    </div> --}}
+
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">Mahmoud Hassan Abdel Dayem</a></h2>
@@ -294,9 +272,7 @@
                 <div class="meet-farmers-one__single"
                     style="    background-color: seagreen;
                 border-radius: 36px;margin-top:40px">
-                    {{-- <div class="meet-farmers-one__single-img">
-                        <img src="{{ asset('images/resources/meet-farmers-v1-img4.jpg') }}" alt="" />
-                    </div> --}}
+
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">Mahjoub Hassan Abdel Dayem</a></h2>
