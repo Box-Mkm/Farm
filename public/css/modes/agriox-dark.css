@@ -52,10 +52,13 @@ body {
 
 .logo .dark-logo {
 	display: none;
+    width: 120px;
+
 }
 
 .logo .light-logo {
 	display: block;
+    width: 120px;
 }
 
 .stricky-header,
@@ -483,6 +486,7 @@ body {
 
 .main-header-three .logo .light-logo {
 	display: block;
+    width: 120px;
 }
 
 @media (min-width: 1200px) {

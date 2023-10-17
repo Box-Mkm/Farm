@@ -183,32 +183,22 @@
                         </div>
                         <span class="sec-title__tagline"> مقدمتنا </span>
                         <h2 class="sec-title__title">
-
                             الزراعة النقية
                             <br>
-
                             والشكل العضوي
-
                         </h2>
                     </div>
-
                     <h2 class="about-one__content-title">
-
                         نحن شركة رائدة في سوق الزراعة
-
                     </h2>
                     <p class="about-one__content-text" style="color: white">
                         مرحبًا بكم في شركة عبد الدايم للمحاصيل الزراعية، اسم موثوق به في مجال تصدير واستيراد الفواكه
                         والخضروات الطازجة منذ عام 1995. من خلال التزامنا بتوفير حاصلات زراعية عالية الجودة للعملاء في
                         جميع أنحاء العالم، أثبتنا أنفسنا كواحدة من أكبر الشركات في هذا المجال
                     </p>
-
                     <p class="about-one__content-text">في شركة عبد الدايم، ندرك أهمية توفير منتجات تلبي المعايير
                         المطلوبة. من خلال فهمنا الجيد لديناميات السوق والالتزام بالتشريعات والبروتوكولات الحكومية، نعرف
                         كيفية تلبية متطلبات عملائنا المتغيرة</p>
-
-
-
                 </div>
             </div>
             <!--End About One Content-->
@@ -216,11 +206,6 @@
     </div>
 </section>
 <!--About One End-->
-
-
-
-
-
 <section class="contact-one">
     <div class="container">
         <div class="sec-title text-center">
@@ -240,7 +225,6 @@
                         نصدر منتجاتنا إلى المملكة العربية السعودية ودبي ومسقط والكويت وروسيا وأوروبا والهند وأوكرانيا
                         والأردن والعراق وبنغلاديش وماليزيا والصين، وفي المستقبل القريب، ستكون منتجاتنا متاحة في جميع
                         أنحاء العالم.
-
                     </p>
                 </div><!-- /.contact-one__content -->
             </div><!-- /.col-lg-6 -->
@@ -248,31 +232,34 @@
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section><!-- /.contact-one -->
-
-
-
-
-
 <div class="col-lg-12">
 
     <div class="row">
         <div class="col-md-6 col-lg-3">
             <div class="shop-one__item">
                 <div class="shop-one__image">
-                    <span class="shop-one__sale">sale</span><!-- /.shop-one__sale -->
-                    <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-1.png" alt="">
+                    {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
+                    <img src="{{ asset('images/grape.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="اشتري">Brown
-                            Bread</a>
+                    <h3 class="shop-one__title"><a href="اشتري">عنب</a>
                     </h3>
-                    <p class="shop-one__price">$23.00</p><!-- /.shop-one__price -->
+                    <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
+                    </div><!-- /.shop-one__rating -->
+                </div><!-- /.shop-one__content -->
+            </div><!-- /.shop-one__item -->
+        </div><!-- /.col-md-6 col-lg-3 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="shop-one__item">
+                <div class="shop-one__image">
+                    <img src="{{ asset('images/onion.png') }}" alt="">
+                </div><!-- /.shop-one__image -->
+                <div class="shop-one__content text-center">
+                    <h3 class="shop-one__title"><a href="اشتري">بصل</a>
+                    </h3>
+                    <p class="shop-one__price"></p><!-- /.shop-one__price -->
+                    <div class="shop-one__rating">
                     </div><!-- /.shop-one__rating -->
                 </div><!-- /.shop-one__content -->
             </div><!-- /.shop-one__item -->
@@ -281,18 +268,18 @@
             <div class="shop-one__item">
                 <div class="shop-one__image">
 
-                    <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-2.png" alt="">
+                    <img src="{{ asset('images/tomato.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="اشتري">Red Onion</a>
+                    <h3 class="shop-one__title"><a href="اشتري">طماطم</a>
                     </h3>
-                    <p class="shop-one__price">$33.00</p><!-- /.shop-one__price -->
+                    <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
+
+
+
+
+
                     </div><!-- /.shop-one__rating -->
                 </div><!-- /.shop-one__content -->
             </div><!-- /.shop-one__item -->
@@ -301,39 +288,18 @@
             <div class="shop-one__item">
                 <div class="shop-one__image">
 
-                    <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-3.png" alt="">
+                    <img src="{{ asset('images/potato.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="اشتري">Broccoli</a>
+                    <h3 class="shop-one__title"><a href="اشتري">بطاطس</a>
                     </h3>
-                    <p class="shop-one__price">$18.00</p><!-- /.shop-one__price -->
+                    <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                    </div><!-- /.shop-one__rating -->
-                </div><!-- /.shop-one__content -->
-            </div><!-- /.shop-one__item -->
-        </div><!-- /.col-md-6 col-lg-3 -->
-        <div class="col-md-6 col-lg-3">
-            <div class="shop-one__item">
-                <div class="shop-one__image">
 
-                    <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-4.png" alt="">
-                </div><!-- /.shop-one__image -->
-                <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="اشتري">Fresh
-                            Potato</a>
-                    </h3>
-                    <p class="shop-one__price">$16.00</p><!-- /.shop-one__price -->
-                    <div class="shop-one__rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
+
+
+
+
                     </div><!-- /.shop-one__rating -->
                 </div><!-- /.shop-one__content -->
             </div><!-- /.shop-one__item -->
@@ -941,31 +907,8 @@
                     </div><!-- /.contact-one__images -->
                 </div><!-- /.contact-one__content -->
             </div><!-- /.col-lg-6 -->
-            <div class="col-lg-6">
-                <form action="https://layerdrops.com/agriox/assets/inc/sendemail.php"
-                    class="contact-one__form comment-one__form contact-form-validated" novalidate="novalidate">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="comment-form__input-box">
-                                <input type="text" placeholder="اسمك" name="name">
-                            </div>
-                        </div>
-                        <div class="col-xl-12">
-                            <div class="comment-form__input-box">
-                                <input type="email" placeholder="عنوان البريد الالكترونى" name="email">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-12 col-lg-12">
-                            <div class="comment-form__input-box">
-                                <textarea name="message" placeholder="اكتب رسالة"></textarea>
-                            </div>
-                            <button type="submit" class="thm-btn comment-form__btn">ارسل رسالة</button>
-                        </div>
-                    </div>
-                </form>
-                <div class="result"></div><!-- /.result -->
+            <div class="col-lg-6 position-relative">
+                <a href="اتصل" class="thm-btn position-absolute top-50 start-50 translate-middle">ارسل رساله</a>
             </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
     </div><!-- /.container -->

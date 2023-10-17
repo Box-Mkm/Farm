@@ -10,9 +10,7 @@
                                 <div class="stricky-one-logo">
                                     <div class="logo">
                                         <a href="عربي">
-                                            <img class="dark-logo" src="{{ asset('images/resources/logo-1.png') }}"
-                                                alt="">
-                                            <img class="light-logo" src="{{ asset('images/resources/logo-2.png') }}"
+                                            <img class="light-logo" src="{{ asset('images/logos/logo-1.png') }}"
                                                 alt="">
                                         </a>
                                     </div>
@@ -53,10 +51,8 @@
                         <div class="main-header--one__bottom-middel">
                             <div class="logo">
                                 <a href="/عربي">
-                                    <img class="dark-logo" src="{{ asset('images/resources/logo-1.png') }}"
-                                        alt="">
-                                    <img class="light-logo" src="{{ asset('images/resources/logo-2.png') }}"
-                                        alt="">
+                                    <img class="dark-logo" src="{{ asset('images/logos/logo-1.png') }}" alt="">
+                                    <img class="light-logo" src="{{ asset('images/logos/logo-2.png') }}" alt="">
                                 </a>
                             </div>
                         </div>

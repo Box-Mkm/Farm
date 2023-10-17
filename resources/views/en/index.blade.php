@@ -296,20 +296,28 @@
         <div class="col-md-6 col-lg-3">
             <div class="shop-one__item">
                 <div class="shop-one__image">
-                    <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-1.png" alt="">
-                    {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
+                    {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
+                    <img src="{{ asset('images/grape.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="shop">Brown
-                            Bread</a>
+                    <h3 class="shop-one__title"><a href="shop">Grape</a>
                     </h3>
-                    <p class="shop-one__price">$23.00</p><!-- /.shop-one__price -->
+                    <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
+                    </div><!-- /.shop-one__rating -->
+                </div><!-- /.shop-one__content -->
+            </div><!-- /.shop-one__item -->
+        </div><!-- /.col-md-6 col-lg-3 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="shop-one__item">
+                <div class="shop-one__image">
+                    <img src="{{ asset('images/onion.png') }}" alt="">
+                </div><!-- /.shop-one__image -->
+                <div class="shop-one__content text-center">
+                    <h3 class="shop-one__title"><a href="shop">Onion</a>
+                    </h3>
+                    <p class="shop-one__price"></p><!-- /.shop-one__price -->
+                    <div class="shop-one__rating">
                     </div><!-- /.shop-one__rating -->
                 </div><!-- /.shop-one__content -->
             </div><!-- /.shop-one__item -->
@@ -318,19 +326,18 @@
             <div class="shop-one__item">
                 <div class="shop-one__image">
 
-                    <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-2.png" alt="">
-                    {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
+                    <img src="{{ asset('images/tomato.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="shop">Red Onion</a>
+                    <h3 class="shop-one__title"><a href="shop">Tomato</a>
                     </h3>
-                    <p class="shop-one__price">$33.00</p><!-- /.shop-one__price -->
+                    <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
+
+
+
+
+
                     </div><!-- /.shop-one__rating -->
                 </div><!-- /.shop-one__content -->
             </div><!-- /.shop-one__item -->
@@ -339,41 +346,18 @@
             <div class="shop-one__item">
                 <div class="shop-one__image">
 
-                    <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-3.png" alt="">
-                    {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
+                    <img src="{{ asset('images/potato.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="shop">Broccoli</a>
+                    <h3 class="shop-one__title"><a href="shop">Potato</a>
                     </h3>
-                    <p class="shop-one__price">$18.00</p><!-- /.shop-one__price -->
+                    <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                    </div><!-- /.shop-one__rating -->
-                </div><!-- /.shop-one__content -->
-            </div><!-- /.shop-one__item -->
-        </div><!-- /.col-md-6 col-lg-3 -->
-        <div class="col-md-6 col-lg-3">
-            <div class="shop-one__item">
-                <div class="shop-one__image">
 
-                    <img src="http://farm.test/images/update-14-09-2021/shop/shop-1-4.png" alt="">
-                    {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
-                </div><!-- /.shop-one__image -->
-                <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="shop">Fresh
-                            Potato</a>
-                    </h3>
-                    <p class="shop-one__price">$16.00</p><!-- /.shop-one__price -->
-                    <div class="shop-one__rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
+
+
+
+
                     </div><!-- /.shop-one__rating -->
                 </div><!-- /.shop-one__content -->
             </div><!-- /.shop-one__item -->
@@ -991,32 +975,10 @@
                     </div><!-- /.contact-one__images -->
                 </div><!-- /.contact-one__content -->
             </div><!-- /.col-lg-6 -->
-            <div class="col-lg-6">
-                <form action="https://layerdrops.com/agriox/assets/inc/sendemail.php"
-                    class="contact-one__form comment-one__form contact-form-validated" novalidate="novalidate">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="comment-form__input-box">
-                                <input type="text" placeholder="Your name" name="name">
-                            </div>
-                        </div>
-                        <div class="col-xl-12">
-                            <div class="comment-form__input-box">
-                                <input type="email" placeholder="Email address" name="email">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-12 col-lg-12">
-                            <div class="comment-form__input-box">
-                                <textarea name="message" placeholder="Write message"></textarea>
-                            </div>
-                            <button type="submit" class="thm-btn comment-form__btn">Send a message</button>
-                        </div>
-                    </div>
-                </form>
-                <div class="result"></div><!-- /.result -->
+            <div class="col-lg-6 position-relative">
+                <a href="contact" class="thm-btn position-absolute top-50 start-50 translate-middle"> Mail us</a>
             </div><!-- /.col-lg-6 -->
+            <div class="result"></div><!-- /.result -->
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section><!-- /.contact-one -->

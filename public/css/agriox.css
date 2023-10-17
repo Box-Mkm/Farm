@@ -12835,6 +12835,8 @@ body.boxed-wrapper {
 --------------------------------------------------------------*/
 .logo .light-logo {
   display: none;
+  width: 120px;
+
 }
 
 .main-header--one--two .logo .dark-logo {
@@ -12843,6 +12845,8 @@ body.boxed-wrapper {
 
 .main-header--one--two .logo .light-logo {
   display: block;
+  width: 120px;
+
 }
 
 .main-header-three .logo .dark-logo {

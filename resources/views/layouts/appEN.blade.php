@@ -50,6 +50,19 @@
 
     <!-- toolbar css -->
     <link rel="stylesheet" href="{{ asset('vendors/toolbar/css/toolbar.css') }}" />
+    <style>
+        .logo .light-logo {
+            width: 80px;
+        }
+
+        .logo .dark-logo {
+            width: 80px;
+        }
+
+        .mkmfooter {
+            width: 80px;
+        }
+    </style>
 
 </head>
 

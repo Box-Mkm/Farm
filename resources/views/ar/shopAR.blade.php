@@ -121,196 +121,203 @@
                         </select>
                     </div><!-- /.col-lg-12 --> --}}
                 </div><!-- /.row -->
-                <div class="row">
+                <div class="row ">
                     <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item">
+                        <div class="shop-one__item"
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
                                 {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
-                                <img src="{{ asset('images/update-14-09-2021/shop/shop-1-1.png') }}" alt="">
-                                <a class="shop-one__cart" href="اشتري"><i class=" icon-shopping-cart"></i></a>
+                                <img src="{{ asset('images/neworange.png') }}" alt="">
+                                {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center">
-                                <h3 class="shop-one__title"><a href="اشتري">Brown
-                                        Bread</a>
+                            <div class="shop-one__content text-center card"
+                                style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="shop">برتقال</a>
                                 </h3>
-                                <p class="shop-one__price">$23.00</p><!-- /.shop-one__price -->
-                                <div class="shop-one__rating">
+                                {{-- <p class="shop-one__price">$23.00</p><!-- /.shop-one__price --> --}}
+                                {{-- <div class="shop-one__rating">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
-                                </div><!-- /.shop-one__rating -->
+                                </div><!-- /.shop-one__rating --> --}}
+                                <p>التعبئة: صناديق - كرتون</p>
+                                <p>الموسم: مارس - أبريل</p>
+                                <p>الوزن: 8 كجم - 15 كجم</p>
+
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item">
+                        <div class="shop-one__item"
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
 
-                                <img src="{{ asset('images/update-14-09-2021/shop/shop-1-2.png') }}" alt="">
-                                <a class="shop-one__cart" href="اشتري"><i class=" icon-shopping-cart"></i></a>
+                                <img src="{{ asset('images/mandarin.png') }}" alt="">
+                                {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center">
-                                <h3 class="shop-one__title"><a href="اشتري">Red Onion</a>
+                            <div class="shop-one__content text-center card"
+                                style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="shop">يوسفي</a>
                                 </h3>
-                                <p class="shop-one__price">$33.00</p><!-- /.shop-one__price -->
-                                <div class="shop-one__rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div><!-- /.shop-one__rating -->
+                                {{-- <p class="shop-one__price">$33.00</p><!-- /.shop-one__price --> --}}
+                                <p>التعبئة: صناديق - كرتون</p>
+                                <p>الموسم: فبراير - مارس</p>
+                                <p>الوزن: 10 كجم - 5 كجم - 8 كجم - 3 كجم</p>
+
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item">
+                        <div class="shop-one__item"
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
 
-                                <img src="{{ asset('images/update-14-09-2021/shop/shop-1-3.png') }}" alt="">
-                                <a class="shop-one__cart" href="اشتري"><i class=" icon-shopping-cart"></i></a>
+                                <img src="{{ asset('images/grape.png') }}" alt="">
+                                {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center">
-                                <h3 class="shop-one__title"><a href="اشتري">Broccoli</a>
+                            <div class="shop-one__content text-center card"
+                                style="background-color: seagreen; border-radius:30px;">
+                                <h3 class="shop-one__title"><a href="shop">عنب</a>
                                 </h3>
-                                <p class="shop-one__price">$18.00</p><!-- /.shop-one__price -->
-                                <div class="shop-one__rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div><!-- /.shop-one__rating -->
+
+                                <p>التعبئة: صناديق - كرتون - حقيبة</p>
+                                <p>الموسم: يونيو - أغسطس</p>
+                                <p>الوزن: 5 كجم - 9 كجم - 3 كجم</p>
+
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item">
+                        <div class="shop-one__item"
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
 
-                                <img src="{{ asset('images/update-14-09-2021/shop/shop-1-4.png') }}" alt="">
-                                <a class="shop-one__cart" href="اشتري"><i class=" icon-shopping-cart"></i></a>
+                                <img src="{{ asset('images/pomegranate.png') }}" alt="">
+                                {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center">
-                                <h3 class="shop-one__title"><a href="اشتري">Fresh
-                                        Potato</a>
+                            <div class="shop-one__content text-center card"
+                                style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="shop">رمان</a>
                                 </h3>
-                                <p class="shop-one__price">$16.00</p><!-- /.shop-one__price -->
-                                <div class="shop-one__rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div><!-- /.shop-one__rating -->
+                                <p>التعبئة: صناديق - كرتون</p>
+                                <p>الموسم: يوليو - أغسطس</p>
+                                <p>الوزن: 5 كجم - 10 كجم - 15 كجم</p>
+
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item">
+                        <div class="shop-one__item"
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
 
-                                <img src="{{ asset('images/update-14-09-2021/shop/shop-1-5.png') }}" alt="">
-                                <a class="shop-one__cart" href="اشتري"><i class=" icon-shopping-cart"></i></a>
+                                <img src="{{ asset('images/mango.png') }}" alt="">
+                                {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center">
-                                <h3 class="shop-one__title"><a href="اشتري">Tomatos</a>
+                            <div class="shop-one__content text-center card"
+                                style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="shop">مانجا</a>
                                 </h3>
-                                <p class="shop-one__price">$26.00</p><!-- /.shop-one__price -->
-                                <div class="shop-one__rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div><!-- /.shop-one__rating -->
+                                <p>التعبئة: صناديق - كرتون</p>
+                                <p>الموسم: يونيو - سبتمبر</p>
+                                <p>الوزن: 4 كجم - 8 كجم</p>
+
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item">
+                        <div class="shop-one__item"
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
 
-                                <img src="{{ asset('images/update-14-09-2021/shop/shop-1-6.png') }}" alt="">
-                                <a class="shop-one__cart" href="اشتري"><i class=" icon-shopping-cart"></i></a>
+                                <img src="{{ asset('images/garlic.png') }}" alt="">
+                                {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center">
-                                <h3 class="shop-one__title"><a href="اشتري">Lemons</a>
+                            <div class="shop-one__content text-center card"
+                                style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="shop">ثوم</a>
                                 </h3>
-                                <p class="shop-one__price">$19.00</p><!-- /.shop-one__price -->
-                                <div class="shop-one__rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div><!-- /.shop-one__rating -->
+                                <p>التعبئة: صناديق - سلال</p>
+                                <p>الموسم: فبراير - أبريل</p>
+                                <p>الوزن: 10 كجم - 15 كجم</p>
+
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item">
+                        <div class="shop-one__item"
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
                                 {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
-                                <img src="{{ asset('images/update-14-09-2021/shop/shop-1-7.png') }}" alt="">
-                                <a class="shop-one__cart" href="اشتري"><i class=" icon-shopping-cart"></i></a>
+                                <img src="{{ asset('images/onion.png') }}" alt="">
+                                {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center">
-                                <h3 class="shop-one__title"><a href="اشتري">Red
-                                        Chillis</a>
+                            <div class="shop-one__content text-center card"
+                                style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="shop">بصل</a>
                                 </h3>
-                                <p class="shop-one__price">$9.00</p><!-- /.shop-one__price -->
-                                <div class="shop-one__rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div><!-- /.shop-one__rating -->
+                                <p>التعبئة: حقيبة</p>
+                                <p>الموسم: يناير - يونيو</p>
+                                <p>الوزن: 5 كجم - 25 كجم</p>
+
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item">
+                        <div class="shop-one__item"
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
-                                <img src="{{ asset('images/update-14-09-2021/shop/shop-1-8.png') }}" alt="">
-                                <a class="shop-one__cart" href="اشتري"><i class=" icon-shopping-cart"></i></a>
+                                <img src="{{ asset('images/potato.png') }}" alt="">
+                                {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center">
-                                <h3 class="shop-one__title"><a href="اشتري">Carrots</a>
+                            <div class="shop-one__content text-center card"
+                                style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="shop">بطاطس</a>
                                 </h3>
-                                <p class="shop-one__price">$8.00</p><!-- /.shop-one__price -->
-                                <div class="shop-one__rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div><!-- /.shop-one__rating -->
+                                <p>التعبئة: شوال</p>
+                                <p>الموسم: يناير - يونيو</p>
+                                <p>الوزن: 5 كجم - 25 كجم</p>
+
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
-                        <div class="shop-one__item">
+                        <div class="shop-one__item"
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
                             <div class="shop-one__image">
                                 {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
-                                <img src="{{ asset('images/update-14-09-2021/shop/shop-1-1.png') }}" alt="">
-                                <a class="shop-one__cart" href="اشتري"><i class=" icon-shopping-cart"></i></a>
+                                <img src="{{ asset('images/tomato.png') }}" alt="">
+                                {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
                             </div><!-- /.shop-one__image -->
-                            <div class="shop-one__content text-center">
-                                <h3 class="shop-one__title"><a href="اشتري">Brown
-                                        Bread</a>
+                            <div class="shop-one__content text-center card"
+                                style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="shop">طماطم</a>
                                 </h3>
-                                <p class="shop-one__price">$23.00</p><!-- /.shop-one__price -->
-                                <div class="shop-one__rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div><!-- /.shop-one__rating -->
+                                <p>التعبئة: صناديق - سلال</p>
+                                <p>الموسم: يناير - ديسمبر</p>
+                                <p>الوزن: 5 كجم - 10 كجم - 15 كجم</p>
+
+                            </div><!-- /.shop-one__content -->
+                        </div><!-- /.shop-one__item -->
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="shop-one__item"
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
+                            <div class="shop-one__image">
+                                {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
+                                <img src="{{ asset('images/Lettuce.png') }}" alt="">
+                                {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
+                            </div><!-- /.shop-one__image -->
+                            <div class="shop-one__content text-center card"
+                                style="background-color: seagreen; border-radius:30px">
+                                <h3 class="shop-one__title"><a href="shop">خَسّ</a>
+                                </h3>
+                                <p>التعبئة: صناديق - سلال</p>
+                                <p>الموسم: يناير - ديسمبر</p>
+                                <p>الوزن: 5 كيلوجرام - 10 كيلوجرام - 15 كيلوجرام</p>
+
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div>
