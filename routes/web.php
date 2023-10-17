@@ -15,7 +15,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
 // english site
 Route::get('/', function () {
     return view('en/index');

@@ -708,8 +708,7 @@
 
 <!--Providing Quality One Start-->
 <section class="providing-quality-one clearfix">
-    <div class="providing-quality-one__bg"><img src="{{ asset('images/backgrounds/providing-quality-one-bg.png') }}"
-            alt="" /></div>
+    <div class="providing-quality-one__bg"></div>
 
     <div class="providing-quality-one__shape"></div><!-- /.providing-quality-one__shape -->
 
@@ -731,7 +730,6 @@
                 <div class="providing-quality-one__content-box">
                     <div class="sec-title">
                         <div class="icon">
-                            <img src="{{ asset('images/resources/sec-title-icon2.png') }}" alt="">
                         </div>
                         <span class="sec-title__tagline"> الزراعة الحديثة </span>
                         <h2 class="sec-title__title">تقديم منتجات عالية الجودة</h2>
@@ -911,7 +909,7 @@
 
 
 <!--Cta One Start-->
-<section class="cta-one" style="background-image: url({{ asset('images/backgrounds/cta-v1-bg.jpg') }});">
+<section class="cta-one">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">

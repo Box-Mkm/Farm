@@ -295,7 +295,7 @@
 
 
 <!--Cta One Start-->
-<section class="cta-one" style="background-image: url({{ asset('images/backgrounds/cta-v1-bg.jpg') }});">
+<section class="cta-one">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">

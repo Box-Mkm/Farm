@@ -53,7 +53,8 @@
                                                             class="fas fa-phone-square-alt"></i>048 2630215</a>
                                                 </p>
                                                 <p><a href="mailto:needhelp@company.com"><i
-                                                            class="fa fa-envelope"></i>Info@abdeldayemcompany.com</a></p>
+                                                            class="fa fa-envelope"></i>Info@abdeldayemcompany.com</a>
+                                                </p>
                                                 <p class="text"><i class="fas fa-map-marker-alt"></i>City of Sadat -
                                                     Block
                                                     7187 -
@@ -200,8 +201,6 @@
 <!-- toolbar js -->
 <script src="{{ asset('vendors/toolbar/js/js.cookie.min.js') }}"></script>
 <script src="{{ asset('vendors/toolbar/js/jQuery.style.switcher.min.js') }}"></script>
-<script src="{{ asset('vendors/toolbar/js/toolbar.lang.js') }}"></script>
-<script src="../../translate.google.com/translate_a/elementa0d8.js?cb=googleTranslateElementInit"></script>
 <script src="{{ asset('vendors/toolbar/js/toolbar.js') }}"></script>
 
 
