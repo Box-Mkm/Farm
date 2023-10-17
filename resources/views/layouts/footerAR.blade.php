@@ -53,7 +53,7 @@
                                                     class="fas fa-phone-square-alt"></i>048-2630215</a>
                                         </p>
                                         <p><a href="mailto:needhelp@company.com"><i
-                                                    class="fa fa-envelope"></i>needhelp@company.com</a></p>
+                                                    class="fa fa-envelope"></i>Info@abdeldayemcompany.com</a></p>
                                         <p class="text"><i class="fas fa-map-marker-alt"></i>مدينة السادات - المنطقه
                                             الصناعية السابعة - قطعة ٧١٨٧ - خلف مصنع تويوتا</p>
                                     </div>
@@ -116,7 +116,7 @@
         <ul class="mobile-nav__contact list-unstyled">
             <li>
                 <i class="icon-phone-call"></i>
-                <a href="mailto:needhelp@packageName__.com">needhelp@agriox.com</a>
+                <a href="mailto:needhelp@packageName__.com">Info@abdeldayemcompany.com</a>
             </li>
             <li>
                 <i class="icon-letter"></i>

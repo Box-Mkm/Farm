@@ -889,7 +889,7 @@
                         <li>
                             <i class="fa fa-check-circle"></i>
                             <span class="icon-email-1"></span>
-                            <span><a href="mailto:needhelp@company.com">&nbsp; needhelp@company.com</a></span>
+                            <span><a href="mailto:needhelp@company.com">&nbsp; Info@abdeldayemcompany.com</a></span>
 
                         </li>
                         <li>

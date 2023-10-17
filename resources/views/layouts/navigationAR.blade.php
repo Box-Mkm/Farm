@@ -8,9 +8,9 @@
                             <div class="main-menu__inner">
                                 <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                 <div class="stricky-one-logo">
-                                    <div class="logo">
+                                    <div class="logo" >
                                         <a href="عربي">
-                                            <img class="light-logo" src="{{ asset('images/logos/logo-1.png') }}"
+                                            <img class="light-logo"  src="{{ asset('images/logos/logo-1.png') }}"
                                                 alt="">
                                         </a>
                                     </div>
@@ -23,25 +23,25 @@
                                             </a>
                                         </li>
                                         <li><a href="عن">
-                                                عن
+                                                من نحن
                                             </a></li>
                                         <li>
                                             <a href="مرافق">
-                                                مرافق
+                                                الخدمات
                                             </a>
                                         </li>
                                         <li>
                                             <a href="اشتري">
-                                                محل
+                                                المنتجات
                                             </a>
                                         </li>
                                         <li>
                                             <a href="مدونه">
-                                                مدونة
+                                                المقالات
                                             </a>
                                         </li>
                                         <li><a href="اتصل">
-                                                اتصل
+                                                تواصل معنا
                                             </a></li>
                                     </ul>
                                 </div>
@@ -49,7 +49,7 @@
                         </nav>
 
                         <div class="main-header--one__bottom-middel">
-                            <div class="logo">
+                            <div class="logo" style="padding-right: 200px">
                                 <a href="/عربي">
                                     <img class="dark-logo" src="{{ asset('images/logos/logo-1.png') }}" alt="">
                                     <img class="light-logo" src="{{ asset('images/logos/logo-2.png') }}" alt="">

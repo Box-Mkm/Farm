@@ -143,7 +143,7 @@
                                 </div>
                                 <div class="title">
                                     <span>Send Email</span>
-                                    <p><a href="mailto:needhelp@company.com">needhelp@company.com</a></p>
+                                    <p><a href="mailto:needhelp@company.com">Info@abdeldayemcompany.com</a></p>
                                 </div>
                             </li>
 

@@ -124,7 +124,7 @@
                 <div class="row ">
                     <div class="col-md-6 col-lg-3">
                         <div class="shop-one__item"
-                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px; height:412px">
                             <div class="shop-one__image">
                                 {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
                                 <img src="{{ asset('images/neworange.png') }}" alt="">
@@ -151,7 +151,7 @@
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
                         <div class="shop-one__item"
-                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px; height:412px">
                             <div class="shop-one__image">
 
                                 <img src="{{ asset('images/mandarin.png') }}" alt="">
@@ -171,7 +171,7 @@
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
                         <div class="shop-one__item"
-                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px; height:412px">
                             <div class="shop-one__image">
 
                                 <img src="{{ asset('images/grape.png') }}" alt="">
@@ -191,7 +191,7 @@
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
                         <div class="shop-one__item"
-                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px; height:412px">
                             <div class="shop-one__image">
 
                                 <img src="{{ asset('images/pomegranate.png') }}" alt="">
@@ -210,7 +210,7 @@
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
                         <div class="shop-one__item"
-                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px; height:412px">
                             <div class="shop-one__image">
 
                                 <img src="{{ asset('images/mango.png') }}" alt="">
@@ -229,7 +229,7 @@
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
                         <div class="shop-one__item"
-                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px; height:412px">
                             <div class="shop-one__image">
 
                                 <img src="{{ asset('images/garlic.png') }}" alt="">
@@ -248,7 +248,7 @@
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
                         <div class="shop-one__item"
-                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px; height:412px">
                             <div class="shop-one__image">
                                 {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
                                 <img src="{{ asset('images/onion.png') }}" alt="">
@@ -267,7 +267,7 @@
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
                         <div class="shop-one__item"
-                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px; height:412px">
                             <div class="shop-one__image">
                                 <img src="{{ asset('images/potato.png') }}" alt="">
                                 {{-- <a class="shop-one__cart" href="cart.html"><i class=" icon-shopping-cart"></i></a> --}}
@@ -285,7 +285,7 @@
                     </div><!-- /.col-md-6 col-lg-3 -->
                     <div class="col-md-6 col-lg-3">
                         <div class="shop-one__item"
-                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px; height:412px">
                             <div class="shop-one__image">
                                 {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
                                 <img src="{{ asset('images/tomato.png') }}" alt="">
@@ -304,7 +304,7 @@
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="shop-one__item"
-                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px">
+                            style="background-color: seagreen; border-radius:30px; padding-bottom:20px; height:412px">
                             <div class="shop-one__image">
                                 {{-- <span class="shop-one__sale">sale</span><!-- /.shop-one__sale --> --}}
                                 <img src="{{ asset('images/Lettuce.png') }}" alt="">
