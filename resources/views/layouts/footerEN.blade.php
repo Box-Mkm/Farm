@@ -16,9 +16,7 @@
                                         <a href="/"><img class="mkmfooter"
                                                 src="{{ asset('images/logos/footer-logo.png') }}" alt=""></a>
                                     </div>
-                                    <p class="footer-widget__about-text">Lorem ipsum dolor sit amet consect
-                                        etur
-                                        adi pisicing elit sed.</p>
+                                    <p class="footer-widget__about-text">We’re Leader in Agriculture Market</p>
 
                                 </div>
                             </div>

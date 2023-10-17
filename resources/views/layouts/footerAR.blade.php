@@ -17,8 +17,8 @@
                                                 class="mkmfooter"src="{{ asset('images/logos/footer-logo.png') }}"
                                                 alt=""></a>
                                     </div>
-                                    <p class="footer-widget__about-text">هناك العديد من الاختلافات في المقاطع
-                                        المتاحة ولكن الغالبية عانت </p>
+                                    <p class="footer-widget__about-text">
+                                        نحن شركة رائدة في سوق الزراعة</p>
 
                                 </div>
                             </div>
