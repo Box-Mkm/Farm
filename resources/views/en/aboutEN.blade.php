@@ -46,14 +46,14 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="contact-one__content" style="font-size: larger">
-                        <p class="contact-one__text" style="color: white">Welcome to Abdel Dayem Agricultural Crops
+                        <p class="contact-one__text" style="color: white">Welcome to Abdeldayem Agricultural Crops
                             Company, a trusted
                             name in the export and import of fresh fruits and vegetables since 1995. With our commitment
                             to
                             providing high-quality fruits and vegetables to customers worldwide, we have established
                             ourselves as one of the largest companies in the industry.
                         </p>
-                        <p>At Abdel Dayem Agricultural Crops Company, we understand the importance of providing our
+                        <p>At Abdeldayem Agricultural Crops Company, we understand the importance of providing our
                             customers with products that meet their specific preferences and the required standards.
                             With a deep understanding of market dynamics and adherence to government legislation and
                             protocols, we continuously adapt to meet the evolving needs of our customers.</p>
@@ -209,7 +209,7 @@
 
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">Ahmed Salim Abdel Dayem</a></h2>
+                        <h2><a href="farmers.html">Ahmed Salim Abdeldayem</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -231,7 +231,7 @@
 
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">Salim Salim Abdel Dayem</a></h2>
+                        <h2><a href="farmers.html">Salim Salim Abdeldayem</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -253,7 +253,7 @@
 
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">Mahmoud Hassan Abdel Dayem</a></h2>
+                        <h2><a href="farmers.html">Mahmoud Hassan Abdeldayem</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -275,7 +275,7 @@
 
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">Mahjoub Hassan Abdel Dayem</a></h2>
+                        <h2><a href="farmers.html">Mahjoub Hassan Abdeldayem</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>

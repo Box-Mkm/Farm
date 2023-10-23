@@ -287,7 +287,7 @@
 
     {{-- testtest --}}
     <section class="video-one jarallax clearfix h-auto" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
-        style="background-image: url({{ asset('images/backgrounds/Autumn.jpg') }});">
+        style="background-image: url({{ asset('images/backgrounds/Autumn3.jpg') }});">
 
         <div class="container">
             <div class="row">

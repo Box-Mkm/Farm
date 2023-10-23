@@ -45,7 +45,7 @@
                             <div class="main-slider-inner">
                                 <div class="main-slider__content">
                                     <span class="main-slider-tagline">We’re producing natural goods</span>
-                                    <h2 class="main-slider__title">Abd El-Dayem <br>Where Quality Meets Flavor!
+                                    <h2 class="main-slider__title">AbdEl-Dayem <br>Where Quality Meets Flavor!
                                         <span><span>
                                     </h2>
                                     <p class="main-slider__text">From Farm to Global Markets<br>Abd El-Dayem, Your
@@ -77,7 +77,7 @@
                             <div class="main-slider-inner">
                                 <div class="main-slider__content">
                                     <span class="main-slider-tagline">We’re producing natural goods</span>
-                                    <h2 class="main-slider__title">Abd El-Dayem <br>Where Quality Meets Flavor!
+                                    <h2 class="main-slider__title">AbdEl-Dayem <br>Where Quality Meets Flavor!
                                         <span><span>
                                     </h2>
                                     <p class="main-slider__text">From Farm to Global Markets<br>Abd El-Dayem, Your
@@ -108,7 +108,7 @@
                                 <div class="main-slider-inner">
                                     <div class="main-slider__content">
                                         <span class="main-slider-tagline">We’re producing natural goods</span>
-                                        <h2 class="main-slider__title">Abd El-Dayem <br>Where Quality Meets Flavor!
+                                        <h2 class="main-slider__title">AbdEl-Dayem <br>Where Quality Meets Flavor!
                                             <span><span>
                                         </h2>
                                         <p class="main-slider__text">From Farm to Global Markets<br>Abd El-Dayem, Your
@@ -186,7 +186,7 @@
                     </div>
 
                     <h2 class="about-one__content-title">We are Leader in Agriculture Market</h2>
-                    <p class="about-one__content-text" style="color: white">Welcome to Abdel Dayem Agricultural Crops
+                    <p class="about-one__content-text" style="color: white">Welcome to Abdeldayem Agricultural Crops
                         Company, a trusted
                         name in the export and import of fresh fruits and vegetables since 1995. With our commitment to
                         providing high-quality fruits and vegetables to customers worldwide, we have established
@@ -197,7 +197,7 @@
                                 <i class="fa fa-check-circle" aria-hidden="true"></i>
                             </div> --}}
                             <div class="text">
-                                <p style="color: rgb(177, 166, 166)">At Abdel Dayem Agricultural Crops Company, we
+                                <p style="color: rgb(177, 166, 166)">At Abdeldayem Agricultural Crops Company, we
                                     understand the importance of providing
                                     our customers with products that meet their specific preferences and the required
                                     standards. With a deep understanding of market dynamics and adherence to government
@@ -453,7 +453,7 @@
 
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">Ahmed Salim Abdel Dayem</a></h2>
+                        <h2><a href="farmers.html">Ahmed Salim Abdeldayem</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -475,7 +475,7 @@
 
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">Salim Salim Abdel Dayem</a></h2>
+                        <h2><a href="farmers.html">Salim Salim Abdeldayem</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -497,7 +497,7 @@
 
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">Mahmoud Hassan Abdel Dayem</a></h2>
+                        <h2><a href="farmers.html">Mahmoud Hassan Abdeldayem</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -519,7 +519,7 @@
 
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">Mahjoub Hassan Abdel Dayem</a></h2>
+                        <h2><a href="farmers.html">Mahjoub Hassan Abdeldayem</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -615,7 +615,7 @@
                             <div class="testimonials-one__carousel owl-carousel owl-theme">
                                 <!--Start Single Testimonials One-->
                                 <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">"Abdel Dayem Agricultural Crops Company
+                                    <p class="testimonials-one__single-text">"Abdeldayem Agricultural Crops Company
                                         has been our trusted partner for years. Their commitment to delivering
                                         high-quality produce is unmatched. We are always impressed with the freshness
                                         and taste of their fruits and vegetables." </p>
@@ -637,7 +637,7 @@
                                 <!--Start Single Testimonials One-->
                                 <div class="testimonials-one__single">
                                     <p class="testimonials-one__single-text">I have been importing fruits and
-                                        vegetables from Abdel Dayem Agricultural Crops Company for quite some time now.
+                                        vegetables from Abdeldayem Agricultural Crops Company for quite some time now.
                                         Their understanding of market dynamics and adherence to government regulations
                                         is commendable. They always go the extra mile to meet our specific preferences
                                         and requirements." </p>
@@ -659,7 +659,7 @@
                                 <!--Start Single Testimonials One-->
                                 <div class="testimonials-one__single">
                                     <p class="testimonials-one__single-text">"The attention to detail and care that
-                                        Abdel Dayem Agricultural Crops Company puts into handling their produce is
+                                        Abdeldayem Agricultural Crops Company puts into handling their produce is
                                         remarkable. Every time I receive their fruits and vegetables, they are in
                                         perfect condition, as if they were just picked. Their commitment to quality is
                                         truly impressive."</p>
@@ -680,7 +680,7 @@
 
                                 <!--Start Single Testimonials One-->
                                 <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">"Not only does Abdel Dayem Agricultural
+                                    <p class="testimonials-one__single-text">"Not only does Abdeldayem Agricultural
                                         Crops Company provide top-notch products, but their professionalism in handling
                                         all necessary documentation is outstanding. They make international trade a
                                         breeze, ensuring smooth transactions and on-time deliveries." </p>
@@ -716,8 +716,7 @@
 
 <!--Providing Quality One Start-->
 <section class="providing-quality-one clearfix">
-    <div class="providing-quality-one__bg"><img src="{{ asset('images/backgrounds/providing-quality-one-bg.png') }}"
-            alt="" /></div>
+    <div class="providing-quality-one__bg"></div>
 
     <div class="providing-quality-one__shape"></div><!-- /.providing-quality-one__shape -->
 
@@ -906,7 +905,7 @@
                         <div class="contact-one__images__shape"></div><!-- /.contact-one__images__shape -->
                         <img src="{{ asset('images/resources/contact-1-1.png') }}" alt=""
                             class="contact-one__images-1">
-                        <img src="{{ asset('images/resources/contact-1-2.png') }}" alt=""
+                        <img src="{{ asset('images/resources/oranges.png') }}" alt=""
                             class="contact-one__images-2">
                     </div><!-- /.contact-one__images -->
                 </div><!-- /.contact-one__content -->
