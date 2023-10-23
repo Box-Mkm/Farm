@@ -18,7 +18,7 @@
 @include('layouts.appEN')
 <!--Page Header Start-->
 <section class="page-header clearfix"
-    style="background-image: url({{ asset('images/backgrounds/page-header-bg.jpg') }});">
+    style="background-image: url({{ asset('images/backgrounds/page-header-bg3.jpg') }});">
     <div class="container">
         <div class="page-header__inner text-center clearfix">
             <ul class="thm-breadcrumb">
@@ -66,7 +66,7 @@
 
             <div class="col-lg-12">
                 <div class="row">
-          
+
                 </div><!-- /.row -->
                 <div class="row ">
                     <div class="col-md-6 col-lg-3">

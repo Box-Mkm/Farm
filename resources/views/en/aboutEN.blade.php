@@ -18,7 +18,7 @@
 @include('layouts.appEN')
 <!--Page Header Start-->
 <section class="page-header clearfix"
-    style="background-image: url({{ asset('images/backgrounds/page-header-bg.jpg') }});">
+    style="background-image: url({{ asset('images/backgrounds/page-header-bg6.jpg') }});">
     <div class="container">
         <div class="page-header__inner text-center clearfix">
             <ul class="thm-breadcrumb">
@@ -95,7 +95,7 @@
             <!--Start About Three Img Box-->
             <div class="col-xl-6 col-lg-5 m-auto">
                 <div class="about-three__img-box">
-   
+
                     <div class="">
                         <div class="about-three__img-box-img-inner">
                             <img src="{{ asset('images/about/about-v3-img1.jpg') }}" alt="" />
