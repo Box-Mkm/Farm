@@ -20,7 +20,7 @@
 
 <!--Page Header Start-->
 <section class="page-header clearfix"
-    style="background-image: url({{ asset('images/backgrounds/page-header-bg.jpg') }});">
+    style="background-image: url({{ asset('images/backgrounds/page-header-bg5.jpg') }});">
     <div class="container">
         <div class="page-header__inner text-center clearfix">
             <ul class="thm-breadcrumb">
@@ -140,7 +140,7 @@
 
 <section class="video-one jarallax clearfix" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
     style="background-image: url({{ asset('images/backgrounds/video-one-bg.jpg') }});">
- 
+
     <div class="container">
         <div class="sec-title text-center">
             {{-- <div class="icon">
@@ -165,7 +165,7 @@
 
         </div><!-- /.row -->
     </div><!-- /.container -->
-   
+
 </section>
 
 

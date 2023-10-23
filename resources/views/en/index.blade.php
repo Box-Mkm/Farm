@@ -267,10 +267,10 @@
         <div class="col-md-6 col-lg-3">
             <div class="shop-one__item">
                 <div class="shop-one__image">
-                    <img src="{{ asset('images/onion.png') }}" alt="">
+                    <img src="{{ asset('images/neworange.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="shop">Onion</a>
+                    <h3 class="shop-one__title"><a href="shop">orange</a>
                     </h3>
                     <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
@@ -282,10 +282,10 @@
             <div class="shop-one__item">
                 <div class="shop-one__image">
 
-                    <img src="{{ asset('images/tomato.png') }}" alt="">
+                    <img src="{{ asset('images/pomegranate.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="shop">Tomato</a>
+                    <h3 class="shop-one__title"><a href="shop">pomegranate</a>
                     </h3>
                     <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
@@ -302,10 +302,10 @@
             <div class="shop-one__item">
                 <div class="shop-one__image">
 
-                    <img src="{{ asset('images/potato.png') }}" alt="">
+                    <img src="{{ asset('images/mandarin.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="shop">Potato</a>
+                    <h3 class="shop-one__title"><a href="shop">mandarin</a>
                     </h3>
                     <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
@@ -901,9 +901,9 @@
                     </ul><!-- /.list-unstyled ml-0 -->
                     <div class="contact-one__images">
                         <div class="contact-one__images__shape"></div><!-- /.contact-one__images__shape -->
-                        <img src="{{ asset('images/resources/contact-1-1.png') }}" alt=""
-                            class="contact-one__images-1">
                         <img src="{{ asset('images/resources/oranges.png') }}" alt=""
+                            class="contact-one__images-1">
+                        <img src="{{ asset('images/resources/services-v1-img2.jpg') }}" alt=""
                             class="contact-one__images-2">
                     </div><!-- /.contact-one__images -->
                 </div><!-- /.contact-one__content -->

@@ -37,8 +37,7 @@
         <div class="swiper-wrapper">
             <!--Start Single Swiper Slide-->
             <div class="swiper-slide">
-                <div class="image-layer"
-                    style="background-image: url({{ asset('images/backgrounds/main-slider-v1-1.jpg') }});">
+                <div class="image-layer" style="background-image: url({{ asset('images/backgrounds/autumn2.jpg') }});">
                 </div>
                 <div class="image-layer-overlay"></div>
                 <div class="container">
@@ -47,7 +46,8 @@
                             <div class="main-slider-inner">
                                 <div class="main-slider__content">
                                     <span class="main-slider-tagline">نحن ننتج سلعًا طبيعية</span>
-                                    <h2 class="main-slider__title" style="word-spacing: -15px">عبدالدايم للحاصلات الزراعية<br> حيث تلتقي الجودة
+                                    <h2 class="main-slider__title" style="word-spacing: -15px">عبدالدايم للحاصلات
+                                        الزراعية<br> حيث تلتقي الجودة
                                         بالنكهة <span><span class="leaf"></h2>
                                     <p class="main-slider__text"> من المزرعة إلى الأسواق العالمية <br> عبدالدايم، شريكك
                                         الموثوق في التصدير</p>
@@ -68,8 +68,7 @@
 
             <!--Start Single Swiper Slide-->
             <div class="swiper-slide">
-                <div class="image-layer"
-                    style="background-image: url({{ asset('images/backgrounds/main-slider-v1-2.jpg') }});">
+                <div class="image-layer" style="background-image: url({{ asset('images/backgrounds/autumn3.jpg') }});">
                 </div>
                 <div class="image-layer-overlay"></div>
                 <div class="container">
@@ -197,7 +196,8 @@
                         جميع أنحاء العالم، أثبتنا أنفسنا كواحدة من أكبر الشركات في هذا المجال
                     </p>
                     <p class="about-one__content-text">في شركة عبدالدايم، ندرك أهمية توفير منتجات تلبي المعايير
-                        المطلوبة. من خلال فهمنا الجيد لديناميكيات السوق والالتزام بالتشريعات والبروتوكولات الحكومية، نعرف
+                        المطلوبة. من خلال فهمنا الجيد لديناميكيات السوق والالتزام بالتشريعات والبروتوكولات الحكومية،
+                        نعرف
                         كيفية تلبية متطلبات عملائنا المتغيرة</p>
                 </div>
             </div>
@@ -220,7 +220,8 @@
                 <div class="contact-one__content" style="font-size: larger">
                     <p class="contact-one__text">استكشف مجموعتنا الواسعة من الفواكه والخضروات، المختارة بعناية لتلبية
                         أعلى معايير الجودة. نحن نقدم تشكيلة متنوعة تشمل جميع أنواع الحاصلات الحمضية مثل الليمون
-                        والبرتقال والعنب والرمان و الطماطم و البصل و الثوم و البطاطس والخوخ والمانجو، لنلبي جميع الأذواق. تأتي منتجاتنا مباشرة من المزارع
+                        والبرتقال والعنب والرمان و الطماطم و البصل و الثوم و البطاطس والخوخ والمانجو، لنلبي جميع
+                        الأذواق. تأتي منتجاتنا مباشرة من المزارع
                         والبساتين، مما يضمن الحصول على أفضل ما تقدمه الطبيعة.
                         نصدر منتجاتنا إلى المملكة العربية السعودية ودبي ومسقط والكويت وروسيا وأوروبا والهند وأوكرانيا
                         والأردن والعراق وبنغلاديش وماليزيا والصين، وفي المستقبل القريب، ستكون منتجاتنا متاحة في جميع
@@ -334,10 +335,10 @@
 <section class="video-one jarallax clearfix" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
     style="background-image: url({{ asset('images/backgrounds/video-one-bg.jpg') }});">
     {{-- <div class="video-one-border"></div> --}}
-    
+
     <div class="container">
         <div class="sec-title text-center">
-            
+
             <div class="video-one__leaf"></div><!-- /.video-one__leaf -->
             <h2 class="sec-title__title">ضمان الجودة</h2>
         </div>
@@ -891,9 +892,9 @@
                     </ul><!-- /.list-unstyled ml-0 -->
                     <div class="contact-one__images">
                         <div class="contact-one__images__shape"></div><!-- /.contact-one__images__shape -->
-                        <img src="{{ asset('images/resources/contact-1-1.png') }}" alt=""
+                        <img src="{{ asset('images/resources/oranges.png') }}" alt=""
                             class="contact-one__images-1">
-                        <img src="{{ asset('images/resources/contact-1-2.png') }}" alt=""
+                        <img src="{{ asset('images/resources/services-v1-img2.jpg') }}" alt=""
                             class="contact-one__images-2">
                     </div><!-- /.contact-one__images -->
                 </div><!-- /.contact-one__content -->

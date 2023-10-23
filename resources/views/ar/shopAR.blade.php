@@ -20,7 +20,7 @@
 
 
 <section class="page-header clearfix"
-    style="background-image: url({{ asset('images/backgrounds/page-header-bg.jpg') }});">
+    style="background-image: url({{ asset('images/backgrounds/page-header-bg3.jpg') }});">
     <div class="container">
         <div class="page-header__inner text-center clearfix">
             <ul class="thm-breadcrumb">
@@ -41,14 +41,15 @@
             <div class="icon">
                 {{-- <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt=""> --}}
             </div>
-            
+
         </div>
         <div class="row">
             <div class="col-lg-12">
                 <div class="contact-one__content" style="font-size: larger">
                     <p class="contact-one__text">استكشف مجموعتنا الواسعة من الفواكه والخضروات، المختارة بعناية لتلبية
                         أعلى معايير الجودة. نحن نقدم تشكيلة متنوعة تشمل جميع أنواع الحاصلات الحمضية مثل الليمون
-                        والبرتقال والعنب والرمان والطماطم و البصل و الثوم و البطاطس و الخوخ والمانجو، لنلبي جميع الأذواق. تأتي منتجاتنا مباشرة من المزارع
+                        والبرتقال والعنب والرمان والطماطم و البصل و الثوم و البطاطس و الخوخ والمانجو، لنلبي جميع
+                        الأذواق. تأتي منتجاتنا مباشرة من المزارع
                         والبساتين، مما يضمن الحصول على أفضل ما تقدمه الطبيعة.
                         نصدر منتجاتنا إلى المملكة العربية السعودية ودبي ومسقط والكويت وروسيا وأوروبا والهند وأوكرانيا
                         والأردن والعراق وبنغلاديش وماليزيا والصين، وفي المستقبل القريب، ستكون منتجاتنا متاحة في جميع
