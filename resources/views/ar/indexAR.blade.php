@@ -904,7 +904,7 @@
                         <div class="contact-one__images__shape"></div><!-- /.contact-one__images__shape -->
                         <img src="{{ asset('images/resources/oranges.png') }}" alt=""
                             class="contact-one__images-1">
-                        <img src="{{ asset('images/resources/oranges.png') }}" alt=""
+                        <img src="{{ asset('images/resources/services-v1-img2.jpg') }}" alt=""
                             class="contact-one__images-2">
                     </div><!-- /.contact-one__images -->
                 </div><!-- /.contact-one__content -->
