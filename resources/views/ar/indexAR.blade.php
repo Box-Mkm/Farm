@@ -38,7 +38,7 @@
             <!--Start Single Swiper Slide-->
             <div class="swiper-slide">
                 <div class="image-layer"
-                    style="background-image: url({{ asset('images/backgrounds/main-slider-v1-1.jpg') }});">
+                    style="background-image: url({{ asset('images/backgrounds/autumn2.jpg') }});">
                 </div>
                 <div class="image-layer-overlay"></div>
                 <div class="container">
@@ -69,7 +69,7 @@
             <!--Start Single Swiper Slide-->
             <div class="swiper-slide">
                 <div class="image-layer"
-                    style="background-image: url({{ asset('images/backgrounds/main-slider-v1-2.jpg') }});">
+                    style="background-image: url({{ asset('images/backgrounds/autumn3.jpg') }});">
                 </div>
                 <div class="image-layer-overlay"></div>
                 <div class="container">
@@ -893,7 +893,7 @@
                         <div class="contact-one__images__shape"></div><!-- /.contact-one__images__shape -->
                         <img src="{{ asset('images/resources/contact-1-1.png') }}" alt=""
                             class="contact-one__images-1">
-                        <img src="{{ asset('images/resources/contact-1-2.png') }}" alt=""
+                        <img src="{{ asset('images/resources/oranges.png') }}" alt=""
                             class="contact-one__images-2">
                     </div><!-- /.contact-one__images -->
                 </div><!-- /.contact-one__content -->

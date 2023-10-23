@@ -20,7 +20,7 @@
 
 <!--Page Header Start-->
 <section class="page-header clearfix"
-    style="background-image: url({{ asset('images/backgrounds/page-header-bg.jpg') }});">
+    style="background-image: url({{ asset('images/new-bg2.jpg') }});">
     <div class="container">
         <div class="page-header__inner text-center clearfix">
             <ul class="thm-breadcrumb">
