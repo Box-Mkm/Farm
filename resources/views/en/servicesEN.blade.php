@@ -202,7 +202,7 @@
                         are photographed for quality assurance to ensure that the fruits are free from any defects. The
                         fruits are sorted to ensure their final quality, and we use sizers to determine the size of the
                         produce. Finally, we export the highest quality produce to the whole world.
-                        Abdel Dayem Agricultural Crops Company not only exports agricultural crops, but also offers the
+                        Abdeldayem Agricultural Crops Company not only exports agricultural crops, but also offers the
                         option for other companies to utilize the Sizer machine for washing and sorting their own
                         agricultural crops. This enables these companies to verify and ensure the quality of their
                         agricultural produce.
