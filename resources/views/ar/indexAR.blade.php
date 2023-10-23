@@ -47,9 +47,9 @@
                             <div class="main-slider-inner">
                                 <div class="main-slider__content">
                                     <span class="main-slider-tagline">نحن ننتج سلعًا طبيعية</span>
-                                    <h2 class="main-slider__title">عبد الدايم للحاصلات الزراعية<br> حيث تلتقي الجودة
+                                    <h2 class="main-slider__title" style="word-spacing: -15px">عبدالدايم للحاصلات الزراعية<br> حيث تلتقي الجودة
                                         بالنكهة <span><span class="leaf"></h2>
-                                    <p class="main-slider__text"> من المزرعة إلى الأسواق العالمية <br> عبد الدايم، شريكك
+                                    <p class="main-slider__text"> من المزرعة إلى الأسواق العالمية <br> عبدالدايم، شريكك
                                         الموثوق في التصدير</p>
                                 </div>
                                 <div class="main-slider__button-box">
@@ -78,9 +78,9 @@
                             <div class="main-slider-inner">
                                 <div class="main-slider__content">
                                     <span class="main-slider-tagline">نحن ننتج سلعًا طبيعية</span>
-                                    <h2 class="main-slider__title">عبد الدايم للحاصلات الزراعية<br> حيث تلتقي الجودة
+                                    <h2 class="main-slider__title">عبدالدايم للحاصلات الزراعية<br> حيث تلتقي الجودة
                                         بالنكهة <span><span class="leaf"></h2>
-                                    <p class="main-slider__text"> من المزرعة إلى الأسواق العالمية <br> عبد الدايم، شريكك
+                                    <p class="main-slider__text"> من المزرعة إلى الأسواق العالمية <br> عبدالدايم، شريكك
                                         الموثوق في التصدير</p>
                                 </div>
                                 <div class="main-slider__button-box">
@@ -109,9 +109,9 @@
                             <div class="main-slider-inner">
                                 <div class="main-slider__content">
                                     <span class="main-slider-tagline">نحن ننتج سلعًا طبيعية</span>
-                                    <h2 class="main-slider__title">عبد الدايم للحاصلات الزراعية<br> حيث تلتقي الجودة
+                                    <h2 class="main-slider__title">عبدالدايم للحاصلات الزراعية<br> حيث تلتقي الجودة
                                         بالنكهة <span><span class="leaf"></h2>
-                                    <p class="main-slider__text"> من المزرعة إلى الأسواق العالمية <br> عبد الدايم، شريكك
+                                    <p class="main-slider__text"> من المزرعة إلى الأسواق العالمية <br> عبدالدايم، شريكك
                                         الموثوق في التصدير</p>
                                 </div>
                                 <div class="main-slider__button-box">
@@ -192,12 +192,12 @@
                         نحن شركة رائدة في سوق الزراعة
                     </h2>
                     <p class="about-one__content-text" style="color: white">
-                        مرحبًا بكم في شركة عبد الدايم للمحاصيل الزراعية، اسم موثوق به في مجال تصدير واستيراد الفواكه
+                        مرحبًا بكم في شركة عبدالدايم للمحاصيل الزراعية، اسم موثوق به في مجال تصدير واستيراد الفواكه
                         والخضروات الطازجة منذ عام 1995. من خلال التزامنا بتوفير حاصلات زراعية عالية الجودة للعملاء في
                         جميع أنحاء العالم، أثبتنا أنفسنا كواحدة من أكبر الشركات في هذا المجال
                     </p>
-                    <p class="about-one__content-text">في شركة عبد الدايم، ندرك أهمية توفير منتجات تلبي المعايير
-                        المطلوبة. من خلال فهمنا الجيد لديناميات السوق والالتزام بالتشريعات والبروتوكولات الحكومية، نعرف
+                    <p class="about-one__content-text">في شركة عبدالدايم، ندرك أهمية توفير منتجات تلبي المعايير
+                        المطلوبة. من خلال فهمنا الجيد لديناميكيات السوق والالتزام بالتشريعات والبروتوكولات الحكومية، نعرف
                         كيفية تلبية متطلبات عملائنا المتغيرة</p>
                 </div>
             </div>
@@ -220,7 +220,7 @@
                 <div class="contact-one__content" style="font-size: larger">
                     <p class="contact-one__text">استكشف مجموعتنا الواسعة من الفواكه والخضروات، المختارة بعناية لتلبية
                         أعلى معايير الجودة. نحن نقدم تشكيلة متنوعة تشمل جميع أنواع الحاصلات الحمضية مثل الليمون
-                        والبرتقال والعنب والرمان والخوخ والمانجو، لنلبي جميع الأذواق. تأتي منتجاتنا مباشرة من المزارع
+                        والبرتقال والعنب والرمان و الطماطم و البصل و الثوم و البطاطس والخوخ والمانجو، لنلبي جميع الأذواق. تأتي منتجاتنا مباشرة من المزارع
                         والبساتين، مما يضمن الحصول على أفضل ما تقدمه الطبيعة.
                         نصدر منتجاتنا إلى المملكة العربية السعودية ودبي ومسقط والكويت وروسيا وأوروبا والهند وأوكرانيا
                         والأردن والعراق وبنغلاديش وماليزيا والصين، وفي المستقبل القريب، ستكون منتجاتنا متاحة في جميع
@@ -253,10 +253,10 @@
         <div class="col-md-6 col-lg-3">
             <div class="shop-one__item">
                 <div class="shop-one__image">
-                    <img src="{{ asset('images/onion.png') }}" alt="">
+                    <img src="{{ asset('images/neworange.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="اشتري">بصل</a>
+                    <h3 class="shop-one__title"><a href="اشتري">برتقال</a>
                     </h3>
                     <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
@@ -268,10 +268,10 @@
             <div class="shop-one__item">
                 <div class="shop-one__image">
 
-                    <img src="{{ asset('images/tomato.png') }}" alt="">
+                    <img src="{{ asset('images/pomegranate.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="اشتري">طماطم</a>
+                    <h3 class="shop-one__title"><a href="اشتري">رمان</a>
                     </h3>
                     <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
@@ -288,10 +288,10 @@
             <div class="shop-one__item">
                 <div class="shop-one__image">
 
-                    <img src="{{ asset('images/potato.png') }}" alt="">
+                    <img src="{{ asset('images/mandarin.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="اشتري">بطاطس</a>
+                    <h3 class="shop-one__title"><a href="اشتري">ماندرين</a>
                     </h3>
                     <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
@@ -334,18 +334,11 @@
 <section class="video-one jarallax clearfix" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
     style="background-image: url({{ asset('images/backgrounds/video-one-bg.jpg') }});">
     {{-- <div class="video-one-border"></div> --}}
-    {{-- <div class="video-one-border video-one-border-two"></div>
-    <div class="video-one-border video-one-border-three"></div>
-    <div class="video-one-border video-one-border-four"></div>
-    <div class="video-one-border video-one-border-five"></div>
-    <div class="video-one-border video-one-border-six"></div> --}}
+    
     <div class="container">
         <div class="sec-title text-center">
-            {{-- <div class="icon">
-                <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
-            </div> --}}
+            
             <div class="video-one__leaf"></div><!-- /.video-one__leaf -->
-            {{-- <span class="sec-title__tagline">What we offer</span> --}}
             <h2 class="sec-title__title">ضمان الجودة</h2>
         </div>
         <div class="row">
@@ -404,7 +397,7 @@
                         الحاصلات الزراعية تمر عبر خط غسيل حيث يتم تنظيفها وتعقيمها. ثم يتم تصويرها لضمان الجودة والتأكد
                         من عدم وجود أي عيوب في الفواكه. يتم فرز الفواكه لضمان جودتها النهائية، ونستخدم أجهزة فحص الحجم
                         لتحديد حجم الإنتاج. في النهاية، نصدر منتجات عالية الجودة للعالم بأسره.
-                        توفر عبد الدايم للحاصلات الزراعية أيضًا خيارًا للشركات الأخرى للاستفادة من آلة سيزر لغسل وفرز
+                        توفر عبدالدايم للحاصلات الزراعية أيضًا خيارًا للشركات الأخرى للاستفادة من آلة سيزر لغسل وفرز
                         محاصيلها الزراعية الخاصة. وهذا يتيح لهذه الشركات التحقق وضمان جودة منتجاتها الزراعية
 
                     </p>
@@ -449,7 +442,7 @@
                     </div> --}}
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="اشتري">أحمد سليم عبد الدايم</a></h2>
+                        <h2><a href="اشتري">أحمد سليم عبدالدايم</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -473,7 +466,7 @@
                         style="    background-color: seagreen;
                     border-radius: 36px; margin-top:40px">
                         <p>CEO</p>
-                        <h2><a href="اشتري">سالم سليم عبد الدايم</a></h2>
+                        <h2><a href="اشتري">سليم سليم عبدالدايم</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -497,7 +490,7 @@
                         style="    background-color: seagreen;
                     border-radius: 36px; margin-top:40px">
                         <p>CEO</p>
-                        <h2><a href="اشتري">محمود حسن عبد الدايم</a></h2>
+                        <h2><a href="اشتري">محمود حسن عبدالدايم</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -521,7 +514,7 @@
                         style="    background-color: seagreen;
                     border-radius: 36px; margin-top:40px">
                         <p>CEO</p>
-                        <h2><a href="اشتري">محجوب حسن عبد الدايم</a></h2>
+                        <h2><a href="اشتري">محجوب حسن عبدالدايم</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -611,7 +604,7 @@
                             <div class="testimonials-one__carousel owl-carousel owl-theme">
                                 <!--Start Single Testimonials One-->
                                 <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">شركة عبد الدايم للمحاصيل الزراعية كانت
+                                    <p class="testimonials-one__single-text">شركة عبدالدايم للمحاصيل الزراعية كانت
                                         شريكنا الموثوق منذ سنوات. التزامهم بتقديم منتجات عالية الجودة لا مثيل لها. نحن
                                         دائما معجبون بجودة ومذاق فواكههم وخضرواتهم." </p>
                                     <div class="testimonials-one__single-client-info">
@@ -635,7 +628,7 @@
                                 <!--Start Single Testimonials One-->
                                 <div class="testimonials-one__single">
                                     <p class="testimonials-one__single-text">لقد قمت باستيراد الفواكه والخضروات من شركة
-                                        عبد الدايم للمحاصيل الزراعية لفترة طويلة. فاهتمامهم بديناميات السوق والالتزام
+                                        عبدالدايم للمحاصيل الزراعية لفترة طويلة. فاهتمامهم بديناميكيات السوق والالتزام
                                         بالتشريعات الحكومية يستحق الإشادة. إنهم دائما يبذلون قصارى جهدهم لتلبية
                                         تفضيلاتنا ومتطلباتنا الخاصة</p>
                                     <div class="testimonials-one__single-client-info">
@@ -680,7 +673,7 @@
 
                                 <!--Start Single Testimonials One-->
                                 <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">لا تقدم شركة عبد الدايم للمحاصيل الزراعية
+                                    <p class="testimonials-one__single-text">لا تقدم شركة عبدالدايم للمحاصيل الزراعية
                                         منتجات ممتازة فقط، بل احترافيتهم في التعامل مع جميع المتطلبات متميزة. إنهم
                                         يجعلون التجارة الدولية سهلة، والتسليم في الوقت المحدد</p>
                                     <div class="testimonials-one__single-client-info">

@@ -204,52 +204,10 @@
                             </div>
                         </li>
 
-                        {{-- <li>
-                            <div class="icon">
-                                <i class="fa fa-check-circle" aria-hidden="true"></i>
-                            </div>
-                            <div class="text">
-                                <p>If you are going to use a passage</p>
-                            </div>
-                        </li>
 
-                        <li>
-                            <div class="icon">
-                                <i class="fa fa-check-circle" aria-hidden="true"></i>
-                            </div>
-                            <div class="text">
-                                <p>Making this the first true generator on the Internet</p>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="icon">
-                                <i class="fa fa-check-circle" aria-hidden="true"></i>
-                            </div>
-                            <div class="text">
-                                <p>Various versions have evolved over the years</p>
-                            </div>
-                        </li> --}}
                     </ul>
 
-                    {{-- <div class="about-one__content-video-box">
-                        <div class="about-one__content-video-box-img-wrapper">
-                            <div class="about-one__content-video-box-img">
-                                <img src="{{ asset('images/resources/about-v1-video-img.jpg') }}" alt="" />
-                                <div class="icon">
-                                    <a class="video-popup wow zoomIn animated animated animated"
-                                        data-wow-delay="300ms" data-wow-duration="1500ms" title=" Video"
-                                        href="https://www.youtube.com/watch?v=8DP4NgupAhI">
-                                        <span class="icon-play-button-1"></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div><!-- /.about-one__content-video-box-img-wrapper -->
-                        <div class="about-one__content-video-box-title">
-                            <p>Watch our video</p>
-                            <h3>Tips for Ripening your Fruits</h3>
-                        </div>
-                    </div> --}}
+
                 </div>
             </div>
             <!--End About One Content-->
@@ -490,10 +448,7 @@
                 <div class="meet-farmers-one__single"
                     style="    background-color: seagreen;
                 border-radius: 36px; margin-top:40px">
-                    {{-- <div class="meet-farmers-one__single-img">
-                        <img src="{{ asset('images/resources/meet-farmers-v1-img1.jpg') }}" alt="" />
 
-                    </div> --}}
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">Ahmed Salim Abdeldayem</a></h2>
@@ -515,9 +470,7 @@
                 <div class="meet-farmers-one__single"
                     style="    background-color: seagreen;
                 border-radius: 36px;margin-top:40px">
-                    {{-- <div class="meet-farmers-one__single-img">
-                        <img src="{{ asset('images/resources/meet-farmers-v1-img2.jpg') }}" alt="" />
-                    </div> --}}
+
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">Salim Salim Abdeldayem</a></h2>
@@ -539,9 +492,7 @@
                 <div class="meet-farmers-one__single"
                     style="    background-color: seagreen;
                 border-radius: 36px;margin-top:40px">
-                    {{-- <div class="meet-farmers-one__single-img">
-                        <img src="{{ asset('images/resources/meet-farmers-v1-img3.jpg') }}" alt="" />
-                    </div> --}}
+
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">Mahmoud Hassan Abdeldayem</a></h2>
@@ -563,9 +514,7 @@
                 <div class="meet-farmers-one__single"
                     style="    background-color: seagreen;
                 border-radius: 36px;margin-top:40px">
-                    {{-- <div class="meet-farmers-one__single-img">
-                        <img src="{{ asset('images/resources/meet-farmers-v1-img4.jpg') }}" alt="" />
-                    </div> --}}
+
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
                         <h2><a href="farmers.html">Mahjoub Hassan Abdeldayem</a></h2>
@@ -670,10 +619,7 @@
                                         and taste of their fruits and vegetables." </p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
-                                            {{-- <div class="testimonials-one__single-client-info-img-inner">
-                                                <img src="{{ asset('images/testimonial/testimonials-v1-img1.jpg') }}"
-                                                    alt="" />
-                                            </div> --}}
+
                                             <div class="icon">
                                                 <span class="icon-right-quotation-mark"></span>
                                             </div>
@@ -695,10 +641,7 @@
                                         and requirements." </p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
-                                            {{-- <div class="testimonials-one__single-client-info-img-inner">
-                                                <img src="{{ asset('images/testimonial/testimonials-v1-img2.jpg') }}"
-                                                    alt="" />
-                                            </div> --}}
+
                                             <div class="icon">
                                                 <span class="icon-right-quotation-mark"></span>
                                             </div>
@@ -720,10 +663,7 @@
                                         truly impressive."</p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
-                                            {{-- <div class="testimonials-one__single-client-info-img-inner">
-                                                <img src="{{ asset('images/testimonial/testimonials-v1-img1.jpg') }}"
-                                                    alt="" />
-                                            </div> --}}
+
                                             <div class="icon">
                                                 <span class="icon-right-quotation-mark"></span>
                                             </div>
@@ -744,10 +684,7 @@
                                         breeze, ensuring smooth transactions and on-time deliveries." </p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
-                                            {{-- <div class="testimonials-one__single-client-info-img-inner">
-                                                <img src="{{ asset('images/testimonial/testimonials-v1-img2.jpg') }}"
-                                                    alt="" />
-                                            </div> --}}
+
                                             <div class="icon">
                                                 <span class="icon-right-quotation-mark"></span>
                                             </div>
