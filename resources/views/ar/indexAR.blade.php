@@ -38,108 +38,118 @@
             <!--Start Single Swiper Slide-->
             <div class="swiper-slide">
                 <div class="image-layer" style="background-image: url({{ asset('images/backgrounds/autumn2.jpg') }});">
-                </div>
-                <div class="image-layer-overlay"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="main-slider-inner">
-                                <div class="main-slider__content">
-                                    <span class="main-slider-tagline">نحن ننتج سلعًا طبيعية</span>
-                                    <h2 class="main-slider__title" style="word-spacing: -15px">عبدالدايم للحاصلات
-                                        الزراعية<br> حيث تلتقي الجودة
-                                        بالنكهة <span><span class="leaf"></h2>
-                                    <p class="main-slider__text"> من المزرعة إلى الأسواق العالمية <br> عبدالدايم، شريكك
-                                        الموثوق في التصدير</p>
-                                </div>
-                                <div class="main-slider__button-box">
-                                    <div class="arrow-icon"><img
-                                            src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
-                                            alt="" />
+                    <div class="image-layer"
+                        style="background-image: url({{ asset('images/backgrounds/autumn2.jpg') }});">
+                    </div>
+                    <div class="image-layer-overlay"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="main-slider-inner">
+                                    <div class="main-slider__content">
+                                        <span class="main-slider-tagline">نحن ننتج سلعًا طبيعية</span>
+                                        <h2 class="main-slider__title" style="word-spacing: -15px">عبدالدايم للحاصلات
+                                            الزراعية<br> حيث تلتقي الجودة
+                                            بالنكهة <span><span class="leaf"></h2>
+                                        <p class="main-slider__text"> من المزرعة إلى الأسواق العالمية <br> عبدالدايم،
+                                            شريكك
+                                            الموثوق في التصدير</p>
                                     </div>
-                                    <a href="عن" class="thm-btn">إكتشف أكثر</a>
+                                    <div class="main-slider__button-box">
+                                        <div class="arrow-icon"><img
+                                                src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
+                                                alt="" />
+                                        </div>
+                                        <a href="عن" class="thm-btn">إكتشف أكثر</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--End Single Swiper Slide-->
+                <!--End Single Swiper Slide-->
 
-            <!--Start Single Swiper Slide-->
-            <div class="swiper-slide">
-                <div class="image-layer" style="background-image: url({{ asset('images/backgrounds/autumn3.jpg') }});">
-                </div>
-                <div class="image-layer-overlay"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="main-slider-inner">
-                                <div class="main-slider__content">
-                                    <span class="main-slider-tagline">نحن ننتج سلعًا طبيعية</span>
-                                    <h2 class="main-slider__title">عبدالدايم للحاصلات الزراعية<br> حيث تلتقي الجودة
-                                        بالنكهة <span><span class="leaf"></h2>
-                                    <p class="main-slider__text"> من المزرعة إلى الأسواق العالمية <br> عبدالدايم، شريكك
-                                        الموثوق في التصدير</p>
-                                </div>
-                                <div class="main-slider__button-box">
-                                    <div class="arrow-icon"><img
-                                            src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
-                                            alt="" />
+                <!--Start Single Swiper Slide-->
+                <div class="swiper-slide">
+                    <div class="image-layer"
+                        style="background-image: url({{ asset('images/backgrounds/autumn3.jpg') }});">
+                        <div class="image-layer"
+                            style="background-image: url({{ asset('images/backgrounds/autumn3.jpg') }});">
+                        </div>
+                        <div class="image-layer-overlay"></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="main-slider-inner">
+                                        <div class="main-slider__content">
+                                            <span class="main-slider-tagline">نحن ننتج سلعًا طبيعية</span>
+                                            <h2 class="main-slider__title">عبدالدايم للحاصلات الزراعية<br> حيث تلتقي
+                                                الجودة
+                                                بالنكهة <span><span class="leaf"></h2>
+                                            <p class="main-slider__text"> من المزرعة إلى الأسواق العالمية <br>
+                                                عبدالدايم، شريكك
+                                                الموثوق في التصدير</p>
+                                        </div>
+                                        <div class="main-slider__button-box">
+                                            <div class="arrow-icon"><img
+                                                    src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
+                                                    alt="" />
+                                            </div>
+                                            <a href="عن" class="thm-btn">إكتشف أكثر</a>
+                                        </div>
                                     </div>
-                                    <a href="عن" class="thm-btn">إكتشف أكثر</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!--End Single Swiper Slide-->
+                    <!--End Single Swiper Slide-->
 
-            <!--Start Single Swiper Slide-->
-            <div class="swiper-slide">
-                <div class="image-layer"
-                    style="background-image: url({{ asset('images/backgrounds/main-slider-v1-3.jpg') }});">
-                </div>
-                <div class="image-layer-overlay"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="main-slider-inner">
-                                <div class="main-slider__content">
-                                    <span class="main-slider-tagline">نحن ننتج سلعًا طبيعية</span>
-                                    <h2 class="main-slider__title">عبدالدايم للحاصلات الزراعية<br> حيث تلتقي الجودة
-                                        بالنكهة <span><span class="leaf"></h2>
-                                    <p class="main-slider__text"> من المزرعة إلى الأسواق العالمية <br> عبدالدايم، شريكك
-                                        الموثوق في التصدير</p>
-                                </div>
-                                <div class="main-slider__button-box">
-                                    <div class="arrow-icon"><img
-                                            src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
-                                            alt="" />
+                    <!--Start Single Swiper Slide-->
+                    <div class="swiper-slide">
+                        <div class="image-layer"
+                            style="background-image: url({{ asset('images/backgrounds/main-slider-v1-3.jpg') }});">
+                        </div>
+                        <div class="image-layer-overlay"></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="main-slider-inner">
+                                        <div class="main-slider__content">
+                                            <span class="main-slider-tagline">نحن ننتج سلعًا طبيعية</span>
+                                            <h2 class="main-slider__title">عبدالدايم للحاصلات الزراعية<br> حيث تلتقي
+                                                الجودة
+                                                بالنكهة <span><span class="leaf"></h2>
+                                            <p class="main-slider__text"> من المزرعة إلى الأسواق العالمية <br>
+                                                عبدالدايم، شريكك
+                                                الموثوق في التصدير</p>
+                                        </div>
+                                        <div class="main-slider__button-box">
+                                            <div class="arrow-icon"><img
+                                                    src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
+                                                    alt="" />
+                                            </div>
+                                            <a href="عن" class="thm-btn">إكتشف أكثر</a>
+                                        </div>
                                     </div>
-                                    <a href="عن" class="thm-btn">إكتشف أكثر</a>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!--End Single Swiper Slide-->
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-pagination" id="main-slider-pagination"></div>
+
+                <div class="main-slider__nav">
+                    <div class="swiper-button-prev" id="main-slider__swiper-button-next">
+                        <span class="icon-right-arrow-2"></span>
+                    </div>
+                    <div class="swiper-button-next" id="main-slider__swiper-button-prev">
+                        <span class="icon-right-arrow-2"></span>
+                    </div>
                 </div>
             </div>
-            <!--End Single Swiper Slide-->
-        </div>
-
-        <!-- If we need navigation buttons -->
-        <div class="swiper-pagination" id="main-slider-pagination"></div>
-
-        <div class="main-slider__nav">
-            <div class="swiper-button-prev" id="main-slider__swiper-button-next">
-                <span class="icon-right-arrow-2"></span>
-            </div>
-            <div class="swiper-button-next" id="main-slider__swiper-button-prev">
-                <span class="icon-right-arrow-2"></span>
-            </div>
-        </div>
-    </div>
 </section>
 <!--Main Slider End-->
 
@@ -220,8 +230,8 @@
                 <div class="contact-one__content" style="font-size: larger">
                     <p class="contact-one__text">استكشف مجموعتنا الواسعة من الفواكه والخضروات، المختارة بعناية لتلبية
                         أعلى معايير الجودة. نحن نقدم تشكيلة متنوعة تشمل جميع أنواع الحاصلات الحمضية مثل الليمون
-                        والبرتقال والعنب والرمان و الطماطم و البصل و الثوم و البطاطس والخوخ والمانجو، لنلبي جميع
-                        الأذواق. تأتي منتجاتنا مباشرة من المزارع
+                        والبرتقال والعنب والرمان و الطماطم و البصل و الثوم والخوخ والمانجو، لنلبي جميع الأذواق. تأتي
+                        منتجاتنا مباشرة من المزارع
                         والبساتين، مما يضمن الحصول على أفضل ما تقدمه الطبيعة.
                         نصدر منتجاتنا إلى المملكة العربية السعودية ودبي ومسقط والكويت وروسيا وأوروبا والهند وأوكرانيا
                         والأردن والعراق وبنغلاديش وماليزيا والصين، وفي المستقبل القريب، ستكون منتجاتنا متاحة في جميع
@@ -894,7 +904,7 @@
                         <div class="contact-one__images__shape"></div><!-- /.contact-one__images__shape -->
                         <img src="{{ asset('images/resources/oranges.png') }}" alt=""
                             class="contact-one__images-1">
-                        <img src="{{ asset('images/resources/services-v1-img2.jpg') }}" alt=""
+                        <img src="{{ asset('images/resources/oranges.png') }}" alt=""
                             class="contact-one__images-2">
                     </div><!-- /.contact-one__images -->
                 </div><!-- /.contact-one__content -->
