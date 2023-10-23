@@ -35,8 +35,7 @@
         <div class="swiper-wrapper">
             <!--Start Single Swiper Slide-->
             <div class="swiper-slide">
-                <div class="image-layer"
-                    style="background-image: url({{ asset('images/backgrounds/main-slider-v1-1.jpg') }});">
+                <div class="image-layer" style="background-image: url({{ asset('images/backgrounds/autumn2.jpg') }});">
                 </div>
                 <div class="image-layer-overlay"></div>
                 <div class="container">
@@ -67,8 +66,7 @@
 
             <!--Start Single Swiper Slide-->
             <div class="swiper-slide">
-                <div class="image-layer"
-                    style="background-image: url({{ asset('images/backgrounds/main-slider-v1-2.jpg') }});">
+                <div class="image-layer" style="background-image: url({{ asset('images/backgrounds/autumn3.jpg') }});">
                 </div>
                 <div class="image-layer-overlay"></div>
                 <div class="container">
