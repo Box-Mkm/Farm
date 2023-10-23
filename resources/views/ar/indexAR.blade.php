@@ -38,8 +38,8 @@
             <!--Start Single Swiper Slide-->
             <div class="swiper-slide">
                 <div class="image-layer" style="background-image: url({{ asset('images/backgrounds/autumn2.jpg') }});">
-                    <div class="image-layer"
-                        style="background-image: url({{ asset('images/backgrounds/autumn2.jpg') }});">
+                    {{-- <div class="image-layer"
+                        style="background-image: url({{ asset('images/backgrounds/autumn2.jpg') }});"> --}}
                     </div>
                     <div class="image-layer-overlay"></div>
                     <div class="container">
@@ -73,8 +73,8 @@
                 <div class="swiper-slide">
                     <div class="image-layer"
                         style="background-image: url({{ asset('images/backgrounds/autumn3.jpg') }});">
-                        <div class="image-layer"
-                            style="background-image: url({{ asset('images/backgrounds/autumn3.jpg') }});">
+                        {{-- <div class="image-layer"
+                            style="background-image: url({{ asset('images/backgrounds/autumn3.jpg') }});"> --}}
                         </div>
                         <div class="image-layer-overlay"></div>
                         <div class="container">
@@ -792,7 +792,7 @@
             <div class="col-xl-4 col-lg-4  wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                 <div class="blog-one__single">
                     <div class="blog-one__single-img">
-                        <img src="{{ asset('images/blog/blog-v1-img1.jpg') }}" alt="" />
+                        <img src="{{ asset('images/backgrounds/autumn2.jpg') }}" alt="" />
                         <div class="date-box">
                             <span> 30 يوليو 2021 </span>
                         </div>
@@ -817,7 +817,7 @@
             <div class="col-xl-4 col-lg-4  wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                 <div class="blog-one__single">
                     <div class="blog-one__single-img">
-                        <img src="{{ asset('images/blog/blog-v1-img2.jpg') }}" alt="" />
+                        <img src="{{ asset('images/backgrounds/autumn3.jpg') }}" alt="" />
                         <div class="date-box">
                             <span> 30 يوليو 2021 </span>
                         </div>
@@ -842,7 +842,7 @@
             <div class="col-xl-4 col-lg-4  wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
                 <div class="blog-one__single">
                     <div class="blog-one__single-img">
-                        <img src="{{ asset('images/blog/blog-v1-img3.jpg') }}" alt="" />
+                        <img src="{{ asset('images/backgrounds/page-header-bg2.jpg') }}" alt="" />
                         <div class="date-box">
                             <span> 30 يوليو 2021 </span>
                         </div>

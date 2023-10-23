@@ -232,7 +232,7 @@
                 <div class="contact-one__content" style="font-size: larger">
                     <p class="contact-one__text">Explore our wide range of fruits and vegetables, carefully selected to
                         meet the highest standards of quality and freshness. From all types of citrus crops like Lemon
-                        orange, grape, pomegranate, peach, plum, mango, we offer a diverse selection that caters to
+                        orange, grape, pomegranate, tomato, onion, garlic, peach, plum, mango, we offer a diverse selection that caters to
                         every palate. Our produce is sourced directly from farms and orchards, guaranteeing that you
                         receive the best nature has to offer.
                         We export to Saudi Arabia, Dubai, Muscat, Kuwait, Russia, Europe, India, Ukraine, Jordan, Iraq,
@@ -788,7 +788,7 @@
             <div class="col-xl-4 col-lg-4  wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                 <div class="blog-one__single">
                     <div class="blog-one__single-img">
-                        <img src="{{ asset('images/blog/blog-v1-img1.jpg') }}" alt="" />
+                        <img src="{{ asset('images/backgrounds/autumn2.jpg') }}" alt="" />
                         <div class="date-box">
                             <span>30 July, 2021</span>
                         </div>
@@ -813,7 +813,7 @@
             <div class="col-xl-4 col-lg-4  wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                 <div class="blog-one__single">
                     <div class="blog-one__single-img">
-                        <img src="{{ asset('images/blog/blog-v1-img2.jpg') }}" alt="" />
+                        <img src="{{ asset('images/backgrounds/autumn3.jpg') }}" alt="" />
                         <div class="date-box">
                             <span>30 July, 2021</span>
                         </div>
@@ -838,7 +838,7 @@
             <div class="col-xl-4 col-lg-4  wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
                 <div class="blog-one__single">
                     <div class="blog-one__single-img">
-                        <img src="{{ asset('images/blog/blog-v1-img3.jpg') }}" alt="" />
+                        <img src="{{ asset('images/backgrounds/page-header-bg2.jpg') }}" alt="" />
                         <div class="date-box">
                             <span>30 July, 2021</span>
                         </div>
