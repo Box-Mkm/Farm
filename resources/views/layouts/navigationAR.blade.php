@@ -45,7 +45,7 @@
                                         <li><a href="/contact/ar">
                                                 تواصل معنا
                                             </a></li>
-                                        <li> <button id="toggleLanguage">english</button>
+                                        <li> <button id="toggleLanguage" class="d-none d-lg-block">english</button>
                                         </li>
                                     </ul>
                                 </div>

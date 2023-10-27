@@ -125,6 +125,8 @@
         <!-- /.mobile-nav__container -->
 
         <ul class="mobile-nav__contact list-unstyled">
+            <li> <button id="toggleLanguageMob">english</button>
+            </li>
             <li>
                 <i class="icon-phone-call"></i>
                 <a href="mailto:needhelp@packageName__.com">Info@abdeldayemcompany.com</a>
@@ -204,6 +206,15 @@
 <script src="{{ asset('vendors/toolbar/js/toolbar.js') }}"></script>
 <script>
     document.getElementById('toggleLanguage').addEventListener('click', function() {
+        var currentPath = window.location.pathname;
+
+        if (currentPath.endsWith('/ar')) {
+            window.location.href = currentPath.replace('/ar', '');
+        } else {
+            window.location.href = currentPath + '/ar';
+        }
+    });
+    document.getElementById('toggleLanguageMob').addEventListener('click', function() {
         var currentPath = window.location.pathname;
 
         if (currentPath.endsWith('/ar')) {

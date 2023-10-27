@@ -35,8 +35,7 @@
                                             <a href="blog">Blog</a>
                                         </li>
                                         <li><a href="contact">Contact</a></li>
-                                        <li>
-                                            <button id="toggleLanguage">Arabic</button>
+                                        <li> <button id="toggleLanguage" class="d-none d-lg-block">Arabic</button>
                                         </li>
                                     </ul>
                                 </div>
