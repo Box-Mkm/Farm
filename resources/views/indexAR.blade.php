@@ -36,6 +36,7 @@
                                     <p class="main-slider__text"> من المزرعة إلى الأسواق العالمية <br> عبدالدايم،
                                         شريكك
                                         الموثوق في التصدير</p>
+
                                 </div>
                                 <div class="main-slider__button-box">
                                     <div class="arrow-icon"><img
