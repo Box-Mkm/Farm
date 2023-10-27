@@ -19,6 +19,8 @@
                                 </div>
                                 <div class="main-header--one__bottom-left">
                                     <ul class="main-menu__list">
+
+
                                         <li>
                                             <a href="/">Home</a>
                                         </li>
@@ -33,6 +35,8 @@
                                             <a href="blog">Blog</a>
                                         </li>
                                         <li><a href="contact">Contact</a></li>
+                                        <li> <button id="toggleLanguage">Arabic</button>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>

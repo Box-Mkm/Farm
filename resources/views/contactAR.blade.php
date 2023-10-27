@@ -1,30 +1,13 @@
-<div class="dropdown main-header--one__top d-flex flex-row">
-    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        اللغه| language
-    </button>
-    <ul class="dropdown-menu">
-        <li>
-            <p> <a href="#">English <img src="{{ asset('images/backgrounds/united-kingdom.png') }}" alt="" />
-            </p>
-        </li>
-        <li>
-            <p><a href="/اتصل">العربيه <img src="{{ asset('images/backgrounds/egypt.png') }}" alt="" />
-            </p>
-        </li>
-
-    </ul>
-</div>
-
-@include('layouts.appEN')
+@include('layouts.appAR')
 <section class="page-header clearfix"
     style="background-image: url({{ asset('images/backgrounds/page-header-bg4.jpg') }});">
     <div class="container">
         <div class="page-header__inner text-center clearfix">
             <ul class="thm-breadcrumb">
-                <li><a href="عربي">Home</a></li>
-                <li>Contact</li>
+                <li><a href="عربي">الرئيسية</a></li>
+                <li>اتصل</li>
             </ul>
-            <h2>Contact Us</h2>
+            <h2>أتصل بنا</h2>
         </div>
     </div>
 </section>
@@ -42,11 +25,11 @@
                         <div class="icon">
                             <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
                         </div>
-                        <span class="sec-title__tagline">Contact now</span>
-                        <h2 class="sec-title__title">Get in Touch <br>with Us</h2>
+                        <span class="sec-title__tagline">أتصل بنا</span>
+                        <h2 class="sec-title__title">تواصل معنا</h2>
                     </div>
-                    <p class="contact-page__left-text">We are committed to providing our customers with
-                        exceptional service while offering our employees the best training.</p>
+                    <p class="contact-page__left-text">نحن ملتزمون بتقديم خدمة استثنائية لعملائنا مع توفير أفضل
+                        التدريبات لموظفينا.</p>
                     <div class="contact-page__social-link">
                         <ul>
                             <li><a href="#"><i class="fab fa-facebook"></i></a></li>
@@ -62,49 +45,41 @@
             <!--Start Contact Page Right-->
             <div class="col-xl-8 col-lg-8">
                 <div class="contact-page__right">
-                    <form action="/mail" method="POST" class="comment-one__form contact-form-validated"
-                        novalidate="novalidate">
-                        @csrf
+                    <form action="https://layerdrops.com/agriox/assets/inc/sendemail.php"
+                        class="comment-one__form contact-form-validated" novalidate="novalidate">
                         <div class="row">
                             <div class="col-xl-6 col-lg-6">
                                 <div class="comment-form__input-box">
-                                    <input type="text" placeholder="Your name" name="name" id="name"
-                                        required>
+                                    <input type="text" placeholder="الأسم" name="name">
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6">
                                 <div class="comment-form__input-box">
-                                    <input type="email" placeholder="Email address" name="email"id="email" required>
+                                    <input type="email" placeholder="الايميل" name="email">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xl-6 col-lg-6">
                                 <div class="comment-form__input-box">
-                                    <input type="text" placeholder="Phone number" name="phone"id="phone" required>
+                                    <input type="text" placeholder="رقم الهاتف" name="phone">
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6">
                                 <div class="comment-form__input-box">
-                                    <input type="text" placeholder="Subject" name="subject"id="subject" required>
+                                    <input type="email" placeholder="الموضوع" name="Subject">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xl-12 col-lg-12">
                                 <div class="comment-form__input-box">
-                                    <textarea name="message" placeholder="Write message"></textarea>
+                                    <textarea name="message" placeholder="محتوي الرساله"></textarea>
                                 </div>
-                                <button type="submit" class="thm-btn comment-form__btn">Send a message</button>
+                                <button type="submit" class="thm-btn comment-form__btn">ارسل رسالتك</button>
                             </div>
                         </div>
                     </form>
-                    @error('email')
-                        <div class="alert alert-danger alert-dissmisable fade show" role="alert"> {{ $message }}
-                            <button type="button" class="close" data-dissmiss="alert" aria-label="close">
-                                <span aria-hidden="true">$times;</span></button>
-                        </div>
-                    @enderror
                 </div>
             </div>
             <!--End Contact Page Right-->
@@ -121,7 +96,7 @@
             <div class="col-xl-12">
                 <div class="contact-page__contact-info-wrapper">
                     <div class="contact-page__contact-info-title">
-                        <h2>Get in Touch</h2>
+                        <h2>تواصل معانا</h2>
                     </div>
 
                     <div class="contact-page__contact-info-list">
@@ -131,9 +106,8 @@
                                     <span class="icon-map"></span>
                                 </div>
                                 <div class="title">
-                                    <span>Visit Our Store</span>
-                                    <p>City of Sadat - Block 7187 - <br>Seventh Industrial Zone <br> - Behind Toyota
-                                        Factory</p>
+                                    <span>عنواننا</span>
+                                    <p>مدينة السادات - المنطقه الصناعية السابعة -<br> قطعة ٧١٨٧ - خلف مصنع تويوتا</p>
                                 </div>
                             </li>
 
@@ -142,7 +116,7 @@
                                     <span class="icon-email-1"></span>
                                 </div>
                                 <div class="title">
-                                    <span>Send Email</span>
+                                    <span>البريد الالكتروني</span>
                                     <p><a href="mailto:needhelp@company.com">Info@abdeldayemcompany.com</a></p>
                                 </div>
                             </li>
@@ -152,7 +126,7 @@
                                     <span class="icon-phone-call-2"></span>
                                 </div>
                                 <div class="title">
-                                    <span>Call Anytime</span>
+                                    <span>اتصل بنا</span>
                                     <p><a href="tel:123456789">048 2630215</a></p>
                                 </div>
                             </li>
@@ -173,6 +147,4 @@
         class="contact-page-google-map__one" allowfullscreen></iframe>
 </section>
 <!--Contact Page Google Map End-->
-
-
-@include('layouts.footerEN')
+@include('layouts.footerAR')

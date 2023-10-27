@@ -1,36 +1,18 @@
-<div class="dropdown main-header--one__top d-flex flex-row">
-    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        اللغه| language
-    </button>
-    <ul class="dropdown-menu">
-        <li>
-            <p> <a href="/shop">English <img src="{{ asset('images/backgrounds/united-kingdom.png') }}" alt="" />
-            </p>
-        </li>
-        <li>
-            <p><a href="#">العربيه <img src="{{ asset('images/backgrounds/egypt.png') }}" alt="" />
-            </p>
-        </li>
-
-    </ul>
-</div>
-
-@include('layouts.appAR')
-
-
-
-<section class="page-header clearfix" style="background-image: url({{ asset('images/new-bg4.jpg') }});">
+@include('layouts.appEN')
+<!--Page Header Start-->
+<section class="page-header clearfix"
+    style="background-image: url({{ asset('images/backgrounds/page-header-bg3.jpg') }});">
     <div class="container">
         <div class="page-header__inner text-center clearfix">
             <ul class="thm-breadcrumb">
-                <li><a href="عربي">الرئيسية</a></li>
-                <li>منتجاتنا</li>
+                <li><a href="عربي">Home</a></li>
+                <li>Products</li>
             </ul>
-            <h2>منتجاتنا</h2>
+            <h2>Products</h2>
         </div>
     </div>
 </section>
-
+<!--Page Header End-->
 
 
 
@@ -38,22 +20,20 @@
     <div class="container">
         <div class="sec-title text-center">
             <div class="icon">
-                {{-- <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt=""> --}}
             </div>
 
         </div>
         <div class="row">
             <div class="col-lg-12">
                 <div class="contact-one__content" style="font-size: larger">
-                    <p class="contact-one__text">استكشف مجموعتنا الواسعة من الفواكه والخضروات، المختارة بعناية لتلبية
-                        أعلى معايير الجودة. نحن نقدم تشكيلة متنوعة تشمل جميع أنواع الحاصلات الحمضية مثل الليمون
-                        والبرتقال والعنب والرمان والطماطم و البصل و الثوم و الخوخ والمانجو، لنلبي جميع الأذواق. تأتي
-                        منتجاتنا مباشرة من المزارع
-                        والبساتين، مما يضمن الحصول على أفضل ما تقدمه الطبيعة.
-                        نصدر منتجاتنا إلى المملكة العربية السعودية ودبي ومسقط والكويت وروسيا وأوروبا والهند وأوكرانيا
-                        والأردن والعراق وبنغلاديش وماليزيا والصين، وفي المستقبل القريب، ستكون منتجاتنا متاحة في جميع
-                        أنحاء العالم
-
+                    <p class="contact-one__text">Explore our wide range of fruits and vegetables, carefully selected to
+                        meet the highest standards of quality and freshness. From all types of citrus crops like Lemon
+                        orange, grape, pomegranate, peach, plum, mango, we offer a diverse selection that caters to
+                        every palate. Our produce is sourced directly from farms and orchards, guaranteeing that you
+                        receive the best nature has to offer.
+                        We export to Saudi Arabia, Dubai, Muscat, Kuwait, Russia, Europe, India, Ukraine, Jordan, Iraq,
+                        Bangladesh, Malaysia, China, and in the near future, our products will be available all over the
+                        world.
                     </p>
                 </div><!-- /.contact-one__content -->
             </div><!-- /.col-lg-6 -->
@@ -82,13 +62,12 @@
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center card"
                                 style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="shop">برتقال</a>
+                                <h3 class="shop-one__title"><a href="shop">Orange</a>
                                 </h3>
 
-                                <p>التعبئة: صناديق - كرتون</p>
-                                <p>الموسم: مارس - أبريل</p>
-                                <p>الوزن: 8 كجم - 15 كجم</p>
-
+                                <p>Packing: Boxes - Cartoon</p>
+                                <p>Season: March - April</p>
+                                <p>Weight: 8kg - 15kg</p>
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
@@ -102,13 +81,12 @@
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center card"
                                 style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="shop">يوسفي</a>
+                                <h3 class="shop-one__title"><a href="shop">Mandarin</a>
                                 </h3>
                                 {{-- <p class="shop-one__price">$33.00</p><!-- /.shop-one__price --> --}}
-                                <p>التعبئة: صناديق - كرتون</p>
-                                <p>الموسم: فبراير - مارس</p>
-                                <p>الوزن: 10 كجم - 5 كجم - 8 كجم - 3 كجم</p>
-
+                                <p>Packing: Boxes - Cartoon</p>
+                                <p>Season: February - March</p>
+                                <p>Weight: 10KG - 5KG - 8KG - 3KG</p>
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
@@ -122,13 +100,12 @@
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center card"
                                 style="background-color: seagreen; border-radius:30px;">
-                                <h3 class="shop-one__title"><a href="shop">عنب</a>
+                                <h3 class="shop-one__title"><a href="shop">Grape</a>
                                 </h3>
 
-                                <p>التعبئة: صناديق - كرتون - حقيبة</p>
-                                <p>الموسم: يونيو - أغسطس</p>
-                                <p>الوزن: 5 كجم - 9 كجم - 3 كجم</p>
-
+                                <p>Packing: Boxes - Cartoon - Bag</p>
+                                <p>Season: June - August</p>
+                                <p>Weight: 5KG - 9KG - 3KG</p>
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
@@ -142,12 +119,11 @@
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center card"
                                 style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="shop">رمان</a>
+                                <h3 class="shop-one__title"><a href="shop">pomegranate</a>
                                 </h3>
-                                <p>التعبئة: صناديق - كرتون</p>
-                                <p>الموسم: يوليو - أغسطس</p>
-                                <p>الوزن: 5 كجم - 10 كجم - 15 كجم</p>
-
+                                <p>Packing: Boxes - Cartoon</p>
+                                <p>Season: July - August</p>
+                                <p>Weight: 5KG - 10KG - 15KG</p>
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
@@ -161,12 +137,11 @@
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center card"
                                 style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="shop">مانجا</a>
+                                <h3 class="shop-one__title"><a href="shop">Mango</a>
                                 </h3>
-                                <p>التعبئة: صناديق - كرتون</p>
-                                <p>الموسم: يونيو - سبتمبر</p>
-                                <p>الوزن: 4 كجم - 8 كجم</p>
-
+                                <p>Packing: Boxes - Cartoon</p>
+                                <p>Season: June - September</p>
+                                <p>Weight: 4KG - 8KG</p>
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
@@ -180,12 +155,11 @@
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center card"
                                 style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="shop">ثوم</a>
+                                <h3 class="shop-one__title"><a href="shop">Garlic</a>
                                 </h3>
-                                <p>التعبئة: صناديق - سلال</p>
-                                <p>الموسم: فبراير - أبريل</p>
-                                <p>الوزن: 10 كجم - 15 كجم</p>
-
+                                <p>Packing: Boxes - Baskets</p>
+                                <p>Season: February - April</p>
+                                <p>Weight: 10KG - 15KG</p>
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
@@ -199,12 +173,11 @@
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center card"
                                 style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="shop">بصل</a>
+                                <h3 class="shop-one__title"><a href="shop">Onion</a>
                                 </h3>
-                                <p>التعبئة: حقيبة</p>
-                                <p>الموسم: يناير - يونيو</p>
-                                <p>الوزن: 5 كجم - 25 كجم</p>
-
+                                <p>Packing: Bag</p>
+                                <p>Season: January - June</p>
+                                <p>Weight: 5KG - 25KG</p>
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
@@ -217,12 +190,11 @@
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center card"
                                 style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="shop">بطاطس</a>
+                                <h3 class="shop-one__title"><a href="shop">Potato</a>
                                 </h3>
-                                <p>التعبئة: شوال</p>
-                                <p>الموسم: يناير - يونيو</p>
-                                <p>الوزن: 5 كجم - 25 كجم</p>
-
+                                <p>Packing: Shawwal</p>
+                                <p>Season: January - June</p>
+                                <p>Weight: 5KG - 25KG</p>
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div><!-- /.col-md-6 col-lg-3 -->
@@ -236,12 +208,11 @@
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center card"
                                 style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="shop">طماطم</a>
+                                <h3 class="shop-one__title"><a href="shop">Tomato</a>
                                 </h3>
-                                <p>التعبئة: صناديق - سلال</p>
-                                <p>الموسم: يناير - ديسمبر</p>
-                                <p>الوزن: 5 كجم - 10 كجم - 15 كجم</p>
-
+                                <p>Packing: Boxes - Baskets</p>
+                                <p>Season: January - December</p>
+                                <p>Weight: 5KG - 10KG - 15KG</p>
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div>
@@ -255,12 +226,11 @@
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center card"
                                 style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="shop">خَسّ</a>
+                                <h3 class="shop-one__title"><a href="shop">Lettuce</a>
                                 </h3>
-                                <p>التعبئة: صناديق - سلال</p>
-                                <p>الموسم: يناير - ديسمبر</p>
-                                <p>الوزن: 5 كيلوجرام - 10 كيلوجرام - 15 كيلوجرام</p>
-
+                                <p>Packing: Boxes - Baskets</p>
+                                <p>Season: January - December</p>
+                                <p>Weight: 5KG - 10KG - 15KG</p>
                             </div><!-- /.shop-one__content -->
                         </div><!-- /.shop-one__item -->
                     </div>
@@ -271,4 +241,4 @@
 </section><!-- /.shop-one -->
 
 
-@include('layouts.footerAR')
+@include('layouts.footerEN')

@@ -3,6 +3,8 @@
 use App\Mail\SendingMail;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PageController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -15,43 +17,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// english site
 Route::get('/', function () {
-    return view('en/index');
+    return Redirect('/home');
 });
-Route::get('/about', function () {
-    return view('en/aboutEN');
-});
-Route::get('/contact', function () {
-    return view('en/contactEN');
-});
-Route::get('/facilities', function () {
-    return view('en/servicesEN');
-});
-Route::get('/shop', function () {
-    return view('en/shopEN');
-});
-Route::get('/blog', function () {
-    return view('en/blogEN');
-});
-//arabic site
-Route::get('/عربي', function () {
-    return view('ar/indexAR');
-});
-Route::get('/عن', function () {
-    return view('ar/aboutAR');
-});
-Route::get('/اتصل', function () {
-    return view('ar/contactAR');
-});
-Route::get('/مرافق', function () {
-    return view('ar/servicesAR');
-});
-Route::get('/اشتري', function () {
-    return view('ar/shopAR');
-});
-Route::get('/مدونه', function () {
-    return view('ar/blogAR');
+Route::controller(PageController::class)->group(function () {
+    //english
+    Route::get('/home', 'index');
+    Route::get('/about', 'about');
+    Route::get('/contact', 'contact');
+    Route::get('/facilities', 'facilities');
+    Route::get('/shop', 'shop');
+    Route::get('/blog', 'blog');;
+    //arabic
+    Route::get('/home/ar', 'indexArabic');
+    Route::get('/about/ar', 'aboutArabic');
+    Route::get('/contact/ar', 'contactArabic');
+    Route::get('/facilities/ar', 'facilitiesArabic');
+    Route::get('/shop/ar', 'shopArabic');
+    Route::get('/blog/ar', 'blogArabic');
 });
 
 Route::post('mail/', function (Illuminate\Http\Request $request) {

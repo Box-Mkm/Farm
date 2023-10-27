@@ -202,6 +202,17 @@
 <script src="{{ asset('vendors/toolbar/js/js.cookie.min.js') }}"></script>
 <script src="{{ asset('vendors/toolbar/js/jQuery.style.switcher.min.js') }}"></script>
 <script src="{{ asset('vendors/toolbar/js/toolbar.js') }}"></script>
+<script>
+    document.getElementById('toggleLanguage').addEventListener('click', function() {
+        var currentPath = window.location.pathname;
+
+        if (currentPath.endsWith('/ar')) {
+            window.location.href = currentPath.replace('/ar', '');
+        } else {
+            window.location.href = currentPath + '/ar';
+        }
+    });
+</script>
 
 
 

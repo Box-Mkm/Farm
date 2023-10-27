@@ -8,41 +8,45 @@
                             <div class="main-menu__inner">
                                 <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                 <div class="stricky-one-logo">
-                                    <div class="logo" >
+                                    <div class="logo">
                                         <a href="عربي">
-                                            <img class="light-logo"  src="{{ asset('images/logos/logo-1.png') }}"
+                                            <img class="light-logo" src="{{ asset('images/logos/logo-1.png') }}"
                                                 alt="">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="main-header--one__bottom-right">
                                     <ul class="main-menu__list">
+
+
                                         <li>
-                                            <a href="/عربي">
+                                            <a href="/home/ar">
                                                 الصفحة الرئيسية
                                             </a>
                                         </li>
-                                        <li><a href="عن">
+                                        <li><a href="/about/ar">
                                                 من نحن
                                             </a></li>
                                         <li>
-                                            <a href="مرافق">
+                                            <a href="/facilities/ar">
                                                 الخدمات
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="اشتري">
+                                            <a href="/shop/ar">
                                                 المنتجات
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="مدونه">
+                                            <a href="/blog/ar">
                                                 المقالات
                                             </a>
                                         </li>
-                                        <li><a href="اتصل">
+                                        <li><a href="/contact/ar">
                                                 تواصل معنا
                                             </a></li>
+                                        <li> <button id="toggleLanguage">english</button>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>

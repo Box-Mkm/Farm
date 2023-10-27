@@ -1,38 +1,19 @@
-<div class="dropdown main-header--one__top d-flex flex-row">
-    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        اللغه| language
-    </button>
-    <ul class="dropdown-menu">
-        <li>
-            <p> <a href="/facilities">English <img src="{{ asset('images/backgrounds/united-kingdom.png') }}"
-                        alt="" />
-            </p>
-        </li>
-        <li>
-            <p><a href="#">العربيه <img src="{{ asset('images/backgrounds/egypt.png') }}" alt="" />
-            </p>
-        </li>
-
-    </ul>
-</div>
-
-@include('layouts.appAR')
+@include('layouts.appEN')
 
 <!--Page Header Start-->
-<section class="page-header clearfix" style="background-image: url({{ asset('images/new-bg2.jpg') }});">
+<section class="page-header clearfix"
+    style="background-image: url({{ asset('images/backgrounds/page-header-bg5.jpg') }});">
     <div class="container">
         <div class="page-header__inner text-center clearfix">
             <ul class="thm-breadcrumb">
-                <li><a href="عربي">الرئيسية</a></li>
-                <li>المرافق</li>
+                <li><a href="عربي">Home</a></li>
+                <li>Facilities</li>
             </ul>
-            <h2>المرافق</h2>
+            <h2>Facilities</h2>
         </div>
     </div>
 </section>
 <!--Page Header End-->
-
-
 
 
 
@@ -45,8 +26,8 @@
             <div class="icon">
                 <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
             </div>
-            <span class="sec-title__tagline">ماذا نقدم</span>
-            <h2 class="sec-title__title">الخدمات التي نقدمها</h2>
+            <span class="sec-title__tagline">What we’re doing</span>
+            <h2 class="sec-title__title">Services We Offer</h2>
         </div>
         <div class="row">
             <!--Start Single Services One-->
@@ -61,9 +42,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="عن">المنتجات<br> الزراعية</a></h3>
-                        <p>منتجاتنا الزراعية تلبي احتياجاتنا الغذائية وتسهم في توفير الأمن الغذائي</p>
-                        <a href="عن" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
+                        <h3><a href="about">Agriculture<br> Products</a></h3>
+                        <p>Agricultural products meet our nutritional needs and contribute to food security.</p>
+                        <a href="about" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
             </div>
@@ -81,9 +62,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="عن">الخضروات <br>الطازجة</a></h3>
-                        <p>الخضروات الطازجة تعزز صحتنا وتوفر لنا تغذية غنية بالعناصر الغذائية</p>
-                        <a href="عن" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
+                        <h3><a href="about">Fresh <br>Vegetables</a></h3>
+                        <p>It promotes our health and provide us with nutrition rich in essential nutrients.</p>
+                        <a href="about" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
             </div>
@@ -101,9 +82,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="عن">منتجات <br>عضوية</a></h3>
-                        <p>توفر لنا خيارًا صحيًا ومستدامًا حيث تزرع وتنتج بدون استخدام المبيدات والأسمدة </p>
-                        <a href="عن" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
+                        <h3><a href="about">Oragnic <br>Products</a></h3>
+                        <p>Organic products provide us with a healthy and sustainable choice, as they are grown </p>
+                        <a href="about" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
             </div>
@@ -121,9 +102,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="عن">منتجات<br> الألبان</a></h3>
-                        <p>توفر لنا مصدرًا غنيًا بالكالسيوم والبروتين الضروريين لصحة العظام </p>
-                        <a href="عن" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
+                        <h3><a href="about">Dairy<br> Products</a></h3>
+                        <p>It provides us with a rich source of calcium and essential proteins for healthy bones </p>
+                        <a href="about" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
             </div>
@@ -135,28 +116,23 @@
 
 
 
-
-
 <section class="video-one jarallax clearfix" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
     style="background-image: url({{ asset('images/backgrounds/video-one-bg.jpg') }});">
 
     <div class="container">
         <div class="sec-title text-center">
-            {{-- <div class="icon">
-                <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
-            </div> --}}
+
             <div class="video-one__leaf"></div><!-- /.video-one__leaf -->
-            {{-- <span class="sec-title__tagline">What we offer</span> --}}
-            <h2 class="sec-title__title">ضمان الجودة</h2>
+            <h2 class="sec-title__title">Quality Assurance</h2>
         </div>
         <div class="row">
             <div class="col-lg-12">
                 <div class="contact-one__content" style="font-size: larger">
-                    <p class="contact-one__text" style="color: white">نحن ندرك أهمية تقديم حاصلات تلبي المعايير
-                        الدولية. لهذا السبب، لدينا عمليات دقيقة لضمان الجودة.
-                        يتولى فريق من الخبراء فحص كل شحنة بعناية للتأكد من أنها تفي بمعاييرنا فيما يتعلق المذاق والمظهر
-                        والجودة
-
+                    <p class="contact-one__text" style="color: white">We understand the importance of delivering
+                        products that meet international standards. That's why we have a rigorous quality assurance
+                        process in place.
+                        Our team of experts meticulously inspects every shipment to ensure that it meets our stringent
+                        criteria for freshness, taste, and appearance.
                     </p>
 
                 </div><!-- /.contact-one__content -->
@@ -177,28 +153,42 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 <section class="contact-one">
     <div class="container" style="padding-top: 45px">
         <div class="sec-title text-center">
             <div class="icon">
                 <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
             </div>
-            <span class="sec-title__tagline">المرافق</span>
-            <h2 class="sec-title__title">التعبئة والتغليف</h2>
+            <span class="sec-title__tagline">Facilities</span>
+            <h2 class="sec-title__title">Our Packing House</h2>
         </div>
         <div class="row">
             <div class="col-lg-12">
                 <div class="contact-one__content" style="font-size: larger">
-                    <p class="contact-one__text">نحن نستخدم أحدث آلات التعبئة والتغليف (sizer) لضمان تعبئة منتجات عالية
-                        الجودة بكفاءة ودقة. تم تصميم هذه الآلات المتطورة خصيصًا للتعامل مع مجموعتنا المتنوعة من الفواكه
-                        والخضروات، وتوفير حلول تعبئة مثلى تحافظ على المنتجات وتطيل فترة الصلاحية. بالتالي، يمكننا توصيل
-                        منتجاتنا بثقة للعملاء في جميع أنحاء العالم، ضامنين أن كل منتج سيصل إلى وجهته في حالة مثالية
-                        الحاصلات الزراعية تمر عبر خط غسيل حيث يتم تنظيفها وتعقيمها. ثم يتم تصويرها لضمان الجودة والتأكد
-                        من عدم وجود أي عيوب في الفواكه. يتم فرز الفواكه لضمان جودتها النهائية، ونستخدم أجهزة فحص الحجم
-                        لتحديد حجم الإنتاج. في النهاية، نصدر منتجات عالية الجودة للعالم بأسره.
-                        توفر عبدالدايم للحاصلات الزراعية أيضًا خيارًا للشركات الأخرى للاستفادة من آلة سيزر لغسل وفرز
-                        محاصيلها الزراعية الخاصة. وهذا يتيح لهذه الشركات التحقق وضمان جودة منتجاتها الزراعية
-
+                    <p class="contact-one__text">we utilize state-of-the-art filling and packaging machines (SIZER) to
+                        ensure high-quality products' efficient and precise packaging. These advanced machines are
+                        specifically designed to handle our diverse range of fruits and vegetables, providing optimal
+                        packaging solutions that preserve freshness and extend shelf life. So, we can confidently
+                        deliver our produce to customers worldwide, ensuring every product reaches its destination in
+                        perfect condition.
+                        Agricultural crops go through a washing line where they are cleaned and sanitized. Then, they
+                        are photographed for quality assurance to ensure that the fruits are free from any defects. The
+                        fruits are sorted to ensure their final quality, and we use sizers to determine the size of the
+                        produce. Finally, we export the highest quality produce to the whole world.
+                        Abdeldayem Agricultural Crops Company not only exports agricultural crops, but also offers the
+                        option for other companies to utilize the Sizer machine for washing and sorting their own
+                        agricultural crops. This enables these companies to verify and ensure the quality of their
+                        agricultural produce.
 
                     </p>
                 </div><!-- /.contact-one__content -->
@@ -217,9 +207,11 @@
 
 
 
+
 <!--Providing Quality One Start-->
 <section class="providing-quality-one clearfix">
-    <div class="providing-quality-one__bg"></div>
+    <div class="providing-quality-one__bg"><img src="{{ asset('images/backgrounds/providing-quality-one-bg.png') }}"
+            alt="" /></div>
 
     <div class="providing-quality-one__shape"></div><!-- /.providing-quality-one__shape -->
 
@@ -242,8 +234,8 @@
                     <div class="sec-title">
                         <div class="icon">
                         </div>
-                        <span class="sec-title__tagline">الزراعة الحديثة</span>
-                        <h2 class="sec-title__title">نقدم المنتجات بأعلي جودة</h2>
+                        <span class="sec-title__tagline">Modern Agriculture</span>
+                        <h2 class="sec-title__title">Providing High Quality <br>Products</h2>
                     </div>
 
                     <ul class="providing-quality-one__content-box-list">
@@ -252,8 +244,9 @@
                                 <span class="icon-agriculture"></span>
                             </div>
                             <div class="text">
-                                <h3>صنع أغذية صحية</h3>
-                                <p>نحن نقوم بتقديم العديد من المنتجات الصحية المتنوعة </p>
+                                <h3>Making Healthy Foods</h3>
+                                <p>There are many variations of pass available but the majority have simply free
+                                    text.</p>
                             </div>
                         </li>
 
@@ -262,8 +255,9 @@
                                 <span class="icon-farm"></span>
                             </div>
                             <div class="text">
-                                <h3>نمو زراعتنا</h3>
-                                <p>يوجد لدينا العديد من المنتجات التي تساعدنا في النمو و التقدم</p>
+                                <h3>Our Agriculture Growth</h3>
+                                <p>There are many variations of pass available but the majority have simply free
+                                    text.</p>
                             </div>
                         </li>
                     </ul>
@@ -275,8 +269,11 @@
 </section>
 <!--Providing Quality One End-->
 
+<!--Services One Start-->
 
+<!--Services One End-->
 
+<!--Cta One Start-->
 <section class="cta-one">
     <div class="container">
         <div class="row">
@@ -287,14 +284,12 @@
                             <span class="icon-farm"></span>
                         </div>
                         <div class="cta-one__left-title">
-                            <h2>
-                                نحن شركة رائدة في سوق الزراعة
-                            </h2>
+                            <h2>We’re Leader in Agriculture Market</h2>
                         </div>
                     </div>
                     <div class="cta-one__right">
                         <div class="cta-one__right-btn">
-                            <a href="اشتري" class="thm-btn">إكتشف أكثر</a>
+                            <a href="shop" class="thm-btn">Discover More</a>
                         </div>
                     </div>
                 </div>
@@ -302,6 +297,6 @@
         </div>
     </div>
 </section>
+<!--Cta One End-->
 
-
-@include('layouts.footerAR')
+@include('layouts.footerEN')

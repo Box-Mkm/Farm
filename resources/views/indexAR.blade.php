@@ -1,21 +1,5 @@
-<div class="dropdown main-header--one__top d-flex flex-row">
-    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        اللغه| language
-    </button>
-    <ul class="dropdown-menu">
-        <li>
-            <p> <a href="#">English <img src="{{ asset('images/backgrounds/united-kingdom.png') }}" alt="" />
-            </p>
-        </li>
-        <li>
-            <p><a href="/عربي">العربيه <img src="{{ asset('images/backgrounds/egypt.png') }}" alt="" />
-            </p>
-        </li>
+@include('layouts.appAR')
 
-    </ul>
-</div>
-
-@include('layouts.appEN')
 <!--Main Slider Start-->
 <section class="main-slider main-slider-one">
     <div class="swiper-container thm-swiper__slider"
@@ -36,6 +20,8 @@
             <!--Start Single Swiper Slide-->
             <div class="swiper-slide">
                 <div class="image-layer" style="background-image: url({{ asset('images/backgrounds/autumn2.jpg') }});">
+                    {{-- <div class="image-layer"
+                        style="background-image: url({{ asset('images/backgrounds/autumn2.jpg') }});"> --}}
                 </div>
                 <div class="image-layer-overlay"></div>
                 <div class="container">
@@ -43,19 +29,20 @@
                         <div class="col-lg-12">
                             <div class="main-slider-inner">
                                 <div class="main-slider__content">
-                                    <span class="main-slider-tagline">We’re producing natural goods</span>
-                                    <h2 class="main-slider__title">AbdEl-Dayem <br>Where Quality Meets Flavor!
-                                        <span><span>
-                                    </h2>
-                                    <p class="main-slider__text">From Farm to Global Markets<br>Abd El-Dayem, Your
-                                        Trusted Export Partner.</p>
+                                    <span class="main-slider-tagline">نحن ننتج سلعًا طبيعية</span>
+                                    <h2 class="main-slider__title" style="word-spacing: -15px">عبدالدايم للحاصلات
+                                        الزراعية<br> حيث تلتقي الجودة
+                                        بالنكهة <span><span class="leaf"></h2>
+                                    <p class="main-slider__text"> من المزرعة إلى الأسواق العالمية <br> عبدالدايم،
+                                        شريكك
+                                        الموثوق في التصدير</p>
                                 </div>
                                 <div class="main-slider__button-box">
                                     <div class="arrow-icon"><img
                                             src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
                                             alt="" />
                                     </div>
-                                    <a href="./about" class="thm-btn">Discover more</a>
+                                    <a href="عن" class="thm-btn">إكتشف أكثر</a>
                                 </div>
                             </div>
                         </div>
@@ -67,6 +54,8 @@
             <!--Start Single Swiper Slide-->
             <div class="swiper-slide">
                 <div class="image-layer" style="background-image: url({{ asset('images/backgrounds/autumn3.jpg') }});">
+                    {{-- <div class="image-layer"
+                            style="background-image: url({{ asset('images/backgrounds/autumn3.jpg') }});"> --}}
                 </div>
                 <div class="image-layer-overlay"></div>
                 <div class="container">
@@ -74,19 +63,20 @@
                         <div class="col-lg-12">
                             <div class="main-slider-inner">
                                 <div class="main-slider__content">
-                                    <span class="main-slider-tagline">We’re producing natural goods</span>
-                                    <h2 class="main-slider__title">AbdEl-Dayem <br>Where Quality Meets Flavor!
-                                        <span><span>
-                                    </h2>
-                                    <p class="main-slider__text">From Farm to Global Markets<br>Abd El-Dayem, Your
-                                        Trusted Export Partner.</p>
+                                    <span class="main-slider-tagline">نحن ننتج سلعًا طبيعية</span>
+                                    <h2 class="main-slider__title">عبدالدايم للحاصلات الزراعية<br> حيث تلتقي
+                                        الجودة
+                                        بالنكهة <span><span class="leaf"></h2>
+                                    <p class="main-slider__text"> من المزرعة إلى الأسواق العالمية <br>
+                                        عبدالدايم، شريكك
+                                        الموثوق في التصدير</p>
                                 </div>
                                 <div class="main-slider__button-box">
                                     <div class="arrow-icon"><img
                                             src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
                                             alt="" />
                                     </div>
-                                    <a href="./about" class="thm-btn">Discover more</a>
+                                    <a href="عن" class="thm-btn">إكتشف أكثر</a>
                                 </div>
                             </div>
                         </div>
@@ -99,46 +89,48 @@
             <div class="swiper-slide">
                 <div class="image-layer"
                     style="background-image: url({{ asset('images/backgrounds/main-slider-v1-3.jpg') }});">
-                    <div class="image-layer-overlay"></div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="main-slider-inner">
-                                    <div class="main-slider__content">
-                                        <span class="main-slider-tagline">We’re producing natural goods</span>
-                                        <h2 class="main-slider__title">AbdEl-Dayem <br>Where Quality Meets Flavor!
-                                            <span><span>
-                                        </h2>
-                                        <p class="main-slider__text">From Farm to Global Markets<br>Abd El-Dayem, Your
-                                            Trusted Export Partner.</p>
+                </div>
+                <div class="image-layer-overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="main-slider-inner">
+                                <div class="main-slider__content">
+                                    <span class="main-slider-tagline">نحن ننتج سلعًا طبيعية</span>
+                                    <h2 class="main-slider__title">عبدالدايم للحاصلات الزراعية<br> حيث تلتقي
+                                        الجودة
+                                        بالنكهة <span><span class="leaf"></h2>
+                                    <p class="main-slider__text"> من المزرعة إلى الأسواق العالمية <br>
+                                        عبدالدايم، شريكك
+                                        الموثوق في التصدير</p>
+                                </div>
+                                <div class="main-slider__button-box">
+                                    <div class="arrow-icon"><img
+                                            src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
+                                            alt="" />
                                     </div>
-                                    <div class="main-slider__button-box">
-                                        <div class="arrow-icon"><img
-                                                src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
-                                                alt="" />
-                                        </div>
-                                        <a href="./about" class="thm-btn">Discover more</a>
-                                    </div>
+                                    <a href="عن" class="thm-btn">إكتشف أكثر</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--End Single Swiper Slide-->
             </div>
+            <!--End Single Swiper Slide-->
+        </div>
 
-            <!-- If we need navigation buttons -->
-            <div class="swiper-pagination" id="main-slider-pagination"></div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-pagination" id="main-slider-pagination"></div>
 
-            <div class="main-slider__nav">
-                <div class="swiper-button-prev" id="main-slider__swiper-button-next">
-                    <span class="icon-right-arrow-2"></span>
-                </div>
-                <div class="swiper-button-next" id="main-slider__swiper-button-prev">
-                    <span class="icon-right-arrow-2"></span>
-                </div>
+        <div class="main-slider__nav">
+            <div class="swiper-button-prev" id="main-slider__swiper-button-next">
+                <span class="icon-right-arrow-2"></span>
+            </div>
+            <div class="swiper-button-next" id="main-slider__swiper-button-prev">
+                <span class="icon-right-arrow-2"></span>
             </div>
         </div>
+    </div>
 </section>
 <!--Main Slider End-->
 
@@ -174,40 +166,30 @@
 
             <!--Start About One Content-->
             <div class="col-xl-6">
-                <div class="about-one__content">
+                <div class="about-one__content" style="margin-right: 0px !important">
                     <div class="sec-title">
                         <div class="icon">
                             <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="" />
                         </div>
-                        <span class="sec-title__tagline">Our introduction</span>
-                        <h2 class="sec-title__title">Pure Agriculture and <br>Organic Form</h2>
+                        <span class="sec-title__tagline"> مقدمتنا </span>
+                        <h2 class="sec-title__title">
+                            الزراعة النقية
+                            <br>
+                            والشكل العضوي
+                        </h2>
                     </div>
-
-                    <h2 class="about-one__content-title">We are Leader in Agriculture Market</h2>
-                    <p class="about-one__content-text" style="color: white">Welcome to Abdeldayem Agricultural Crops
-                        Company, a trusted
-                        name in the export and import of fresh fruits and vegetables since 1995. With our commitment to
-                        providing high-quality fruits and vegetables to customers worldwide, we have established
-                        ourselves as one of the largest companies in the industry.</p>
-                    <ul class="about-one__content-list">
-                        <li>
-                            {{-- <div class="icon">
-                                <i class="fa fa-check-circle" aria-hidden="true"></i>
-                            </div> --}}
-                            <div class="text">
-                                <p style="color: rgb(177, 166, 166)">At Abdeldayem Agricultural Crops Company, we
-                                    understand the importance of providing
-                                    our customers with products that meet their specific preferences and the required
-                                    standards. With a deep understanding of market dynamics and adherence to government
-                                    legislation and protocols, we continuously adapt to meet the evolving needs of our
-                                    customers.</p>
-                            </div>
-                        </li>
-
-
-                    </ul>
-
-
+                    <h2 class="about-one__content-title">
+                        نحن شركة رائدة في سوق الزراعة
+                    </h2>
+                    <p class="about-one__content-text" style="color: white">
+                        مرحبًا بكم في شركة عبدالدايم للمحاصيل الزراعية، اسم موثوق به في مجال تصدير واستيراد الفواكه
+                        والخضروات الطازجة منذ عام 1995. من خلال التزامنا بتوفير حاصلات زراعية عالية الجودة للعملاء في
+                        جميع أنحاء العالم، أثبتنا أنفسنا كواحدة من أكبر الشركات في هذا المجال
+                    </p>
+                    <p class="about-one__content-text">في شركة عبدالدايم، ندرك أهمية توفير منتجات تلبي المعايير
+                        المطلوبة. من خلال فهمنا الجيد لديناميكيات السوق والالتزام بالتشريعات والبروتوكولات الحكومية،
+                        نعرف
+                        كيفية تلبية متطلبات عملائنا المتغيرة</p>
                 </div>
             </div>
             <!--End About One Content-->
@@ -215,29 +197,26 @@
     </div>
 </section>
 <!--About One End-->
-
-
-
 <section class="contact-one">
     <div class="container">
         <div class="sec-title text-center">
             <div class="icon">
                 <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
             </div>
-            <span class="sec-title__tagline">What we offer</span>
-            <h2 class="sec-title__title">Our products</h2>
+            <span class="sec-title__tagline">ماذا نقدم</span>
+            <h2 class="sec-title__title">منتجاتنا</h2>
         </div>
         <div class="row">
             <div class="col-lg-12">
                 <div class="contact-one__content" style="font-size: larger">
-                    <p class="contact-one__text">Explore our wide range of fruits and vegetables, carefully selected to
-                        meet the highest standards of quality and freshness. From all types of citrus crops like Lemon
-                        orange, grape, pomegranate, tomato, onion, garlic, peach, plum, mango, we offer a diverse selection that caters to
-                        every palate. Our produce is sourced directly from farms and orchards, guaranteeing that you
-                        receive the best nature has to offer.
-                        We export to Saudi Arabia, Dubai, Muscat, Kuwait, Russia, Europe, India, Ukraine, Jordan, Iraq,
-                        Bangladesh, Malaysia, China, and in the near future, our products will be available all over the
-                        world.
+                    <p class="contact-one__text">استكشف مجموعتنا الواسعة من الفواكه والخضروات، المختارة بعناية لتلبية
+                        أعلى معايير الجودة. نحن نقدم تشكيلة متنوعة تشمل جميع أنواع الحاصلات الحمضية مثل الليمون
+                        والبرتقال والعنب والرمان و الطماطم و البصل و الثوم والخوخ والمانجو، لنلبي جميع الأذواق. تأتي
+                        منتجاتنا مباشرة من المزارع
+                        والبساتين، مما يضمن الحصول على أفضل ما تقدمه الطبيعة.
+                        نصدر منتجاتنا إلى المملكة العربية السعودية ودبي ومسقط والكويت وروسيا وأوروبا والهند وأوكرانيا
+                        والأردن والعراق وبنغلاديش وماليزيا والصين، وفي المستقبل القريب، ستكون منتجاتنا متاحة في جميع
+                        أنحاء العالم.
                     </p>
                 </div><!-- /.contact-one__content -->
             </div><!-- /.col-lg-6 -->
@@ -245,7 +224,6 @@
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section><!-- /.contact-one -->
-
 <div class="col-lg-12">
 
     <div class="row">
@@ -256,7 +234,7 @@
                     <img src="{{ asset('images/grape.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="shop">Grape</a>
+                    <h3 class="shop-one__title"><a href="اشتري">عنب</a>
                     </h3>
                     <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
@@ -270,7 +248,7 @@
                     <img src="{{ asset('images/neworange.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="shop">orange</a>
+                    <h3 class="shop-one__title"><a href="اشتري">برتقال</a>
                     </h3>
                     <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
@@ -285,7 +263,7 @@
                     <img src="{{ asset('images/pomegranate.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="shop">pomegranate</a>
+                    <h3 class="shop-one__title"><a href="اشتري">رمان</a>
                     </h3>
                     <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
@@ -305,7 +283,7 @@
                     <img src="{{ asset('images/mandarin.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="shop">mandarin</a>
+                    <h3 class="shop-one__title"><a href="اشتري">ماندرين</a>
                     </h3>
                     <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
@@ -325,14 +303,16 @@
 </div>
 
 
-<div class="container">
+
+
+<div class="container" style="padding-bottom: 30px">
     <div class="row">
         <div class="col-xl-12">
             <div class="video-one__wrpper" style="justify-content: center">
                 <div class="video-one__left">
 
                     <div class="video-one__btn">
-                        <a href="shop" class="thm-btn">Discover more</a>
+                        <a href="اشتري" class="thm-btn">اكتشف اكثر</a>
                     </div>
                 </div>
             </div>
@@ -341,32 +321,26 @@
 </div>
 
 
-<br>
 
 
-
-
-<!--Video One Start-->
 <section class="video-one jarallax clearfix" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
     style="background-image: url({{ asset('images/backgrounds/video-one-bg.jpg') }});">
+    {{-- <div class="video-one-border"></div> --}}
+
     <div class="container">
         <div class="sec-title text-center">
-            {{-- <div class="icon">
-                <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
-            </div> --}}
+
             <div class="video-one__leaf"></div><!-- /.video-one__leaf -->
-            {{-- <span class="sec-title__tagline">What we offer</span> --}}
-            <h2 class="sec-title__title">Quality Assurance</h2>
+            <h2 class="sec-title__title">ضمان الجودة</h2>
         </div>
         <div class="row">
             <div class="col-lg-12">
                 <div class="contact-one__content" style="font-size: larger">
-                    <p class="contact-one__text" style="color: white">We understand the importance of delivering
-                        products that meet international standards. That's why we have a rigorous quality assurance
-                        process in place.
-                        Our team of experts meticulously inspects every shipment to ensure that it meets our stringent
-                        criteria for freshness, taste, and appearance.
-                    </p>
+                    <p class="contact-one__text" style="color: white">نحن ندرك أهمية تقديم حاصلات تلبي المعايير
+                        الدولية. لهذا السبب، لدينا عمليات دقيقة لضمان الجودة.
+                        يتولى فريق من الخبراء فحص كل شحنة بعناية للتأكد من أنها تفي بمعاييرنا فيما يتعلق المذاق والمظهر
+                        والجودة
+
 
                 </div><!-- /.contact-one__content -->
             </div><!-- /.col-lg-6 -->
@@ -380,7 +354,7 @@
                     <div class="video-one__left">
 
                         <div class="video-one__btn">
-                            <a href="facilities" class="thm-btn">Discover more</a>
+                            <a href="مرافق" class="thm-btn">إكتشف المزيد</a>
                         </div>
                     </div>
                 </div>
@@ -388,7 +362,6 @@
         </div>
     </div>
 </section>
-<!--Video One End-->
 
 
 
@@ -404,17 +377,21 @@
                 <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
             </div>
             <span class="sec-title__tagline">Facilities</span>
-            <h2 class="sec-title__title">Our Packing House</h2>
+            <h2 class="sec-title__title">التعبئة والتغليف</h2>
         </div>
         <div class="row">
             <div class="col-lg-12">
                 <div class="contact-one__content" style="font-size: larger">
-                    <p class="contact-one__text">we utilize state-of-the-art filling and packaging machines (Caesar) to
-                        ensure high-quality products' efficient and precise packaging. These advanced machines are
-                        specifically designed to handle our diverse range of fruits and vegetables, providing optimal
-                        packaging solutions that preserve freshness and extend shelf life. So, we can confidently
-                        deliver our produce to customers worldwide, ensuring every product reaches its destination in
-                        perfect condition.
+                    <p class="contact-one__text">نحن نستخدم أحدث آلات التعبئة والتغليف (sizer) لضمان تعبئة منتجات عالية
+                        الجودة بكفاءة ودقة. تم تصميم هذه الآلات المتطورة خصيصًا للتعامل مع مجموعتنا المتنوعة من الفواكه
+                        والخضروات، وتوفير حلول تعبئة مثلى تحافظ على المنتجات وتطيل فترة الصلاحية. بالتالي، يمكننا توصيل
+                        منتجاتنا بثقة للعملاء في جميع أنحاء العالم، ضامنين أن كل منتج سيصل إلى وجهته في حالة مثالية
+                        الحاصلات الزراعية تمر عبر خط غسيل حيث يتم تنظيفها وتعقيمها. ثم يتم تصويرها لضمان الجودة والتأكد
+                        من عدم وجود أي عيوب في الفواكه. يتم فرز الفواكه لضمان جودتها النهائية، ونستخدم أجهزة فحص الحجم
+                        لتحديد حجم الإنتاج. في النهاية، نصدر منتجات عالية الجودة للعالم بأسره.
+                        توفر عبدالدايم للحاصلات الزراعية أيضًا خيارًا للشركات الأخرى للاستفادة من آلة سيزر لغسل وفرز
+                        محاصيلها الزراعية الخاصة. وهذا يتيح لهذه الشركات التحقق وضمان جودة منتجاتها الزراعية
+
                     </p>
                 </div><!-- /.contact-one__content -->
             </div><!-- /.col-lg-6 -->
@@ -422,6 +399,9 @@
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section><!-- /.contact-one -->
+
+
+
 
 
 
@@ -440,7 +420,7 @@
                 <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
             </div>
             <span class="sec-title__tagline">professional people</span>
-            <h2 class="sec-title__title">Meet our Executive Board</h2>
+            <h2 class="sec-title__title">تعرف على مجلس الإدارة التنفيذي</h2>
         </div>
         <div class="row">
             <!--Start Single Meet Farmers One-->
@@ -448,10 +428,13 @@
                 <div class="meet-farmers-one__single"
                     style="    background-color: seagreen;
                 border-radius: 36px; margin-top:40px">
+                    {{-- <div class="meet-farmers-one__single-img">
+                        <img src="{{ asset('images/resources/meet-farmers-v1-img1.jpg') }}" alt="" />
 
+                    </div> --}}
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">Ahmed Salim Abdeldayem</a></h2>
+                        <h2><a href="اشتري">أحمد سليم عبدالدايم</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -467,13 +450,15 @@
 
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single"
-                    style="    background-color: seagreen;
-                border-radius: 36px;margin-top:40px">
-
-                    <div class="meet-farmers-one__single-title text-center">
+                <div class="meet-farmers-one__single">
+                    {{-- <div class="meet-farmers-one__single-img">
+                        <img src="{{ asset('images/resources/meet-farmers-v1-img2.jpg') }}" alt="" />
+                    </div> --}}
+                    <div class="meet-farmers-one__single-title text-center"
+                        style="    background-color: seagreen;
+                    border-radius: 36px; margin-top:40px">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">Salim Salim Abdeldayem</a></h2>
+                        <h2><a href="اشتري">سليم سليم عبدالدايم</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -489,13 +474,15 @@
 
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single"
-                    style="    background-color: seagreen;
-                border-radius: 36px;margin-top:40px">
-
-                    <div class="meet-farmers-one__single-title text-center">
+                <div class="meet-farmers-one__single">
+                    {{-- <div class="meet-farmers-one__single-img">
+                        <img src="{{ asset('images/resources/meet-farmers-v1-img3.jpg') }}" alt="" />
+                    </div> --}}
+                    <div class="meet-farmers-one__single-title text-center"
+                        style="    background-color: seagreen;
+                    border-radius: 36px; margin-top:40px">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">Mahmoud Hassan Abdeldayem</a></h2>
+                        <h2><a href="اشتري">محمود حسن عبدالدايم</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -511,13 +498,15 @@
 
             <!--Start Single Meet Farmers One-->
             <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
-                <div class="meet-farmers-one__single"
-                    style="    background-color: seagreen;
-                border-radius: 36px;margin-top:40px">
-
-                    <div class="meet-farmers-one__single-title text-center">
+                <div class="meet-farmers-one__single">
+                    {{-- <div class="meet-farmers-one__single-img">
+                        <img src="{{ asset('images/resources/meet-farmers-v1-img4.jpg') }}" alt="" />
+                    </div> --}}
+                    <div class="meet-farmers-one__single-title text-center"
+                        style="    background-color: seagreen;
+                    border-radius: 36px; margin-top:40px">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">Mahjoub Hassan Abdeldayem</a></h2>
+                        <h2><a href="اشتري">محجوب حسن عبدالدايم</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -540,33 +529,32 @@
 
 
 
-<!--Services One Start-->
-<section class="services-one mh-75">
+
+<section class="services-one">
     <div class="services-one__bg wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms"></div>
-    <div class="container ">
+    <div class="container">
         <div class="sec-title text-center">
             <div class="icon">
                 <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
             </div>
-            <span class="sec-title__tagline">Our Customers</span>
-            <h2 class="sec-title__title">Customer’s Opinions</h2>
+            <span class="sec-title__tagline">عملائنا</span>
+            <h2 class="sec-title__title">رضا العملاء</h2>
         </div>
         <div class="row">
-            <!--Start Single Services One-->
 
 
             <!--Start Single Services One-->
             <div class="col-xl-12 col-lg-12 wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
 
-                <div class="container">
+                <div class="container" style="height: 150px">
+
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="contact-one__content" style="font-size: larger">
-                                <p class="contact-one__text" style="color: white">Our customers are at the heart of
-                                    everything we do. We strive to exceed your expectations by providing exceptional
-                                    service, prompt communication, and competitive pricing. Whether you have specific
-                                    requirements or need assistance with custom orders, our dedicated team is here to
-                                    assist you every step of the way.
+                                <p class="contact-one__text" style="color: white">عملاؤنا هم دائما في أولى اهتماماتنا.
+                                    فنسعى جاهدين لتجاوز توقعاتهم من خلال تقديم خدمة استثنائية، والتواصل السريع، والتسعير
+                                    التنافسي، سواء كان لديكم متطلبات محددة أو تحتاجون للمساعدة في الطلبات اخرى، فإن
+                                    فريقنا يعمل جاهدا لمساعدتكم في كل خطوة.
                                 </p>
 
                             </div><!-- /.contact-one__content -->
@@ -579,11 +567,6 @@
         </div>
     </div>
 </section>
-<!--Services One End-->
-
-
-
-
 
 <!--Testimonials One Start-->
 <section class="testimonials-one jarallax clearfix" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
@@ -598,8 +581,8 @@
                         <div class="icon">
                             <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
                         </div>
-                        <span class="sec-title__tagline">Customer reviews</span>
-                        <h2 class="sec-title__title">What They’re <br>Talking About <br> Us</h2>
+                        <span class="sec-title__tagline"> شهاداتنا </span>
+                        <h2 class="sec-title__title">ماذا <br>يتحدثون عننا</h2>
                     </div>
                 </div>
             </div>
@@ -613,20 +596,22 @@
                             <div class="testimonials-one__carousel owl-carousel owl-theme">
                                 <!--Start Single Testimonials One-->
                                 <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">"Abdeldayem Agricultural Crops Company
-                                        has been our trusted partner for years. Their commitment to delivering
-                                        high-quality produce is unmatched. We are always impressed with the freshness
-                                        and taste of their fruits and vegetables." </p>
+                                    <p class="testimonials-one__single-text">شركة عبدالدايم للمحاصيل الزراعية كانت
+                                        شريكنا الموثوق منذ سنوات. التزامهم بتقديم منتجات عالية الجودة لا مثيل لها. نحن
+                                        دائما معجبون بجودة ومذاق فواكههم وخضرواتهم." </p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
-
+                                            {{-- <div class="testimonials-one__single-client-info-img-inner">
+                                                <img src="{{ asset('images/testimonial/testimonials-v1-img1.jpg') }}"
+                                                    alt="" />
+                                            </div> --}}
                                             <div class="icon">
                                                 <span class="icon-right-quotation-mark"></span>
                                             </div>
                                         </div>
-                                        <div class="testimonials-one__single-client-info-title">
-                                            <h4>Sarah M.</h4>
-                                            <p>Customer</p>
+                                        <div class="testimonials-one__single-client-info-title" style="margin: auto">
+                                            <h4>سارة م</h4>
+                                            <p>عملاء</p>
                                         </div>
                                     </div>
                                 </div>
@@ -634,21 +619,23 @@
 
                                 <!--Start Single Testimonials One-->
                                 <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">I have been importing fruits and
-                                        vegetables from Abdeldayem Agricultural Crops Company for quite some time now.
-                                        Their understanding of market dynamics and adherence to government regulations
-                                        is commendable. They always go the extra mile to meet our specific preferences
-                                        and requirements." </p>
+                                    <p class="testimonials-one__single-text">لقد قمت باستيراد الفواكه والخضروات من شركة
+                                        عبدالدايم للمحاصيل الزراعية لفترة طويلة. فاهتمامهم بديناميكيات السوق والالتزام
+                                        بالتشريعات الحكومية يستحق الإشادة. إنهم دائما يبذلون قصارى جهدهم لتلبية
+                                        تفضيلاتنا ومتطلباتنا الخاصة</p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
-
+                                            {{-- <div class="testimonials-one__single-client-info-img-inner">
+                                                <img src="{{ asset('images/testimonial/testimonials-v1-img2.jpg') }}"
+                                                    alt="" />
+                                            </div> --}}
                                             <div class="icon">
                                                 <span class="icon-right-quotation-mark"></span>
                                             </div>
                                         </div>
-                                        <div class="testimonials-one__single-client-info-title">
-                                            <h4>John D</h4>
-                                            <p>Customer</p>
+                                        <div class="testimonials-one__single-client-info-title" style="margin: auto">
+                                            <h4>جون د</h4>
+                                            <p>عملاء</p>
                                         </div>
                                     </div>
                                 </div>
@@ -656,21 +643,21 @@
 
                                 <!--Start Single Testimonials One-->
                                 <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">"The attention to detail and care that
-                                        Abdeldayem Agricultural Crops Company puts into handling their produce is
-                                        remarkable. Every time I receive their fruits and vegetables, they are in
-                                        perfect condition, as if they were just picked. Their commitment to quality is
-                                        truly impressive."</p>
+                                    <p class="testimonials-one__single-text">في كل مرة أستلم فيها طلبية من شركتكم، تكون
+                                        في حالة مثالية، كما لو أنها تم حصادها الان</p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
-
+                                            {{-- <div class="testimonials-one__single-client-info-img-inner">
+                                                <img src="{{ asset('images/testimonial/testimonials-v1-img1.jpg') }}"
+                                                    alt="" />
+                                            </div> --}}
                                             <div class="icon">
                                                 <span class="icon-right-quotation-mark"></span>
                                             </div>
                                         </div>
-                                        <div class="testimonials-one__single-client-info-title">
-                                            <h4>Lisa R.</h4>
-                                            <p>Customer</p>
+                                        <div class="testimonials-one__single-client-info-title" style="margin: auto">
+                                            <h4>ليزا ر</h4>
+                                            <p>عملاء</p>
                                         </div>
                                     </div>
                                 </div>
@@ -678,28 +665,27 @@
 
                                 <!--Start Single Testimonials One-->
                                 <div class="testimonials-one__single">
-                                    <p class="testimonials-one__single-text">"Not only does Abdeldayem Agricultural
-                                        Crops Company provide top-notch products, but their professionalism in handling
-                                        all necessary documentation is outstanding. They make international trade a
-                                        breeze, ensuring smooth transactions and on-time deliveries." </p>
+                                    <p class="testimonials-one__single-text">لا تقدم شركة عبدالدايم للمحاصيل الزراعية
+                                        منتجات ممتازة فقط، بل احترافيتهم في التعامل مع جميع المتطلبات متميزة. إنهم
+                                        يجعلون التجارة الدولية سهلة، والتسليم في الوقت المحدد</p>
                                     <div class="testimonials-one__single-client-info">
                                         <div class="testimonials-one__single-client-info-img">
-
+                                            {{-- <div class="testimonials-one__single-client-info-img-inner">
+                                                <img src="{{ asset('images/testimonial/testimonials-v1-img2.jpg') }}"
+                                                    alt="" />
+                                            </div> --}}
                                             <div class="icon">
                                                 <span class="icon-right-quotation-mark"></span>
                                             </div>
                                         </div>
-                                        <div class="testimonials-one__single-client-info-title">
-                                            <h4>David S.</h4>
-                                            <p>Customer</p>
+                                        <div class="testimonials-one__single-client-info-title" style="margin: auto">
+                                            <h4>ديفيد س</h4>
+                                            <p>عملاء</p>
                                         </div>
                                     </div>
                                 </div>
                                 <!--Start Single Testimonials One-->
 
-                                <!--Start Single Testimonials One-->
-
-                                <!--Start Single Testimonials One-->
                             </div>
                         </div>
                     </div>
@@ -737,8 +723,8 @@
                     <div class="sec-title">
                         <div class="icon">
                         </div>
-                        <span class="sec-title__tagline">Modern Agriculture</span>
-                        <h2 class="sec-title__title">Providing High Quality <br>Products</h2>
+                        <span class="sec-title__tagline"> الزراعة الحديثة </span>
+                        <h2 class="sec-title__title">تقديم منتجات عالية الجودة</h2>
                     </div>
 
                     <ul class="providing-quality-one__content-box-list">
@@ -747,8 +733,8 @@
                                 <span class="icon-agriculture"></span>
                             </div>
                             <div class="text">
-                                <h3>Making Healthy Foods</h3>
-                                <p>We are making and providing variations of healthy products</p>
+                                <h3>صنع أغذية صحية</h3>
+                                <p>نحن نقوم بتقديم العديد من المنتجات الصحية المتنوعة </p>
                             </div>
                         </li>
 
@@ -757,8 +743,8 @@
                                 <span class="icon-farm"></span>
                             </div>
                             <div class="text">
-                                <h3>Our Agriculture Growth</h3>
-                                <p>There are many variations of our products that make our growth better</p>
+                                <h3>نمو زراعتنا</h3>
+                                <p>يوجد لدينا العديد من المنتجات التي تساعدنا في النمو و التقدم</p>
                             </div>
                         </li>
                     </ul>
@@ -774,14 +760,13 @@
 <!--Blog One Start-->
 <section class="blog-one">
     <div class="blog-one__bg wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms"></div>
-    {{-- <div class="blog-one__shape"></div><!-- /.blog-one__shape --> --}}
     <div class="container">
         <div class="sec-title text-center">
             <div class="icon">
                 <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
             </div>
-            <span class="sec-title__tagline">from the blog</span>
-            <h2 class="sec-title__title">News & Articles</h2>
+            <span class="sec-title__tagline"> من المدونة </span>
+            <h2 class="sec-title__title">مقالات إخبارية</h2>
         </div>
         <div class="row">
             <!--Start Single Blog One-->
@@ -790,19 +775,19 @@
                     <div class="blog-one__single-img">
                         <img src="{{ asset('images/backgrounds/autumn2.jpg') }}" alt="" />
                         <div class="date-box">
-                            <span>30 July, 2021</span>
+                            <span> 30 يوليو 2021 </span>
                         </div>
                         <div class="overlay-icon">
-                            <a href="blog"><span class="icon-plus"></span></a>
+                            <a href="مدونه"><span class="icon-plus"></span></a>
                         </div>
                     </div>
 
                     <div class="blog-one__single-content">
                         <ul class="meta-info">
-                            <li><a href="#"><i class="far fa-user-circle"></i>Jessica</a></li>
-                            <li><a href="#"><i class="far fa-comments"></i>2 Comments</a></li>
+                            <li><a href="#"><i class="far fa-user-circle"></i>جيسيكا</a></li>
+                            <li><a href="#"><i class="far fa-comments"></i>2 تعليقات</a></li>
                         </ul>
-                        <h2><a href="blog">A. Farm-to-Table: Exploring the Journey of Fresh Produce</a>
+                        <h2><a href="مدونه">أ. من المزرعة إلى المائدة: استكشاف رحلة المنتجات الطازجة</a>
                         </h2>
                     </div>
                 </div>
@@ -815,20 +800,20 @@
                     <div class="blog-one__single-img">
                         <img src="{{ asset('images/backgrounds/autumn3.jpg') }}" alt="" />
                         <div class="date-box">
-                            <span>30 July, 2021</span>
+                            <span> 30 يوليو 2021 </span>
                         </div>
                         <div class="overlay-icon">
-                            <a href="b;pg"><span class="icon-plus"></span></a>
+                            <a href="مدونه"><span class="icon-plus"></span></a>
                         </div>
                     </div>
 
                     <div class="blog-one__single-content">
                         <ul class="meta-info">
-                            <li><a href="#"><i class="far fa-user-circle"></i>Jessica</a></li>
-                            <li><a href="#"><i class="far fa-comments"></i>2 Comments</a></li>
+                            <li><a href="#"><i class="far fa-user-circle"></i>جيسيكا</a></li>
+                            <li><a href="#"><i class="far fa-comments"></i>2 تعليقات</a></li>
                         </ul>
-                        <h2><a href="blog">B. Sustainable Farming Practices: Preserving the Environment
-                                for Future Generations</a></h2>
+                        <h2><a href="مدونه">سلوكيات الزراعة المستدامة: الحفاظ على البيئة للأجيال القادمة
+                            </a></h2>
                     </div>
                 </div>
             </div>
@@ -840,20 +825,20 @@
                     <div class="blog-one__single-img">
                         <img src="{{ asset('images/backgrounds/page-header-bg2.jpg') }}" alt="" />
                         <div class="date-box">
-                            <span>30 July, 2021</span>
+                            <span> 30 يوليو 2021 </span>
                         </div>
                         <div class="overlay-icon">
-                            <a href="blog"><span class="icon-plus"></span></a>
+                            <a href="مدونه"><span class="icon-plus"></span></a>
                         </div>
                     </div>
 
                     <div class="blog-one__single-content">
                         <ul class="meta-info">
-                            <li><a href="#"><i class="far fa-user-circle"></i>Jessica</a></li>
-                            <li><a href="#"><i class="far fa-comments"></i>2 Comments</a></li>
+                            <li><a href="#"><i class="far fa-user-circle"></i>جيسيكا</a></li>
+                            <li><a href="#"><i class="far fa-comments"></i>2 تعليقات</a></li>
                         </ul>
-                        <h2><a href="blog">C. Seasonal Delights: Exploring the Best Fruits and Vegetables
-                                Each Season</a></h2>
+                        <h2 style="color: white"><a href="مدونه"></a>استكشاف أفضل الفواكه والخضروات في كل
+                            فصل</h2>
                     </div>
                 </div>
             </div>
@@ -869,34 +854,31 @@
             <div class="icon">
                 <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
             </div>
-            <span class="sec-title__tagline">contact with us</span>
-            <h2 class="sec-title__title">Looking for Agriculture & <br> Organic Eco Services?</h2>
+            <span class="sec-title__tagline"> اتصل بنا </span>
+            <h2 class="sec-title__title">هل تبحث عن الزراعة والخدمات <br> البيئية العضوية؟</h2>
         </div>
         <div class="row">
             <div class="col-lg-6">
                 <div class="contact-one__content">
-                    <p class="contact-one__text">We are committed to providing our customers with
-                        exceptional service while offering our employees the best training.</p>
+                    <p class="contact-one__text">نحن ملتزمون بتقديم خدمة استثنائية لعملائنا مع توفير أفضل
+                        التدريبات لموظفينا.</p>
                     <ul class="list-unstyled ml-0 contact-one__lists">
                         <li>
                             <i class="fa fa-check-circle"></i>
-
                             <span class="icon-phone-call-2"></span>
 
-
                             <span><a href="tel:123456789">&nbsp; 048 2630215</a></span>
-
                         </li>
                         <li>
                             <i class="fa fa-check-circle"></i>
                             <span class="icon-email-1"></span>
                             <span><a href="mailto:needhelp@company.com">&nbsp; Info@abdeldayemcompany.com</a></span>
+
                         </li>
                         <li>
                             <i class="fa fa-check-circle"></i>
                             <span class="icon-map"></span>
-                            <span>&nbsp; City of Sadat - Block 7187 - <br>Seventh Industrial Zone <br> - Behind Toyota
-                                Factory</span>
+                            <span>مدينة السادات - المنطقه الصناعية السابعة -<br> قطعة ٧١٨٧ - خلف مصنع تويوتا</span>
                         </li>
                     </ul><!-- /.list-unstyled ml-0 -->
                     <div class="contact-one__images">
@@ -909,15 +891,13 @@
                 </div><!-- /.contact-one__content -->
             </div><!-- /.col-lg-6 -->
             <div class="col-lg-6 position-relative">
-                <a href="contact" class="thm-btn position-absolute top-50 start-50 translate-middle"> Mail us</a>
+                <a href="اتصل" class="thm-btn position-absolute top-50 start-50 translate-middle">ارسل رساله</a>
             </div><!-- /.col-lg-6 -->
-            <div class="result"></div><!-- /.result -->
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section><!-- /.contact-one -->
 
 
-<!--Company Logos One End-->
 
 
 <!--Cta One Start-->
@@ -931,12 +911,14 @@
                             <span class="icon-farm"></span>
                         </div>
                         <div class="cta-one__left-title">
-                            <h2>We’re Leader in Agriculture Market</h2>
+                            <h2>
+                                نحن شركة رائدة في سوق الزراعة
+                            </h2>
                         </div>
                     </div>
                     <div class="cta-one__right">
                         <div class="cta-one__right-btn">
-                            <a href="shop" class="thm-btn">Discover More</a>
+                            <a href="اشتري" class="thm-btn">إكتشف أكثر</a>
                         </div>
                     </div>
                 </div>
@@ -946,4 +928,5 @@
 </section>
 <!--Cta One End-->
 
-@include('layouts.footerEN')
+
+@include('layouts.footerAR')
