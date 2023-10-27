@@ -43,7 +43,7 @@
                                             src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
                                             alt="" />
                                     </div>
-                                    <a href="عن" class="thm-btn">إكتشف أكثر</a>
+                                    <a href="/about/ar" class="thm-btn">إكتشف أكثر</a>
                                 </div>
                             </div>
                         </div>
@@ -77,7 +77,7 @@
                                             src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
                                             alt="" />
                                     </div>
-                                    <a href="عن" class="thm-btn">إكتشف أكثر</a>
+                                    <a href="/about/ar" class="thm-btn">إكتشف أكثر</a>
                                 </div>
                             </div>
                         </div>
@@ -110,7 +110,7 @@
                                             src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
                                             alt="" />
                                     </div>
-                                    <a href="عن" class="thm-btn">إكتشف أكثر</a>
+                                    <a href="/about/ar" class="thm-btn">إكتشف أكثر</a>
                                 </div>
                             </div>
                         </div>
@@ -235,7 +235,7 @@
                     <img src="{{ asset('images/grape.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="اشتري">عنب</a>
+                    <h3 class="shop-one__title"><a href="/shop/ar">عنب</a>
                     </h3>
                     <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
@@ -249,7 +249,7 @@
                     <img src="{{ asset('images/neworange.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="اشتري">برتقال</a>
+                    <h3 class="shop-one__title"><a href="/shop/ar">برتقال</a>
                     </h3>
                     <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
@@ -264,7 +264,7 @@
                     <img src="{{ asset('images/pomegranate.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="اشتري">رمان</a>
+                    <h3 class="shop-one__title"><a href="/shop/ar">رمان</a>
                     </h3>
                     <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
@@ -284,7 +284,7 @@
                     <img src="{{ asset('images/mandarin.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="اشتري">ماندرين</a>
+                    <h3 class="shop-one__title"><a href="/shop/ar">ماندرين</a>
                     </h3>
                     <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
@@ -313,7 +313,7 @@
                 <div class="video-one__left">
 
                     <div class="video-one__btn">
-                        <a href="اشتري" class="thm-btn">اكتشف اكثر</a>
+                        <a href="/shop/ar" class="thm-btn">اكتشف اكثر</a>
                     </div>
                 </div>
             </div>
@@ -355,7 +355,7 @@
                     <div class="video-one__left">
 
                         <div class="video-one__btn">
-                            <a href="مرافق" class="thm-btn">إكتشف المزيد</a>
+                            <a href="/facilities/ar" class="thm-btn">إكتشف المزيد</a>
                         </div>
                     </div>
                 </div>
@@ -435,7 +435,7 @@
                     </div> --}}
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="اشتري">أحمد سليم عبدالدايم</a></h2>
+                        <h2><a href="#">أحمد سليم عبدالدايم</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -459,7 +459,7 @@
                         style="    background-color: seagreen;
                     border-radius: 36px; margin-top:40px">
                         <p>CEO</p>
-                        <h2><a href="اشتري">سليم سليم عبدالدايم</a></h2>
+                        <h2><a href="#">سليم سليم عبدالدايم</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -483,7 +483,7 @@
                         style="    background-color: seagreen;
                     border-radius: 36px; margin-top:40px">
                         <p>CEO</p>
-                        <h2><a href="اشتري">محمود حسن عبدالدايم</a></h2>
+                        <h2><a href="#">محمود حسن عبدالدايم</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -507,7 +507,7 @@
                         style="    background-color: seagreen;
                     border-radius: 36px; margin-top:40px">
                         <p>CEO</p>
-                        <h2><a href="اشتري">محجوب حسن عبدالدايم</a></h2>
+                        <h2><a href="#">محجوب حسن عبدالدايم</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -779,7 +779,7 @@
                             <span> 30 يوليو 2021 </span>
                         </div>
                         <div class="overlay-icon">
-                            <a href="مدونه"><span class="icon-plus"></span></a>
+                            <a href="/blog/ar"><span class="icon-plus"></span></a>
                         </div>
                     </div>
 
@@ -788,7 +788,7 @@
                             <li><a href="#"><i class="far fa-user-circle"></i>جيسيكا</a></li>
                             <li><a href="#"><i class="far fa-comments"></i>2 تعليقات</a></li>
                         </ul>
-                        <h2><a href="مدونه">أ. من المزرعة إلى المائدة: استكشاف رحلة المنتجات الطازجة</a>
+                        <h2><a href="/blog/ar">أ. من المزرعة إلى المائدة: استكشاف رحلة المنتجات الطازجة</a>
                         </h2>
                     </div>
                 </div>
@@ -804,7 +804,7 @@
                             <span> 30 يوليو 2021 </span>
                         </div>
                         <div class="overlay-icon">
-                            <a href="مدونه"><span class="icon-plus"></span></a>
+                            <a href="/blog/ar"><span class="icon-plus"></span></a>
                         </div>
                     </div>
 
@@ -813,7 +813,7 @@
                             <li><a href="#"><i class="far fa-user-circle"></i>جيسيكا</a></li>
                             <li><a href="#"><i class="far fa-comments"></i>2 تعليقات</a></li>
                         </ul>
-                        <h2><a href="مدونه">سلوكيات الزراعة المستدامة: الحفاظ على البيئة للأجيال القادمة
+                        <h2><a href="/blog/ar">سلوكيات الزراعة المستدامة: الحفاظ على البيئة للأجيال القادمة
                             </a></h2>
                     </div>
                 </div>
@@ -829,7 +829,7 @@
                             <span> 30 يوليو 2021 </span>
                         </div>
                         <div class="overlay-icon">
-                            <a href="مدونه"><span class="icon-plus"></span></a>
+                            <a href="/blog/ar"><span class="icon-plus"></span></a>
                         </div>
                     </div>
 
@@ -838,7 +838,7 @@
                             <li><a href="#"><i class="far fa-user-circle"></i>جيسيكا</a></li>
                             <li><a href="#"><i class="far fa-comments"></i>2 تعليقات</a></li>
                         </ul>
-                        <h2 style="color: white"><a href="مدونه"></a>استكشاف أفضل الفواكه والخضروات في كل
+                        <h2 style="color: white"><a href="/blog/ar"></a>استكشاف أفضل الفواكه والخضروات في كل
                             فصل</h2>
                     </div>
                 </div>
@@ -892,7 +892,8 @@
                 </div><!-- /.contact-one__content -->
             </div><!-- /.col-lg-6 -->
             <div class="col-lg-6 position-relative">
-                <a href="اتصل" class="thm-btn position-absolute top-50 start-50 translate-middle">ارسل رساله</a>
+                <a href="/contact/ar" class="thm-btn position-absolute top-50 start-50 translate-middle">ارسل
+                    رساله</a>
             </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
     </div><!-- /.container -->
@@ -919,7 +920,7 @@
                     </div>
                     <div class="cta-one__right">
                         <div class="cta-one__right-btn">
-                            <a href="اشتري" class="thm-btn">إكتشف أكثر</a>
+                            <a href="/shop/ar" class="thm-btn">إكتشف أكثر</a>
                         </div>
                     </div>
                 </div>

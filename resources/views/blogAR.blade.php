@@ -5,7 +5,7 @@
     <div class="container">
         <div class="page-header__inner text-center clearfix">
             <ul class="thm-breadcrumb">
-                <li><a href="عربي">الرئيسية</a></li>
+                <li><a href="/home/ar">الرئيسية</a></li>
                 <li>مدونه</li>
             </ul>
             <h2>مدونه</h2>
@@ -355,7 +355,7 @@
                         </div>
                         <div class="cta-one__right">
                             <div class="cta-one__right-btn">
-                                <a href="اشتري" class="thm-btn">Discover More</a>
+                                <a href="/shop/ar" class="thm-btn">أكتشف أكثر</a>
                             </div>
                         </div>
                     </div>

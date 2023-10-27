@@ -5,7 +5,7 @@
     <div class="container">
         <div class="page-header__inner text-center clearfix">
             <ul class="thm-breadcrumb">
-                <li><a href="عربي">الرئيسية</a></li>
+                <li><a href="/home/ar">الرئيسية</a></li>
                 <li>المرافق</li>
             </ul>
             <h2>المرافق</h2>
@@ -43,9 +43,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="عن">المنتجات<br> الزراعية</a></h3>
+                        <h3><a href="/about/ar">المنتجات<br> الزراعية</a></h3>
                         <p>منتجاتنا الزراعية تلبي احتياجاتنا الغذائية وتسهم في توفير الأمن الغذائي</p>
-                        <a href="عن" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
+                        <a href="/about/ar" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
             </div>
@@ -63,9 +63,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="عن">الخضروات <br>الطازجة</a></h3>
+                        <h3><a href="/about/ar">الخضروات <br>الطازجة</a></h3>
                         <p>الخضروات الطازجة تعزز صحتنا وتوفر لنا تغذية غنية بالعناصر الغذائية</p>
-                        <a href="عن" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
+                        <a href="/about/ar" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
             </div>
@@ -83,9 +83,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="عن">منتجات <br>عضوية</a></h3>
+                        <h3><a href="/about/ar">منتجات <br>عضوية</a></h3>
                         <p>توفر لنا خيارًا صحيًا ومستدامًا حيث تزرع وتنتج بدون استخدام المبيدات والأسمدة </p>
-                        <a href="عن" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
+                        <a href="/about/ar" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
             </div>
@@ -103,9 +103,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="عن">منتجات<br> الألبان</a></h3>
+                        <h3><a href="/about/ar">منتجات<br> الألبان</a></h3>
                         <p>توفر لنا مصدرًا غنيًا بالكالسيوم والبروتين الضروريين لصحة العظام </p>
-                        <a href="عن" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
+                        <a href="/about/ar" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
             </div>
@@ -276,7 +276,7 @@
                     </div>
                     <div class="cta-one__right">
                         <div class="cta-one__right-btn">
-                            <a href="اشتري" class="thm-btn">إكتشف أكثر</a>
+                            <a href="/shop/ar" class="thm-btn">إكتشف أكثر</a>
                         </div>
                     </div>
                 </div>

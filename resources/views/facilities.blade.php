@@ -6,7 +6,7 @@
     <div class="container">
         <div class="page-header__inner text-center clearfix">
             <ul class="thm-breadcrumb">
-                <li><a href="عربي">Home</a></li>
+                <li><a href="/home">Home</a></li>
                 <li>Facilities</li>
             </ul>
             <h2>Facilities</h2>
@@ -42,9 +42,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="about">Agriculture<br> Products</a></h3>
+                        <h3><a href="/about">Agriculture<br> Products</a></h3>
                         <p>Agricultural products meet our nutritional needs and contribute to food security.</p>
-                        <a href="about" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
+                        <a href="/about" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
             </div>
@@ -62,9 +62,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="about">Fresh <br>Vegetables</a></h3>
+                        <h3><a href="/about">Fresh <br>Vegetables</a></h3>
                         <p>It promotes our health and provide us with nutrition rich in essential nutrients.</p>
-                        <a href="about" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
+                        <a href="/about" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
             </div>
@@ -82,9 +82,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="about">Oragnic <br>Products</a></h3>
+                        <h3><a href="/about">Oragnic <br>Products</a></h3>
                         <p>Organic products provide us with a healthy and sustainable choice, as they are grown </p>
-                        <a href="about" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
+                        <a href="/about" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
             </div>
@@ -102,9 +102,9 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="about">Dairy<br> Products</a></h3>
+                        <h3><a href="/about">Dairy<br> Products</a></h3>
                         <p>It provides us with a rich source of calcium and essential proteins for healthy bones </p>
-                        <a href="about" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
+                        <a href="/about" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
             </div>
@@ -289,7 +289,7 @@
                     </div>
                     <div class="cta-one__right">
                         <div class="cta-one__right-btn">
-                            <a href="shop" class="thm-btn">Discover More</a>
+                            <a href="/shop" class="thm-btn">Discover More</a>
                         </div>
                     </div>
                 </div>

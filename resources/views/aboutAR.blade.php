@@ -5,7 +5,7 @@
     <div class="container">
         <div class="page-header__inner text-center clearfix">
             <ul class="thm-breadcrumb">
-                <li><a href="عربي">الرئيسية</a></li>
+                <li><a href="/home/ar">الرئيسية</a></li>
                 <li>عننا</li>
             </ul>
             <h2>عن الشركة
@@ -161,7 +161,7 @@
                     </div> --}}
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">أحمد سليم عبدالدايم</a></h2>
+                        <h2><a href="#">أحمد سليم عبدالدايم</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -185,7 +185,7 @@
                     </div> --}}
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">سليم سليم عبدالدايم</a></h2>
+                        <h2><a href="#">سليم سليم عبدالدايم</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -209,7 +209,7 @@
                     </div> --}}
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">محمود حسن عبدالدايم</a></h2>
+                        <h2><a href="#">محمود حسن عبدالدايم</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -233,7 +233,7 @@
                     </div> --}}
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">محجوب حسن عبدالدايم</a></h2>
+                        <h2><a href="#">محجوب حسن عبدالدايم</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -274,7 +274,7 @@
                     </div>
                     <div class="cta-one__right">
                         <div class="cta-one__right-btn">
-                            <a href="اشتري" class="thm-btn">إكتشف أكثر</a>
+                            <a href="/shop/ar" class="thm-btn">إكتشف أكثر</a>
                         </div>
                     </div>
                 </div>

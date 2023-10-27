@@ -5,7 +5,7 @@
     <div class="container">
         <div class="page-header__inner text-center clearfix">
             <ul class="thm-breadcrumb">
-                <li><a href="عربي">Home</a></li>
+                <li><a href="/home">Home</a></li>
                 <li>Products</li>
             </ul>
             <h2>Products</h2>

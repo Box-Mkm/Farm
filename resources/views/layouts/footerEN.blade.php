@@ -13,7 +13,7 @@
                             <div class="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp order 1" data-wow-delay="0.1s">
                                 <div class="footer-widget__column footer-widget__about">
                                     <div class="footer-widget__about-logo">
-                                        <a href="/"><img class="mkmfooter"
+                                        <a href="/home"><img class="mkmfooter"
                                                 src="{{ asset('images/logos/footer-logo.png') }}" alt=""></a>
                                     </div>
                                     <p class="footer-widget__about-text">We’re Leader in Agriculture Market</p>
@@ -117,7 +117,7 @@
         <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
         <div class="logo-box">
-            <a href="عربي" aria-label="logo image"><img src="{{ asset('images/logos/mobilemenu_logo.png') }}"
+            <a href="/home/ar" aria-label="logo image"><img src="{{ asset('images/logos/mobilemenu_logo.png') }}"
                     width="155" alt="" /></a>
         </div>
         <!-- /.logo-box -->

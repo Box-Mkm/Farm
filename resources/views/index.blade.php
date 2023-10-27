@@ -55,7 +55,7 @@
                                             src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
                                             alt="" />
                                     </div>
-                                    <a href="./about" class="thm-btn">Discover more</a>
+                                    <a href="/about" class="thm-btn">Discover more</a>
                                 </div>
                             </div>
                         </div>
@@ -86,7 +86,7 @@
                                             src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
                                             alt="" />
                                     </div>
-                                    <a href="./about" class="thm-btn">Discover more</a>
+                                    <a href="/about" class="thm-btn">Discover more</a>
                                 </div>
                             </div>
                         </div>
@@ -117,7 +117,7 @@
                                                 src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
                                                 alt="" />
                                         </div>
-                                        <a href="./about" class="thm-btn">Discover more</a>
+                                        <a href="/about" class="thm-btn">Discover more</a>
                                     </div>
                                 </div>
                             </div>
@@ -257,7 +257,7 @@
                     <img src="{{ asset('images/grape.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="shop">Grape</a>
+                    <h3 class="shop-one__title"><a href="/shop">Grape</a>
                     </h3>
                     <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
@@ -271,7 +271,7 @@
                     <img src="{{ asset('images/neworange.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="shop">orange</a>
+                    <h3 class="shop-one__title"><a href="/shop">orange</a>
                     </h3>
                     <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
@@ -286,7 +286,7 @@
                     <img src="{{ asset('images/pomegranate.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="shop">pomegranate</a>
+                    <h3 class="shop-one__title"><a href="/shop">pomegranate</a>
                     </h3>
                     <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
@@ -306,7 +306,7 @@
                     <img src="{{ asset('images/mandarin.png') }}" alt="">
                 </div><!-- /.shop-one__image -->
                 <div class="shop-one__content text-center">
-                    <h3 class="shop-one__title"><a href="shop">mandarin</a>
+                    <h3 class="shop-one__title"><a href="/shop">mandarin</a>
                     </h3>
                     <p class="shop-one__price"></p><!-- /.shop-one__price -->
                     <div class="shop-one__rating">
@@ -333,7 +333,7 @@
                 <div class="video-one__left">
 
                     <div class="video-one__btn">
-                        <a href="shop" class="thm-btn">Discover more</a>
+                        <a href="/shop" class="thm-btn">Discover more</a>
                     </div>
                 </div>
             </div>
@@ -381,7 +381,7 @@
                     <div class="video-one__left">
 
                         <div class="video-one__btn">
-                            <a href="facilities" class="thm-btn">Discover more</a>
+                            <a href="/facilities" class="thm-btn">Discover more</a>
                         </div>
                     </div>
                 </div>
@@ -452,7 +452,7 @@
 
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">Ahmed Salim Abdeldayem</a></h2>
+                        <h2><a href="#">Ahmed Salim Abdeldayem</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -474,7 +474,7 @@
 
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">Salim Salim Abdeldayem</a></h2>
+                        <h2><a href="#">Salim Salim Abdeldayem</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -496,7 +496,7 @@
 
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">Mahmoud Hassan Abdeldayem</a></h2>
+                        <h2><a href="#">Mahmoud Hassan Abdeldayem</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -518,7 +518,7 @@
 
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">Mahjoub Hassan Abdeldayem</a></h2>
+                        <h2><a href="#">Mahjoub Hassan Abdeldayem</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -794,7 +794,7 @@
                             <span>30 July, 2021</span>
                         </div>
                         <div class="overlay-icon">
-                            <a href="blog"><span class="icon-plus"></span></a>
+                            <a href="/blog"><span class="icon-plus"></span></a>
                         </div>
                     </div>
 
@@ -803,7 +803,7 @@
                             <li><a href="#"><i class="far fa-user-circle"></i>Jessica</a></li>
                             <li><a href="#"><i class="far fa-comments"></i>2 Comments</a></li>
                         </ul>
-                        <h2><a href="blog">A. Farm-to-Table: Exploring the Journey of Fresh Produce</a>
+                        <h2><a href="/blog">A. Farm-to-Table: Exploring the Journey of Fresh Produce</a>
                         </h2>
                     </div>
                 </div>
@@ -819,7 +819,7 @@
                             <span>30 July, 2021</span>
                         </div>
                         <div class="overlay-icon">
-                            <a href="b;pg"><span class="icon-plus"></span></a>
+                            <a href="blog"><span class="icon-plus"></span></a>
                         </div>
                     </div>
 
@@ -910,7 +910,7 @@
                 </div><!-- /.contact-one__content -->
             </div><!-- /.col-lg-6 -->
             <div class="col-lg-6 position-relative">
-                <a href="contact" class="thm-btn position-absolute top-50 start-50 translate-middle"> Mail us</a>
+                <a href="/contact" class="thm-btn position-absolute top-50 start-50 translate-middle"> Mail us</a>
             </div><!-- /.col-lg-6 -->
             <div class="result"></div><!-- /.result -->
         </div><!-- /.row -->
@@ -937,7 +937,7 @@
                     </div>
                     <div class="cta-one__right">
                         <div class="cta-one__right-btn">
-                            <a href="shop" class="thm-btn">Discover More</a>
+                            <a href="/shop" class="thm-btn">Discover More</a>
                         </div>
                     </div>
                 </div>

@@ -6,7 +6,7 @@
     <div class="container">
         <div class="page-header__inner text-center clearfix">
             <ul class="thm-breadcrumb">
-                <li><a href="عربي">الرئيسية</a></li>
+                <li><a href="/home/ar">الرئيسية</a></li>
                 <li>منتجاتنا</li>
             </ul>
             <h2>منتجاتنا</h2>
@@ -65,7 +65,7 @@
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center card"
                                 style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="shop">برتقال</a>
+                                <h3 class="shop-one__title"><a href="/shop/ar">برتقال</a>
                                 </h3>
 
                                 <p>التعبئة: صناديق - كرتون</p>
@@ -85,7 +85,7 @@
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center card"
                                 style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="shop">يوسفي</a>
+                                <h3 class="shop-one__title"><a href="/shop/ar">يوسفي</a>
                                 </h3>
                                 {{-- <p class="shop-one__price">$33.00</p><!-- /.shop-one__price --> --}}
                                 <p>التعبئة: صناديق - كرتون</p>
@@ -105,7 +105,7 @@
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center card"
                                 style="background-color: seagreen; border-radius:30px;">
-                                <h3 class="shop-one__title"><a href="shop">عنب</a>
+                                <h3 class="shop-one__title"><a href="/shop/ar">عنب</a>
                                 </h3>
 
                                 <p>التعبئة: صناديق - كرتون - حقيبة</p>
@@ -125,7 +125,7 @@
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center card"
                                 style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="shop">رمان</a>
+                                <h3 class="shop-one__title"><a href="/shop/ar">رمان</a>
                                 </h3>
                                 <p>التعبئة: صناديق - كرتون</p>
                                 <p>الموسم: يوليو - أغسطس</p>
@@ -144,7 +144,7 @@
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center card"
                                 style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="shop">مانجا</a>
+                                <h3 class="shop-one__title"><a href="/shop/ar">مانجا</a>
                                 </h3>
                                 <p>التعبئة: صناديق - كرتون</p>
                                 <p>الموسم: يونيو - سبتمبر</p>
@@ -163,7 +163,7 @@
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center card"
                                 style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="shop">ثوم</a>
+                                <h3 class="shop-one__title"><a href="/shop/ar">ثوم</a>
                                 </h3>
                                 <p>التعبئة: صناديق - سلال</p>
                                 <p>الموسم: فبراير - أبريل</p>
@@ -182,7 +182,7 @@
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center card"
                                 style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="shop">بصل</a>
+                                <h3 class="shop-one__title"><a href="/shop/ar">بصل</a>
                                 </h3>
                                 <p>التعبئة: حقيبة</p>
                                 <p>الموسم: يناير - يونيو</p>
@@ -200,7 +200,7 @@
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center card"
                                 style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="shop">بطاطس</a>
+                                <h3 class="shop-one__title"><a href="/shop/ar">بطاطس</a>
                                 </h3>
                                 <p>التعبئة: شوال</p>
                                 <p>الموسم: يناير - يونيو</p>
@@ -219,7 +219,7 @@
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center card"
                                 style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="shop">طماطم</a>
+                                <h3 class="shop-one__title"><a href="/shop/ar">طماطم</a>
                                 </h3>
                                 <p>التعبئة: صناديق - سلال</p>
                                 <p>الموسم: يناير - ديسمبر</p>
@@ -238,7 +238,7 @@
                             </div><!-- /.shop-one__image -->
                             <div class="shop-one__content text-center card"
                                 style="background-color: seagreen; border-radius:30px">
-                                <h3 class="shop-one__title"><a href="shop">خَسّ</a>
+                                <h3 class="shop-one__title"><a href="/shop/ar">خَسّ</a>
                                 </h3>
                                 <p>التعبئة: صناديق - سلال</p>
                                 <p>الموسم: يناير - ديسمبر</p>

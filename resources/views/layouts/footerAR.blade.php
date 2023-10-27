@@ -13,7 +13,7 @@
                             <div class="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.1s">
                                 <div class="footer-widget__column footer-widget__about">
                                     <div class="footer-widget__about-logo">
-                                        <a href="عربي"><img
+                                        <a href="/home/ar"><img
                                                 class="mkmfooter"src="{{ asset('images/logos/footer-logo.png') }}"
                                                 alt=""></a>
                                     </div>
@@ -30,14 +30,15 @@
                                 <div class="footer-widget__column footer-widget__explore ">
                                     <h2 class="footer-widget__title">أستكشف</h2>
                                     <ul class="footer-widget__explore-list">
-                                        <li class="footer-widget__explore-list-item"><a href="مرافق">خدماتنا</a>
+                                        <li class="footer-widget__explore-list-item"><a
+                                                href="/facilities/ar">خدماتنا</a>
                                         </li>
-                                        <li class="footer-widget__explore-list-item"><a href="عن">معلومات
+                                        <li class="footer-widget__explore-list-item"><a href="/about/ar">معلومات
                                                 عنا</a></li>
-                                        <li class="footer-widget__explore-list-item"><a href="اتصل">ابقى
+                                        <li class="footer-widget__explore-list-item"><a href="/contact/ar">ابقى
                                                 على
                                                 تواصل</a></li>
-                                        <li class="footer-widget__explore-list-item"><a href="اشتري">منتجاتنا</a>
+                                        <li class="footer-widget__explore-list-item"><a href="/shop/ar">منتجاتنا</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -106,7 +107,7 @@
         <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
         <div class="logo-box">
-            <a href="عربي" aria-label="logo image"><img src="{{ asset('images/logos/mobilemenu_logo.png') }}"
+            <a href="/home/ar" aria-label="logo image"><img src="{{ asset('images/logos/mobilemenu_logo.png') }}"
                     width="155" alt="" /></a>
         </div>
         <!-- /.logo-box -->

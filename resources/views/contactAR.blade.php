@@ -4,7 +4,7 @@
     <div class="container">
         <div class="page-header__inner text-center clearfix">
             <ul class="thm-breadcrumb">
-                <li><a href="عربي">الرئيسية</a></li>
+                <li><a href="/home/ar">الرئيسية</a></li>
                 <li>اتصل</li>
             </ul>
             <h2>أتصل بنا</h2>

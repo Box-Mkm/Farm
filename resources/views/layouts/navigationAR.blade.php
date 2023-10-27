@@ -9,7 +9,7 @@
                                 <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                 <div class="stricky-one-logo">
                                     <div class="logo">
-                                        <a href="عربي">
+                                        <a href="/home/ar">
                                             <img class="light-logo" src="{{ asset('images/logos/logo-1.png') }}"
                                                 alt="">
                                         </a>
@@ -54,7 +54,7 @@
 
                         <div class="main-header--one__bottom-middel">
                             <div class="logo" style="padding-right: 200px">
-                                <a href="/عربي">
+                                <a href="/home/ar">
                                     <img class="dark-logo" src="{{ asset('images/logos/logo-1.png') }}" alt="">
                                     <img class="light-logo" src="{{ asset('images/logos/logo-2.png') }}" alt="">
                                 </a>

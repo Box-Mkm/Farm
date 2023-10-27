@@ -9,7 +9,7 @@
                                 <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                 <div class="stricky-one-logo">
                                     <div class="logo">
-                                        <a href="عربي">
+                                        <a href="/home">
                                             <img class="dark-logo" src="{{ asset('images/logos/logo-1.png') }}"
                                                 alt="">
                                             <img class="light-logo" src="{{ asset('images/logos/logo-2.png') }}"
@@ -22,7 +22,7 @@
 
 
                                         <li>
-                                            <a href="/">Home</a>
+                                            <a href="/home">Home</a>
                                         </li>
                                         <li><a href="about">About</a></li>
                                         <li>
@@ -43,7 +43,7 @@
                         </nav>
                         <div class="main-header--one__bottom-middel">
                             <div class="logo">
-                                <a href="/">
+                                <a href="/home">
                                     <img class="dark-logo" src="{{ asset('images/logos/logo-1.png') }}" alt="">
                                     <img class="light-logo" src="{{ asset('images/logos/logo-2.png') }}" alt="">
                                 </a>

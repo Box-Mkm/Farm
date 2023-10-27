@@ -5,7 +5,7 @@
     <div class="container">
         <div class="page-header__inner text-center clearfix">
             <ul class="thm-breadcrumb">
-                <li><a href="عربي">Home</a></li>
+                <li><a href="home">Home</a></li>
                 <li>About</li>
             </ul>
             <h2>About Us</h2>
@@ -192,7 +192,7 @@
 
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">Ahmed Salim Abdeldayem</a></h2>
+                        <h2><a href="#">Ahmed Salim Abdeldayem</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -214,7 +214,7 @@
 
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">Salim Salim Abdeldayem</a></h2>
+                        <h2><a href="#">Salim Salim Abdeldayem</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -258,7 +258,7 @@
 
                     <div class="meet-farmers-one__single-title text-center">
                         <p>CEO</p>
-                        <h2><a href="farmers.html">Mahjoub Hassan Abdeldayem</a></h2>
+                        <h2><a href="#">Mahjoub Hassan Abdeldayem</a></h2>
                         <div class="social-link">
                             <ul>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
