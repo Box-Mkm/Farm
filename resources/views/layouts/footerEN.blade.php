@@ -125,7 +125,8 @@
         <!-- /.mobile-nav__container -->
 
         <ul class="mobile-nav__contact list-unstyled">
-            <li> <button id="toggleLanguageMob">english</button>
+            <li> <button id="toggleLanguageMob">Arabic <img class="px-2"
+                        src="{{ asset('images/backgrounds/egypt.png') }}" alt="" /></button>
             </li>
             <li>
                 <i class="icon-phone-call"></i>

@@ -45,7 +45,10 @@
                                         <li><a href="/contact/ar">
                                                 تواصل معنا
                                             </a></li>
-                                        <li> <button id="toggleLanguage" class="d-none d-lg-block">english</button>
+                                        <li> <button id="toggleLanguage" class="d-none d-lg-block"> english <img
+                                                    class="px-1"
+                                                    src="{{ asset('images/backgrounds/united-kingdom.png') }}"
+                                                    alt="" /></button>
                                         </li>
                                     </ul>
                                 </div>
