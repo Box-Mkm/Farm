@@ -59,8 +59,6 @@
             <!--Start About Three Img Box-->
             <div class="col-xl-6 col-lg-5 m-auto">
                 <div class="about-three__img-box">
-                    {{-- <img src="{{ asset('images/resources/about-3-icon-1-1.png') }}" class="about-three__img-icon"
-                            alt=""> --}}
                     <div class="">
                         <div class="about-three__img-box-img-inner">
                             <img src="{{ asset('images/about/about-v3-img1.jpg') }}" alt="" />

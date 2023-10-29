@@ -83,46 +83,47 @@
             <div class="swiper-slide">
                 <div class="image-layer"
                     style="background-image: url({{ asset('images/backgrounds/main-slider-v1-3.jpg') }});">
-                    <div class="image-layer-overlay"></div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="main-slider-inner">
-                                    <div class="main-slider__content">
-                                        <span class="main-slider-tagline">We’re producing natural goods</span>
-                                        <h2 class="main-slider__title">AbdEl-Dayem <br>Where Quality Meets Flavor!
-                                            <span><span>
-                                        </h2>
-                                        <p class="main-slider__text">From Farm to Global Markets<br>Abd El-Dayem, Your
-                                            Trusted Export Partner.</p>
+                </div>
+                <div class="image-layer-overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="main-slider-inner">
+                                <div class="main-slider__content">
+                                    <span class="main-slider-tagline">We’re producing natural goods</span>
+                                    <h2 class="main-slider__title">AbdEl-Dayem <br>Where Quality Meets Flavor!
+                                        <span><span>
+                                    </h2>
+                                    <p class="main-slider__text">From Farm to Global Markets<br>Abd El-Dayem, Your
+                                        Trusted Export Partner.</p>
+                                </div>
+                                <div class="main-slider__button-box">
+                                    <div class="arrow-icon"><img
+                                            src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
+                                            alt="" />
                                     </div>
-                                    <div class="main-slider__button-box">
-                                        <div class="arrow-icon"><img
-                                                src="{{ asset('images/icon/main-slider__button-arrow.png') }}"
-                                                alt="" />
-                                        </div>
-                                        <a href="/about" class="thm-btn">Discover more</a>
-                                    </div>
+                                    <a href="/about" class="thm-btn">Discover more</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--End Single Swiper Slide-->
             </div>
+            <!--End Single Swiper Slide-->
+        </div>
 
-            <!-- If we need navigation buttons -->
-            <div class="swiper-pagination" id="main-slider-pagination"></div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-pagination" id="main-slider-pagination"></div>
 
-            <div class="main-slider__nav">
-                <div class="swiper-button-prev" id="main-slider__swiper-button-next">
-                    <span class="icon-right-arrow-2"></span>
-                </div>
-                <div class="swiper-button-next" id="main-slider__swiper-button-prev">
-                    <span class="icon-right-arrow-2"></span>
-                </div>
+        <div class="main-slider__nav">
+            <div class="swiper-button-prev" id="main-slider__swiper-button-next">
+                <span class="icon-right-arrow-2"></span>
+            </div>
+            <div class="swiper-button-next" id="main-slider__swiper-button-prev">
+                <span class="icon-right-arrow-2"></span>
             </div>
         </div>
+    </div>
 </section>
 <!--Main Slider End-->
 
