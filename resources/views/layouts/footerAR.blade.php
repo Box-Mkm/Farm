@@ -115,7 +115,7 @@
         <!-- /.mobile-nav__container -->
 
         <ul class="mobile-nav__contact list-unstyled">
-            <li> <button id="toggleLanguageMob">english <img class="px-1"
+            <li> <button id="toggleLanguageMob"> <img class="px-1"
                         src="{{ asset('images/backgrounds/united-kingdom.png') }}" alt="" /></button>
             </li>
             <li>
@@ -205,6 +205,7 @@
             window.location.href = currentPath + '/ar';
         }
     });
+
     document.getElementById('toggleLanguageMob').addEventListener('click', function() {
         var currentPath = window.location.pathname;
 
