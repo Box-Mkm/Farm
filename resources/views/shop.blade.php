@@ -243,64 +243,64 @@
                                     <p>peach</p>
                                 </a> </button>
                             <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"><a
-                                    href="">
+                                    href="#plum">
                                     <p>plum</p>
                                 </a></button>
                             <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"><a
-                                    href="">
+                                    href="#strawberry">
                                     <p>Strawberry</p>
                                 </a></button>
                             <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"> <a
-                                    href="">
+                                    href="#grapes">
                                     <p>grapes</p>
                                 </a></button>
                             <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"> <a
-                                    href="">
+                                    href="#orange">
                                     <p>Orange</p>
                                 </a></button>
                         </div>
 
                         <div class="card col-lg-3 text-center" style="background-color:transparent; border: none;">
-                            <button style="background-color: coral; width:50%; border-radius:15px;"><a href="">
+                            <button style="background-color: coral; width:50%; border-radius:15px;"><a href="#morket">
                                     <p>morket</p>
                                 </a></button>
                             <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"> <a
-                                    href="">
+                                    href="#guava">
                                     <p>Guava</p>
                                 </a></button>
                             <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"> <a
-                                    href="">
+                                    href="#onion">
                                     <p>onion</p>
                                 </a></button>
                             <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"><a
-                                    href="">
+                                    href="#tomato">
                                     <p>tomatoes</p>
                                 </a></button>
                             <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"><a
-                                    href="">
+                                    href="#garlic">
                                     <p>garlic</p>
                                 </a></button>
 
                         </div>
 
                         <div class="card col-lg-3 text-center" style="background-color:transparent; border: none;">
-                            <button style="background-color: coral; width:50%; border-radius:15px;"><a href="">
+                            <button style="background-color: coral; width:50%; border-radius:15px;"><a href="#capucci">
                                     <p>Capucci</p>
                                 </a></button>
                             <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"><a
-                                    href="">
+                                    href="#pepper">
                                     <p>Pepper colors</p>
                                 </a></button>
                             <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"><a
-                                    href="">
+                                    href="#mango">
                                     <p>mango</p>
                                 </a></button>
                             <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"><a
-                                    href="">
+                                    href="#pomegranate">
                                     <p>pomegranate</p>
                                 </a></button>
                             <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"><a
-                                    href="">
+                                    href="#lemon">
                                     <p>Lemon</p>
                                 </a></button>
                         </div>
@@ -374,7 +374,7 @@
 
 
         <section class="contact-one">
-            <div class="container" style="padding-top: 45px">
+            <div class="container" id="plum" style="padding-top: 45px">
                 <div class="sec-title text-center">
                     <div class="icon">
                         <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
@@ -410,7 +410,7 @@
 
 
         <section class="contact-one">
-            <div class="container" style="padding-top: 45px">
+            <div class="container" id="strawberry" style="padding-top: 45px">
                 <div class="sec-title text-center">
                     <div class="icon">
                         <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
@@ -442,7 +442,7 @@
 
 
         <section class="contact-one">
-            <div class="container" style="padding-top: 45px">
+            <div class="container" id="grape" style="padding-top: 45px">
                 <div class="sec-title text-center">
                     <div class="icon">
                         <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
@@ -476,7 +476,7 @@
 
 
         <section class="contact-one">
-            <div class="container" style="padding-top: 45px">
+            <div class="container" id="orange" style="padding-top: 45px">
                 <div class="sec-title text-center">
                     <div class="icon">
                         <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
@@ -511,7 +511,7 @@
 
 
         <section class="contact-one">
-            <div class="container" style="padding-top: 45px">
+            <div class="container" id="morket" style="padding-top: 45px">
                 <div class="sec-title text-center">
                     <div class="icon">
                         <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
@@ -544,7 +544,7 @@
 
 
         <section class="contact-one">
-            <div class="container" style="padding-top: 45px">
+            <div class="container" id="guava" style="padding-top: 45px">
                 <div class="sec-title text-center">
                     <div class="icon">
                         <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
@@ -579,7 +579,7 @@
 
 
         <section class="contact-one">
-            <div class="container" style="padding-top: 45px">
+            <div class="container" id="onion" style="padding-top: 45px">
                 <div class="sec-title text-center">
                     <div class="icon">
                         <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
@@ -608,6 +608,117 @@
                 </div>
             </div><!-- /.container -->
         </section><!-- /.contact-one -->
+
+
+
+
+
+        <section class="contact-one">
+            <div class="container" id="tomato" style="padding-top: 45px">
+                <div class="sec-title text-center">
+                    <div class="icon">
+                        <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
+                    </div>
+                    <h2 class="sec-title__title">Tomato</h2>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/tomato1.jpeg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/tomato2.jpeg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/tomato3.jpg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+
+                    </div><!-- /.row -->
+                </div>
+            </div><!-- /.container -->
+        </section><!-- /.contact-one -->
+
+
+
+
+
+
+        <section class="contact-one">
+            <div class="container" id="mango" style="padding-top: 45px">
+                <div class="sec-title text-center">
+                    <div class="icon">
+                        <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
+                    </div>
+                    <h2 class="sec-title__title">Mango</h2>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/mango1.jpeg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/mango2.jpeg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/mango3.jpeg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+
+                    </div><!-- /.row -->
+                </div>
+            </div><!-- /.container -->
+        </section><!-- /.contact-one -->
+
+
+
+
+
+
+
+        <section class="contact-one">
+            <div class="container" id="pomegranate" style="padding-top: 45px">
+                <div class="sec-title text-center">
+                    <div class="icon">
+                        <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
+                    </div>
+                    <h2 class="sec-title__title">Pomegranate</h2>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/pomegranate1.jpeg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/pomegranate2.jpeg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/pomegranate3.jpeg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+
+                    </div><!-- /.row -->
+                </div>
+            </div><!-- /.container -->
+        </section><!-- /.contact-one -->
+
+
+
 
 
 
