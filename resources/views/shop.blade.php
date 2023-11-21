@@ -251,7 +251,7 @@
                                     <p>Strawberry</p>
                                 </a></button>
                             <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"> <a
-                                    href="#grapes">
+                                    href="#grape">
                                     <p>grapes</p>
                                 </a></button>
                             <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"> <a
@@ -287,10 +287,11 @@
                             <button style="background-color: coral; width:50%; border-radius:15px;"><a href="#capucci">
                                     <p>Capucci</p>
                                 </a></button>
-                            <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"><a
-                                    href="#pepper">
-                                    <p>Pepper colors</p>
+                                <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"><a
+                                    href="#broccoli">
+                                    <p>Broccoli</p>
                                 </a></button>
+
                             <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"><a
                                     href="#mango">
                                     <p>mango</p>
@@ -305,23 +306,24 @@
                                 </a></button>
                         </div>
                         <div class="card col-lg-3 text-center" style="background-color:transparent; border: none;">
-                            <button style="background-color: coral; width:50%; border-radius:15px;"> <a href="">
-                                    <p>Grape</p>
+                            <button style="background-color: coral; width:50%; border-radius:15px;"> <a href="#eggplant">
+                                    <p>eggplant</p>
                                 </a></button>
-                            <button style="background-color: coral; width:55%; border-radius:15px; margin-top: 15px"><a
-                                    href="">
-                                    <p>Benzheir lemon</p>
-                                </a></button>
+                            
                             <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"><a
-                                    href="">
+                                    href="#chili">
                                     <p>Chili pepper</p>
                                 </a></button>
-                            <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"><a
-                                    href="">
-                                    <p>Broccoli</p>
+                                <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"><a
+                                    href="#zucchini">
+                                    <p>Zucchini</p>
+                                </a></button>
+                                <button style="background-color: coral; width:60%; border-radius:15px; margin-top: 15px"><a
+                                    href="#pepper">
+                                    <p>Colored Pepper</p>
                                 </a></button>
                             <button style="background-color: coral; width:60%; border-radius:15px; margin-top: 15px"> <a
-                                    href="">
+                                    href="#cherry">
                                     <p>Cherry tomatoes</p>
                                 </a></button>
                         </div>
@@ -385,17 +387,17 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="shop-one__image">
-                                <img src="{{ asset('images/neworange.png') }}" alt="">
+                                <img src="{{ asset('images/plum4.jpeg') }}" alt="">
                             </div>
                         </div><!-- /.col-lg-6 -->
                         <div class="col-lg-4">
                             <div class="shop-one__image">
-                                <img src="{{ asset('images/neworange.png') }}" alt="">
+                                <img src="{{ asset('images/plum2.jpeg') }}" alt="">
                             </div>
                         </div><!-- /.col-lg-6 -->
                         <div class="col-lg-4">
                             <div class="shop-one__image">
-                                <img src="{{ asset('images/neworange.png') }}" alt="">
+                                <img src="{{ asset('images/plum3.jpeg') }}" alt="">
                             </div>
                         </div><!-- /.col-lg-6 -->
 
@@ -421,17 +423,17 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="shop-one__image">
-                                <img src="{{ asset('images/neworange.png') }}" alt="">
+                                <img src="{{ asset('images/straw1.jpg') }}" alt="">
                             </div>
                         </div><!-- /.col-lg-6 -->
                         <div class="col-lg-4">
                             <div class="shop-one__image">
-                                <img src="{{ asset('images/neworange.png') }}" alt="">
+                                <img src="{{ asset('images/straw2.jpg') }}" alt="">
                             </div>
                         </div><!-- /.col-lg-6 -->
                         <div class="col-lg-4">
                             <div class="shop-one__image">
-                                <img src="{{ asset('images/neworange.png') }}" alt="">
+                                <img src="{{ asset('images/straw3.jpg') }}" alt="">
                             </div>
                         </div><!-- /.col-lg-6 -->
 
@@ -453,17 +455,17 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="shop-one__image">
-                                <img src="{{ asset('images/neworange.png') }}" alt="">
+                                <img src="{{ asset('images/grape1.jpg') }}" alt="">
                             </div>
                         </div><!-- /.col-lg-6 -->
                         <div class="col-lg-4">
                             <div class="shop-one__image">
-                                <img src="{{ asset('images/neworange.png') }}" alt="">
+                                <img src="{{ asset('images/grape2.jpg') }}" alt="">
                             </div>
                         </div><!-- /.col-lg-6 -->
                         <div class="col-lg-4">
                             <div class="shop-one__image">
-                                <img src="{{ asset('images/neworange.png') }}" alt="">
+                                <img src="{{ asset('images/grape3.jpg') }}" alt="">
                             </div>
                         </div><!-- /.col-lg-6 -->
 
@@ -516,23 +518,23 @@
                     <div class="icon">
                         <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
                     </div>
-                    <h2 class="sec-title__title">Morket</h2>
+                    <h2 class="sec-title__title">Mandarin</h2>
                 </div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="shop-one__image">
-                                <img src="{{ asset('images/neworange.png') }}" alt="">
+                                <img src="{{ asset('images/yosefy1.jpeg') }}" alt="">
                             </div>
                         </div><!-- /.col-lg-6 -->
                         <div class="col-lg-4">
                             <div class="shop-one__image">
-                                <img src="{{ asset('images/neworange.png') }}" alt="">
+                                <img src="{{ asset('images/yosefy2.jpg') }}" alt="">
                             </div>
                         </div><!-- /.col-lg-6 -->
                         <div class="col-lg-4">
                             <div class="shop-one__image">
-                                <img src="{{ asset('images/neworange.png') }}" alt="">
+                                <img src="{{ asset('images/yosefy3.jpg') }}" alt="">
                             </div>
                         </div><!-- /.col-lg-6 -->
 
@@ -590,17 +592,17 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="shop-one__image">
-                                <img src="{{ asset('images/guava1.jpeg') }}" alt="">
+                                <img src="{{ asset('images/onion1.jpg') }}" alt="">
                             </div>
                         </div><!-- /.col-lg-6 -->
                         <div class="col-lg-4">
                             <div class="shop-one__image">
-                                <img src="{{ asset('images/guava2.jpg') }}" alt="">
+                                <img src="{{ asset('images/onion2.jpg') }}" alt="">
                             </div>
                         </div><!-- /.col-lg-6 -->
                         <div class="col-lg-4">
                             <div class="shop-one__image">
-                                <img src="{{ asset('images/guava3.jpg') }}" alt="">
+                                <img src="{{ asset('images/onion3.jpg') }}" alt="">
                             </div>
                         </div><!-- /.col-lg-6 -->
 
@@ -661,7 +663,7 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="shop-one__image">
-                                <img src="{{ asset('images/mango1.jpeg') }}" alt="">
+                                <img src="{{ asset('images/mango1.jpg') }}" alt="">
                             </div>
                         </div><!-- /.col-lg-6 -->
                         <div class="col-lg-4">
@@ -718,6 +720,345 @@
         </section><!-- /.contact-one -->
 
 
+
+
+
+
+        <section class="contact-one">
+            <div class="container" id="garlic" style="padding-top: 45px">
+                <div class="sec-title text-center">
+                    <div class="icon">
+                        <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
+                    </div>
+                    <h2 class="sec-title__title">Garlic</h2>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/garlic1.jpg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/garlic2.jpeg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/garlic3.jpeg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+
+                    </div><!-- /.row -->
+                </div>
+            </div><!-- /.container -->
+        </section><!-- /.contact-one -->
+
+
+
+
+
+
+
+
+
+
+
+        <section class="contact-one">
+            <div class="container" id="capucci" style="padding-top: 45px">
+                <div class="sec-title text-center">
+                    <div class="icon">
+                        <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
+                    </div>
+                    <h2 class="sec-title__title">Capucci</h2>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/cap1.jpeg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/cap2.jpg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/cap3.jpg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+
+                    </div><!-- /.row -->
+                </div>
+            </div><!-- /.container -->
+        </section><!-- /.contact-one -->
+
+
+
+
+        <section class="contact-one">
+            <div class="container" id="pepper" style="padding-top: 45px">
+                <div class="sec-title text-center">
+                    <div class="icon">
+                        <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
+                    </div>
+                    <h2 class="sec-title__title">Colored pepper</h2>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/pep4.jpeg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/pep2.jpeg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/pep3.jpeg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+
+                    </div><!-- /.row -->
+                </div>
+            </div><!-- /.container -->
+        </section><!-- /.contact-one -->
+
+
+
+
+
+
+
+
+
+        <section class="contact-one">
+            <div class="container" id="lemon" style="padding-top: 45px">
+                <div class="sec-title text-center">
+                    <div class="icon">
+                        <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
+                    </div>
+                    <h2 class="sec-title__title">Lemon</h2>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/lemon1.jpeg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/lemon2.jpg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/lemon3.jpeg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+
+                    </div><!-- /.row -->
+                </div>
+            </div><!-- /.container -->
+        </section><!-- /.contact-one -->
+
+
+
+
+
+
+
+
+
+        <section class="contact-one">
+            <div class="container" id="chili" style="padding-top: 45px">
+                <div class="sec-title text-center">
+                    <div class="icon">
+                        <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
+                    </div>
+                    <h2 class="sec-title__title">Chili Pepper</h2>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/chili1.jpg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/chili2.jpg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/chili3.jpg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+
+                    </div><!-- /.row -->
+                </div>
+            </div><!-- /.container -->
+        </section><!-- /.contact-one -->
+
+
+
+
+
+        
+
+
+
+
+        <section class="contact-one">
+            <div class="container" id="broccoli" style="padding-top: 45px">
+                <div class="sec-title text-center">
+                    <div class="icon">
+                        <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
+                    </div>
+                    <h2 class="sec-title__title">Broccoli</h2>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/broc1.jpg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/broc2.jpg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/broc3.jpg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+
+                    </div><!-- /.row -->
+                </div>
+            </div><!-- /.container -->
+        </section><!-- /.contact-one -->
+
+
+
+
+
+
+
+
+        <section class="contact-one">
+            <div class="container" id="cherry" style="padding-top: 45px">
+                <div class="sec-title text-center">
+                    <div class="icon">
+                        <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
+                    </div>
+                    <h2 class="sec-title__title">Cherry Tomato</h2>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/cherry1.jpg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/cherry2.jpg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/cherry3.jpg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+
+                    </div><!-- /.row -->
+                </div>
+            </div><!-- /.container -->
+        </section><!-- /.contact-one -->
+
+
+
+
+
+
+
+
+
+        <section class="contact-one">
+            <div class="container" id="eggplant" style="padding-top: 45px">
+                <div class="sec-title text-center">
+                    <div class="icon">
+                        <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
+                    </div>
+                    <h2 class="sec-title__title">eggplant</h2>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/eggplant1.jpg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/eggplant2.jpg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/eggplant3.jpg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+
+                    </div><!-- /.row -->
+                </div>
+            </div><!-- /.container -->
+        </section><!-- /.contact-one -->
+
+
+
+
+
+        <section class="contact-one">
+            <div class="container" id="zucchini" style="padding-top: 45px">
+                <div class="sec-title text-center">
+                    <div class="icon">
+                        <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
+                    </div>
+                    <h2 class="sec-title__title">Zucchini</h2>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/zucchini1.jpg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/zucchini2.jpg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-4">
+                            <div class="shop-one__image">
+                                <img src="{{ asset('images/zucchini3.jpg') }}" alt="">
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+
+                    </div><!-- /.row -->
+                </div>
+            </div><!-- /.container -->
+        </section><!-- /.contact-one -->
 
 
 
