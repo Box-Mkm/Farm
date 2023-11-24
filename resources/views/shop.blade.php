@@ -236,7 +236,7 @@
                     <h2 class="sec-title__title">Check Our Products:</h2>
                 </div>
 
-                <div class="container">
+                <div class="container ps-5 ms-5">
                     <div class="row">
                         <div class="card col-lg-3 text-center" style="background-color:transparent; border: none;">
                             <button style="background-color: coral; width:50%; border-radius:15px"> <a href="#peach">
@@ -262,7 +262,7 @@
 
                         <div class="card col-lg-3 text-center" style="background-color:transparent; border: none;">
                             <button style="background-color: coral; width:50%; border-radius:15px;"><a href="#morket">
-                                    <p>morket</p>
+                                    <p>Mandarin</p>
                                 </a></button>
                             <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"> <a
                                     href="#guava">
