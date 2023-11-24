@@ -236,7 +236,7 @@
                     <h2 class="sec-title__title">Check Our Products:</h2>
                 </div>
 
-                <div class="container">
+                <div class="container ps-5 ms-5">
                     <div class="row">
                         <div class="card col-lg-3 text-center" style="background-color:transparent; border: none;">
                             <button style="background-color: coral; width:50%; border-radius:15px"> <a href="#peach">
@@ -287,7 +287,7 @@
                             <button style="background-color: coral; width:50%; border-radius:15px;"><a href="#capucci">
                                     <p>Capucci</p>
                                 </a></button>
-                                <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"><a
+                            <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"><a
                                     href="#broccoli">
                                     <p>Broccoli</p>
                                 </a></button>
@@ -306,19 +306,20 @@
                                 </a></button>
                         </div>
                         <div class="card col-lg-3 text-center" style="background-color:transparent; border: none;">
-                            <button style="background-color: coral; width:50%; border-radius:15px;"> <a href="#eggplant">
+                            <button style="background-color: coral; width:50%; border-radius:15px;"> <a
+                                    href="#eggplant">
                                     <p>eggplant</p>
                                 </a></button>
-                            
+
                             <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"><a
                                     href="#chili">
                                     <p>Chili pepper</p>
                                 </a></button>
-                                <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"><a
+                            <button style="background-color: coral; width:50%; border-radius:15px; margin-top: 15px"><a
                                     href="#zucchini">
                                     <p>Zucchini</p>
                                 </a></button>
-                                <button style="background-color: coral; width:60%; border-radius:15px; margin-top: 15px"><a
+                            <button style="background-color: coral; width:60%; border-radius:15px; margin-top: 15px"><a
                                     href="#pepper">
                                     <p>Colored Pepper</p>
                                 </a></button>
@@ -912,7 +913,7 @@
 
 
 
-        
+
 
 
 

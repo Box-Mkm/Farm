@@ -62,11 +62,6 @@
         .mkmfooter {
             width: 80px;
         }
-
-        .containerVideo {
-            padding-left: 50px;
-            max-width: 100%;
-        }
     </style>
 
 </head>
