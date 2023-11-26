@@ -129,7 +129,13 @@
                     </p>
                 </div><!-- /.contact-one__content -->
             </div><!-- /.col-lg-6 -->
-
+            <div class="embed-responsive ratio ratio-16x9">
+                <iframe class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/IWk8OxvkEiQ?si=5ejKwSrPhz3N5igc" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section><!-- /.contact-one -->

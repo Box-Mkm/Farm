@@ -927,4 +927,41 @@
 <!--Cta One End-->
 
 
+
+<!--videos Start-->
+<section>
+    <div class="blog-one__bg wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms"></div>
+    <div class="container">
+        <div class="sec-title text-center">
+            <div class="icon">
+                <img src="{{ asset('images/resources/sec-title-icon1.png') }}" alt="">
+            </div>
+            <span class="sec-title__tagline">our videos</span>
+            <h2 class="sec-title__title">Videos</h2>
+        </div>
+        <div class="row">
+            <div class="col-xl-6 col-lg-6  wow fadeInLeft pt-3 mb-4" data-wow-delay="0ms" data-wow-duration="1500ms">
+                <div class="embed-responsive ratio ratio-16x9">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/_BUOkZW4DIA?si=EQAzOXc2P0cS_8cT"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6  wow fadeInLeft pt-3" data-wow-delay="0ms" data-wow-duration="1500ms">
+                <div class="embed-responsive ratio ratio-16x9">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/0MI3aKEZ44Q?si=8ImCng5dbWbTH1Jz"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
 @include('layouts.footerAR')
