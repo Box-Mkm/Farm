@@ -302,13 +302,13 @@ body {
 }
 
 .services-one--has-top-bg::before,
-.services-one__bg {
+/* .services-one__bg {
 	background-image: url(../../images/update-20-12-2021/dark/service-bg-1-1.png);
-}
+} */
 
-.blog-one__bg {
+/* .blog-one__bg {
 	background-image: url(../../images/update-20-12-2021/dark/blog-bg-1-1.png);
-}
+} */
 
 .services-one__single:hover {
 	border: none;

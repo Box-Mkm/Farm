@@ -864,12 +864,13 @@
                             <i class="fa fa-check-circle"></i>
                             <span class="icon-phone-call-2"></span>
 
-                            <span><a href="tel:123456789">&nbsp; 048 2630215</a></span>
+                            <span><a href="tel:0482630215">&nbsp; 048 2630215</a></span>
                         </li>
                         <li>
                             <i class="fa fa-check-circle"></i>
                             <span class="icon-email-1"></span>
-                            <span><a href="mailto:needhelp@company.com">&nbsp; Info@abdeldayemcompany.com</a></span>
+                            <span><a href="mailto:Info@abdeldayemcompany.com">&nbsp;
+                                    Info@abdeldayemcompany.com</a></span>
 
                         </li>
                         <li>

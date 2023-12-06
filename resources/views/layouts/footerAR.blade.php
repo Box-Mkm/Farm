@@ -50,10 +50,10 @@
                                 <div class="footer-widget__column footer-widget__newletter">
                                     <h2 class="footer-widget__title">تواصل معنا</h2>
                                     <div class="footer-widget__about-contact-box">
-                                        <p class="phone"><a href="tel:123456789"><i
+                                        <p class="phone"><a href="tel:0482630215"><i
                                                     class="fas fa-phone-square-alt"></i>048-2630215</a>
                                         </p>
-                                        <p><a href="mailto:needhelp@company.com"><i
+                                        <p><a href="mailto:Info@abdeldayemcompany.com"><i
                                                     class="fa fa-envelope"></i>Info@abdeldayemcompany.com</a></p>
                                         <p class="text"><i class="fas fa-map-marker-alt"></i>مدينة السادات - المنطقه
                                             الصناعية السابعة - قطعة ٧١٨٧ - خلف مصنع تويوتا</p>
@@ -119,12 +119,12 @@
                         src="{{ asset('images/backgrounds/united-kingdom.png') }}" alt="" /></button>
             </li>
             <li>
-                <i class="icon-phone-call"></i>
+                <i class="icon-letter"></i>
                 <a href="mailto:needhelp@packageName__.com">Info@abdeldayemcompany.com</a>
             </li>
             <li>
-                <i class="icon-letter"></i>
-                <a href="tel:666-888-0000">048 2630215</a>
+                <i class="icon-phone-call"></i>
+                <a href="tel:0482630215">0482630215</a>
             </li>
         </ul><!-- /.mobile-nav__contact -->
         <div class="mobile-nav__top">

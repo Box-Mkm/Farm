@@ -126,7 +126,7 @@
                                 </div>
                                 <div class="title">
                                     <span>Send Email</span>
-                                    <p><a href="mailto:needhelp@company.com">Info@abdeldayemcompany.com</a></p>
+                                    <p><a href="mailto:Info@abdeldayemcompany.com">Info@abdeldayemcompany.com</a></p>
                                 </div>
                             </li>
 
@@ -136,7 +136,7 @@
                                 </div>
                                 <div class="title">
                                     <span>Call Anytime</span>
-                                    <p><a href="tel:123456789">048 2630215</a></p>
+                                    <p><a href="tel:0482630215">048 2630215</a></p>
                                 </div>
                             </li>
                         </ul>

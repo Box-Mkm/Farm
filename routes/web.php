@@ -47,6 +47,6 @@ Route::post('mail/', function (Illuminate\Http\Request $request) {
     ]);
     $formData = $request->all();
     $mail = new SendingMail($formData);
-    Mail::to('name@example.com')->send($mail);
+    Mail::to('Info@abdeldayemcompany.com')->send($mail);
     return back()->with('success', 'Form submitted successfully!');
 });
