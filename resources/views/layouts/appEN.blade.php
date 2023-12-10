@@ -67,8 +67,8 @@
 </head>
 
 <body>
-    <div class="preloader">
+    {{-- <div class="preloader">
         <img class="preloader__image" width="60" src="{{ asset('images/loader.png') }}" alt="" />
-    </div>
+    </div> --}}
     <!-- /.preloader -->
     @include('layouts.navigationEN')
