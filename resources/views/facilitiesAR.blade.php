@@ -30,7 +30,7 @@
             <span class="sec-title__tagline">ماذا نقدم</span>
             <h2 class="sec-title__title">الخدمات التي نقدمها</h2>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
             <!--Start Single Services One-->
             <div class="col-xl-3 col-lg-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
                 <div class="services-one__single">
@@ -43,7 +43,7 @@
                         </div>
                     </div>
                     <div class="services-one__single-content text-center">
-                        <h3><a href="/about/ar">المنتجات<br> الزراعية</a></h3>
+                        <h3><a href="/about/ar">الفاكهة<br> الطازجة</a></h3>
                         <p>منتجاتنا الزراعية تلبي احتياجاتنا الغذائية وتسهم في توفير الأمن الغذائي</p>
                         <a href="/about/ar" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
                     </div>
@@ -72,7 +72,7 @@
             <!--End Single Services One-->
 
             <!--Start Single Services One-->
-            <div class="col-xl-3 col-lg-6 wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
+            {{-- <div class="col-xl-3 col-lg-6 wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
                 <div class="services-one__single">
                     <div class="services-one__single-img">
                         <div class="services-one__single-img-inner">
@@ -88,11 +88,11 @@
                         <a href="/about/ar" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <!--End Single Services One-->
 
             <!--Start Single Services One-->
-            <div class="col-xl-3 col-lg-6 wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
+            {{-- <div class="col-xl-3 col-lg-6 wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
                 <div class="services-one__single">
                     <div class="services-one__single-img">
                         <div class="services-one__single-img-inner">
@@ -108,7 +108,7 @@
                         <a href="/about/ar" class="read-more-btn"><span class="icon-right-arrow-2"></span></a>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <!--End Single Services One-->
         </div>
     </div>
